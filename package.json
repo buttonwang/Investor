@@ -1,0 +1,13 @@
+{
+  "name": "world-investors",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.81.1",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>世界知名投资人时间线</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 id="title">世界知名投资人时间线</h1>
+    <div class="lang-switch">
+      <label for="lang" id="lang-label">语言</label>
+      <select id="lang">
+        <option value="zh">中文</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+      </select>
+      <label for="theme" id="theme-label">主题</label>
+      <select id="theme">
+        <option value="dark">暗色</option>
+        <option value="light">亮色</option>
+      </select>
+    </div>
+    <div class="year-filter">
+      <span id="years-label">年份范围</span>
+      <div class="year-inputs">
+        <div id="year-ticks" class="range-overlay"></div>
+        <input type="range" id="year-min" step="1" />
+        <input type="range" id="year-max" step="1" />
+      </div>
+      <div class="year-display">
+        <span id="year-min-display"></span>
+        <span>—</span>
+        <span id="year-max-display"></span>
+      </div>
+    </div>
+    <div class="filters">
+      <label id="groups-label">风格分组</label>
+      <div id="groups" class="chips"></div>
+      <div class="controls">
+        <label id="search-label" for="search">搜索</label>
+        <input id="search" type="search" placeholder="搜索" />
+        <label id="sort-label" for="sort">排序</label>
+        <select id="sort">
+          <option value="default">默认</option>
+          <option value="name">按姓名</option>
+          <option value="year">按首个事件年份</option>
+        </select>
+        <button id="reset-btn" class="chip" type="button">重置筛选</button>
+      </div>
+    </div>
+  </header>
+  <main id="content"></main>
+  <script>
+    (function(){
+      const y = new Date().getFullYear();
+      document.addEventListener('DOMContentLoaded', function(){
+        const minEl = document.getElementById('year-min');
+        const maxEl = document.getElementById('year-max');
+        const minDisp = document.getElementById('year-min-display');
+        const maxDisp = document.getElementById('year-max-display');
+        if (minEl && maxEl) {
+          minEl.min = '1907';
+          maxEl.min = '1907';
+          minEl.max = String(y);
+          maxEl.max = String(y);
+          minEl.step = '1';
+          maxEl.step = '1';
+          if (!minEl.value) minEl.value = '1907';
+          if (!maxEl.value) maxEl.value = String(y);
+          if (minDisp) minDisp.textContent = minEl.value;
+          if (maxDisp) maxDisp.textContent = maxEl.value;
+        }
+      });
+    })();
+  </script>
+  <script src="/app.js"></script>
+</body>
+</html>

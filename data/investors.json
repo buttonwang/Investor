@@ -1,0 +1,2216 @@
+[
+  {
+    "id": "wyckoff",
+    "name": { "zh": "威科夫", "en": "Richard D. Wyckoff", "es": "Richard D. Wyckoff", "fr": "Richard D. Wyckoff" },
+    "summary": {
+      "zh": "以价格与成交量关系著称，提出吸筹与派发框架，并系统化市场阶段。",
+      "en": "Price–volume analysis pioneer; articulated accumulation/distribution and market phases.",
+      "es": "Pionero del análisis precio–volumen; articuló acumulación/distribución y fases de mercado.",
+      "fr": "Pionnier de l'analyse prix–volume; a formalisé accumulation/distribution et phases de marché."
+    },
+    "theory": {
+      "zh": "四阶段（吸筹、上升、派发、下跌），因果法则（筹码结构决定结果），识别操盘者意图。",
+      "en": "Four phases (accumulation, markup, distribution, markdown); cause–effect (structure drives outcomes); identify operator intent.",
+      "es": "Cuatro fases (acumulación, alza, distribución, baja); causa–efecto (estructura guía resultados); intención del operador.",
+      "fr": "Quatre phases (accumulation, hausse, distribution, baisse); cause–effet (structure détermine l'issue); intention de l'opérateur."
+    },
+    "strategy": {
+      "zh": "通过结构、春/上冲与测试确认趋势强弱，结合成交量价差；在回调测试中加仓。",
+      "en": "Use structure, springs/upthrusts and tests to confirm strength; integrate volume–spread; add on pullback tests.",
+      "es": "Usar estructura, springs/upthrusts y tests para confirmar fuerza; integrar volumen–spread; añadir en retrocesos.",
+      "fr": "Utiliser structure, springs/upthrusts et tests pour confirmer; intégrer volume–spread; ajouter sur replis."
+    },
+    "wins": {
+      "zh": "其方法深刻影响图表派与机构培训，成为价格行为研究基石。",
+      "en": "Method shaped chartist practice and institutional training; foundational to price action.",
+      "es": "Su método moldeó el chartismo y la formación institucional; piedra angular del price action.",
+      "fr": "Sa méthode a influencé chartistes et formation; pierre angulaire du price action."
+    },
+    "works": {
+      "zh": ["威科夫方法课程"],
+      "en": ["Wyckoff Method courses"],
+      "es": ["Cursos del Método Wyckoff"],
+      "fr": ["Cours de la Méthode Wyckoff"]
+    },
+    "quotes": {
+      "zh": ["市场结构与量价关系揭示操盘意图。"],
+      "en": ["Market structure and price–volume reveal operator intent."],
+      "es": ["La estructura y precio–volumen revelan la intención del operador."],
+      "fr": ["La structure et prix–volume révèlent l'intention de l'opérateur."]
+    },
+    "lessons": {
+      "zh": ["测试与确认优于主观猜测。"],
+      "en": ["Testing and confirmation trump subjective guessing."],
+      "es": ["Las pruebas y confirmaciones superan a las suposiciones."],
+      "fr": ["Les tests et confirmations surpassent les suppositions."]
+    },
+    "timeline": [
+      { "year": 1907, "text": { "zh": "开始出版市场观察与教育内容。", "en": "Began publishing market observations and education.", "es": "Empezó a publicar observaciones y educación de mercado.", "fr": "Commence à publier des observations et de l'éducation de marché." } },
+      { "year": 1931, "text": { "zh": "系统化威科夫方法与课程。", "en": "Systematized the Wyckoff Method and courses.", "es": "Sistematizó el Método Wyckoff y cursos.", "fr": "Systématise la Méthode Wyckoff et les cours." } },
+      { "year": 1937, "text": { "zh": "提出因果法则与横盘吸筹的量价识别。", "en": "Formalized cause–effect and range accumulation volume cues.", "es": "Formalizó causa–efecto y señales de volumen en acumulación en rango.", "fr": "Formalise cause–effet et indices de volume dans l'accumulation en range." } }
+    ]
+    ,
+    "tags": ["technical", "chart"]
+  },
+  {
+    "id": "seykota",
+    "name": { "zh": "埃德·塞科塔", "en": "Ed Seykota", "es": "Ed Seykota", "fr": "Ed Seykota" },
+    "summary": {
+      "zh": "CTA趋势交易传奇，计算机化交易的先驱。",
+      "en": "CTA trend legend; pioneer in computerized trading.",
+      "es": "Leyenda CTA de tendencia; pionero del trading informatizado.",
+      "fr": "Légende CTA du trend; pionnier du trading informatisé."
+    },
+    "theory": {
+      "zh": "跟随趋势，风险控管，心理与纪律。",
+      "en": "Follow trends, manage risk, psychology and discipline.",
+      "es": "Seguir tendencias, gestionar riesgo, psicología y disciplina.",
+      "fr": "Suivre les tendances, gérer le risque, psychologie et discipline."
+    },
+    "strategy": {
+      "zh": "系统化趋势策略与多品种分散。",
+      "en": "Systematic trend strategies with multi-asset diversification.",
+      "es": "Estrategias sistemáticas de tendencia con diversificación multi-activo.",
+      "fr": "Stratégies de trend systématiques avec diversification multi-actifs."
+    },
+    "wins": {
+      "zh": "长期稳定的趋势追随业绩与口碑。",
+      "en": "Long-run, steady trend-following performance and influence.",
+      "es": "Rendimiento sostenido de seguimiento de tendencias e influencia.",
+      "fr": "Performance durable en suivi de tendance et influence."
+    },
+    "timeline": [
+      { "year": 1970, "text": { "zh": "开发早期自动化趋势交易系统。", "en": "Developed early automated trend systems.", "es": "Desarrolló sistemas de tendencia automatizados tempranos.", "fr": "Développe des systèmes de trend automatisés précoces." } }
+    ],
+    "tags": ["trend", "commodities", "cta"],
+    "works": { "zh": ["趋势交易访谈与研究"], "en": ["Interviews and research on trend trading"], "es": ["Entrevistas e investigación sobre trading de tendencia"], "fr": ["Entretiens et recherches sur le trend"] },
+    "quotes": { "zh": ["趋势是朋友。"], "en": ["The trend is your friend."], "es": ["La tendencia es tu amiga."], "fr": ["La tendance est votre amie."] },
+    "lessons": { "zh": ["严格执行止损与仓位管理。"], "en": ["Strict stop-loss and position sizing."], "es": ["Stops estrictos y tamaño de posición."], "fr": ["Stops stricts et taille de position."] }
+  },
+  {
+    "id": "dennis",
+    "name": { "zh": "理查德·丹尼斯", "en": "Richard Dennis", "es": "Richard Dennis", "fr": "Richard Dennis" },
+    "summary": {
+      "zh": "乌龟交易法创始人之一，趋势与规则化。",
+      "en": "Co-creator of Turtle Trading; rule-based trend techniques.",
+      "es": "Cocreador del Turtle Trading; técnicas de tendencia basadas en reglas.",
+      "fr": "Co-créateur du Turtle Trading; techniques de trend basées sur des règles."
+    },
+    "theory": {
+      "zh": "规则可教授，趋势可捕捉。",
+      "en": "Rules can be taught; trends can be captured.",
+      "es": "Las reglas se enseñan; las tendencias se capturan.",
+      "fr": "Les règles s'enseignent; les tendances se captent."
+    },
+    "strategy": {
+      "zh": "突破入场、加仓与止损的规则化执行。",
+      "en": "Breakout entries, pyramiding and stop rules.",
+      "es": "Entradas por ruptura, piramidación y reglas de stop.",
+      "fr": "Entrées sur cassure, pyramide et règles de stops."
+    },
+    "wins": {
+      "zh": "培养乌龟交易者群体并验证规则有效性。",
+      "en": "Trained Turtle Traders, validating rule-based efficacy.",
+      "es": "Formó a los Turtle Traders, validando eficacia de reglas.",
+      "fr": "Forme les Turtle Traders; valide l'efficacité des règles."
+    },
+    "timeline": [
+      { "year": 1983, "text": { "zh": "开展乌龟交易实验。", "en": "Ran Turtle Trading experiment.", "es": "Realizó el experimento Turtle Trading.", "fr": "Mène l'expérience Turtle Trading." } }
+    ],
+    "tags": ["trend", "commodities", "cta"],
+    "works": { "zh": ["乌龟交易法训练"], "en": ["Turtle Trading training"], "es": ["Entrenamiento Turtle Trading"], "fr": ["Formation Turtle Trading"] },
+    "quotes": { "zh": ["遵守规则。"], "en": ["Stick to the rules."], "es": ["Sigue las reglas."], "fr": ["Suivre les règles."] },
+    "lessons": { "zh": ["纪律是趋势策略的核心。"], "en": ["Discipline is core to trend strategies."], "es": ["La disciplina es el núcleo del trend."], "fr": ["La discipline est au cœur du trend."] }
+  },
+  {
+    "id": "paulson",
+    "name": { "zh": "约翰·保尔森", "en": "John Paulson", "es": "John Paulson", "fr": "John Paulson" },
+    "summary": {
+      "zh": "事件驱动与并购套利，次贷危机中大获成功。",
+      "en": "Event-driven and merger arb; major success in subprime crisis.",
+      "es": "Evento y arbitraje de fusiones; gran éxito en crisis subprime.",
+      "fr": "Événementiel et arbitrage de fusions; succès pendant la crise subprime."
+    },
+    "theory": {
+      "zh": "深入研究事件与结构，寻求不对称收益。",
+      "en": "Deep event and structure research; seek asymmetric payoffs.",
+      "es": "Investigación profunda de eventos y estructura; buscar retornos asimétricos.",
+      "fr": "Recherche profonde d'événements et structures; chercher des retours asymétriques."
+    },
+    "strategy": {
+      "zh": "并购套利、事件驱动、宏观择机与黄金头寸。",
+      "en": "Merger arbitrage, event-driven, macro timing and gold positions.",
+      "es": "Arbitraje de fusiones, evento, timing macro y oro.",
+      "fr": "Arbitrage de fusions, événementiel, timing macro et or."
+    },
+    "wins": {
+      "zh": "次贷危机期间通过CDS获历史性回报。",
+      "en": "Historic returns via CDS during subprime crisis.",
+      "es": "Retornos históricos con CDS en la crisis subprime.",
+      "fr": "Retours historiques via CDS pendant la crise subprime."
+    },
+    "timeline": [
+      { "year": 2007, "text": { "zh": "构建次贷相关CDS空头。", "en": "Built subprime-related CDS shorts.", "es": "Construyó cortos CDS ligados a subprime.", "fr": "Monte des CDS short liés au subprime." } }
+    ],
+    "tags": ["event", "arbitrage", "macro"],
+    "works": { "zh": ["关于事件驱动与风险的交流"], "en": ["Notes on event-driven and risk"], "es": ["Notas sobre evento y riesgo"], "fr": ["Notes sur l'événementiel et le risque"] },
+    "quotes": { "zh": ["事件研究揭示机会。"], "en": ["Event research reveals opportunities."], "es": ["La investigación de eventos revela oportunidades."], "fr": ["La recherche d'événements révèle des opportunités."] },
+    "lessons": { "zh": ["风险对冲与结构分析至关重要。"], "en": ["Hedging and structure analysis are critical."], "es": ["Cobertura y análisis de estructura son críticos."], "fr": ["La couverture et l'analyse de structure sont critiques."] }
+  },
+  {
+    "id": "marks",
+    "name": { "zh": "霍华德·马克思", "en": "Howard Marks", "es": "Howard Marks", "fr": "Howard Marks" },
+    "summary": {
+      "zh": "价值与困境债专家，橡树资本联合创始人。",
+      "en": "Value and distressed expert; Oaktree co-founder.",
+      "es": "Experto en valor y deuda en dificultades; cofundador de Oaktree.",
+      "fr": "Expert valeur et dette en difficulté; cofondateur d'Oaktree."
+    },
+    "theory": {
+      "zh": "周期与风险的二阶思维，重视安全边际。",
+      "en": "Second-level thinking on cycles and risk; margin of safety.",
+      "es": "Pensamiento de segundo nivel sobre ciclos y riesgo; margen de seguridad.",
+      "fr": "Pensée de second niveau sur cycles et risque; marge de sécurité."
+    },
+    "strategy": {
+      "zh": "困境债、价值与周期判断。",
+      "en": "Distressed debt, value and cycle calls.",
+      "es": "Deuda en dificultades, valor y llamadas de ciclo.",
+      "fr": "Dettes en difficulté, valeur et lectures de cycles."
+    },
+    "wins": {
+      "zh": "多次周期底部布局实现稳健收益。",
+      "en": "Robust gains from cycle-bottom allocations.",
+      "es": "Ganancias sólidas desde asignaciones en suelos de ciclo.",
+      "fr": "Gains solides via allocations aux bas de cycles."
+    },
+    "timeline": [
+      { "year": 1995, "text": { "zh": "共同创立橡树资本。", "en": "Co-founded Oaktree Capital.", "es": "Cofundó Oaktree Capital.", "fr": "Cofonde Oaktree Capital." } }
+    ],
+    "tags": ["value", "distressed", "discretionary"],
+    "works": { "zh": ["橡树备忘录"], "en": ["Oaktree Memos"], "es": ["Memorandos de Oaktree"], "fr": ["Mémos d'Oaktree"] },
+    "quotes": { "zh": ["二阶思维很重要。"], "en": ["Second-level thinking matters."], "es": ["El pensamiento de segundo nivel importa."], "fr": ["La pensée de second niveau compte."] },
+    "lessons": { "zh": ["顺周期与逆周期的风险差异。"], "en": ["Risk differs across pro- and counter-cycles."], "es": ["El riesgo difiere entre pro/contra ciclos."], "fr": ["Le risque diffère entre pro/contre cycles."] }
+  },
+  {
+    "id": "greenblatt",
+    "name": { "zh": "乔尔·格林布拉特", "en": "Joel Greenblatt", "es": "Joel Greenblatt", "fr": "Joel Greenblatt" },
+    "summary": {
+      "zh": "特殊机会与魔法公式的倡导者。",
+      "en": "Special situations and Magic Formula advocate.",
+      "es": "Defensor de situaciones especiales y Magic Formula.",
+      "fr": "Promoteur des situations spéciales et la Magic Formula."
+    },
+    "theory": {
+      "zh": "高收益率与高资本回报的组合。",
+      "en": "Combine high earnings yield and high return on capital.",
+      "es": "Combinar rendimiento de ganancias y retorno sobre capital.",
+      "fr": "Combiner rendement des bénéfices et retour sur capital."
+    },
+    "strategy": {
+      "zh": "规则化选股与特殊机会事件。",
+      "en": "Rule-based selection and special event situations.",
+      "es": "Selección por reglas y situaciones especiales.",
+      "fr": "Sélection par règles et situations spéciales."
+    },
+    "wins": {
+      "zh": "长期跑赢市场的规则策略案例。",
+      "en": "Rule strategies with long-term outperformance.",
+      "es": "Estrategias de reglas con superación a largo plazo.",
+      "fr": "Stratégies par règles surperformantes à long terme."
+    },
+    "timeline": [
+      { "year": 2005, "text": { "zh": "提出魔法公式框架。", "en": "Published Magic Formula framework.", "es": "Publicó el marco Magic Formula.", "fr": "Publie le cadre Magic Formula." } }
+    ],
+    "tags": ["value", "special", "discretionary"],
+    "works": { "zh": ["你也可以成为股市天才"], "en": ["You Can Be a Stock Market Genius"], "es": ["You Can Be a Stock Market Genius"], "fr": ["You Can Be a Stock Market Genius"] },
+    "quotes": { "zh": ["简单可执行的规则更有坚持力。"], "en": ["Simple executable rules are stickier."], "es": ["Las reglas simples ejecutables son más sostenibles."], "fr": ["Des règles simples exécutables tiennent mieux."] },
+    "lessons": { "zh": ["规则化与事件研究相辅相成。"], "en": ["Rules and event research complement each other."], "es": ["Las reglas y la investigación de eventos se complementan."], "fr": ["Les règles et l'étude d'événements se complètent."] }
+  },
+  {
+    "id": "fisher",
+    "name": { "zh": "菲利普·费雪", "en": "Philip Fisher", "es": "Philip Fisher", "fr": "Philip Fisher" },
+    "summary": {
+      "zh": "成长股与实地调研的先驱。",
+      "en": "Growth investing and scuttlebutt pioneer.",
+      "es": "Pionero del crecimiento y el scuttlebutt.",
+      "fr": "Pionnier de la croissance et du scuttlebutt."
+    },
+    "theory": {
+      "zh": "行业深入与管理层质量决定长期成长。",
+      "en": "Deep industry and management quality drive long growth.",
+      "es": "Industria profunda y calidad de gestión impulsan crecimiento.",
+      "fr": "Analyse secteur et qualité du management portent la croissance."
+    },
+    "strategy": {
+      "zh": "少而精的高质量成长持有。",
+      "en": "Few, high-quality growth holdings.",
+      "es": "Pocas tenencias de crecimiento de alta calidad.",
+      "fr": "Quelques positions de croissance de haute qualité."
+    },
+    "wins": {
+      "zh": "长期成长案例影响深远。",
+      "en": "Long-term growth cases highly influential.",
+      "es": "Casos de crecimiento a largo plazo influyentes.",
+      "fr": "Cas de croissance long terme influents."
+    },
+    "timeline": [
+      { "year": 1958, "text": { "zh": "出版《普通股与不普通的利润》。", "en": "Published Common Stocks and Uncommon Profits.", "es": "Publicó Common Stocks and Uncommon Profits.", "fr": "Publie Common Stocks and Uncommon Profits." } }
+    ],
+    "tags": ["growth", "quality"],
+    "works": { "zh": ["普通股与不普通的利润"], "en": ["Common Stocks and Uncommon Profits"], "es": ["Common Stocks and Uncommon Profits"], "fr": ["Common Stocks and Uncommon Profits"] },
+    "quotes": { "zh": ["深入行业与管理层。"], "en": ["Go deep on industry and management."], "es": ["Profundizar en industria y gestión."], "fr": ["Approfondir secteur et management."] },
+    "lessons": { "zh": ["少而精提高研究质量。"], "en": ["Few positions improve research depth."], "es": ["Pocas posiciones mejoran profundidad de análisis."], "fr": ["Peu de positions améliorent la profondeur d'analyse."] }
+  },
+  {
+    "id": "t_rowe_price",
+    "name": { "zh": "托马斯·罗伊·普莱斯", "en": "T. Rowe Price", "es": "T. Rowe Price", "fr": "T. Rowe Price" },
+    "summary": {
+      "zh": "成长投资理念的早期倡导者。",
+      "en": "Early advocate of growth investing.",
+      "es": "Defensor temprano de la inversión en crecimiento.",
+      "fr": "Précurseur de l'investissement de croissance."
+    },
+    "theory": {
+      "zh": "优质企业的长期增长与价值创造。",
+      "en": "Long-term growth and value creation in quality firms.",
+      "es": "Crecimiento largo y creación de valor en firmas de calidad.",
+      "fr": "Croissance longue et création de valeur dans des entreprises de qualité."
+    },
+    "strategy": {
+      "zh": "聚焦长期成长行业与公司。",
+      "en": "Focus on long-term growth industries and companies.",
+      "es": "Enfoque en industrias y compañías de crecimiento largo.",
+      "fr": "Focus sur secteurs et entreprises à croissance longue."
+    },
+    "wins": {
+      "zh": "多只成长基金的长期优秀表现。",
+      "en": "Strong long-term performance of growth funds.",
+      "es": "Fuerte desempeño a largo plazo de fondos de crecimiento.",
+      "fr": "Bonne performance longue des fonds de croissance."
+    },
+    "timeline": [
+      { "year": 1937, "text": { "zh": "创立T. Rowe Price公司。", "en": "Founded T. Rowe Price & Associates.", "es": "Fundó T. Rowe Price & Associates.", "fr": "Fonde T. Rowe Price & Associates." } }
+    ],
+    "tags": ["growth"],
+    "works": { "zh": ["成长投资研究文集"], "en": ["Growth investing papers"], "es": ["Artículos de inversión en crecimiento"], "fr": ["Essais sur l'investissement de croissance"] },
+    "quotes": { "zh": ["持有优质企业以时间换空间。"], "en": ["Hold quality firms; let time work."], "es": ["Mantener firmas de calidad; dejar que el tiempo actúe."], "fr": ["Détenir des entreprises de qualité; laisser le temps agir."] },
+    "lessons": { "zh": ["过度交易削弱成长复利。"], "en": ["Overtrading hurts compounding."], "es": ["Sobreoperar perjudica el compuesto."], "fr": ["Sur-trader nuit au composé."] }
+  },
+  {
+    "id": "swensen",
+    "name": { "zh": "大卫·斯文森", "en": "David Swensen", "es": "David Swensen", "fr": "David Swensen" },
+    "summary": {
+      "zh": "耶鲁捐赠基金的资产配置与另类投资先驱。",
+      "en": "Yale Endowment asset allocation and alternatives pioneer.",
+      "es": "Pionero de asignación de activos y alternativos del Endowment de Yale.",
+      "fr": "Pionnier de l'allocation d'actifs et alternatifs du Yale Endowment."
+    },
+    "theory": {
+      "zh": "多资产分散、长期持有、费用与治理。",
+      "en": "Multi-asset diversification, long holding, fees and governance.",
+      "es": "Diversificación multi-activo, tenencia larga, costos y gobernanza.",
+      "fr": "Diversification multi-actifs, détention longue, frais et gouvernance."
+    },
+    "strategy": {
+      "zh": "股债之外配置至另类资产以提高回报风险比。",
+      "en": "Allocate beyond stocks/bonds into alternatives to enhance risk-return.",
+      "es": "Asignar más allá de acciones/bonos a alternativos para mejorar riesgo–retorno.",
+      "fr": "Allouer au-delà actions/obligations vers alternatifs pour améliorer risque–rendement."
+    },
+    "wins": {
+      "zh": "长期稳健提升捐赠基金业绩并影响行业。",
+      "en": "Long-term enhancement of endowment returns; industry influence.",
+      "es": "Mejora sostenida de retornos del endowment; influencia sectorial.",
+      "fr": "Amélioration durable des retours de dotation; influence sectorielle."
+    },
+    "timeline": [
+      { "year": 1985, "text": { "zh": "出任耶鲁捐赠基金CIO。", "en": "Became Yale Endowment CIO.", "es": "Se convirtió en CIO del Endowment de Yale.", "fr": "Devient CIO du Yale Endowment." } }
+    ],
+    "tags": ["endowment"],
+    "works": { "zh": ["非同寻常的成功：捐赠基金管理"], "en": ["Pioneering Portfolio Management"], "es": ["Pioneering Portfolio Management"], "fr": ["Pioneering Portfolio Management"] },
+    "quotes": { "zh": ["费用与治理决定净回报。"], "en": ["Fees and governance determine net returns."], "es": ["Los costos y la gobernanza determinan retornos netos."], "fr": ["Les frais et la gouvernance déterminent les retours nets."] },
+    "lessons": { "zh": ["分散与长期视角。"], "en": ["Diversification and long horizon."], "es": ["Diversificación y horizonte largo."], "fr": ["Diversification et horizon long."] }
+  },
+  {
+    "id": "larry_hite",
+    "name": { "zh": "拉里·海特", "en": "Larry Hite", "es": "Larry Hite", "fr": "Larry Hite" },
+    "summary": {
+      "zh": "趋势追随与风险控制的先驱，Mint Investments 联合创始人。",
+      "en": "Trend following and risk control pioneer; Mint Investments co-founder.",
+      "es": "Pionero del seguimiento de tendencias y control de riesgo; cofundador de Mint Investments.",
+      "fr": "Pionnier du suivi de tendance et du contrôle du risque; cofondateur de Mint Investments."
+    },
+    "theory": {
+      "zh": "让亏损变小、盈利变大；系统化规则优于直觉。",
+      "en": "Keep losses small, let profits run; rules beat intuition.",
+      "es": "Mantener pérdidas pequeñas, dejar correr ganancias; las reglas superan la intuición.",
+      "fr": "Limiter les pertes, laisser courir les gains; les règles surpassent l'intuition."
+    },
+    "strategy": {
+      "zh": "跨品种趋势追随、严格止损与仓位管理。",
+      "en": "Cross-asset trend following with strict stops and sizing.",
+      "es": "Seguimiento de tendencias multi-activo con stops estrictos y tamaño.",
+      "fr": "Suivi de tendance multi-actifs avec stops stricts et taille."
+    },
+    "wins": {
+      "zh": "Mint 在多轮周期中实现稳健回报与低回撤。",
+      "en": "Mint achieved robust returns with controlled drawdowns across cycles.",
+      "es": "Mint logró retornos robustos con bajas caídas a través de ciclos.",
+      "fr": "Mint a réalisé des retours robustes avec faibles drawdowns sur cycles."
+    },
+    "timeline": [
+      { "year": 1981, "text": { "zh": "联合创立 Mint Investments。", "en": "Co-founded Mint Investments.", "es": "Cofundó Mint Investments.", "fr": "Cofonde Mint Investments." } },
+      { "year": 1990, "text": { "zh": "总结趋势与风控经验。", "en": "Codified trend and risk control learnings.", "es": "Codificó aprendizajes de tendencia y control de riesgo.", "fr": "Codifie les apprentissages sur tendance et risque." } }
+    ],
+    "tags": ["cta", "trend"],
+    "works": { "zh": ["交易理念演讲"], "en": ["Talks on trading principles"], "es": ["Charlas sobre principios de trading"], "fr": ["Conférences sur principes de trading"] },
+    "quotes": { "zh": ["让亏损变小，让盈利变大。"], "en": ["Keep losses small, let profits run."], "es": ["Mantén pérdidas pequeñas, deja correr ganancias."], "fr": ["Limiter les pertes, laisser courir les gains."] },
+    "lessons": { "zh": ["规则与纪律优于主观。"], "en": ["Rules and discipline beat subjectivity."], "es": ["Las reglas y la disciplina superan la subjetividad."], "fr": ["Les règles et la discipline surpassent la subjectivité."] }
+  },
+  {
+    "id": "jerry_parker",
+    "name": { "zh": "杰里·帕克", "en": "Jerry Parker", "es": "Jerry Parker", "fr": "Jerry Parker" },
+    "summary": {
+      "zh": "乌龟交易者之一，Chesapeake Capital 创始人，CTA 趋势代表。",
+      "en": "Turtle trader; Chesapeake Capital founder; CTA trend representative.",
+      "es": "Uno de los Turtle Traders; fundador de Chesapeake; representante CTA de tendencia.",
+      "fr": "Turtle Trader; fondateur de Chesapeake; représentant CTA de trend."
+    },
+    "theory": {
+      "zh": "简单、可执行、可坚持的规则化趋势。",
+      "en": "Simple, executable, and sustainable rule-based trend.",
+      "es": "Tendencia basada en reglas simple, ejecutable y sostenible.",
+      "fr": "Trend par règles simple, exécutable et durable."
+    },
+    "strategy": {
+      "zh": "多品种趋势与风险分散，遵守加仓与止损规则。",
+      "en": "Multi-asset trend with diversification; obey pyramiding and stop rules.",
+      "es": "Tendencia multi-activo con diversificación; seguir reglas de piramidación y stop.",
+      "fr": "Trend multi-actifs avec diversification; suivre règles de pyramide et stop."
+    },
+    "wins": {
+      "zh": "长期稳定的 CTA 业绩并培养趋势交易文化。",
+      "en": "Long-term steady CTA performance; fostered trend culture.",
+      "es": "Rendimiento CTA estable a largo plazo; fomentó cultura de tendencia.",
+      "fr": "Performance CTA stable long terme; a favorisé la culture trend."
+    },
+    "timeline": [
+      { "year": 1988, "text": { "zh": "创立 Chesapeake Capital。", "en": "Founded Chesapeake Capital.", "es": "Fundó Chesapeake Capital.", "fr": "Fonde Chesapeake Capital." } }
+    ],
+    "tags": ["cta", "trend", "commodities"],
+    "works": { "zh": ["趋势交易访谈"], "en": ["Interviews on trend trading"], "es": ["Entrevistas de trading de tendencia"], "fr": ["Entretiens sur le trend"] },
+    "quotes": { "zh": ["简单的规则更能坚持。"], "en": ["Simple rules are easier to stick to."], "es": ["Las reglas simples son más fáciles de mantener."], "fr": ["Les règles simples sont plus faciles à suivre."] },
+    "lessons": { "zh": ["遵守规则与分散。"], "en": ["Obey rules and diversify."], "es": ["Obedecer reglas y diversificar."], "fr": ["Obéir aux règles et diversifier."] }
+  },
+  {
+    "id": "bruce_kovner",
+    "name": { "zh": "布鲁斯·科夫纳", "en": "Bruce Kovner", "es": "Bruce Kovner", "fr": "Bruce Kovner" },
+    "summary": {
+      "zh": "Caxton Associates 创始人，宏观交易传奇。",
+      "en": "Caxton Associates founder; macro trading legend.",
+      "es": "Fundador de Caxton; leyenda del trading macro.",
+      "fr": "Fondateur de Caxton; légende du trading macro."
+    },
+    "theory": {
+      "zh": "风险先行，趋势与基本面结合。",
+      "en": "Risk first; combine trends with fundamentals.",
+      "es": "El riesgo primero; combinar tendencias y fundamentales.",
+      "fr": "Le risque d'abord; combiner tendances et fondamentaux."
+    },
+    "strategy": {
+      "zh": "宏观多资产布局，严格控制回撤。",
+      "en": "Macro multi-asset positioning with strict drawdown control.",
+      "es": "Posicionamiento macro multi-activo con control estricto de caídas.",
+      "fr": "Positionnement macro multi-actifs avec contrôle strict du drawdown."
+    },
+    "wins": {
+      "zh": "长期稳健回报与风险管理口碑。",
+      "en": "Long-run robust returns and risk management reputation.",
+      "es": "Retornos robustos a largo plazo y reputación de gestión de riesgo.",
+      "fr": "Retours robustes long terme et réputation de gestion du risque."
+    },
+    "timeline": [
+      { "year": 1983, "text": { "zh": "创立 Caxton Associates。", "en": "Founded Caxton Associates.", "es": "Fundó Caxton Associates.", "fr": "Fonde Caxton Associates." } }
+    ],
+    "tags": ["macro", "trend", "discretionary"],
+    "works": { "zh": ["宏观交易经验分享"], "en": ["Macro trading experiences"], "es": ["Experiencias de trading macro"], "fr": ["Expériences de trading macro"] },
+    "quotes": { "zh": ["风险先行。"], "en": ["Risk first."], "es": ["El riesgo primero."], "fr": ["Le risque d'abord."] },
+    "lessons": { "zh": ["控制回撤，灵活应变。"], "en": ["Control drawdowns; adapt quickly."], "es": ["Controlar caídas; adaptarse rápido."], "fr": ["Contrôler les drawdowns; s'adapter vite."] }
+  },
+  {
+    "id": "louis_bacon",
+    "name": { "zh": "路易斯·培根", "en": "Louis Bacon", "es": "Louis Bacon", "fr": "Louis Bacon" },
+    "summary": {
+      "zh": "Moore Capital 创始人，宏观与事件驱动交易者。",
+      "en": "Moore Capital founder; macro and event-driven trader.",
+      "es": "Fundador de Moore Capital; trader macro y de eventos.",
+      "fr": "Fondateur de Moore Capital; trader macro et événementiel."
+    },
+    "theory": {
+      "zh": "宏观主题与结构事件相结合，风险敏感。",
+      "en": "Blend macro themes with structural events; risk-sensitive.",
+      "es": "Mezclar temas macro con eventos estructurales; sensible al riesgo.",
+      "fr": "Mêler thèmes macro et événements structurels; sensible au risque."
+    },
+    "strategy": {
+      "zh": "多资产宏观，适时对冲与仓位调整。",
+      "en": "Macro multi-asset with timely hedging and sizing.",
+      "es": "Macro multi-activo con coberturas y tamaños oportunos.",
+      "fr": "Macro multi-actifs avec couvertures et tailles opportunes."
+    },
+    "wins": {
+      "zh": "多次宏观行情中创造显著回报。",
+      "en": "Delivered notable returns across multiple macro regimes.",
+      "es": "Entregó retornos notables en múltiples regímenes macro.",
+      "fr": "A livré des retours notables sur plusieurs régimes macro."
+    },
+    "timeline": [
+      { "year": 1989, "text": { "zh": "创立 Moore Capital。", "en": "Founded Moore Capital.", "es": "Fundó Moore Capital.", "fr": "Fonde Moore Capital." } }
+    ],
+    "tags": ["macro", "event", "discretionary"],
+    "works": { "zh": ["宏观交易访谈"], "en": ["Macro trading interviews"], "es": ["Entrevistas de trading macro"], "fr": ["Entretiens de trading macro"] },
+    "quotes": { "zh": ["风险敏感，灵活调整。"], "en": ["Be risk-sensitive; adjust flexibly."], "es": ["Ser sensible al riesgo; ajustar con flexibilidad."], "fr": ["Être sensible au risque; ajuster avec flexibilité."] },
+    "lessons": { "zh": ["在不确定性中保护本金。"], "en": ["Protect capital amid uncertainty."], "es": ["Proteger capital en la incertidumbre."], "fr": ["Protéger le capital dans l'incertitude."] }
+  },
+  {
+    "id": "jeffrey_gundlach",
+    "name": { "zh": "杰弗里·冈拉克", "en": "Jeffrey Gundlach", "es": "Jeffrey Gundlach", "fr": "Jeffrey Gundlach" },
+    "summary": {
+      "zh": "DoubleLine 创始人，债券与宏观配置专家。",
+      "en": "DoubleLine founder; bonds and macro allocation expert.",
+      "es": "Fundador de DoubleLine; experto en bonos y asignación macro.",
+      "fr": "Fondateur de DoubleLine; expert obligations et allocation macro."
+    },
+    "theory": {
+      "zh": "利率、信用与通胀的动态框架。",
+      "en": "Dynamic framework of rates, credit and inflation.",
+      "es": "Marco dinámico de tasas, crédito e inflación.",
+      "fr": "Cadre dynamique de taux, crédit et inflation."
+    },
+    "strategy": {
+      "zh": "主动债券与跨资产对冲。",
+      "en": "Active bonds with cross-asset hedging.",
+      "es": "Bonos activos con coberturas multi-activo.",
+      "fr": "Obligations actives avec couvertures multi-actifs."
+    },
+    "wins": {
+      "zh": "在多轮周期中取得稳健债券回报。",
+      "en": "Steady bond returns across cycles.",
+      "es": "Retornos de bonos estables a través de ciclos.",
+      "fr": "Retours obligataires stables sur cycles."
+    },
+    "timeline": [
+      { "year": 2009, "text": { "zh": "创立 DoubleLine。", "en": "Founded DoubleLine.", "es": "Fundó DoubleLine.", "fr": "Fonde DoubleLine." } }
+    ],
+    "tags": ["bond", "fixed-income", "macro"],
+    "works": { "zh": ["总回报与宏观观点分享"], "en": ["Total return and macro views"], "es": ["Visiones de total return y macro"], "fr": ["Points de vue total return et macro"] },
+    "quotes": { "zh": ["利率与信用的平衡至关重要。"], "en": ["Balancing rates and credit is key."], "es": ["Equilibrar tasas y crédito es clave."], "fr": ["Équilibrer taux et crédit est clé."] },
+    "lessons": { "zh": ["关注通胀与流动性环境。"], "en": ["Watch inflation and liquidity conditions."], "es": ["Observar inflación y liquidez."], "fr": ["Surveiller inflation et liquidité."] }
+  },
+  {
+    "id": "aqr",
+    "name": { "zh": "AQR（克里夫·阿斯尼斯/团队）", "en": "AQR (Cliff Asness/Team)", "es": "AQR (Cliff Asness/Equipo)", "fr": "AQR (Cliff Asness/Équipe)" },
+    "summary": {
+      "zh": "量化多因子与风险平价的研究与实践平台。",
+      "en": "Quant multi-factor and risk parity research and practice platform.",
+      "es": "Plataforma de investigación y práctica multifactor y paridad de riesgo.",
+      "fr": "Plateforme de recherche et pratique multi-facteurs et parité de risque."
+    },
+    "theory": {
+      "zh": "因子溢价（价值、动量、质量、低波动）与多资产风险均衡。",
+      "en": "Factor premia (value, momentum, quality, low vol) and multi-asset risk balance.",
+      "es": "Prima de factores (valor, momentum, calidad, baja vol) y equilibrio de riesgo multi-activo.",
+      "fr": "Primes de facteurs (valeur, momentum, qualité, faible vol) et équilibre de risque multi-actifs."
+    },
+    "strategy": {
+      "zh": "多因子选股/时点、宏观与替代策略的系统化组合。",
+      "en": "Systematic ensemble of multi-factor equities/timing, macro and alternatives.",
+      "es": "Conjunto sistemático de multifactor en acciones/timing, macro y alternativos.",
+      "fr": "Ensemble systématique multi-facteurs actions/timing, macro et alternatifs."
+    },
+    "wins": {
+      "zh": "以高质量研究推动行业发展并取得稳健风险调整回报。",
+      "en": "High-quality research propelled industry and delivered robust risk-adjusted returns.",
+      "es": "Investigación de alta calidad impulsó la industria y entregó retornos ajustados al riesgo.",
+      "fr": "La recherche de haute qualité a porté l'industrie et des retours ajustés au risque."
+    },
+    "timeline": [
+      { "year": 1998, "text": { "zh": "创立 AQR。", "en": "Founded AQR.", "es": "Fundó AQR.", "fr": "Fonde AQR." } },
+      { "year": 2013, "text": { "zh": "发布多因子与风险平价研究。", "en": "Published multi-factor and risk parity research.", "es": "Publicó investigación multifactor y paridad de riesgo.", "fr": "Publie recherche multi-facteurs et parité de risque." } }
+    ],
+    "tags": ["quant", "risk-parity"],
+    "works": { "zh": ["AQR 研究论文与博客"], "en": ["AQR research papers and blog"], "es": ["Artículos y blog de AQR"], "fr": ["Articles et blog d'AQR"] },
+    "quotes": { "zh": ["数据与证据优先。"], "en": ["Data and evidence first."], "es": ["Datos y evidencia primero."], "fr": ["Données et preuves d'abord."] },
+    "lessons": { "zh": ["多因子与分散提高稳健性。"], "en": ["Multi-factor and diversification improve robustness."], "es": ["Multifactor y diversificación mejoran la robustez."], "fr": ["Multi-facteurs et diversification améliorent la robustesse."] },
+    "links": {
+      "zh": [ { "label": "AQR 官方网站", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR 研究与洞见", "url": "https://www.aqr.com/Insights", "type": "research" } ],
+      "en": [ { "label": "AQR Official Site", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR Insights", "url": "https://www.aqr.com/Insights", "type": "research" } ]
+    }
+  },
+  {
+    "id": "dan_loeb",
+    "name": { "zh": "丹·勒布", "en": "Dan Loeb", "es": "Dan Loeb", "fr": "Dan Loeb" },
+    "summary": {
+      "zh": "Third Point 创始人，激进与事件驱动投资者。",
+      "en": "Third Point founder; activist and event-driven investor.",
+      "es": "Fundador de Third Point; inversor activista y de eventos.",
+      "fr": "Fondateur de Third Point; investisseur activiste et événementiel."
+    },
+    "theory": {
+      "zh": "通过治理与结构优化释放价值，关注催化剂。",
+      "en": "Unlock value via governance and structural optimization; focus on catalysts.",
+      "es": "Liberar valor con gobernanza y optimización estructural; foco en catalizadores.",
+      "fr": "Libérer la valeur par gouvernance et optimisation structurelle; focus sur catalyseurs."
+    },
+    "strategy": {
+      "zh": "集中持股、公开沟通、并购与分拆机会。",
+      "en": "Concentrated stakes, public communication, M&A and spin-offs.",
+      "es": "Participaciones concentradas, comunicación pública, M&A y spin-offs.",
+      "fr": "Participations concentrées, communication publique, M&A et scissions."
+    },
+    "wins": {
+      "zh": "多次成功推动改革并实现回报。",
+      "en": "Multiple successful campaigns with realized returns.",
+      "es": "Múltiples campañas exitosas con retornos realizados.",
+      "fr": "Multiples campagnes réussies avec retours réalisés."
+    },
+    "timeline": [
+      { "year": 1995, "text": { "zh": "创立 Third Point。", "en": "Founded Third Point.", "es": "Fundó Third Point.", "fr": "Fonde Third Point." } }
+    ],
+    "tags": ["activist", "event"],
+    "works": { "zh": ["致投资者信与演讲"], "en": ["Investor letters and talks"], "es": ["Cartas e intervenciones"], "fr": ["Lettres et interventions"] },
+    "quotes": { "zh": ["寻找清晰催化剂。"], "en": ["Look for clear catalysts."], "es": ["Buscar catalizadores claros."], "fr": ["Chercher des catalyseurs clairs."] },
+    "lessons": { "zh": ["尽调与沟通并重。"], "en": ["Due diligence and communication both matter."], "es": ["La due diligence y la comunicación importan."], "fr": ["Due diligence et communication comptent."] }
+  },
+  {
+    "id": "nelson_peltz",
+    "name": { "zh": "尼尔森·佩尔茨", "en": "Nelson Peltz", "es": "Nelson Peltz", "fr": "Nelson Peltz" },
+    "summary": {
+      "zh": "Trian Partners 联合创始人，激进投资者。",
+      "en": "Trian Partners co-founder; activist investor.",
+      "es": "Cofundador de Trian; inversor activista.",
+      "fr": "Cofondateur de Trian; investisseur activiste."
+    },
+    "theory": {
+      "zh": "运营改进与资本配置优化提升价值。",
+      "en": "Operational improvement and capital allocation optimization raise value.",
+      "es": "Mejoras operativas y optimización de capital elevan el valor.",
+      "fr": "Améliorations opérationnelles et allocation de capital optimisée augmentent la valeur."
+    },
+    "strategy": {
+      "zh": "入董事会、推动战略与治理改革。",
+      "en": "Board involvement; push strategic and governance reforms.",
+      "es": "Participación en consejo; impulsar reformas estratégicas y de gobernanza.",
+      "fr": "Implication au conseil; pousser réformes stratégiques et de gouvernance."
+    },
+    "wins": {
+      "zh": "多家大型企业改革与价值提升案例。",
+      "en": "Value uplift cases across large enterprises.",
+      "es": "Casos de aumento de valor en grandes empresas.",
+      "fr": "Cas d'augmentation de valeur dans de grandes entreprises."
+    },
+    "timeline": [
+      { "year": 2005, "text": { "zh": "共同创立 Trian Partners。", "en": "Co-founded Trian Partners.", "es": "Cofundó Trian Partners.", "fr": "Cofonde Trian Partners." } }
+    ],
+    "tags": ["activist"],
+    "works": { "zh": ["关于治理改进的公开交流"], "en": ["Public communications on governance improvements"], "es": ["Comunicaciones públicas sobre mejoras de gobernanza"], "fr": ["Communications publiques sur améliorations de gouvernance"] },
+    "quotes": { "zh": ["运营改进与资本效率。"], "en": ["Operational improvement and capital efficiency."], "es": ["Mejora operativa y eficiencia de capital."], "fr": ["Amélioration opérationnelle et efficacité du capital."] },
+    "lessons": { "zh": ["董事会层面推动改变。"], "en": ["Drive change at the board level."], "es": ["Impulsar cambios a nivel del consejo."], "fr": ["Porter le changement au niveau du conseil."] }
+  },
+  {
+    "id": "walter_schloss",
+    "name": { "zh": "沃尔特·施洛斯", "en": "Walter Schloss", "es": "Walter Schloss", "fr": "Walter Schloss" },
+    "summary": {
+      "zh": "格雷厄姆门生，深度价值与简单纪律的代表。",
+      "en": "Graham disciple; deep value and simple discipline representative.",
+      "es": "Discípulo de Graham; representante de valor profundo y disciplina simple.",
+      "fr": "Disciple de Graham; représentant du deep value et discipline simple."
+    },
+    "theory": {
+      "zh": "低估值、资产负债表与安全边际。",
+      "en": "Low valuations, balance sheets and margin of safety.",
+      "es": "Bajas valoraciones, balances y margen de seguridad.",
+      "fr": "Faibles valorisations, bilans et marge de sécurité."
+    },
+    "strategy": {
+      "zh": "广泛分散的低估组合，减少主观判断。",
+      "en": "Broadly diversified deep value portfolio; minimize subjectivity.",
+      "es": "Cartera profundamente infravalorada y diversificada; mínima subjetividad.",
+      "fr": "Portefeuille deep value largement diversifié; minimiser la subjectivité."
+    },
+    "wins": {
+      "zh": "数十年稳定跑赢市场。",
+      "en": "Decades of steady market outperformance.",
+      "es": "Décadas de superación estable del mercado.",
+      "fr": "Des décennies de surperformance stable du marché."
+    },
+    "timeline": [
+      { "year": 1955, "text": { "zh": "创立 Walter & Edwin Schloss Associates。", "en": "Founded Walter & Edwin Schloss Associates.", "es": "Fundó Walter & Edwin Schloss Associates.", "fr": "Fonde Walter & Edwin Schloss Associates." } }
+    ],
+    "tags": ["value"],
+    "works": { "zh": ["关于价值投资的经验与备忘录"], "en": ["Value investing experiences and memos"], "es": ["Experiencias y memorandos de inversión de valor"], "fr": ["Expériences et mémos sur l'investissement de valeur"] },
+    "quotes": { "zh": ["简单而有效的纪律。"], "en": ["Simple and effective discipline."], "es": ["Disciplina simple y efectiva."], "fr": ["Discipline simple et efficace."] },
+    "lessons": { "zh": ["坚持安全边际与低估值。"], "en": ["Insist on margin of safety and low valuations."], "es": ["Insistir en margen de seguridad y bajas valoraciones."], "fr": ["Insister sur marge de sécurité et faibles valorisations."] }
+  },
+  {
+    "id": "john_neff",
+    "name": { "zh": "约翰·内夫", "en": "John Neff", "es": "John Neff", "fr": "John Neff" },
+    "summary": {
+      "zh": "温莎基金传奇经理，低市盈率与价值组合。",
+      "en": "Legendary Windsor Fund manager; low P/E value portfolios.",
+      "es": "Legendario gestor del Windsor; carteras de bajo P/E.",
+      "fr": "Légendaire gérant du Windsor; portefeuilles value à faible P/E."
+    },
+    "theory": {
+      "zh": "低估值与股息收益的组合。",
+      "en": "Combine low valuations with dividend yields.",
+      "es": "Combinar baja valoración con dividendos.",
+      "fr": "Combiner faibles valorisations et rendements de dividendes."
+    },
+    "strategy": {
+      "zh": "以低P/E与稳健现金流筛选。",
+      "en": "Select via low P/E and robust cash flows.",
+      "es": "Seleccionar con bajo P/E y flujos robustos.",
+      "fr": "Sélection par faible P/E et flux robustes."
+    },
+    "wins": {
+      "zh": "长期稳健跑赢市场。",
+      "en": "Long-term steady outperformance.",
+      "es": "Superación estable a largo plazo.",
+      "fr": "Surperformance stable long terme."
+    },
+    "timeline": [
+      { "year": 1964, "text": { "zh": "执掌温莎基金。", "en": "Took helm of Windsor Fund.", "es": "Tomó el Windsor Fund.", "fr": "Prend la tête du Windsor Fund." } }
+    ],
+    "tags": ["value"],
+    "works": { "zh": ["约翰·内夫投资之道"], "en": ["John Neff on Investing"], "es": ["John Neff on Investing"], "fr": ["John Neff on Investing"] },
+    "quotes": { "zh": ["低估值与现金流。"], "en": ["Low valuations and cash flow."], "es": ["Bajas valoraciones y flujo."], "fr": ["Faibles valorisations et flux."] },
+    "lessons": { "zh": ["坚持简洁的价值框架。"], "en": ["Stick to simple value frameworks."], "es": ["Apegarse a marcos de valor simples."], "fr": ["S'en tenir à des cadres value simples."] }
+  },
+  {
+    "id": "philip_carret",
+    "name": { "zh": "菲利普·卡雷特", "en": "Philip Carret", "es": "Philip Carret", "fr": "Philip Carret" },
+    "summary": {
+      "zh": "先锋价值投资者，创立 Pioneer Fund。",
+      "en": "Pioneer value investor; founded Pioneer Fund.",
+      "es": "Inversor de valor pionero; fundó Pioneer Fund.",
+      "fr": "Investisseur value pionnier; fonde Pioneer Fund."
+    },
+    "theory": {
+      "zh": "长期持有与基本面研究。",
+      "en": "Long holding and fundamental research.",
+      "es": "Tenencia larga e investigación fundamental.",
+      "fr": "Détention longue et recherche fondamentale."
+    },
+    "strategy": {
+      "zh": "精选价值与质量公司。",
+      "en": "Select value and quality companies.",
+      "es": "Seleccionar empresas de valor y calidad.",
+      "fr": "Sélectionner entreprises value et qualité."
+    },
+    "wins": {
+      "zh": "数十年基金管理的稳健表现。",
+      "en": "Decades of steady fund performance.",
+      "es": "Décadas de desempeño estable del fondo.",
+      "fr": "Des décennies de performance stable du fonds."
+    },
+    "timeline": [
+      { "year": 1928, "text": { "zh": "创立 Pioneer Fund。", "en": "Founded Pioneer Fund.", "es": "Fundó el Pioneer Fund.", "fr": "Fonde le Pioneer Fund." } }
+    ],
+    "tags": ["value"],
+    "works": { "zh": ["投资原则与长期持有心得"], "en": ["Investment principles and long-term holding"], "es": ["Principios de inversión y tenencia larga"], "fr": ["Principes d'investissement et détention longue"] },
+    "quotes": { "zh": ["长期与基本面。"], "en": ["Long term and fundamentals."], "es": ["Largo plazo y fundamentales."], "fr": ["Long terme et fondamentaux."] },
+    "lessons": { "zh": ["坚持基本面与耐心。"], "en": ["Stick to fundamentals and patience."], "es": ["Apegarse a fundamentales y paciencia."], "fr": ["S'en tenir aux fondamentaux et à la patience."] }
+  },
+  {
+    "id": "irving_kahn",
+    "name": { "zh": "欧文·卡恩", "en": "Irving Kahn", "es": "Irving Kahn", "fr": "Irving Kahn" },
+    "summary": {
+      "zh": "格雷厄姆助手与门生，谨慎价值投资者。",
+      "en": "Graham’s assistant and disciple; cautious value investor.",
+      "es": "Asistente y discípulo de Graham; inversor de valor cauteloso.",
+      "fr": "Assistant et disciple de Graham; investisseur valeur prudent."
+    },
+    "theory": {
+      "zh": "安全边际与深入研究。",
+      "en": "Margin of safety and deep research.",
+      "es": "Margen de seguridad e investigación profunda.",
+      "fr": "Marge de sécurité et recherche approfondie."
+    },
+    "strategy": {
+      "zh": "低估值与耐心持有。",
+      "en": "Low valuations and patient holding.",
+      "es": "Bajas valoraciones y tenencia paciente.",
+      "fr": "Faibles valorisations et détention patiente."
+    },
+    "wins": {
+      "zh": "长期稳健的价值回报。",
+      "en": "Long-term steady value returns.",
+      "es": "Retornos value estables a largo plazo.",
+      "fr": "Retours value stables long terme."
+    },
+    "timeline": [
+      { "year": 1947, "text": { "zh": "与格雷厄姆合作研究。", "en": "Worked with Graham on research.", "es": "Trabajó con Graham en investigación.", "fr": "Travaille avec Graham sur la recherche." } }
+    ],
+    "tags": ["value"],
+    "works": { "zh": ["价值投资备忘录"], "en": ["Value investing memos"], "es": ["Memorandos de inversión de valor"], "fr": ["Mémos d'investissement de valeur"] },
+    "quotes": { "zh": ["安全边际与纪律。"], "en": ["Margin of safety and discipline."], "es": ["Margen de seguridad y disciplina."], "fr": ["Marge de sécurité et discipline."] },
+    "lessons": { "zh": ["减少高风险曝险。"], "en": ["Reduce high-risk exposures."], "es": ["Reducir exposiciones de alto riesgo."], "fr": ["Réduire les expositions à haut risque."] }
+  },
+  {
+    "id": "li_lu",
+    "name": { "zh": "李录", "en": "Li Lu", "es": "Li Lu", "fr": "Li Lu" },
+    "summary": {
+      "zh": "喜马拉雅资本创始人，质量与价值并重。",
+      "en": "Founder of Himalaya Capital; quality and value focused.",
+      "es": "Fundador de Himalaya Capital; enfoque en calidad y valor.",
+      "fr": "Fondateur de Himalaya Capital; focus qualité et valeur."
+    },
+    "theory": {
+      "zh": "持有高质量公司并以长期视角投资。",
+      "en": "Own high-quality companies with long-term lens.",
+      "es": "Poseer empresas de calidad con visión de largo plazo.",
+      "fr": "Détenir des entreprises de qualité avec horizon long."
+    },
+    "strategy": {
+      "zh": "集中持有少数高质量与护城河公司。",
+      "en": "Concentrated holdings in few quality moat companies.",
+      "es": "Tenencias concentradas en pocas empresas de foso y calidad.",
+      "fr": "Positions concentrées sur quelques entreprises de qualité avec fossé."
+    },
+    "wins": {
+      "zh": "长期回报稳健，受价值圈认可。",
+      "en": "Steady long-term returns; respected in value circles.",
+      "es": "Retornos estables a largo plazo; respetado en círculos value.",
+      "fr": "Retours stables à long terme; respecté dans les cercles value."
+    },
+    "timeline": [
+      { "year": 1997, "text": { "zh": "创立喜马拉雅资本。", "en": "Founded Himalaya Capital.", "es": "Fundó Himalaya Capital.", "fr": "Fonde Himalaya Capital." } }
+    ],
+    "tags": ["value", "quality"],
+    "works": { "zh": ["关于长期与质量的演讲"], "en": ["Talks on long term and quality"], "es": ["Charlas sobre largo plazo y calidad"], "fr": ["Conférences sur long terme et qualité"] },
+    "quotes": { "zh": ["长期与质量并重。"], "en": ["Long term and quality together."], "es": ["Largo plazo y calidad juntos."], "fr": ["Long terme et qualité ensemble."] },
+    "lessons": { "zh": ["少而精、能力圈内投资。"], "en": ["Few and high-quality; invest within circle of competence."], "es": ["Pocas y de alta calidad; invertir en el círculo de competencia."], "fr": ["Peu et de haute qualité; investir dans son cercle de compétence."] }
+  }
+  ,
+  {
+    "id": "dunn",
+    "name": { "zh": "比尔·丹恩", "en": "Bill Dunn", "es": "Bill Dunn", "fr": "Bill Dunn" },
+    "summary": {
+      "zh": "Dunn Capital创始人，系统化趋势CTA代表。",
+      "en": "Dunn Capital founder; systematic trend CTA representative.",
+      "es": "Fundador de Dunn Capital; representante de CTA de tendencia sistemática.",
+      "fr": "Fondateur de Dunn Capital; représentant CTA de trend systématique."
+    },
+    "theory": {
+      "zh": "跨品种趋势追随，风险与仓位规则化管理。",
+      "en": "Cross-asset trend following with rule-based risk and sizing.",
+      "es": "Seguimiento de tendencias multi-activo con reglas de riesgo y tamaños.",
+      "fr": "Suivi de tendance multi-actifs avec règles de risque et taille."
+    },
+    "strategy": {
+      "zh": "长期趋势模型组合，严格止损与分散。",
+      "en": "Long-horizon trend models; strict stops and diversification.",
+      "es": "Modelos de tendencia de largo plazo; stops estrictos y diversificación.",
+      "fr": "Modèles de tendance long terme; stops stricts et diversification."
+    },
+    "wins": {
+      "zh": "多周期中保持稳定的CTA业绩与口碑。",
+      "en": "Stable CTA performance and reputation across cycles.",
+      "es": "Desempeño CTA estable y reputación a través de ciclos.",
+      "fr": "Performance CTA stable et réputation à travers les cycles."
+    },
+    "timeline": [
+      { "year": 1974, "text": { "zh": "创立Dunn Capital。", "en": "Founded Dunn Capital.", "es": "Fundó Dunn Capital.", "fr": "Fonde Dunn Capital." } },
+      { "year": 1990, "text": { "zh": "扩展跨品种趋势模型组合。", "en": "Expanded cross-market trend model suites.", "es": "Expandió suites de modelos de tendencia multi-mercado.", "fr": "Étend suites de modèles de trend multi-marchés." } }
+    ],
+    "tags": ["cta", "quant", "trend", "commodities"],
+    "works": { "zh": ["关于CTA趋势策略的研究文集"], "en": ["Research notes on CTA trend strategies"], "es": ["Notas de investigación sobre CTA de tendencia"], "fr": ["Notes de recherche sur CTA de trend"] },
+    "quotes": { "zh": ["趋势与纪律并重。"], "en": ["Trend and discipline together."], "es": ["Tendencia y disciplina juntas."], "fr": ["Tendance et discipline ensemble."] },
+    "lessons": { "zh": ["跨市场分散提高稳健度。"], "en": ["Cross-market diversification improves robustness."], "es": ["La diversificación multi-mercado mejora la robustez."], "fr": ["La diversification multi-marchés améliore la robustesse."] }
+  }
+  ,
+  {
+    "id": "winton",
+    "name": { "zh": "大卫·哈丁", "en": "David Harding (Winton)", "es": "David Harding (Winton)", "fr": "David Harding (Winton)" },
+    "summary": {
+      "zh": "Winton创始人，量化CTA与研究驱动的代表。",
+      "en": "Winton founder; research-driven quantitative CTA representative.",
+      "es": "Fundador de Winton; representante CTA cuantitativo impulsado por investigación.",
+      "fr": "Fondateur de Winton; CTA quantitatif porté par la recherche."
+    },
+    "theory": {
+      "zh": "以数据与统计假设驱动模型，避免过拟合。",
+      "en": "Data and statistical hypotheses drive models; avoid overfitting.",
+      "es": "Datos e hipótesis estadísticas impulsan modelos; evitar sobreajuste.",
+      "fr": "Les données et hypothèses statistiques guident les modèles; éviter le sur-ajustement."
+    },
+    "strategy": {
+      "zh": "趋势、季节性与跨资产信号的多模型组合。",
+      "en": "Multi-model ensembles of trend, seasonality and cross-asset signals.",
+      "es": "Conjuntos multi-modelo de señales de tendencia, estacionalidad y multi-activo.",
+      "fr": "Ensembles multi-modèles de signaux trend, saisonnalité et multi-actifs."
+    },
+    "wins": {
+      "zh": "在多轮市场阶段维持研究驱动的稳健表现。",
+      "en": "Research-driven robustness across multiple market regimes.",
+      "es": "Robustez impulsada por investigación en múltiples regímenes.",
+      "fr": "Robustesse portée par la recherche sur plusieurs régimes."
+    },
+    "timeline": [
+      { "year": 1997, "text": { "zh": "创立Winton。", "en": "Founded Winton.", "es": "Fundó Winton.", "fr": "Fonde Winton." } },
+      { "year": 2005, "text": { "zh": "扩展研究团队并强化模型实证。", "en": "Expanded research team; strengthened model empirics.", "es": "Amplió equipo de investigación; fortaleció empíricos de modelos.", "fr": "Étend l'équipe de recherche; renforce l'empirique des modèles." } }
+    ],
+    "tags": ["cta", "quant", "trend"],
+    "works": { "zh": ["Winton研究报告"], "en": ["Winton research reports"], "es": ["Informes de investigación de Winton"], "fr": ["Rapports de recherche de Winton"] },
+    "quotes": { "zh": ["数据与实证是核心。"], "en": ["Data and empirics are core."], "es": ["Los datos y lo empírico son núcleo."], "fr": ["Les données et l'empirique sont au cœur."] },
+    "lessons": { "zh": ["避免过拟合与参数漂移。"], "en": ["Avoid overfitting and parameter drift."], "es": ["Evitar sobreajuste y deriva de parámetros."], "fr": ["Éviter le sur-ajustement et la dérive des paramètres."] }
+  }
+  ,
+  {
+    "id": "two_sigma",
+    "name": { "zh": "Two Sigma（约翰·欧弗德克 / 戴维·西格尔）", "en": "Two Sigma (John Overdeck / David Siegel)", "es": "Two Sigma (John Overdeck / David Siegel)", "fr": "Two Sigma (John Overdeck / David Siegel)" },
+    "summary": {
+      "zh": "统计学习与工程驱动的量化投资平台。",
+      "en": "Quant platform driven by statistical learning and engineering.",
+      "es": "Plataforma cuantitativa impulsada por aprendizaje estadístico e ingeniería.",
+      "fr": "Plateforme quantitative portée par apprentissage statistique et ingénierie."
+    },
+    "theory": {
+      "zh": "多因子与机器学习信号，规模化数据与基础设施。",
+      "en": "Multi-factor and ML signals; scaled data and infrastructure.",
+      "es": "Señales multifactor y ML; datos e infraestructura a escala.",
+      "fr": "Signaux multi-facteurs et ML; données et infrastructure à l'échelle."
+    },
+    "strategy": {
+      "zh": "横跨股票、期货与宏观的系统化组合。",
+      "en": "Systematic portfolios across equities, futures and macro.",
+      "es": "Carteras sistemáticas en acciones, futuros y macro.",
+      "fr": "Portefeuilles systématiques sur actions, futures et macro."
+    },
+    "wins": {
+      "zh": "在多策略框架下实现稳健风险调整回报。",
+      "en": "Robust risk-adjusted returns in multi-strategy framework.",
+      "es": "Retornos robustos ajustados al riesgo en marco multi-estrategia.",
+      "fr": "Retours robustes ajustés au risque dans cadre multi-stratégie."
+    },
+    "timeline": [
+      { "year": 2001, "text": { "zh": "创立Two Sigma。", "en": "Founded Two Sigma.", "es": "Fundó Two Sigma.", "fr": "Fonde Two Sigma." } },
+      { "year": 2010, "text": { "zh": "扩展机器学习在量化中的应用。", "en": "Expanded ML applications in quant.", "es": "Amplió aplicaciones de ML en cuant.", "fr": "Étend les applications du ML en quant." } }
+    ],
+    "tags": ["quant"],
+    "works": { "zh": ["量化研究与工程实践文章"], "en": ["Quant research and engineering articles"], "es": ["Artículos de investigación cuant y ingeniería"], "fr": ["Articles de recherche quant et ingénierie"] },
+    "quotes": { "zh": ["规模与工程同样关键。"], "en": ["Scale and engineering are critical."], "es": ["La escala y la ingeniería son críticas."], "fr": ["L'échelle et l'ingénierie sont critiques."] },
+    "lessons": { "zh": ["数据质量与统筹平台决定边际。"], "en": ["Data quality and platform orchestration set the edge."], "es": ["La calidad de datos y la orquestación de plataforma dan ventaja."], "fr": ["La qualité des données et l'orchestration plateforme font l'avantage."] },
+    "links": {
+      "zh": [ { "label": "Two Sigma 官方网站", "url": "https://www.twosigma.com/" }, { "label": "Two Sigma 科研与博客", "url": "https://www.twosigma.com/insights/" } ],
+      "en": [ { "label": "Two Sigma Official Site", "url": "https://www.twosigma.com/" }, { "label": "Two Sigma Insights", "url": "https://www.twosigma.com/insights/" } ],
+      "es": [ { "label": "Sitio oficial de Two Sigma", "url": "https://www.twosigma.com/" }, { "label": "Two Sigma Insights", "url": "https://www.twosigma.com/insights/" } ],
+      "fr": [ { "label": "Site officiel Two Sigma", "url": "https://www.twosigma.com/" }, { "label": "Two Sigma Insights", "url": "https://www.twosigma.com/insights/" } ]
+    }
+  }
+  ,
+  {
+    "id": "de_shaw",
+    "name": { "zh": "戴维·E·肖（D. E. Shaw）", "en": "David E. Shaw (D. E. Shaw)", "es": "David E. Shaw (D. E. Shaw)", "fr": "David E. Shaw (D. E. Shaw)" },
+    "summary": {
+      "zh": "早期量化对冲基金先驱，算法与研究文化著称。",
+      "en": "Early quant hedge pioneer; algorithms and research culture.",
+      "es": "Pionero temprano de hedge cuant; algoritmos y cultura de investigación.",
+      "fr": "Pionnier précoce du hedge quant; algorithmes et culture de recherche."
+    },
+    "theory": {
+      "zh": "以严谨研究与算法交易捕捉市场微小无效性。",
+      "en": "Rigorous research and algorithmic trading capture small inefficiencies.",
+      "es": "Investigación rigurosa y trading algorítmico capturan pequeñas ineficiencias.",
+      "fr": "Recherche rigoureuse et trading algorithmique captent de petites inefficiences."
+    },
+    "strategy": {
+      "zh": "多策略量化平台，风险预算与执行严密。",
+      "en": "Multi-strategy quant platform with tight risk budgeting and execution.",
+      "es": "Plataforma cuant multi-estrategia con presupuestos de riesgo y ejecución estrictos.",
+      "fr": "Plateforme quant multi-stratégie avec budget de risque et exécution stricte."
+    },
+    "wins": {
+      "zh": "长期构建行业影响力与稳健回报。",
+      "en": "Long-term industry influence and robust returns.",
+      "es": "Influencia sectorial a largo plazo y retornos robustos.",
+      "fr": "Influence sectorielle durable et retours robustes."
+    },
+    "timeline": [
+      { "year": 1988, "text": { "zh": "创立D. E. Shaw。", "en": "Founded D. E. Shaw.", "es": "Fundó D. E. Shaw.", "fr": "Fonde D. E. Shaw." } },
+      { "year": 1995, "text": { "zh": "扩展算法交易与研究团队。", "en": "Expanded algorithmic trading and research teams.", "es": "Amplió trading algorítmico y equipos de investigación.", "fr": "Étend le trading algorithmique et les équipes de recherche." } }
+    ],
+    "tags": ["quant"],
+    "works": { "zh": ["早期量化研究文集"], "en": ["Early quant research notes"], "es": ["Notas de investigación cuant tempranas"], "fr": ["Notes de recherche quant précoces"] },
+    "quotes": { "zh": ["研究与执行并重。"], "en": ["Research and execution both matter."], "es": ["Investigación y ejecución importan."], "fr": ["Recherche et exécution comptent."] },
+    "lessons": { "zh": ["风险预算与团队协作是基石。"], "en": ["Risk budgeting and team collaboration are foundational."], "es": ["El presupuesto de riesgo y la colaboración son fundamentales."], "fr": ["Le budget de risque et la collaboration d'équipe sont fondamentaux."] },
+    "links": {
+      "zh": [ { "label": "D. E. Shaw 官方网站", "url": "https://www.deshaw.com/" } ],
+      "en": [ { "label": "D. E. Shaw Official Site", "url": "https://www.deshaw.com/" } ],
+      "es": [ { "label": "Sitio oficial de D. E. Shaw", "url": "https://www.deshaw.com/" } ],
+      "fr": [ { "label": "Site officiel D. E. Shaw", "url": "https://www.deshaw.com/" } ]
+    }
+  }
+  ,
+  {
+    "id": "man_ahl",
+    "name": { "zh": "Man Group AHL（Adam/Harding/Lueck）", "en": "Man Group AHL (Adam/Harding/Lueck)", "es": "Man Group AHL (Adam/Harding/Lueck)", "fr": "Man Group AHL (Adam/Harding/Lueck)" },
+    "summary": {
+      "zh": "早期系统化趋势与量化研究团队，由 Adam、Harding、Lueck 创立。",
+      "en": "Early systematic trend and quant research team founded by Adam, Harding, Lueck.",
+      "es": "Equipo temprano de tendencia sistemática y cuant fundado por Adam, Harding, Lueck.",
+      "fr": "Équipe précoce de trend systématique et recherche quant, fondée par Adam, Harding, Lueck."
+    },
+    "theory": {
+      "zh": "跨市场趋势、统计信号与风险预算的组合框架。",
+      "en": "Cross-market trend, statistical signals and risk budgeting in ensemble.",
+      "es": "Tendencia multi-mercado, señales estadísticas y presupuesto de riesgo en conjunto.",
+      "fr": "Trend multi-marchés, signaux statistiques et budget de risque en ensemble."
+    },
+    "strategy": {
+      "zh": "系统化趋势/CTA，结合分散与模型治理。",
+      "en": "Systematic trend/CTA with diversification and model governance.",
+      "es": "Trend/CTA sistemático con diversificación y gobernanza de modelos.",
+      "fr": "Trend/CTA systématique avec diversification et gouvernance des modèles."
+    },
+    "wins": {
+      "zh": "在多轮市场周期中展现稳健风险调整回报与研究积累。",
+      "en": "Robust risk-adjusted returns and research compounding across cycles.",
+      "es": "Retornos robustos ajustados al riesgo y acumulación de investigación en ciclos.",
+      "fr": "Retours robustes ajustés au risque et accumulations de recherche sur cycles."
+    },
+    "timeline": [
+      { "year": 1987, "text": { "zh": "成立 AHL，奠定系统化趋势框架。", "en": "AHL formed; established systematic trend framework.", "es": "Se forma AHL; establece marco de tendencia sistemática.", "fr": "Création d'AHL; établit le cadre de trend systématique." } },
+      { "year": 2007, "text": { "zh": "并入 Man Group，扩展研究与基础设施。", "en": "Integrated into Man Group; expanded research and infrastructure.", "es": "Integrado en Man Group; amplía investigación e infraestructura.", "fr": "Intégré au Man Group; étend recherche et infrastructure." } },
+      { "year": 2014, "text": { "zh": "强化多模型与另类数据应用。", "en": "Strengthened multi-model and alt-data applications.", "es": "Fortalece aplicaciones multi-modelo y datos alternativos.", "fr": "Renforce multi-modèles et données alternatives." } }
+    ],
+    "tags": ["cta", "quant", "trend"],
+    "works": { "zh": ["AHL 研究备忘录与年报"], "en": ["AHL research memos and annual reports"], "es": ["Memorandos de investigación y reportes anuales de AHL"], "fr": ["Mémos de recherche AHL et rapports annuels"] },
+    "quotes": { "zh": ["模型治理与风控是系统化的核心。"], "en": ["Model governance and risk control are core to systematic."], "es": ["La gobernanza de modelos y el control de riesgo son núcleo."], "fr": ["La gouvernance des modèles et le contrôle du risque sont au cœur du systématique."] },
+    "lessons": { "zh": ["分散与研究管线决定韧性。"], "en": ["Diversification and research pipeline drive resilience."], "es": ["La diversificación y el pipeline de investigación impulsan la resiliencia."], "fr": ["La diversification et le pipeline de recherche portent la résilience."] },
+    "links": {
+      "zh": [ { "label": "AHL 官方网站", "url": "https://www.man.com/ahl", "type": "website" }, { "label": "Man Group 研究洞见", "url": "https://www.man.com/ri", "type": "research" }, { "label": "AHL 白皮书汇总", "url": "https://www.man.com/ri", "type": "papers" } ],
+      "en": [ { "label": "AHL Official Site", "url": "https://www.man.com/ahl", "type": "website" }, { "label": "Man Group Research Insights", "url": "https://www.man.com/ri", "type": "research" }, { "label": "AHL Whitepapers", "url": "https://www.man.com/ri", "type": "papers" } ],
+      "es": [ { "label": "Sitio oficial de AHL", "url": "https://www.man.com/ahl", "type": "website" }, { "label": "Insights de investigación Man Group", "url": "https://www.man.com/ri", "type": "research" }, { "label": "Libros blancos de AHL", "url": "https://www.man.com/ri", "type": "papers" } ],
+      "fr": [ { "label": "Site officiel AHL", "url": "https://www.man.com/ahl", "type": "website" }, { "label": "Insights recherche Man Group", "url": "https://www.man.com/ri", "type": "research" }, { "label": "Livres blancs AHL", "url": "https://www.man.com/ri", "type": "papers" } ]
+    }
+  }
+  ,
+  {
+    "id": "renaissance",
+    "name": { "zh": "文艺复兴科技（西蒙斯/团队）", "en": "Renaissance Technologies (Simons/Team)", "es": "Renaissance Technologies (Simons/Equipo)", "fr": "Renaissance Technologies (Simons/Équipe)" },
+    "summary": {
+      "zh": "量化研究与执行的标杆团队，梅多利昂基金表现卓越。",
+      "en": "Benchmark quant research and execution team; Medallion Fund’s excellence.",
+      "es": "Equipo referente en investigación y ejecución cuant; excelencia del Fondo Medallion.",
+      "fr": "Équipe de référence en recherche/exécution quant; excellence du Medallion."
+    },
+    "theory": {
+      "zh": "多模型集成、统计学习与严密执行，强调数据质量。",
+      "en": "Multi-model integration, statistical learning and tight execution; data quality emphasis.",
+      "es": "Integración multi-modelo, aprendizaje estadístico y ejecución estricta; énfasis en calidad de datos.",
+      "fr": "Intégration multi-modèles, apprentissage statistique et exécution serrée; accent sur qualité des données."
+    },
+    "strategy": {
+      "zh": "高频与多因子信号的组合，持续迭代研究。",
+      "en": "Ensembles of high-frequency and multi-factor signals; continuous research iteration.",
+      "es": "Conjuntos de señales de alta frecuencia y multifactor; iteración continua de investigación.",
+      "fr": "Ensembles de signaux haute fréquence et multi-facteurs; itération continue de la recherche."
+    },
+    "wins": {
+      "zh": "长期稳健的净回报与行业影响力。",
+      "en": "Long-term steady net returns and industry influence.",
+      "es": "Retornos netos estables a largo plazo e influencia sectorial.",
+      "fr": "Retours nets stables à long terme et influence sectorielle."
+    },
+    "timeline": [
+      { "year": 1982, "text": { "zh": "创立文艺复兴科技。", "en": "Founded Renaissance Technologies.", "es": "Fundó Renaissance Technologies.", "fr": "Fonde Renaissance Technologies." } },
+      { "year": 1994, "text": { "zh": "梅多利昂基金成型并优化。", "en": "Medallion Fund established and optimized.", "es": "Fondo Medallion establecido y optimizado.", "fr": "Création et optimisation du Medallion Fund." } },
+      { "year": 2003, "text": { "zh": "扩展计算与数据基础设施规模。", "en": "Scaled compute and data infrastructure.", "es": "Escaló infraestructura de cómputo y datos.", "fr": "Met à l'échelle l'infrastructure de calcul et de données." } }
+    ],
+    "tags": ["quant"],
+    "works": { "zh": ["量化研究交流与学术合作"], "en": ["Quant research exchanges and academic collaborations"], "es": ["Intercambios de investigación cuant y colaboraciones académicas"], "fr": ["Échanges de recherche quant et collaborations académiques"] },
+    "quotes": { "zh": ["让数据说话。"], "en": ["Let the data speak."], "es": ["Deja que los datos hablen."], "fr": ["Laissez parler les données."] },
+    "lessons": { "zh": ["数据质量、执行与保密文化决定边际。"], "en": ["Data quality, execution and culture of secrecy define edge."], "es": ["La calidad de datos, ejecución y cultura de confidencialidad definen ventaja."], "fr": ["Qualité des données, exécution et culture de confidentialité définissent l'avantage."] },
+    "links": {
+      "zh": [ { "label": "Renaissance 官方网站", "url": "https://www.rentec.com/", "type": "website" }, { "label": "学术合作与交流（概览）", "url": "https://www.rentec.com/", "type": "academic" } ],
+      "en": [ { "label": "Renaissance Official Site", "url": "https://www.rentec.com/", "type": "website" }, { "label": "Academic collaborations (overview)", "url": "https://www.rentec.com/", "type": "academic" } ],
+      "es": [ { "label": "Sitio oficial de Renaissance", "url": "https://www.rentec.com/", "type": "website" }, { "label": "Colaboraciones académicas (visión)", "url": "https://www.rentec.com/", "type": "academic" } ],
+      "fr": [ { "label": "Site officiel Renaissance", "url": "https://www.rentec.com/", "type": "website" }, { "label": "Collaborations académiques (aperçu)", "url": "https://www.rentec.com/", "type": "academic" } ]
+    }
+  }
+  ,
+  {
+    "id": "livermore",
+    "name": { "zh": "利弗莫尔", "en": "Jesse Livermore", "es": "Jesse Livermore", "fr": "Jesse Livermore" },
+    "summary": {
+      "zh": "传奇投机者，强调趋势、耐心与严格止损。",
+      "en": "Legendary speculator stressing trends, patience and strict cut-loss.",
+      "es": "Legendario especulador que enfatiza tendencias, paciencia y cortes de pérdidas.",
+      "fr": "Spéculateur légendaire, met l'accent sur les tendances et la discipline." 
+    },
+    "theory": {
+      "zh": "行情会重复，人性不变，坐得住赚大钱。",
+      "en": "Markets repeat, human nature persists, big profits from sitting tight.",
+      "es": "Los mercados se repiten, la naturaleza humana persiste, grandes ganancias por esperar.",
+      "fr": "Les marchés se répètent, la nature humaine persiste, grands gains en restant en position." 
+    },
+    "strategy": {
+      "zh": "顺势加仓金字塔，突破入场，严格止损。",
+      "en": "Pyramiding with trends, buy breakouts, strict stops.",
+      "es": "Pirámide siguiendo tendencias, compras en rupturas, stops estrictos.",
+      "fr": "Pyramider dans la tendance, achats sur cassures, stops stricts." 
+    },
+    "wins": {
+      "zh": "1907与1929年崩盘中巨额获利，并在多次趋势行情中扩大胜利。",
+      "en": "Large gains in 1907 and 1929 crashes; compounded wins across major trends.",
+      "es": "Grandes ganancias en 1907 y 1929; victorias compuestas en tendencias mayores.",
+      "fr": "Gains importants en 1907 et 1929; victoires composées sur grandes tendances." 
+    },
+    "works": {
+      "zh": ["股票作手回忆录（相关传记）"],
+      "en": ["Reminiscences of a Stock Operator (biographical)"],
+      "es": ["Reminiscences of a Stock Operator (biográfico)"],
+      "fr": ["Reminiscences of a Stock Operator (biographique)"]
+    },
+    "quotes": {
+      "zh": ["坐得住赚大钱。"],
+      "en": ["It was never my thinking that made the big money; it was always my sitting."],
+      "es": ["No fue el pensar lo que me hizo ganar; fue esperar."],
+      "fr": ["Ce n'est pas penser qui rapporte; c'est rester en position."]
+    },
+    "lessons": {
+      "zh": ["突破入场与严格止损缺一不可。"],
+      "en": ["Breakout entries and strict stops are inseparable."],
+      "es": ["Entradas por ruptura y stops estrictos son inseparables."],
+      "fr": ["Entrées sur cassure et stops stricts sont indissociables."]
+    },
+    "timeline": [
+      { "year": 1907, "text": { "zh": "做空市场大赚。", "en": "Profited shorting in panic.", "es": "Ganó con posiciones cortas en el pánico.", "fr": "Gagne en vendant à découvert pendant la panique." } },
+      { "year": 1929, "text": { "zh": "股灾中继续做空获利。", "en": "Shorted during the crash for large gains.", "es": "Cortos durante el desplome con grandes ganancias.", "fr": "Vente à découvert pendant le krach avec gains importants." } },
+      { "year": 1915, "text": { "zh": "顺势加仓形成金字塔，巩固趋势利润。", "en": "Pyramided into trends, consolidating profits.", "es": "Pirámide en tendencias, consolidando ganancias.", "fr": "Pyramide dans la tendance, consolide les gains." } }
+    ]
+    ,
+    "tags": ["technical", "trend"]
+  },
+  {
+    "id": "buffett",
+    "name": { "zh": "巴菲特", "en": "Warren Buffett", "es": "Warren Buffett", "fr": "Warren Buffett" },
+    "summary": {
+      "zh": "价值投资代表，长期持有优质企业。",
+      "en": "Value investing icon, long-term owner of quality businesses.",
+      "es": "Ícono de inversión de valor, propietario a largo plazo de negocios de calidad.",
+      "fr": "Icône de l'investissement de valeur, propriétaire long terme d'entreprises de qualité." 
+    },
+    "theory": {
+      "zh": "内在价值与安全边际，护城河与管理层。",
+      "en": "Intrinsic value, margin of safety, moats and management quality.",
+      "es": "Valor intrínseco, margen de seguridad, fosos y calidad de gestión.",
+      "fr": "Valeur intrinsèque, marge de sécurité, fossés et qualité du management." 
+    },
+    "strategy": {
+      "zh": "集中投资确定性高的公司，复利回报。",
+      "en": "Concentrate in high-certainty firms, compound returns.",
+      "es": "Concentrar en empresas de alta certeza, componer retornos.",
+      "fr": "Concentration sur entreprises à forte certitude, composer les rendements." 
+    },
+    "wins": {
+      "zh": "伯克希尔长期超越市场回报，危机时期以优先股与可转债达成优质交易。",
+      "en": "Long-term outperformance; crisis-era preferreds/convertibles secured quality deals.",
+      "es": "Superación a largo plazo; preferentes/convertibles en crisis aseguraron grandes acuerdos.",
+      "fr": "Surperformance longue; préférentielles/convertibles en crise ont scellé des accords de qualité." 
+    },
+    "works": {
+      "zh": ["伯克希尔致股东信"],
+      "en": ["Berkshire Hathaway Shareholder Letters"],
+      "es": ["Cartas a accionistas de Berkshire"],
+      "fr": ["Lettres aux actionnaires de Berkshire"]
+    },
+    "quotes": {
+      "zh": ["别人恐惧我贪婪，别人贪婪我恐惧。"],
+      "en": ["Be fearful when others are greedy and greedy when others are fearful."],
+      "es": ["Sé temeroso cuando otros son codiciosos y codicioso cuando otros son temerosos."],
+      "fr": ["Soyez craintif quand les autres sont avides et avide quand les autres ont peur."]
+    },
+    "lessons": {
+      "zh": ["避免过度分散，集中于能力圈。"],
+      "en": ["Avoid over-diversification; stay within your circle of competence."],
+      "es": ["Evitar la sobre-diversificación; permanecer en el círculo de competencia."],
+      "fr": ["Éviter la sur-diversification; rester dans son cercle de compétence."]
+    },
+    "timeline": [
+      { "year": 1965, "text": { "zh": "接管伯克希尔哈撒韦。", "en": "Took control of Berkshire Hathaway.", "es": "Tomó el control de Berkshire Hathaway.", "fr": "Prend le contrôle de Berkshire Hathaway." } },
+      { "year": 1988, "text": { "zh": "投资可口可乐成为经典案例。", "en": "Coca-Cola investment becomes a classic case.", "es": "La inversión en Coca-Cola se vuelve un caso clásico.", "fr": "L'investissement Coca-Cola devient un cas classique." } },
+      { "year": 2008, "text": { "zh": "危机期间向高盛与通用电气提供融资。", "en": "Financed Goldman Sachs and GE during crisis.", "es": "Financió a Goldman Sachs y GE durante la crisis.", "fr": "Finance Goldman Sachs et GE pendant la crise." } },
+      { "year": 2016, "text": { "zh": "加仓苹果成为核心重仓。", "en": "Increased Apple stake to core holding.", "es": "Aumentó participación en Apple a núcleo.", "fr": "Augmente la position Apple en cœur de portefeuille." } },
+      { "year": 2022, "text": { "zh": "增持西方石油并发表长期看好。", "en": "Added Occidental stake; expressed long-term optimism.", "es": "Aumentó participación en Occidental; optimismo a largo plazo.", "fr": "Augmente la position Occidental; optimisme à long terme." } }
+    ]
+    ,
+    "tags": ["value"]
+  },
+  {
+    "id": "lynch",
+    "name": { "zh": "彼得·林奇", "en": "Peter Lynch", "es": "Peter Lynch", "fr": "Peter Lynch" },
+    "summary": {
+      "zh": "GARP理念，普通投资者也能战胜市场。",
+      "en": "GARP philosophy, ordinary investors can beat the market.",
+      "es": "Filosofía GARP, los inversores comunes pueden superar el mercado.",
+      "fr": "Philosophie GARP, les investisseurs ordinaires peuvent battre le marché." 
+    },
+    "theory": {
+      "zh": "投资你熟悉的，实地调研与常识；分类法识别价值、成长、周期与资产负债驱动。",
+      "en": "Invest in what you know; scuttlebutt and common sense; taxonomy of value, growth, cyclicals and balance-sheet plays.",
+      "es": "Invierte en lo que conoces; scuttlebutt y sentido común; taxonomía de valor, crecimiento, cíclicas y juegos de balance.",
+      "fr": "Investir dans le connu; scuttlebutt et bon sens; taxonomie valeur, croissance, cycliques et jeux de bilan." 
+    },
+    "strategy": {
+      "zh": "自下而上筛选，适度分散，持续跟踪基本面变化与估值修复。",
+      "en": "Bottom-up selection, measured diversification, continuous tracking of fundamentals and re-rating.",
+      "es": "Selección bottom-up, diversificación medida, seguimiento continuo de fundamentales y revaloración.",
+      "fr": "Sélection bottom-up, diversification mesurée, suivi continu des fondamentaux et re-rating." 
+    },
+    "wins": {
+      "zh": "掌管麦哲伦基金期间年均约29%，多只十倍股案例为人称道。",
+      "en": "~29% annual during Magellan tenure; numerous tenbagger cases.",
+      "es": "~29% anual en su mandato en Magellan; numerosos tenbaggers.",
+      "fr": "~29% annuel au Magellan; nombreux tenbaggers." 
+    },
+    "works": {
+      "zh": ["彼得林奇的成功投资", "战胜华尔街"],
+      "en": ["One Up on Wall Street", "Beating the Street"],
+      "es": ["One Up on Wall Street", "Beating the Street"],
+      "fr": ["One Up on Wall Street", "Beating the Street"]
+    },
+    "quotes": {
+      "zh": ["投资你熟悉的。"],
+      "en": ["Invest in what you know."],
+      "es": ["Invierte en lo que conoces."],
+      "fr": ["Investissez dans ce que vous connaissez."]
+    },
+    "lessons": {
+      "zh": ["警惕故事股，坚持基本面。"],
+      "en": ["Beware of story stocks; stick to fundamentals."],
+      "es": ["Cuidado con acciones de historia; apegarse a fundamentales."],
+      "fr": ["Se méfier des actions à histoires; rester sur les fondamentaux."]
+    },
+    "timeline": [
+      { "year": 1977, "text": { "zh": "接管麦哲伦基金。", "en": "Took over Magellan Fund.", "es": "Asumió el Fondo Magellan.", "fr": "Prend la tête du Magellan Fund." } },
+      { "year": 1990, "text": { "zh": "出版《彼得林奇的成功投资》。", "en": "Published One Up on Wall Street.", "es": "Publicó One Up on Wall Street.", "fr": "Publie One Up on Wall Street." } },
+      { "year": 1982, "text": { "zh": "布局多只成长股并实现十倍回报。", "en": "Built multiple growth positions achieving tenbaggers.", "es": "Construyó varias posiciones de crecimiento logrando tenbaggers.", "fr": "Construit plusieurs positions de croissance atteignant des tenbaggers." } }
+    ]
+    ,
+    "tags": ["value", "growth", "garp"]
+  },
+  {
+    "id": "soros",
+    "name": { "zh": "索罗斯", "en": "George Soros", "es": "George Soros", "fr": "George Soros" },
+    "summary": {
+      "zh": "宏观对冲大师，提出反身性理论。",
+      "en": "Macro hedge fund titan, originator of reflexivity theory.",
+      "es": "Titán macro de hedge funds, originador de la teoría de reflexividad.",
+      "fr": "Titan des hedge funds macro, théoricien de la réflexivité." 
+    },
+    "theory": {
+      "zh": "反身性：认知与现实相互影响，形成繁荣—萧条循环；错误与偏见可被市场放大。",
+      "en": "Reflexivity: perception and reality co-influence, driving boom–bust; errors and biases can be amplified.",
+      "es": "Reflexividad: percepción y realidad co-influyen, impulsando auge–caída; errores y sesgos se amplifican.",
+      "fr": "Réflexivité: perception et réalité co-influencent, alimentant boom–bust; erreurs et biais s'amplifient." 
+    },
+    "strategy": {
+      "zh": "宏观主题驱动，灵活加减仓，快速止损并在正向验证时集中火力。",
+      "en": "Macro theme-driven; flexible sizing; cut losses fast and concentrate when validated.",
+      "es": "Temas macro; tamaños flexibles; cortar pérdidas rápido y concentrar cuando se valida.",
+      "fr": "Thèmes macro; tailles flexibles; couper vite les pertes et concentrer quand validé." 
+    },
+    "wins": {
+      "zh": "1992做空英镑获利约10亿美元，多次宏观主题交易斩获丰厚回报。",
+      "en": "1992 GBP short earned ~$1B; multiple macro themes delivered outsized returns.",
+      "es": "Corto GBP en 1992 con ~$1B; múltiples temas macro con retornos elevados.",
+      "fr": "Vente GBP 1992 ~1 Md$; plusieurs thèmes macro aux retours élevés." 
+    },
+    "works": {
+      "zh": ["金融炼金术"],
+      "en": ["The Alchemy of Finance"],
+      "es": ["The Alchemy of Finance"],
+      "fr": ["The Alchemy of Finance"]
+    },
+    "quotes": {
+      "zh": ["重要的不是你是否正确，而是当你正确时你赚了多少。"],
+      "en": ["It’s not whether you’re right or wrong, but how much money you make when you’re right."],
+      "es": ["No es si estás en lo correcto, sino cuánto ganas cuando lo estás."],
+      "fr": ["Ce qui compte n'est pas d'avoir raison, mais combien on gagne quand on a raison."]
+    },
+    "lessons": {
+      "zh": ["快速纠错，避免固执。"],
+      "en": ["Correct errors quickly; avoid stubbornness."],
+      "es": ["Corregir errores rápido; evitar obstinación."],
+      "fr": ["Corriger vite; éviter l'obstination."]
+    },
+    "timeline": [
+      { "year": 1973, "text": { "zh": "创立量子基金。", "en": "Founded Quantum Fund.", "es": "Fundó Quantum Fund.", "fr": "Fonde le Quantum Fund." } },
+      { "year": 1992, "text": { "zh": "黑色星期三做空英镑。", "en": "Shorted GBP on Black Wednesday.", "es": "Corto GBP en Miércoles Negro.", "fr": "Vente à découvert de la GBP lors du Mercredi noir." } },
+      { "year": 1997, "text": { "zh": "围绕亚洲金融危机实施宏观交易。", "en": "Macro trades around Asian Financial Crisis.", "es": "Operaciones macro alrededor de la Crisis Asiática.", "fr": "Trades macro autour de la crise financière asiatique." } },
+      { "year": 2008, "text": { "zh": "金融危机期间进行多资产宏观配置。", "en": "Multi-asset macro positioning during the financial crisis.", "es": "Posicionamiento macro multi-activo durante la crisis financiera.", "fr": "Positionnement macro multi-actifs pendant la crise financière." } }
+    ]
+    ,
+    "tags": ["macro", "discretionary"]
+  },
+  {
+    "id": "simons",
+    "name": { "zh": "吉姆·西蒙斯", "en": "Jim Simons", "es": "Jim Simons", "fr": "Jim Simons" },
+    "summary": {
+      "zh": "量化投资先锋，文艺复兴科技创始人。",
+      "en": "Quant pioneer, founder of Renaissance Technologies.",
+      "es": "Pionero cuantitativo, fundador de Renaissance Technologies.",
+      "fr": "Pionnier quantitatif, fondateur de Renaissance Technologies." 
+    },
+    "theory": {
+      "zh": "市场存在可重复的微小无效性，可通过统计与机器学习信号捕捉并组合。",
+      "en": "Markets exhibit repeatable small inefficiencies capturable via statistical and ML signals, combined in ensembles.",
+      "es": "Los mercados muestran pequeñas ineficiencias repetibles capturables con señales estadísticas y ML, combinadas en ensembles.",
+      "fr": "Les marchés ont de petites inefficiences répétables capturables par signaux statistiques et ML, combinés en ensembles." 
+    },
+    "strategy": {
+      "zh": "多因子与高频协同，系统化执行、风险预算与持续研究更新。",
+      "en": "Multi-factor and high-frequency synergy; systematic execution, risk budgeting and continuous research updates.",
+      "es": "Sinergia multifactor y alta frecuencia; ejecución sistemática, presupuestos de riesgo y actualización continua de investigación.",
+      "fr": "Synergie multi-facteurs et haute fréquence; exécution systématique, budget de risque et mise à jour continue de la recherche." 
+    },
+    "wins": {
+      "zh": "梅多利昂基金长期净回报卓越且稳定，成为量化传奇。",
+      "en": "Medallion Fund delivered extraordinary, steady net returns; a quantitative legend.",
+      "es": "El Fondo Medallion entregó retornos netos extraordinarios y estables; una leyenda cuantitativa.",
+      "fr": "Le Medallion a offert des retours nets extraordinaires et stables; une légende quantitative." 
+    },
+    "works": {
+      "zh": ["关于量化的访谈与演讲"],
+      "en": ["Interviews and talks on quantitative investing"],
+      "es": ["Entrevistas y charlas sobre inversión cuantitativa"],
+      "fr": ["Entretiens et conférences sur l'investissement quantitatif"]
+    },
+    "quotes": {
+      "zh": ["让数据说话。"],
+      "en": ["Let the data speak."],
+      "es": ["Deja que los datos hablen."],
+      "fr": ["Laissez parler les données."]
+    },
+    "lessons": {
+      "zh": ["保持模型更新与风险约束。"],
+      "en": ["Keep models updated with strong risk constraints."],
+      "es": ["Mantener modelos actualizados con fuertes restricciones de riesgo."],
+      "fr": ["Maintenir des modèles à jour avec de fortes contraintes de risque."]
+    },
+    "timeline": [
+      { "year": 1982, "text": { "zh": "创立文艺复兴科技。", "en": "Founded Renaissance Technologies.", "es": "Fundó Renaissance Technologies.", "fr": "Fonde Renaissance Technologies." } },
+      { "year": 1994, "text": { "zh": "梅多利昂基金成型。", "en": "Medallion Fund established.", "es": "Se establece el Fondo Medallion.", "fr": "Création du Medallion Fund." } },
+      { "year": 2007, "text": { "zh": "在复杂市场条件下保持稳定高回报。", "en": "Maintained strong returns in complex conditions.", "es": "Mantuvo fuertes retornos en condiciones complejas.", "fr": "Maintient de forts rendements en conditions complexes." } }
+    ]
+    ,
+    "tags": ["quant"]
+  },
+  {
+    "id": "rogers",
+    "name": { "zh": "吉姆·罗杰斯", "en": "Jim Rogers", "es": "Jim Rogers", "fr": "Jim Rogers" },
+    "summary": {
+      "zh": "商品与周期研究者，环球旅行投资观察。",
+      "en": "Commodity and cycles researcher; global travel investment insights.",
+      "es": "Investigador de commodities y ciclos; observaciones de inversión globales.",
+      "fr": "Chercheur sur les matières premières et cycles; observations d'investissement mondiales." 
+    },
+    "theory": {
+      "zh": "供需与长周期驱动大趋势，结合地缘与实地观察形成判断。",
+      "en": "Supply–demand and long cycles drive trends; pair with geopolitics and field observation.",
+      "es": "Oferta–demanda y ciclos largos impulsan tendencias; combinar con geopolítica y observación de campo.",
+      "fr": "Offre–demande et cycles longs guident; coupler avec géopolitique et observation de terrain." 
+    },
+    "strategy": {
+      "zh": "自上而下框架与自下而上走访相结合，耐心等待周期到来后集中配置。",
+      "en": "Blend top-down frameworks with bottom-up scuttlebutt; wait patiently then concentrate when cycles turn.",
+      "es": "Mezclar marcos top-down con scuttlebutt bottom-up; esperar y concentrar cuando giran los ciclos.",
+      "fr": "Mélanger cadres top-down et scuttlebutt bottom-up; attendre puis concentrer quand le cycle tourne." 
+    },
+    "wins": {
+      "zh": "共同创立量子基金并获高回报，长期商品与周期判断成效显著。",
+      "en": "Co-founded Quantum Fund with high returns; sustained success in commodities and cycles calls.",
+      "es": "Cofundó el Quantum con altos retornos; éxito sostenido en commodities y ciclos.",
+      "fr": "Co-fondateur du Quantum aux forts retours; succès durable sur matières et cycles." 
+    },
+    "works": {
+      "zh": ["投资骑士"],
+      "en": ["Investment Biker"],
+      "es": ["Investment Biker"],
+      "fr": ["Investment Biker"]
+    },
+    "quotes": {
+      "zh": ["长期周期与供需决定大趋势。"],
+      "en": ["Long cycles and supply–demand drive big trends."],
+      "es": ["Los ciclos largos y oferta–demanda impulsan grandes tendencias."],
+      "fr": ["Les cycles longs et l'offre–demande guident les grandes tendances."]
+    },
+    "lessons": {
+      "zh": ["用时间换空间，耐心等待周期到来。"],
+      "en": ["Use time to gain space; wait patiently for cycles."],
+      "es": ["Usa el tiempo para ganar espacio; esperar ciclos."],
+      "fr": ["Utiliser le temps pour gagner de l'espace; attendre les cycles."]
+    },
+    "timeline": [
+      { "year": 1973, "text": { "zh": "与索罗斯共同管理量子基金。", "en": "Co-managed Quantum Fund with Soros.", "es": "Cogestionó Quantum Fund con Soros.", "fr": "Co-gère le Quantum Fund avec Soros." } },
+      { "year": 1990, "text": { "zh": "环球旅行出版《投资骑士》。", "en": "Around-the-world trip, publishes Investment Biker.", "es": "Vuelta al mundo y publica Investment Biker.", "fr": "Tour du monde et publie Investment Biker." } }
+    ]
+    ,
+    "tags": ["macro", "commodities"]
+  },
+  {
+    "id": "ackman",
+    "name": { "zh": "比尔·阿克曼", "en": "Bill Ackman", "es": "Bill Ackman", "fr": "Bill Ackman" },
+    "summary": {
+      "zh": "激进投资者，公开推动公司治理与变革。",
+      "en": "Activist investor driving governance and change publicly.",
+      "es": "Inversor activista, impulsa gobierno y cambios públicamente.",
+      "fr": "Investisseur activiste, pousse gouvernance et changements publiquement." 
+    },
+    "theory": {
+      "zh": "通过持股、公开沟通与治理改进促成价值释放，关注资本结构与运营效率。",
+      "en": "Unlock value via ownership, public communication and governance improvements; focus on capital structure and operating efficiency.",
+      "es": "Liberar valor mediante propiedad, comunicación pública y mejoras de gobernanza; foco en estructura de capital y eficiencia.",
+      "fr": "Libérer la valeur via propriété, communication publique et gouvernance; focus sur structure de capital et efficacité." 
+    },
+    "strategy": {
+      "zh": "集中持股，充分尽调，提出具体改革方案并跟进执行以提升价值。",
+      "en": "Concentrated positions, deep due diligence, propose actionable reforms and follow through to realize value.",
+      "es": "Posiciones concentradas, due diligence profunda, proponer reformas accionables y seguimiento para realizar valor.",
+      "fr": "Positions concentrées, due diligence approfondie, réformes actionnables et suivi pour réaliser la valeur." 
+    },
+    "wins": {
+      "zh": "多次成功推动公司改革并获回报，危机期间通过对冲策略获取非对称收益。",
+      "en": "Multiple successful campaigns; crisis hedges produced asymmetric gains.",
+      "es": "Múltiples campañas exitosas; coberturas en crisis con ganancias asimétricas.",
+      "fr": "Multiples campagnes réussies; couvertures en crise aux gains asymétriques." 
+    },
+    "works": {
+      "zh": ["关于激进投资的公开演讲与信件"],
+      "en": ["Public talks and letters on activism"],
+      "es": ["Charlas y cartas sobre activismo"],
+      "fr": ["Conférences et lettres sur l'activisme"]
+    },
+    "quotes": {
+      "zh": ["透明沟通与治理改进带来价值。"],
+      "en": ["Transparent communication and governance drive value."],
+      "es": ["La comunicación transparente y la gobernanza impulsan valor."],
+      "fr": ["La communication transparente et la gouvernance créent de la valeur."]
+    },
+    "lessons": {
+      "zh": ["舆论激烈的主题需控制风险敞口。"],
+      "en": ["Manage exposure in highly debated themes."],
+      "es": ["Gestionar exposición en temas muy debatidos."],
+      "fr": ["Gérer l'exposition sur thèmes très débattus."]
+    },
+    "timeline": [
+      { "year": 2004, "text": { "zh": "创立潘兴广场资本。", "en": "Founded Pershing Square Capital.", "es": "Fundó Pershing Square Capital.", "fr": "Fonde Pershing Square Capital." } },
+      { "year": 2012, "text": { "zh": "做空康宝莱引发争议。", "en": "Shorted Herbalife, widely debated.", "es": "Corto Herbalife, ampliamente debatido.", "fr": "Vente à découvert d'Herbalife, largement débattue." } },
+      { "year": 2020, "text": { "zh": "通过疫情对冲获得显著回报。", "en": "Secured significant returns via pandemic hedges.", "es": "Aseguró retornos significativos con coberturas de pandemia.", "fr": "Obtient des retours significatifs grâce aux couvertures pandémiques." } }
+    ]
+    ,
+    "tags": ["activist"]
+  },
+  {
+    "id": "burry",
+    "name": { "zh": "迈克尔·伯里", "en": "Michael Burry", "es": "Michael Burry", "fr": "Michael Burry" },
+    "summary": {
+      "zh": "《大空头》原型，洞察次贷泡沫并交易之。",
+      "en": "The Big Short protagonist, spotted and traded the subprime bubble.",
+      "es": "Protagonista de The Big Short, detectó y operó la burbuja subprime.",
+      "fr": "Protagoniste de The Big Short, a vu et tradé la bulle subprime." 
+    },
+    "theory": {
+      "zh": "深入研究底层资产池与结构性债务产品条款，识别错定价与风险转移。",
+      "en": "Deep study of collateral pools and structured debt terms; identify mispricing and risk transfer.",
+      "es": "Estudio profundo de pools colaterales y términos de deuda estructurada; identificar malprecio y transferencia de riesgo.",
+      "fr": "Étude profonde des pools collatéraux et termes de dettes structurées; identifier sous/prix et transfert de risque." 
+    },
+    "strategy": {
+      "zh": "买入CDS保护并做空次贷相关资产，控制敞口与期限结构以优化风险回报。",
+      "en": "Buy CDS protection and short subprime-linked assets; control exposure and term to optimize risk–reward.",
+      "es": "Comprar protección CDS y cortar activos ligados a subprime; controlar exposición y plazo para optimizar riesgo–retorno.",
+      "fr": "Acheter des CDS et shorter actifs subprime; contrôler exposition et maturité pour optimiser risque–rendement." 
+    },
+    "wins": {
+      "zh": "金融危机前后获得显著回报，案例被《大空头》广为传播。",
+      "en": "Significant crisis-era returns; popularized by The Big Short.",
+      "es": "Retornos significativos en la crisis; popularizados por The Big Short.",
+      "fr": "Retours significatifs en crise; popularisés par The Big Short." 
+    },
+    "works": {
+      "zh": ["关于结构性产品与风险的访谈"],
+      "en": ["Interviews on structured products and risk"],
+      "es": ["Entrevistas sobre productos estructurados y riesgo"],
+      "fr": ["Entretiens sur produits structurés et risque"]
+    },
+    "quotes": {
+      "zh": ["深入研究底层资产池。"],
+      "en": ["Study the underlying collateral deeply."],
+      "es": ["Estudia profundamente el colateral subyacente."],
+      "fr": ["Étudier en profondeur le collatéral sous-jacent."]
+    },
+    "lessons": {
+      "zh": ["通过对冲控制尾部风险。"],
+      "en": ["Control tail risks via hedges."],
+      "es": ["Controlar riesgos de cola con coberturas."],
+      "fr": ["Contrôler les risques extrêmes via des couvertures."]
+    },
+    "timeline": [
+      { "year": 2005, "text": { "zh": "开始购买CDS对次贷做空。", "en": "Began buying CDS to short subprime.", "es": "Comenzó a comprar CDS para cortar subprime.", "fr": "Commence à acheter des CDS pour shorter le subprime." } },
+      { "year": 2007, "text": { "zh": "进一步扩大次贷相关对冲头寸。", "en": "Expanded subprime-related hedges.", "es": "Amplió coberturas ligadas a subprime.", "fr": "Élargit les couvertures liées au subprime." } },
+      { "year": 2010, "text": { "zh": "故事被书籍与电影传播。", "en": "Story popularized by book and film.", "es": "Historia popularizada por libro y película.", "fr": "Histoire popularisée par livre et film." } }
+    ]
+    ,
+    "tags": ["value", "short"]
+  },
+  {
+    "id": "wood",
+    "name": { "zh": "凯西·伍德", "en": "Cathie Wood", "es": "Cathie Wood", "fr": "Cathie Wood" },
+    "summary": {
+      "zh": "主题型ETF管理者，聚焦破坏式创新。",
+      "en": "Thematic ETF manager focused on disruptive innovation.",
+      "es": "Gestora de ETF temáticos centrada en innovación disruptiva.",
+      "fr": "Gestionnaire d'ETF thématiques axée sur l'innovation disruptive." 
+    },
+    "theory": {
+      "zh": "破坏式创新驱动结构性增长，跨主题（电动车、基因、AI）形成长期复合机会。",
+      "en": "Disruptive innovation drives structural growth; cross-themes (EVs, genomics, AI) create long-term compounding.",
+      "es": "La innovación disruptiva impulsa crecimiento estructural; temas cruzados (EV, genómica, IA) crean compuesto a largo plazo.",
+      "fr": "L'innovation disruptive porte la croissance structurelle; thèmes croisés (VE, génomique, IA) composent sur le long terme." 
+    },
+    "strategy": {
+      "zh": "主题篮子构建与动态再平衡，结合基本面与技术里程碑评估持仓权重。",
+      "en": "Build thematic baskets and dynamically rebalance; weight by fundamentals and tech milestones.",
+      "es": "Construir cestas temáticas y reequilibrar dinámicamente; ponderar por fundamentales y hitos tecnológicos.",
+      "fr": "Construire des paniers thématiques et rééquilibrer; pondérer par fondamentaux et jalons technologiques." 
+    },
+    "wins": {
+      "zh": "早期押注特斯拉与基因测序等主题并在牛市阶段显著跑赢。",
+      "en": "Early bets on Tesla and genomics; strong outperformance during bull phases.",
+      "es": "Apuestas tempranas en Tesla y genómica; fuerte superación en fases alcistas.",
+      "fr": "Paris précoces sur Tesla et la génomique; forte surperformance en phase haussière." 
+    },
+    "works": {
+      "zh": ["关于破坏式创新的研究报告"],
+      "en": ["Research reports on disruptive innovation"],
+      "es": ["Informes sobre innovación disruptiva"],
+      "fr": ["Rapports sur l'innovation disruptive"]
+    },
+    "quotes": {
+      "zh": ["技术浪潮驱动长期增长。"],
+      "en": ["Technology waves drive long-term growth."],
+      "es": ["Las olas tecnológicas impulsan crecimiento."],
+      "fr": ["Les vagues technologiques portent la croissance."]
+    },
+    "lessons": {
+      "zh": ["高波动主题需动态再平衡。"],
+      "en": ["High-volatility themes require dynamic rebalancing."],
+      "es": ["Temas de alta volatilidad requieren reequilibrio dinámico."],
+      "fr": ["Les thèmes très volatils exigent un rééquilibrage dynamique."]
+    },
+    "timeline": [
+      { "year": 2014, "text": { "zh": "创立ARK Invest。", "en": "Founded ARK Invest.", "es": "Fundó ARK Invest.", "fr": "Fonde ARK Invest." } },
+      { "year": 2020, "text": { "zh": "主题ETF在科技牛市中大涨。", "en": "Thematic ETFs surged in tech bull market.", "es": "Los ETF temáticos se disparan en el mercado alcista tecnológico.", "fr": "Les ETF thématiques ont bondi pendant le marché haussier tech." } },
+      { "year": 2021, "text": { "zh": "在波动中动态再平衡维持主题敞口。", "en": "Dynamic rebalancing maintained thematic exposure amid volatility.", "es": "Reequilibrio dinámico mantuvo exposición temática en volatilidad.", "fr": "Rééquilibrage dynamique maintenant l'exposition thématique en volatilité." } }
+    ]
+    ,
+    "tags": ["theme", "growth"]
+  },
+  {
+    "id": "lynch-rogers-note",
+    "name": { "zh": "罗杰斯补充", "en": "Rogers Note", "es": "Nota de Rogers", "fr": "Note de Rogers" },
+    "summary": {
+      "zh": "强调长期趋势与耐心的执行。",
+      "en": "Emphasis on long trends and patient execution.",
+      "es": "Énfasis en tendencias largas y ejecución paciente.",
+      "fr": "Accent sur les tendances longues et l'exécution patiente." 
+    },
+    "theory": { "zh": "长期周期与地缘观察。", "en": "Long cycles and geo observations.", "es": "Ciclos largos y observaciones geopolíticas.", "fr": "Cycles longs et observations géo." },
+    "strategy": { "zh": "等待与集中。", "en": "Wait and concentrate.", "es": "Esperar y concentrar.", "fr": "Attendre et concentrer." },
+    "wins": { "zh": "多轮商品牛市捕捉。", "en": "Captured multiple commodity bulls.", "es": "Capturó varios mercados alcistas de commodities.", "fr": "A capté plusieurs marchés haussiers des matières." },
+    "timeline": [ { "year": 2004, "text": { "zh": "发布商品指数观点。", "en": "Shared commodity index views.", "es": "Compartió visión de índices de commodities.", "fr": "Partage vue sur indices de matières." } } ]
+  },
+  {
+    "id": "lynch-extra",
+    "name": { "zh": "林奇补充", "en": "Lynch Note", "es": "Nota de Lynch", "fr": "Note de Lynch" },
+    "summary": { "zh": "强调实地调研与常识。", "en": "Emphasizes scuttlebutt and common sense.", "es": "Énfasis en scuttlebutt y sentido común.", "fr": "Met l'accent sur le scuttlebutt et le bon sens." },
+    "theory": { "zh": "好公司合理价。", "en": "Good companies at reasonable prices.", "es": "Buenas empresas a precios razonables.", "fr": "Bonnes entreprises à prix raisonnables." },
+    "strategy": { "zh": "广撒网择优。", "en": "Wide net, pick best.", "es": "Red amplia, elegir lo mejor.", "fr": "Large filet, choisir le meilleur." },
+    "wins": { "zh": "多只十倍股案例。", "en": "Multiple tenbagger cases.", "es": "Varios casos de tenbaggers.", "fr": "Plusieurs cas de tenbaggers." },
+    "timeline": [ { "year": 1989, "text": { "zh": "记录基金成功经验。", "en": "Documented fund successes.", "es": "Documentó éxitos del fondo.", "fr": "Documente les succès du fonds." } } ]
+  },
+  {
+    "id": "soros-rogers",
+    "name": { "zh": "索罗斯与罗杰斯", "en": "Soros & Rogers", "es": "Soros y Rogers", "fr": "Soros et Rogers" },
+    "summary": { "zh": "早期量子基金搭档。", "en": "Early Quantum Fund partners.", "es": "Socios tempranos del Quantum Fund.", "fr": "Partenaires précoces du Quantum Fund." },
+    "theory": { "zh": "宏观主题与大势。", "en": "Macro themes and trends.", "es": "Temas macro y tendencias.", "fr": "Thèmes macro et tendances." },
+    "strategy": { "zh": "灵活切换与集中。", "en": "Flexible switching and concentration.", "es": "Cambio flexible y concentración.", "fr": "Basculement flexible et concentration." },
+    "wins": { "zh": "多轮宏观交易成功。", "en": "Multiple macro trade successes.", "es": "Éxitos en múltiples operaciones macro.", "fr": "Multiples réussites en trades macro." },
+    "timeline": [ { "year": 1975, "text": { "zh": "量子基金扩张。", "en": "Quantum Fund expansion.", "es": "Expansión del Quantum Fund.", "fr": "Expansion du Quantum Fund." } } ]
+  },
+  {
+    "id": "griffin",
+    "name": { "zh": "肯·格里芬", "en": "Ken Griffin", "es": "Ken Griffin", "fr": "Ken Griffin" },
+    "summary": {
+      "zh": "城堡基金与城堡证券创始人，多策略与做市巨头。",
+      "en": "Founder of Citadel and Citadel Securities; multi-strategy and market-making titan.",
+      "es": "Fundador de Citadel y Citadel Securities; titán multi-estrategia y creador de mercado.",
+      "fr": "Fondateur de Citadel et Citadel Securities; titan multi-stratégie et market maker."
+    },
+    "theory": {
+      "zh": "技术驱动、风险控制与流动性供给，跨量化与基本面协同。",
+      "en": "Tech-driven risk control and liquidity provision; synergy of quant and fundamental.",
+      "es": "Control de riesgo impulsado por tecnología y provisión de liquidez; sinergia cuant–fundamental.",
+      "fr": "Contrôle du risque porté par la tech et fourniture de liquidité; synergie quant–fondamental."
+    },
+    "strategy": {
+      "zh": "多策略平台化，量化与事件驱动并行；做市系统规模化。",
+      "en": "Platformized multi-strategy with quant and event-driven; scaled market-making systems.",
+      "es": "Plataforma multi-estrategia con cuant y eventos; sistemas de market making a escala.",
+      "fr": "Plateforme multi-stratégie quant et événementiel; systèmes de market making à l'échelle."
+    },
+    "wins": {
+      "zh": "在多轮市场周期中实现稳健回报，做市份额全球领先。",
+      "en": "Robust returns across cycles; leading global market-making share.",
+      "es": "Retornos robustos en ciclos; cuota líder global en market making.",
+      "fr": "Retours robustes sur cycles; part leader du market making mondial."
+    },
+    "works": {
+      "zh": ["关于多策略与做市的公开演讲"],
+      "en": ["Public talks on multi-strategy and market making"],
+      "es": ["Charlas públicas sobre multi-estrategia y market making"],
+      "fr": ["Conférences publiques sur multi-stratégie et market making"]
+    },
+    "quotes": {
+      "zh": ["技术与风控是核心竞争力。"],
+      "en": ["Technology and risk control are core edge."],
+      "es": ["La tecnología y el control de riesgo son ventaja clave."],
+      "fr": ["La technologie et le contrôle du risque sont un avantage clé."]
+    },
+    "lessons": {
+      "zh": ["系统规模化与人才密度同等重要。"],
+      "en": ["Scaling systems matters as much as talent density."],
+      "es": ["Escalar sistemas importa tanto como la densidad de talento."],
+      "fr": ["La mise à l'échelle des systèmes compte autant que la densité de talents."]
+    },
+    "timeline": [
+      { "year": 1990, "text": { "zh": "创立城堡基金。", "en": "Founded Citadel.", "es": "Fundó Citadel.", "fr": "Fonde Citadel." } },
+      { "year": 2002, "text": { "zh": "成立城堡证券开展做市业务。", "en": "Launched Citadel Securities market-making.", "es": "Lanzó Citadel Securities de market making.", "fr": "Lance Citadel Securities pour le market making." } },
+      { "year": 2022, "text": { "zh": "多策略组合创出历史性回报。", "en": "Multi-strategy delivered record returns.", "es": "Multi-estrategia con retornos récord.", "fr": "Multi-stratégie aux retours record." } }
+    ]
+    ,
+    "tags": ["quant", "multi"]
+  },
+  {
+    "id": "dalio",
+    "name": { "zh": "瑞·达利欧", "en": "Ray Dalio", "es": "Ray Dalio", "fr": "Ray Dalio" },
+    "summary": {
+      "zh": "桥水基金创始人，风险平价与全天候策略倡导者。",
+      "en": "Bridgewater founder; advocate of risk parity and All Weather.",
+      "es": "Fundador de Bridgewater; defensor de paridad de riesgo y All Weather.",
+      "fr": "Fondateur de Bridgewater; défenseur de la parité de risque et All Weather."
+    },
+    "theory": {
+      "zh": "经济机器与债务周期，宏观因子平衡配置。",
+      "en": "Economic machine and debt cycles; balanced allocation across macro factors.",
+      "es": "Máquina económica y ciclos de deuda; asignación equilibrada en factores macro.",
+      "fr": "Machine économique et cycles de dette; allocation équilibrée sur facteurs macro."
+    },
+    "strategy": {
+      "zh": "风险平价与多元对冲，系统化宏观研究驱动。",
+      "en": "Risk parity and diversified hedging; systematic macro research.",
+      "es": "Paridad de riesgo y cobertura diversificada; investigación macro sistemática.",
+      "fr": "Parité de risque et couverture diversifiée; recherche macro systématique."
+    },
+    "wins": {
+      "zh": "长期稳定回报，危机时期的抗压表现突出。",
+      "en": "Long-term stable returns; resilient crisis performance.",
+      "es": "Retornos estables a largo plazo; desempeño resiliente en crisis.",
+      "fr": "Retours stables long terme; performance résiliente en crise."
+    },
+    "works": {
+      "zh": ["原则"],
+      "en": ["Principles"],
+      "es": ["Principles"],
+      "fr": ["Principles"]
+    },
+    "quotes": {
+      "zh": ["痛苦加反思等于进步。"],
+      "en": ["Pain plus reflection equals progress."],
+      "es": ["Dolor más reflexión es progreso."],
+      "fr": ["Douleur plus réflexion égale progrès."]
+    },
+    "lessons": {
+      "zh": ["极端环境下测试系统，保持多元化。"],
+      "en": ["Stress-test systems; maintain diversification."],
+      "es": ["Pruebas de estrés; mantener diversificación."],
+      "fr": ["Tester sous stress; maintenir la diversification."]
+    },
+    "timeline": [
+      { "year": 1975, "text": { "zh": "创立桥水基金。", "en": "Founded Bridgewater Associates.", "es": "Fundó Bridgewater Associates.", "fr": "Fonde Bridgewater Associates." } },
+      { "year": 1996, "text": { "zh": "提出全天候组合理念。", "en": "Articulated All Weather portfolio.", "es": "Articuló la cartera All Weather.", "fr": "Formalise le portefeuille All Weather." } },
+      { "year": 2008, "text": { "zh": "在金融危机中展现稳健表现。", "en": "Displayed resilience during the financial crisis.", "es": "Mostró resiliencia en la crisis financiera.", "fr": "Montre une résilience durant la crise financière." } }
+    ]
+    ,
+    "tags": ["macro", "risk-parity", "discretionary"]
+  },
+  {
+    "id": "ptj",
+    "name": { "zh": "保罗·都铎·琼斯", "en": "Paul Tudor Jones", "es": "Paul Tudor Jones", "fr": "Paul Tudor Jones" },
+    "summary": {
+      "zh": "宏观交易大师，守护本金与趋势跟随。",
+      "en": "Macro trading master; capital preservation and trend following.",
+      "es": "Maestro del macro; preservación del capital y seguimiento de tendencias.",
+      "fr": "Maître du macro; préservation du capital et suivi de tendance."
+    },
+    "theory": {
+      "zh": "亏损要快，小亏不累积；顺势为王。",
+      "en": "Cut losses fast; avoid compounding small losses; ride trends.",
+      "es": "Cortar pérdidas rápido; evitar acumular pequeñas pérdidas; seguir tendencias.",
+      "fr": "Couper vite les pertes; éviter l'agrégat de petites pertes; suivre les tendances."
+    },
+    "strategy": {
+      "zh": "宏观主题结合技术信号，敏捷调整仓位。",
+      "en": "Macro themes with technical signals; agile sizing.",
+      "es": "Temas macro con señales técnicas; tamaños ágiles.",
+      "fr": "Thèmes macro avec signaux techniques; ajustement agile des tailles."
+    },
+    "wins": {
+      "zh": "1987黑色星期一中成功做空并显著获利。",
+      "en": "Profited significantly shorting during 1987 Black Monday.",
+      "es": "Ganó significativamente con cortos en el Lunes Negro de 1987.",
+      "fr": "Profite significativement en vendant à découvert lors du Lundi noir 1987."
+    },
+    "timeline": [
+      { "year": 1980, "text": { "zh": "创立都铎投资公司。", "en": "Founded Tudor Investment Corporation.", "es": "Fundó Tudor Investment Corporation.", "fr": "Fonde Tudor Investment Corporation." } },
+      { "year": 1987, "text": { "zh": "在股灾中成功对冲与做空。", "en": "Hedged and shorted successfully during the crash.", "es": "Coberturas y cortos exitosos durante el desplome.", "fr": "Couvre et shorte avec succès pendant le krach." } },
+      { "year": 1990, "text": { "zh": "延续宏观趋势交易并保持回报。", "en": "Continued macro trend trading with solid returns.", "es": "Continuó trading macro de tendencia con retornos sólidos.", "fr": "Poursuit le trend macro avec retours solides." } }
+    ],
+    "tags": ["macro", "trend", "discretionary"]
+  },
+  {
+    "id": "ptj",
+    "name": { "zh": "保罗·都铎·琼斯", "en": "Paul Tudor Jones", "es": "Paul Tudor Jones", "fr": "Paul Tudor Jones" },
+    "summary": {
+      "zh": "宏观交易大师，守护本金与趋势跟随。",
+      "en": "Macro trading master; capital preservation and trend following.",
+      "es": "Maestro del macro; preservación del capital y seguimiento de tendencias.",
+      "fr": "Maître du macro; préservation du capital et suivi de tendance."
+    },
+    "theory": {
+      "zh": "亏损要快，小亏不累积；顺势为王。",
+      "en": "Cut losses fast; avoid compounding small losses; ride trends.",
+      "es": "Cortar pérdidas rápido; evitar acumular pequeñas pérdidas; seguir tendencias.",
+      "fr": "Couper vite les pertes; éviter l'agrégat de petites pertes; suivre les tendances."
+    },
+    "strategy": {
+      "zh": "宏观主题结合技术信号，敏捷调整仓位。",
+      "en": "Macro themes with technical signals; agile sizing.",
+      "es": "Temas macro con señales técnicas; tamaños ágiles.",
+      "fr": "Thèmes macro avec signaux techniques; ajustement agile des tailles."
+    },
+    "wins": {
+      "zh": "1987黑色星期一中成功做空并显著获利。",
+      "en": "Profited significantly shorting during 1987 Black Monday.",
+      "es": "Ganó significativamente con cortos en el Lunes Negro de 1987.",
+      "fr": "Profite significativement en vendant à découvert lors du Lundi noir 1987."
+    },
+    "works": {
+      "zh": ["关于风险与趋势的访谈"],
+      "en": ["Interviews on risk and trend following"],
+      "es": ["Entrevistas sobre riesgo y seguimiento de tendencias"],
+      "fr": ["Entretiens sur risque et suivi de tendance"]
+    },
+    "quotes": {
+      "zh": ["亏损要快。"],
+      "en": ["Losers average losers."],
+      "es": ["Losers average losers."],
+      "fr": ["Losers average losers."]
+    },
+    "lessons": {
+      "zh": ["小亏不累积，保持敏捷。"],
+      "en": ["Avoid compounding small losses; stay agile."],
+      "es": ["Evitar acumular pequeñas pérdidas; ser ágil."],
+      "fr": ["Éviter d'agréger les petites pertes; rester agile."]
+    },
+    "timeline": [
+      { "year": 1980, "text": { "zh": "创立都铎投资公司。", "en": "Founded Tudor Investment Corporation.", "es": "Fundó Tudor Investment Corporation.", "fr": "Fonde Tudor Investment Corporation." } },
+      { "year": 1987, "text": { "zh": "在股灾中成功对冲与做空。", "en": "Hedged and shorted successfully during the crash.", "es": "Coberturas y cortos exitosos durante el desplome.", "fr": "Couvre et shorte avec succès pendant le krach." } }
+    ]
+    ,
+    "tags": ["macro", "trend", "discretionary"]
+  },
+  {
+    "id": "druckenmiller",
+    "name": { "zh": "斯坦利·德鲁肯米勒", "en": "Stanley Druckenmiller", "es": "Stanley Druckenmiller", "fr": "Stanley Druckenmiller" },
+    "summary": {
+      "zh": "宏观传奇，以灵活与集中押注著称。",
+      "en": "Macro legend known for flexible, concentrated bets.",
+      "es": "Leyenda macro conocida por apuestas flexibles y concentradas.",
+      "fr": "Légende du macro, connu pour des paris flexibles et concentrés."
+    },
+    "theory": {
+      "zh": "在强认知与验证下集中火力，动态评估风险回报。",
+      "en": "Concentrate when conviction and validation align; dynamically assess risk–reward.",
+      "es": "Concentrar cuando convicción y validación se alinean; evaluar riesgo–retorno dinámicamente.",
+      "fr": "Concentrer quand conviction et validation s'alignent; évaluer risque–rendement dynamiquement."
+    },
+    "strategy": {
+      "zh": "宏观自上而下配合自下而上题材，快速纠错。",
+      "en": "Top-down macro with bottom-up themes; cut errors quickly.",
+      "es": "Macro top-down con temas bottom-up; cortar errores rápido.",
+      "fr": "Macro top-down avec thèmes bottom-up; corriger rapidement les erreurs."
+    },
+    "wins": {
+      "zh": "与索罗斯合作期间成绩斐然，个人长期回报卓越。",
+      "en": "Outstanding results with Soros; exceptional personal track record.",
+      "es": "Resultados destacados con Soros; historial personal excepcional.",
+      "fr": "Résultats remarquables avec Soros; parcours personnel exceptionnel."
+    },
+    "works": {
+      "zh": ["关于集中与灵活的演讲"],
+      "en": ["Talks on concentration and flexibility"],
+      "es": ["Charlas sobre concentración y flexibilidad"],
+      "fr": ["Conférences sur concentration et flexibilité"]
+    },
+    "quotes": {
+      "zh": ["在强认知与验证下集中火力。"],
+      "en": ["When you have tremendous conviction and validation, press it."],
+      "es": ["Cuando tienes gran convicción y validación, presiona."],
+      "fr": ["Quand conviction et validation sont fortes, il faut appuyer."]
+    },
+    "lessons": {
+      "zh": ["快速纠错。"],
+      "en": ["Cut errors quickly."],
+      "es": ["Corregir errores rápido."],
+      "fr": ["Corriger vite les erreurs."]
+    },
+    "timeline": [
+      { "year": 1988, "text": { "zh": "加入量子基金担任首席投资。", "en": "Joined Quantum Fund as chief investor.", "es": "Se unió al Quantum como inversor jefe.", "fr": "Rejoint le Quantum comme investisseur en chef." } },
+      { "year": 1992, "text": { "zh": "参与黑色星期三宏观交易。", "en": "Participated in Black Wednesday macro trade.", "es": "Participó en la operativa del Miércoles Negro.", "fr": "Participe au trade du Mercredi noir." } }
+    ]
+    ,
+    "tags": ["macro"]
+  },
+  {
+    "id": "graham",
+    "name": { "zh": "本杰明·格雷厄姆", "en": "Benjamin Graham", "es": "Benjamin Graham", "fr": "Benjamin Graham" },
+    "summary": {
+      "zh": "价值投资之父，安全边际理念的奠基者。",
+      "en": "Father of value investing; margin of safety pioneer.",
+      "es": "Padre de la inversión de valor; pionero del margen de seguridad.",
+      "fr": "Père de l'investissement de valeur; pionnier de la marge de sécurité."
+    },
+    "theory": {
+      "zh": "安全边际、内在价值与市先生。",
+      "en": "Margin of safety, intrinsic value and Mr. Market.",
+      "es": "Margen de seguridad, valor intrínseco y Sr. Mercado.",
+      "fr": "Marge de sécurité, valeur intrinsèque et M. Marché."
+    },
+    "strategy": {
+      "zh": "低估值与资产负债表驱动，纪律化分散。",
+      "en": "Low valuation and balance-sheet plays; disciplined diversification.",
+      "es": "Baja valoración y juegos de balance; diversificación disciplinada.",
+      "fr": "Faibles valorisations et jeux de bilan; diversification disciplinée."
+    },
+    "wins": {
+      "zh": "培养多位传奇投资者，方法长期有效。",
+      "en": "Mentored legends; methods proved durable.",
+      "es": "Formó leyendas; métodos duraderos.",
+      "fr": "A formé des légendes; méthodes durables."
+    },
+    "works": {
+      "zh": ["证券分析", "聪明的投资者"],
+      "en": ["Security Analysis", "The Intelligent Investor"],
+      "es": ["Security Analysis", "The Intelligent Investor"],
+      "fr": ["Security Analysis", "The Intelligent Investor"]
+    },
+    "quotes": {
+      "zh": ["市场先生情绪化，理性投资者要纪律化。"],
+      "en": ["Mr. Market is emotional; rational investors must be disciplined."],
+      "es": ["El Sr. Mercado es emocional; los inversores racionales deben ser disciplinados."],
+      "fr": ["M. Marché est émotionnel; les investisseurs rationnels doivent être disciplinés."]
+    },
+    "lessons": {
+      "zh": ["关注安全边际，谨慎对待热门题材。"],
+      "en": ["Insist on margin of safety; be wary of hot themes."],
+      "es": ["Insistir en el margen de seguridad; cuidado con los temas de moda."],
+      "fr": ["Insister sur la marge de sécurité; se méfier des thèmes à la mode."]
+    },
+    "timeline": [
+      { "year": 1934, "text": { "zh": "出版《证券分析》。", "en": "Published Security Analysis.", "es": "Publicó Security Analysis.", "fr": "Publie Security Analysis." } },
+      { "year": 1949, "text": { "zh": "出版《聪明的投资者》。", "en": "Published The Intelligent Investor.", "es": "Publicó The Intelligent Investor.", "fr": "Publie The Intelligent Investor." } }
+    ]
+    ,
+    "tags": ["value"]
+  },
+  {
+    "id": "templeton",
+    "name": { "zh": "约翰·邓普顿", "en": "John Templeton", "es": "John Templeton", "fr": "John Templeton" },
+    "summary": {
+      "zh": "全球价值与逆向投资倡导者。",
+      "en": "Global value and contrarian investing pioneer.",
+      "es": "Pionero del valor global y la inversión contraria.",
+      "fr": "Pionnier du value global et de l'investissement contrarien."
+    },
+    "theory": {
+      "zh": "全球视角与逆向思维，低估地区与行业布局。",
+      "en": "Global lens and contrarian mindset; allocate to undervalued regions and sectors.",
+      "es": "Visión global y mentalidad contraria; asignar a regiones y sectores infravalorados.",
+      "fr": "Perspective globale et esprit contrarien; allouer à régions et secteurs sous-valorisés."
+    },
+    "strategy": {
+      "zh": "广域筛选与长期持有，抓住转折与复苏。",
+      "en": "Broad screening and long holding; capture inflections and recoveries.",
+      "es": "Criba amplia y tenencia larga; capturar inflexiones y recuperaciones.",
+      "fr": "Criblage large et détention longue; capter inflexions et reprises."
+    },
+    "wins": {
+      "zh": "多周期跨市场表现突出，基金长期优异。",
+      "en": "Strong cross-market performance; fund excellence over decades.",
+      "es": "Sólido desempeño cruzado; excelencia del fondo por décadas.",
+      "fr": "Solide performance inter-marchés; excellence du fonds sur des décennies."
+    },
+    "works": {
+      "zh": ["全球价值投资观点合集"],
+      "en": ["Templeton's global value investing essays"],
+      "es": ["Ensayos de inversión de valor global de Templeton"],
+      "fr": ["Essais de value global de Templeton"]
+    },
+    "quotes": {
+      "zh": ["在最大悲观处买入。"],
+      "en": ["Buy at the point of maximum pessimism."],
+      "es": ["Compra en el punto de máximo pesimismo."],
+      "fr": ["Acheter au point de pessimisme maximal."]
+    },
+    "lessons": {
+      "zh": ["全球视角，勿局限本土偏见。"],
+      "en": ["Global lens; avoid home bias."],
+      "es": ["Visión global; evitar sesgo local."],
+      "fr": ["Perspective globale; éviter le biais domestique."]
+    },
+    "timeline": [
+      { "year": 1954, "text": { "zh": "创立邓普顿成长基金。", "en": "Founded Templeton Growth Fund.", "es": "Fundó Templeton Growth Fund.", "fr": "Fonde Templeton Growth Fund." } },
+      { "year": 1939, "text": { "zh": "二战初期逆向买入实现高回报。", "en": "Contrarian buys at WWII outset yielded high returns.", "es": "Compras contrarias al inicio de la WWII con altos retornos.", "fr": "Achats contrariens au début de la WWII avec forts retours." } }
+    ]
+    ,
+    "tags": ["value", "contrarian", "global"]
+  },
+  {
+    "id": "munger",
+    "name": { "zh": "查理·芒格", "en": "Charlie Munger", "es": "Charlie Munger", "fr": "Charlie Munger" },
+    "summary": {
+      "zh": "强调高质量企业与思维模型的价值投资者。",
+      "en": "Value investor emphasizing quality businesses and mental models.",
+      "es": "Inversor de valor que enfatiza empresas de calidad y modelos mentales.",
+      "fr": "Investisseur valeur mettant l'accent sur entreprises de qualité et modèles mentaux."
+    },
+    "theory": {
+      "zh": "跨学科思维模型，少而精的优质持有。",
+      "en": "Multidisciplinary mental models; few high-quality holdings.",
+      "es": "Modelos mentales multidisciplinarios; pocas tenencias de alta calidad.",
+      "fr": "Modèles mentaux pluridisciplinaires; quelques positions de haute qualité."
+    },
+    "strategy": {
+      "zh": "提高持仓质量、减少交易频率，长期复利。",
+      "en": "Improve holding quality, reduce trading frequency; compound long term.",
+      "es": "Mejorar calidad de cartera, reducir frecuencia de trading; componer a largo plazo.",
+      "fr": "Améliorer qualité des positions, réduire la fréquence; composer à long terme."
+    },
+    "wins": {
+      "zh": "与巴菲特共创伯克希尔的长期成功案例。",
+      "en": "Co-created Berkshire’s long-term success with Buffett.",
+      "es": "Cocreó el éxito a largo plazo de Berkshire con Buffett.",
+      "fr": "Cocrée la réussite long terme de Berkshire avec Buffett."
+    },
+    "works": {
+      "zh": ["穷查理宝典"],
+      "en": ["Poor Charlie's Almanack"],
+      "es": ["Poor Charlie's Almanack"],
+      "fr": ["Poor Charlie's Almanack"]
+    },
+    "quotes": {
+      "zh": ["多元思维模型。"],
+      "en": ["Latticework of mental models."],
+      "es": ["Red de modelos mentales."],
+      "fr": ["Réseau de modèles mentaux."]
+    },
+    "lessons": {
+      "zh": ["少而精，避免过度交易。"],
+      "en": ["Few and high-quality; avoid overtrading."],
+      "es": ["Pocas y de alta calidad; evitar sobreoperar."],
+      "fr": ["Peu et haute qualité; éviter le sur-trading."]
+    },
+    "timeline": [
+      { "year": 1972, "text": { "zh": "推动收购喜诗糖果，树立品质与护城河范式。", "en": "Drove See's Candies acquisition, quality moat paradigm.", "es": "Impulsó la compra de See's Candies, paradigma de calidad y foso.", "fr": "Impulse l'acquisition de See's Candies, paradigme de qualité et fossé." } },
+      { "year": 1978, "text": { "zh": "出任伯克希尔副董事长。", "en": "Became Berkshire vice chairman.", "es": "Se convirtió en vicepresidente de Berkshire.", "fr": "Devient vice-président de Berkshire." } }
+    ]
+    ,
+    "tags": ["value", "quality"]
+  },
+  {
+    "id": "bogle",
+    "name": { "zh": "约翰·博格尔", "en": "John Bogle", "es": "John Bogle", "fr": "John Bogle" },
+    "summary": {
+      "zh": "先锋集团创始人，指数基金与低费率倡导者。",
+      "en": "Vanguard founder; index funds and low fees advocate.",
+      "es": "Fundador de Vanguard; defensor de fondos índice y bajas comisiones.",
+      "fr": "Fondateur de Vanguard; défenseur des fonds indiciels et faibles frais."
+    },
+    "theory": {
+      "zh": "成本为王，被动化与长期持有。",
+      "en": "Costs matter; passive investing and long holding.",
+      "es": "Los costos importan; inversión pasiva y tenencia larga.",
+      "fr": "Les coûts comptent; investissement passif et détention longue."
+    },
+    "strategy": {
+      "zh": "构建宽基指数组合，极简与纪律化。",
+      "en": "Build broad index portfolios; minimalist and disciplined.",
+      "es": "Construir carteras índice amplias; minimalista y disciplinado.",
+      "fr": "Construire des portefeuilles indiciels larges; minimaliste et discipliné."
+    },
+    "wins": {
+      "zh": "指数化推动普惠投资，长期跑赢高费率主动。",
+      "en": "Indexing democratized investing; long-term outperformance vs high-fee active.",
+      "es": "La indexación democratizó la inversión; superación frente a activo caro a largo plazo.",
+      "fr": "L'indexation a démocratisé l'investissement; surperformance vs actif coûteux à long terme."
+    },
+    "works": {
+      "zh": ["共同基金常识"],
+      "en": ["The Little Book of Common Sense Investing"],
+      "es": ["The Little Book of Common Sense Investing"],
+      "fr": ["The Little Book of Common Sense Investing"]
+    },
+    "quotes": {
+      "zh": ["成本为王。"],
+      "en": ["Costs matter."],
+      "es": ["Los costos importan."],
+      "fr": ["Les coûts comptent."]
+    },
+    "lessons": {
+      "zh": ["长期被动持有胜过频繁择时。"],
+      "en": ["Long passive holding beats frequent timing."],
+      "es": ["La tenencia pasiva larga supera el market timing."],
+      "fr": ["La détention passive longue bat le market timing."]
+    },
+    "timeline": [
+      { "year": 1974, "text": { "zh": "创立先锋集团。", "en": "Founded Vanguard.", "es": "Fundó Vanguard.", "fr": "Fonde Vanguard." } },
+      { "year": 1976, "text": { "zh": "推出首只指数基金。", "en": "Launched first index fund.", "es": "Lanzó el primer fondo índice.", "fr": "Lance le premier fonds indiciel." } }
+    ]
+    ,
+    "tags": ["index", "passive"]
+  },
+  {
+    "id": "tepper",
+    "name": { "zh": "大卫·泰珀", "en": "David Tepper", "es": "David Tepper", "fr": "David Tepper" },
+    "summary": {
+      "zh": "困境债与机会主义宏观交易者。",
+      "en": "Distressed debt and opportunistic macro investor.",
+      "es": "Inversor en deuda en dificultades y macro oportunista.",
+      "fr": "Investisseur dette en difficulté et macro opportuniste."
+    },
+    "theory": {
+      "zh": "在压力与错定价中寻找不对称回报。",
+      "en": "Seek asymmetric returns amid stress and mispricing.",
+      "es": "Buscar retornos asimétricos en estrés y malprecios.",
+      "fr": "Chercher des retours asymétriques dans stress et sous/prix."
+    },
+    "strategy": {
+      "zh": "困境资产与宏观对冲结合，灵活调整规模。",
+      "en": "Blend distressed assets with macro hedges; flexible sizing.",
+      "es": "Mezclar activos en dificultades con coberturas macro; tamaños flexibles.",
+      "fr": "Mélanger actifs en difficulté et couvertures macro; tailles flexibles."
+    },
+    "wins": {
+      "zh": "金融危机后期显著回报，长期表现优异。",
+      "en": "Significant post-crisis returns; strong long-term performance.",
+      "es": "Retornos significativos post-crisis; desempeño fuerte a largo plazo.",
+      "fr": "Retours significatifs post-crise; forte performance long terme."
+    },
+    "works": {
+      "zh": ["关于困境资产与宏观择机的公开交流"],
+      "en": ["Public notes on distressed assets and macro timing"],
+      "es": ["Notas públicas sobre activos en dificultades y timing macro"],
+      "fr": ["Notes publiques sur actifs en difficulté et timing macro"]
+    },
+    "quotes": {
+      "zh": ["在压力与错定价中寻找不对称回报。"],
+      "en": ["Find asymmetric returns in stress and mispricing."],
+      "es": ["Encontrar retornos asimétricos en estrés y malprecio."],
+      "fr": ["Trouver des retours asymétriques dans stress et sous/prix."]
+    },
+    "lessons": {
+      "zh": ["灵活调整规模与对冲，关注尾部风险。"],
+      "en": ["Flex size and hedges; mind tail risks."],
+      "es": ["Ajustar tamaños y coberturas; cuidar riesgos de cola."],
+      "fr": ["Ajuster tailles et couvertures; attention aux risques extrêmes."]
+    },
+    "timeline": [
+      { "year": 1993, "text": { "zh": "创立阿帕卢萨管理公司。", "en": "Founded Appaloosa Management.", "es": "Fundó Appaloosa Management.", "fr": "Fonde Appaloosa Management." } },
+      { "year": 2009, "text": { "zh": "金融危机后逆势布局并获取高回报。", "en": "Post-crisis contrarian positioning delivered high returns.", "es": "Posicionamiento contrario post-crisis con altos retornos.", "fr": "Positionnement contrarien post-crise avec forts retours." } }
+    ]
+    ,
+    "tags": ["macro", "distressed"]
+  },
+  {
+    "id": "klarman",
+    "name": { "zh": "塞思·卡拉曼", "en": "Seth Klarman", "es": "Seth Klarman", "fr": "Seth Klarman" },
+    "summary": {
+      "zh": "谨慎的价值投资者，《安全边际》作者。",
+      "en": "Cautious value investor; author of Margin of Safety.",
+      "es": "Inversor de valor cauteloso; autor de Margin of Safety.",
+      "fr": "Investisseur valeur prudent; auteur de Margin of Safety."
+    },
+    "theory": {
+      "zh": "防守为先，关注现金流与资产负债表。",
+      "en": "Defense first; focus on cash flows and balance sheets.",
+      "es": "Defensa primero; foco en flujos y balances.",
+      "fr": "Défense d'abord; focus sur flux et bilans."
+    },
+    "strategy": {
+      "zh": "折价资产与复杂机会，耐心持有并控制风险。",
+      "en": "Discounted assets and complex opportunities; patient holding and risk control.",
+      "es": "Activos descontados y oportunidades complejas; tenencia paciente y control de riesgo.",
+      "fr": "Actifs décotés et opportunités complexes; détention patiente et contrôle du risque."
+    },
+    "wins": {
+      "zh": "多次危机期保全资本并实现稳健回报。",
+      "en": "Capital preserved through crises with steady returns.",
+      "es": "Capital preservado en crisis con retornos constantes.",
+      "fr": "Capital préservé en crises avec retours stables."
+    },
+    "works": {
+      "zh": ["安全边际"],
+      "en": ["Margin of Safety"],
+      "es": ["Margin of Safety"],
+      "fr": ["Margin of Safety"]
+    },
+    "quotes": {
+      "zh": ["防守为先。"],
+      "en": ["Defense first."],
+      "es": ["Defensa primero."],
+      "fr": ["Défense d'abord."]
+    },
+    "lessons": {
+      "zh": ["在复杂资产中保持安全边际。"],
+      "en": ["Maintain margin of safety in complex assets."],
+      "es": ["Mantener margen de seguridad en activos complejos."],
+      "fr": ["Maintenir la marge de sécurité dans les actifs complexes."]
+    },
+    "timeline": [
+      { "year": 1982, "text": { "zh": "创立包邮斯特集团。", "en": "Founded Baupost Group.", "es": "Fundó Baupost Group.", "fr": "Fonde Baupost Group." } },
+      { "year": 1991, "text": { "zh": "出版《安全边际》。", "en": "Published Margin of Safety.", "es": "Publicó Margin of Safety.", "fr": "Publie Margin of Safety." } }
+    ]
+    ,
+    "tags": ["value", "distressed"]
+  },
+  {
+    "id": "icahn",
+    "name": { "zh": "卡尔·伊坎", "en": "Carl Icahn", "es": "Carl Icahn", "fr": "Carl Icahn" },
+    "summary": {
+      "zh": "激进投资与公司治理改革的代表人物。",
+      "en": "Icon of activist investing and corporate governance reforms.",
+      "es": "Ícono del activismo inversor y reformas de gobernanza.",
+      "fr": "Icône de l'investissement activiste et des réformes de gouvernance."
+    },
+    "theory": {
+      "zh": "通过结构优化与资本配置提升公司价值。",
+      "en": "Enhance company value via structural and capital allocation changes.",
+      "es": "Mejorar valor mediante cambios estructurales y de capital.",
+      "fr": "Améliorer la valeur par changements structurels et d'allocation de capital."
+    },
+    "strategy": {
+      "zh": "集中持股并推动具体改革，公开沟通影响舆论。",
+      "en": "Concentrated stakes; push actionable reforms; public communication.",
+      "es": "Participaciones concentradas; impulsar reformas; comunicación pública.",
+      "fr": "Participations concentrées; pousser des réformes; communication publique."
+    },
+    "wins": {
+      "zh": "多起上市公司改革案例带来显著回报。",
+      "en": "Multiple public company campaigns yielded significant returns.",
+      "es": "Múltiples campañas en cotizadas con retornos significativos.",
+      "fr": "Multiples campagnes sur cotées aux retours significatifs."
+    },
+    "works": {
+      "zh": ["关于股东价值与公司治理的公开信"],
+      "en": ["Open letters on shareholder value and governance"],
+      "es": ["Cartas abiertas sobre valor para accionistas y gobernanza"],
+      "fr": ["Lettres ouvertes sur valeur actionnariale et gouvernance"]
+    },
+    "quotes": {
+      "zh": ["结构优化能释放价值。"],
+      "en": ["Structural optimization unlocks value."],
+      "es": ["La optimización estructural libera valor."],
+      "fr": ["L'optimisation structurelle libère de la valeur."]
+    },
+    "lessons": {
+      "zh": ["强势倡议需建立在扎实尽调上。"],
+      "en": ["Strong advocacy must rest on solid due diligence."],
+      "es": ["La defensa fuerte requiere una due diligence sólida."],
+      "fr": ["Une forte implication exige une due diligence solide."]
+    },
+    "timeline": [
+      { "year": 1985, "text": { "zh": "参与TWA相关并购重组。", "en": "Involved in TWA-related M&A and restructuring.", "es": "Participó en M&A y reestructuración de TWA.", "fr": "Participe au M&A et restructuration de TWA." } },
+      { "year": 2013, "text": { "zh": "就苹果资本回购与分红展开倡议。", "en": "Advocated Apple buybacks and capital returns.", "es": "Abogó por recompras y retornos de capital en Apple.", "fr": "Plaide pour rachats et retours de capital chez Apple." } }
+    ]
+    ,
+    "tags": ["activist"]
+  },
+  {
+    "id": "gross",
+    "name": { "zh": "比尔·格罗斯", "en": "Bill Gross", "es": "Bill Gross", "fr": "Bill Gross" },
+    "summary": {
+      "zh": "债券之王，PIMCO联合创始人。",
+      "en": "Bond King; PIMCO co-founder.",
+      "es": "Rey de los bonos; cofundador de PIMCO.",
+      "fr": "Roi des obligations; cofondateur de PIMCO."
+    },
+    "theory": {
+      "zh": "利率周期与久期管理，通胀与信用风险评估。",
+      "en": "Rate cycles and duration management; inflation and credit risk assessment.",
+      "es": "Ciclos de tasas y gestión de duración; evaluación de inflación y riesgo crediticio.",
+      "fr": "Cycles de taux et gestion de duration; évaluation inflation et risque de crédit."
+    },
+    "strategy": {
+      "zh": "总回报策略与主动债券配置。",
+      "en": "Total return strategy with active bond allocation.",
+      "es": "Estrategia de retorno total con asignación activa de bonos.",
+      "fr": "Stratégie total return avec allocation obligataire active."
+    },
+    "wins": {
+      "zh": "长期跑赢债券基准，成就市场影响力。",
+      "en": "Outperformed bond benchmarks long term; major market influence.",
+      "es": "Superó índices de bonos a largo plazo; influencia de mercado.",
+      "fr": "Surperformance des indices obligataires à long terme; influence majeure."
+    },
+    "works": {
+      "zh": ["债券市场与久期管理的评论合集"],
+      "en": ["Commentaries on bond markets and duration"],
+      "es": ["Comentarios sobre bonos y duración"],
+      "fr": ["Commentaires sur marchés obligataires et duration"]
+    },
+    "quotes": {
+      "zh": ["久期与利率周期至关重要。"],
+      "en": ["Duration and rate cycles are paramount."],
+      "es": ["La duración y los ciclos de tasas son clave."],
+      "fr": ["La duration et les cycles de taux sont essentiels."]
+    },
+    "lessons": {
+      "zh": ["关注通胀预期与信用利差。"],
+      "en": ["Watch inflation expectations and credit spreads."],
+      "es": ["Observar expectativas de inflación y spreads de crédito."],
+      "fr": ["Surveiller anticipations d'inflation et spreads de crédit."]
+    },
+    "timeline": [
+      { "year": 1971, "text": { "zh": "共同创立PIMCO。", "en": "Co-founded PIMCO.", "es": "Cofundó PIMCO.", "fr": "Cofonde PIMCO." } },
+      { "year": 1997, "text": { "zh": "总回报基金规模与影响力提升。", "en": "Total Return Fund scaled influence and AUM.", "es": "El Total Return Fund aumentó influencia y AUM.", "fr": "Le Total Return Fund a accru influence et encours." } }
+    ]
+    ,
+    "tags": ["bond", "fixed-income"]
+  }
+]

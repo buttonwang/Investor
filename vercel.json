@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "server.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/locales/.*", "dest": "server.js" },
+    { "src": "/api/investors_raw", "dest": "server.js" },
+    { "src": "/api/investors", "dest": "server.js" },
+    { "src": "/(.*)", "dest": "server.js" }
+  ]
+}
