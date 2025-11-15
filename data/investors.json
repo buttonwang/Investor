@@ -149,6 +149,12 @@
       "es": "Retornos históricos con CDS en la crisis subprime.",
       "fr": "Retours historiques via CDS pendant la crise subprime."
     },
+    "cases": {
+      "zh": ["2007年通过次贷相关CDS空头获得数十亿美元收益（对冲与结构研究驱动）","黄金与并购套利在不同周期贡献回报"],
+      "en": ["2007 subprime-related CDS shorts delivered multi-billion gains (hedging and structure research)","Gold and merger arbitrage contributed across cycles"],
+      "es": ["2007 CDS ligados a subprime con ganancias multibillonarias (cobertura e investigación de estructura)","Oro y arbitraje de fusiones contribuyeron en ciclos"],
+      "fr": ["2007 CDS liés au subprime aux gains multi-milliards (couverture et recherche de structure)","Or et arbitrage de fusion ont contribué sur cycles"]
+    },
     "timeline": [
       { "year": 2007, "text": { "zh": "构建次贷相关CDS空头。", "en": "Built subprime-related CDS shorts.", "es": "Construyó cortos CDS ligados a subprime.", "fr": "Monte des CDS short liés au subprime." } }
     ],
@@ -184,6 +190,12 @@
       "es": "Ganancias sólidas desde asignaciones en suelos de ciclo.",
       "fr": "Gains solides via allocations aux bas de cycles."
     },
+    "cases": {
+      "zh": ["在周期底部配置困境债并获得稳健复利","橡树在多期危机中通过严格价格与风险框架保护资本"],
+      "en": ["Allocated distressed debt at cycle bottoms achieving robust compounding","Oaktree protected capital through strict price and risk frameworks across crises"],
+      "es": ["Asignó deuda en dificultades en suelos de ciclo logrando compuesto sólido","Oaktree protegió capital con marcos estrictos de precio y riesgo en crisis"],
+      "fr": ["Alloue dettes en difficulté aux bas de cycles pour un composé robuste","Oaktree a protégé le capital via des cadres stricts de prix et risque en crises"]
+    },
     "timeline": [
       { "year": 1995, "text": { "zh": "共同创立橡树资本。", "en": "Co-founded Oaktree Capital.", "es": "Cofundó Oaktree Capital.", "fr": "Cofonde Oaktree Capital." } }
     ],
@@ -218,6 +230,12 @@
       "en": "Rule strategies with long-term outperformance.",
       "es": "Estrategias de reglas con superación a largo plazo.",
       "fr": "Stratégies par règles surperformantes à long terme."
+    },
+    "cases": {
+      "zh": ["特殊机会（分拆/并购/重组）案例多次验证规则化框架","魔法公式在长期回测与实盘中表现出色"],
+      "en": ["Special situations (spin-offs/M&A/restructurings) repeatedly validated rule framework","Magic Formula showed strong performance in long backtests and live"],
+      "es": ["Situaciones especiales (spin-offs/M&A/restructuraciones) validaron el marco de reglas","La Magic Formula mostró desempeño fuerte en backtests y en vivo"],
+      "fr": ["Situations spéciales (scissions/M&A/restructurations) valident le cadre par règles","La Magic Formula montre de fortes performances en backtests et réel"]
     },
     "timeline": [
       { "year": 2005, "text": { "zh": "提出魔法公式框架。", "en": "Published Magic Formula framework.", "es": "Publicó el marco Magic Formula.", "fr": "Publie le cadre Magic Formula." } }
@@ -895,9 +913,17 @@
       "es": "Retornos robustos ajustados al riesgo en marco multi-estrategia.",
       "fr": "Retours robustes ajustés au risque dans cadre multi-stratégie."
     },
+    "cases": {
+      "zh": ["2001年成立并构建量化工程平台","扩展机器学习在量化中的应用","搭建规模化数据与研究管线"],
+      "en": ["Founded in 2001 with quant engineering platform","Expanded ML applications in quant","Built scaled data and research pipelines"],
+      "es": ["Fundada en 2001 con plataforma cuant","Amplió aplicaciones de ML en cuant","Construyó datos y canal de investigación a escala"],
+      "fr": ["Fondée en 2001 avec plateforme quant","Étend les applications ML en quant","Construit données et pipeline de recherche à l'échelle"]
+    },
     "timeline": [
       { "year": 2001, "text": { "zh": "创立Two Sigma。", "en": "Founded Two Sigma.", "es": "Fundó Two Sigma.", "fr": "Fonde Two Sigma." } },
       { "year": 2010, "text": { "zh": "扩展机器学习在量化中的应用。", "en": "Expanded ML applications in quant.", "es": "Amplió aplicaciones de ML en cuant.", "fr": "Étend les applications du ML en quant." } }
+      ,
+      { "year": 2015, "text": { "zh": "强化数据平台与工程实践。", "en": "Strengthened data platform and engineering practices.", "es": "Fortaleció plataforma de datos y prácticas de ingeniería.", "fr": "Renforce plateforme de données et pratiques d'ingénierie." } }
     ],
     "tags": ["quant"],
     "works": { "zh": ["量化研究与工程实践文章"], "en": ["Quant research and engineering articles"], "es": ["Artículos de investigación cuant y ingeniería"], "fr": ["Articles de recherche quant et ingénierie"] },
@@ -938,9 +964,17 @@
       "es": "Influencia sectorial a largo plazo y retornos robustos.",
       "fr": "Influence sectorielle durable et retours robustes."
     },
+    "cases": {
+      "zh": ["1988年创立并推进算法交易","扩展研究文化与多策略平台","长期构建技术与风险预算能力"],
+      "en": ["Founded in 1988; advanced algorithmic trading","Expanded research culture and multi-strategy platform","Built long-term tech and risk budgeting capabilities"],
+      "es": ["Fundada en 1988; trading algorítmico avanzado","Cultura de investigación y plataforma multi-estrategia","Capacidades de tecnología y presupuesto de riesgo a largo plazo"],
+      "fr": ["Fondée en 1988; trading algorithmique avancé","Culture de recherche et plateforme multi-stratégie","Capacités tech et budget de risque à long terme"]
+    },
     "timeline": [
       { "year": 1988, "text": { "zh": "创立D. E. Shaw。", "en": "Founded D. E. Shaw.", "es": "Fundó D. E. Shaw.", "fr": "Fonde D. E. Shaw." } },
       { "year": 1995, "text": { "zh": "扩展算法交易与研究团队。", "en": "Expanded algorithmic trading and research teams.", "es": "Amplió trading algorítmico y equipos de investigación.", "fr": "Étend le trading algorithmique et les équipes de recherche." } }
+      ,
+      { "year": 2000, "text": { "zh": "升级技术基础设施并拓展全球市场。", "en": "Upgraded tech infrastructure and expanded global markets.", "es": "Actualizó infraestructura tecnológica y expandió mercados globales.", "fr": "Améliore l'infrastructure technologique et étend les marchés mondiaux." } }
     ],
     "tags": ["quant"],
     "works": { "zh": ["早期量化研究文集"], "en": ["Early quant research notes"], "es": ["Notas de investigación cuant tempranas"], "fr": ["Notes de recherche quant précoces"] },
@@ -980,6 +1014,12 @@
       "en": "Robust risk-adjusted returns and research compounding across cycles.",
       "es": "Retornos robustos ajustados al riesgo y acumulación de investigación en ciclos.",
       "fr": "Retours robustes ajustés au risque et accumulations de recherche sur cycles."
+    },
+    "cases": {
+      "zh": ["1987年AHL成立奠定系统化趋势框架","并入Man Group扩展研究与基础设施","强化多模型与另类数据应用"],
+      "en": ["1987 AHL formed; systematic trend framework","Integrated into Man Group; expanded research and infrastructure","Strengthened multi-model and alt-data applications"],
+      "es": ["1987 se forma AHL; marco de tendencia","Integrado en Man; amplía investigación e infraestructura","Fortalece multi-modelo y datos alternativos"],
+      "fr": ["1987 création d'AHL; cadre de trend","Intégré au Man; étend recherche et infrastructure","Renforce multi-modèles et données alternatives"]
     },
     "timeline": [
       { "year": 1987, "text": { "zh": "成立 AHL，奠定系统化趋势框架。", "en": "AHL formed; established systematic trend framework.", "es": "Se forma AHL; establece marco de tendencia sistemática.", "fr": "Création d'AHL; établit le cadre de trend systématique." } },
@@ -1025,10 +1065,18 @@
       "es": "Retornos netos estables a largo plazo e influencia sectorial.",
       "fr": "Retours nets stables à long terme et influence sectorielle."
     },
+    "cases": {
+      "zh": ["1982年创立并推进量化研究","1994年梅多利昂基金成型并持续优化","扩展计算与数据基础设施并迭代执行"],
+      "en": ["Founded in 1982 advancing quant research","1994 Medallion established and continually optimized","Scaled compute/data infrastructure and iterated execution"],
+      "es": ["Fundada en 1982 avanzando investigación cuant","1994 Medallion establecido y optimizado","Escaló cómputo/datos e iteró ejecución"],
+      "fr": ["Fondée en 1982 pour la recherche quant","1994 Medallion créé et optimisé","Montée en échelle calcul/données et itération d'exécution"]
+    },
     "timeline": [
       { "year": 1982, "text": { "zh": "创立文艺复兴科技。", "en": "Founded Renaissance Technologies.", "es": "Fundó Renaissance Technologies.", "fr": "Fonde Renaissance Technologies." } },
       { "year": 1994, "text": { "zh": "梅多利昂基金成型并优化。", "en": "Medallion Fund established and optimized.", "es": "Fondo Medallion establecido y optimizado.", "fr": "Création et optimisation du Medallion Fund." } },
       { "year": 2003, "text": { "zh": "扩展计算与数据基础设施规模。", "en": "Scaled compute and data infrastructure.", "es": "Escaló infraestructura de cómputo y datos.", "fr": "Met à l'échelle l'infrastructure de calcul et de données." } }
+      ,
+      { "year": 2010, "text": { "zh": "持续迭代研究与执行优化。", "en": "Continued research iteration and execution optimization.", "es": "Continuó iteración de investigación y optimización de ejecución.", "fr": "Poursuit l'itération de recherche et optimisation de l'exécution." } }
     ],
     "tags": ["quant"],
     "works": { "zh": ["量化研究交流与学术合作"], "en": ["Quant research exchanges and academic collaborations"], "es": ["Intercambios de investigación cuant y colaboraciones académicas"], "fr": ["Échanges de recherche quant et collaborations académiques"] },
@@ -1122,6 +1170,12 @@
       "es": "Superación a largo plazo; preferentes/convertibles en crisis aseguraron grandes acuerdos.",
       "fr": "Surperformance longue; préférentielles/convertibles en crise ont scellé des accords de qualité." 
     },
+    "cases": {
+      "zh": ["1988年重仓可口可乐并长期持有","2008年危机向高盛提供优先股融资","2016-2020年持续增持苹果至核心持仓","2022年加仓西方石油并长期看好"],
+      "en": ["1988 Coca-Cola stake held long term","2008 crisis preferred financing to Goldman Sachs","2016–2020 increased Apple to core holding","2022 added Occidental with long-term view"],
+      "es": ["1988 participación en Coca-Cola a largo plazo","2008 financiación preferente a Goldman en la crisis","2016–2020 aumentó Apple como núcleo","2022 añadió Occidental con visión a largo plazo"],
+      "fr": ["1988 prise de participation Coca-Cola à long terme","2008 financement préférentiel à Goldman pendant la crise","2016–2020 augmentation d'Apple au cœur","2022 ajout d'Occidental avec vision long terme"]
+    },
     "works": {
       "zh": ["伯克希尔致股东信"],
       "en": ["Berkshire Hathaway Shareholder Letters"],
@@ -1143,6 +1197,8 @@
     "timeline": [
       { "year": 1965, "text": { "zh": "接管伯克希尔哈撒韦。", "en": "Took control of Berkshire Hathaway.", "es": "Tomó el control de Berkshire Hathaway.", "fr": "Prend le contrôle de Berkshire Hathaway." } },
       { "year": 1988, "text": { "zh": "投资可口可乐成为经典案例。", "en": "Coca-Cola investment becomes a classic case.", "es": "La inversión en Coca-Cola se vuelve un caso clásico.", "fr": "L'investissement Coca-Cola devient un cas classique." } },
+      { "year": 1999, "text": { "zh": "并购通用再保险完善保险版图。", "en": "Acquired General Re to expand insurance platform.", "es": "Adquirió General Re para ampliar la plataforma aseguradora.", "fr": "Acquiert General Re pour étendre la plateforme d'assurance." } },
+      { "year": 2011, "text": { "zh": "配置IBM并在后续退出。", "en": "Allocated to IBM and later exited.", "es": "Asignó a IBM y luego salió.", "fr": "Alloue à IBM puis se retire." } },
       { "year": 2008, "text": { "zh": "危机期间向高盛与通用电气提供融资。", "en": "Financed Goldman Sachs and GE during crisis.", "es": "Financió a Goldman Sachs y GE durante la crisis.", "fr": "Finance Goldman Sachs et GE pendant la crise." } },
       { "year": 2016, "text": { "zh": "加仓苹果成为核心重仓。", "en": "Increased Apple stake to core holding.", "es": "Aumentó participación en Apple a núcleo.", "fr": "Augmente la position Apple en cœur de portefeuille." } },
       { "year": 2022, "text": { "zh": "增持西方石油并发表长期看好。", "en": "Added Occidental stake; expressed long-term optimism.", "es": "Aumentó participación en Occidental; optimismo a largo plazo.", "fr": "Augmente la position Occidental; optimisme à long terme." } }
@@ -1176,6 +1232,12 @@
       "en": "~29% annual during Magellan tenure; numerous tenbagger cases.",
       "es": "~29% anual en su mandato en Magellan; numerosos tenbaggers.",
       "fr": "~29% annuel au Magellan; nombreux tenbaggers." 
+    },
+    "cases": {
+      "zh": ["1977年接管麦哲伦基金并实现年均约29%","1980年代发掘多只十倍股","1990年出版《战胜华尔街》"],
+      "en": ["1977 took over Magellan ~29% annual","1980s found multiple tenbaggers","1990 published One Up on Wall Street"],
+      "es": ["1977 asumió Magellan ~29% anual","años 80 múltiples tenbaggers","1990 publicó One Up on Wall Street"],
+      "fr": ["1977 prend Magellan ~29% annuel","années 80 plusieurs tenbaggers","1990 publie One Up on Wall Street"]
     },
     "works": {
       "zh": ["彼得林奇的成功投资", "战胜华尔街"],
@@ -1230,6 +1292,12 @@
       "es": "Corto GBP en 1992 con ~$1B; múltiples temas macro con retornos elevados.",
       "fr": "Vente GBP 1992 ~1 Md$; plusieurs thèmes macro aux retours élevés." 
     },
+    "cases": {
+      "zh": ["1992年做空英镑（黑色星期三）","1997年亚洲金融危机期间的宏观交易","2008年金融危机中的多资产配置"],
+      "en": ["1992 Black Wednesday GBP short","1997 Asian Financial Crisis macro trades","2008 multi-asset positioning in crisis"],
+      "es": ["1992 Miércoles Negro corto GBP","1997 operaciones macro en la crisis asiática","2008 posicionamiento multi-activo en crisis"],
+      "fr": ["1992 Mercredi noir vente GBP","1997 trades macro durant la crise asiatique","2008 positionnement multi-actifs en crise"]
+    },
     "works": {
       "zh": ["金融炼金术"],
       "en": ["The Alchemy of Finance"],
@@ -1252,6 +1320,7 @@
       { "year": 1973, "text": { "zh": "创立量子基金。", "en": "Founded Quantum Fund.", "es": "Fundó Quantum Fund.", "fr": "Fonde le Quantum Fund." } },
       { "year": 1992, "text": { "zh": "黑色星期三做空英镑。", "en": "Shorted GBP on Black Wednesday.", "es": "Corto GBP en Miércoles Negro.", "fr": "Vente à découvert de la GBP lors du Mercredi noir." } },
       { "year": 1997, "text": { "zh": "围绕亚洲金融危机实施宏观交易。", "en": "Macro trades around Asian Financial Crisis.", "es": "Operaciones macro alrededor de la Crisis Asiática.", "fr": "Trades macro autour de la crise financière asiatique." } },
+      { "year": 1989, "text": { "zh": "布局欧洲与新兴市场主题。", "en": "Positioned in Europe and EM themes.", "es": "Posiciones en Europa y mercados emergentes.", "fr": "Positions en Europe et émergents." } },
       { "year": 2008, "text": { "zh": "金融危机期间进行多资产宏观配置。", "en": "Multi-asset macro positioning during the financial crisis.", "es": "Posicionamiento macro multi-activo durante la crisis financiera.", "fr": "Positionnement macro multi-actifs pendant la crise financière." } }
     ]
     ,
@@ -1283,6 +1352,12 @@
       "en": "Medallion Fund delivered extraordinary, steady net returns; a quantitative legend.",
       "es": "El Fondo Medallion entregó retornos netos extraordinarios y estables; una leyenda cuantitativa.",
       "fr": "Le Medallion a offert des retours nets extraordinaires et stables; une légende quantitative." 
+    },
+    "cases": {
+      "zh": ["1994年梅多利昂基金成型并持续优化","2003年扩展计算与数据基础设施规模","多模型集成提升风险调整回报"],
+      "en": ["1994 Medallion established and continually optimized","2003 scaled compute and data infrastructure","Multi-model integration improved risk-adjusted returns"],
+      "es": ["1994 Medallion establecido y optimizado","2003 escaló cómputo e infraestructura de datos","Integración multi-modelo mejoró retornos ajustados"],
+      "fr": ["1994 création et optimisation de Medallion","2003 montée en échelle du calcul et des données","Intégration multi-modèles améliore les retours ajustés"]
     },
     "works": {
       "zh": ["关于量化的访谈与演讲"],
@@ -1414,6 +1489,13 @@
     ]
     ,
     "tags": ["activist"]
+    ,
+    "cases": {
+      "zh": ["2012年做空康宝莱并公开辩论，持仓规模控制以应对波动与流动性","2020年通过疫情信用保护对冲，获得显著收益并快速退出"],
+      "en": ["2012 short Herbalife with public debate; controlled position sizing for volatility/liquidity","2020 pandemic credit protection hedge delivered strong gains with rapid exit"],
+      "es": ["2012 corto Herbalife y debate público; tamaño de posición controlado por volatilidad/liquidez","2020 cobertura de protección crediticia por pandemia con fuertes ganancias y salida rápida"],
+      "fr": ["2012 short Herbalife et débat public; taille de position contrôlée pour volatilité/liquidité","2020 couverture de protection de crédit pandémie avec forts gains et sortie rapide"]
+    }
   },
   {
     "id": "burry",
@@ -1467,6 +1549,13 @@
     ]
     ,
     "tags": ["value", "short"]
+    ,
+    "cases": {
+      "zh": ["2005-2007年购买次贷CDS保护并做空相关结构性产品，控制期限与对手风险，获得显著收益"],
+      "en": ["2005–2007 bought subprime CDS protection and shorted related structured products; controlled term and counterparty risks; achieved significant gains"],
+      "es": ["2005–2007 compró protección CDS subprime y cortó productos estructurados relacionados; controló plazo y riesgos de contraparte; logró ganancias significativas"],
+      "fr": ["2005–2007 achète des CDS subprime et short des produits structurés liés; contrôle maturité et risque de contrepartie; obtient des gains significatifs"]
+    }
   },
   {
     "id": "wood",
@@ -1633,6 +1722,12 @@
       "es": "Retornos estables a largo plazo; desempeño resiliente en crisis.",
       "fr": "Retours stables long terme; performance résiliente en crise."
     },
+    "cases": {
+      "zh": ["提出全天候组合理念","风险平价框架应用于多资产配置","危机期保持较强的抗压表现", { "year": 1996, "asset": "多资产全天候组合", "position": "风险平价权重", "hedge": "多元对冲", "result": "跨危机的稳健表现", "notes": "参考权重：股~30%、长债~40%、中债~15%、商品~7.5%、金~7.5%" }],
+      "en": ["Articulated All Weather portfolio","Applied risk parity to multi-asset allocation","Resilient crisis-period performance", { "year": 1996, "asset": "Multi-asset All Weather", "position": "Risk parity weights", "hedge": "Diversified hedges", "result": "Resilient across crises", "notes": "Reference weights: Eq~30%, Long Treasuries~40%, Intermediate Bonds~15%, Commodities~7.5%, Gold~7.5%" }],
+      "es": ["Articuló cartera All Weather","Aplicó paridad de riesgo a multi-activos","Desempeño resiliente en crisis"],
+      "fr": ["Formalise le portefeuille All Weather","Applique la parité de risque au multi-actifs","Performance résiliente en crise"]
+    },
     "works": {
       "zh": ["原则"],
       "en": ["Principles"],
@@ -1655,6 +1750,8 @@
       { "year": 1975, "text": { "zh": "创立桥水基金。", "en": "Founded Bridgewater Associates.", "es": "Fundó Bridgewater Associates.", "fr": "Fonde Bridgewater Associates." } },
       { "year": 1996, "text": { "zh": "提出全天候组合理念。", "en": "Articulated All Weather portfolio.", "es": "Articuló la cartera All Weather.", "fr": "Formalise le portefeuille All Weather." } },
       { "year": 2008, "text": { "zh": "在金融危机中展现稳健表现。", "en": "Displayed resilience during the financial crisis.", "es": "Mostró resiliencia en la crisis financiera.", "fr": "Montre une résilience durant la crise financière." } }
+      ,
+      { "year": 2011, "text": { "zh": "阐述经济机器视频与公开教育。", "en": "Explained the Economic Machine video and public education.", "es": "Explicó la Máquina Económica en video y educación pública.", "fr": "Explique la Machine économique en vidéo et éducation publique." } }
     ]
     ,
     "tags": ["macro", "risk-parity", "discretionary"]
@@ -1685,6 +1782,16 @@
       "en": "Profited significantly shorting during 1987 Black Monday.",
       "es": "Ganó significativamente con cortos en el Lunes Negro de 1987.",
       "fr": "Profite significativement en vendant à découvert lors du Lundi noir 1987."
+    },
+    "cases": {
+      "zh": ["1987年黑色星期一前后做空标普500期货并以美债对冲，年度收益三位数", { "year": 1987, "asset": "标普500期货", "position": "空头集中", "hedge": "美债对冲", "result": "年度收益三位数", "notes": "趋势验证后加仓，快速止损" }],
+      "en": ["Around 1987 Black Monday, shorted S&P 500 futures with Treasury hedges; triple-digit annual return", { "year": 1987, "asset": "S&P 500 futures", "position": "Concentrated short", "hedge": "Treasury hedges", "result": "Triple-digit annual return", "notes": "Pressed after trend validation; fast cut-loss" }]
+    },
+    "cases": {
+      "zh": ["1987年黑色星期一前后做空标普500期货并以美债对冲，年度收益三位数","在宏观趋势验证时集中火力","强调快速止损与仓位敏捷"],
+      "en": ["Around 1987 Black Monday, shorted S&P 500 futures with Treasury hedges; triple-digit annual return","Pressed when macro trends validate","Emphasized fast cut-loss and agile sizing"],
+      "es": ["Alrededor de 1987 Lunes Negro, cortos en futuros S&P 500 con cobertura en Treasuries; retorno anual de triple dígito","Presionó cuando las tendencias macro se validan","Enfatizó cortar pérdidas rápido y tamaños ágiles"],
+      "fr": ["Autour du Lundi noir 1987, ventes à découvert de futures S&P 500 avec couverture en Treasuries; rendement annuel à trois chiffres","Appuie quand les tendances macro se valident","Met l'accent sur coupe rapide des pertes et tailles agiles"]
     },
     "timeline": [
       { "year": 1980, "text": { "zh": "创立都铎投资公司。", "en": "Founded Tudor Investment Corporation.", "es": "Fundó Tudor Investment Corporation.", "fr": "Fonde Tudor Investment Corporation." } },
@@ -1719,6 +1826,12 @@
       "en": "Profited significantly shorting during 1987 Black Monday.",
       "es": "Ganó significativamente con cortos en el Lunes Negro de 1987.",
       "fr": "Profite significativement en vendant à découvert lors du Lundi noir 1987."
+    },
+    "cases": {
+      "zh": ["1987年黑色星期一前后做空标普500期货并以美债对冲，年度收益三位数","在宏观趋势验证时集中火力","强调快速止损与仓位敏捷"],
+      "en": ["Around 1987 Black Monday, shorted S&P 500 futures with Treasury hedges; triple-digit annual return","Pressed when macro trends validate","Emphasized fast cut-loss and agile sizing"],
+      "es": ["Alrededor de 1987 Lunes Negro, cortos en futuros S&P 500 con cobertura en Treasuries; retorno anual de triple dígito","Presionó cuando las tendencias macro se validan","Enfatizó cortar pérdidas rápido y tamaños ágiles"],
+      "fr": ["Autour du Lundi noir 1987, ventes à découvert de futures S&P 500 avec couverture en Treasuries; rendement annuel à trois chiffres","Appuie quand les tendances macro se valident","Met l'accent sur coupe rapide des pertes et tailles agiles"]
     },
     "works": {
       "zh": ["关于风险与趋势的访谈"],
@@ -1772,6 +1885,12 @@
       "es": "Resultados destacados con Soros; historial personal excepcional.",
       "fr": "Résultats remarquables avec Soros; parcours personnel exceptionnel."
     },
+    "cases": {
+      "zh": ["与索罗斯合作参与黑色星期三交易","在强认知与验证下集中押注","快速纠错并调整仓位", { "year": 1992, "asset": "英镑", "position": "高杠杆空头", "hedge": "跨货币对冲", "result": "显著盈利", "notes": "黑色星期三事件" }],
+      "en": ["Partnered with Soros on Black Wednesday","Pressed when conviction and validation align","Cut errors quickly and resized", { "year": 1992, "asset": "GBP", "position": "High-leverage short", "hedge": "Cross-currency hedges", "result": "Significant profit", "notes": "Black Wednesday" }],
+      "es": ["Con Soros en Miércoles Negro","Presionó con convicción y validación","Corrigió errores rápido y ajustó tamaños"],
+      "fr": ["Avec Soros lors du Mercredi noir","Appuie quand conviction et validation s'alignent","Corrige vite et ajuste les tailles"]
+    },
     "works": {
       "zh": ["关于集中与灵活的演讲"],
       "en": ["Talks on concentration and flexibility"],
@@ -1793,6 +1912,8 @@
     "timeline": [
       { "year": 1988, "text": { "zh": "加入量子基金担任首席投资。", "en": "Joined Quantum Fund as chief investor.", "es": "Se unió al Quantum como inversor jefe.", "fr": "Rejoint le Quantum comme investisseur en chef." } },
       { "year": 1992, "text": { "zh": "参与黑色星期三宏观交易。", "en": "Participated in Black Wednesday macro trade.", "es": "Participó en la operativa del Miércoles Negro.", "fr": "Participe au trade du Mercredi noir." } }
+      ,
+      { "year": 2000, "text": { "zh": "独立管理资金并保持优异回报。", "en": "Managed independently with continued strong returns.", "es": "Gestionó de forma independiente con retornos fuertes.", "fr": "Gère indépendamment avec de forts retours." } }
     ]
     ,
     "tags": ["macro"]
@@ -1824,6 +1945,12 @@
       "es": "Formó leyendas; métodos duraderos.",
       "fr": "A formé des légendes; méthodes durables."
     },
+    "cases": {
+      "zh": ["提出安全边际与内在价值框架","培养多位传奇投资者","出版《证券分析》《聪明的投资者》"],
+      "en": ["Articulated margin of safety and intrinsic value","Mentored legendary investors","Published Security Analysis and The Intelligent Investor"],
+      "es": ["Articuló margen de seguridad y valor intrínseco","Formó inversores legendarios","Publicó Security Analysis y The Intelligent Investor"],
+      "fr": ["Formalise marge de sécurité et valeur intrinsèque","Forme des investisseurs légendaires","Publie Security Analysis et The Intelligent Investor"]
+    },
     "works": {
       "zh": ["证券分析", "聪明的投资者"],
       "en": ["Security Analysis", "The Intelligent Investor"],
@@ -1845,6 +1972,8 @@
     "timeline": [
       { "year": 1934, "text": { "zh": "出版《证券分析》。", "en": "Published Security Analysis.", "es": "Publicó Security Analysis.", "fr": "Publie Security Analysis." } },
       { "year": 1949, "text": { "zh": "出版《聪明的投资者》。", "en": "Published The Intelligent Investor.", "es": "Publicó The Intelligent Investor.", "fr": "Publie The Intelligent Investor." } }
+      ,
+      { "year": 1932, "text": { "zh": "提出市先生寓言，强调理性与纪律。", "en": "Introduced Mr. Market allegory; emphasized rational discipline.", "es": "Introdujo la alegoría del Sr. Mercado; enfatizó disciplina racional.", "fr": "Introduit l'allégorie de M. Marché; souligne discipline rationnelle." } }
     ]
     ,
     "tags": ["value"]
@@ -1928,6 +2057,12 @@
       "es": "Cocreó el éxito a largo plazo de Berkshire con Buffett.",
       "fr": "Cocrée la réussite long terme de Berkshire avec Buffett."
     },
+    "cases": {
+      "zh": ["推动收购喜诗糖果树立品质与护城河范式","强调多元思维模型与高质量持有","与巴菲特共创伯克希尔长期成功", { "year": 1972, "asset": "喜诗糖果", "position": "并购约$2500万", "result": "现金牛与品牌护城河", "notes": "质量与价格的权衡典范" }],
+      "en": ["Drove See's Candies acquisition, quality moat paradigm","Emphasized latticework of mental models and quality holdings","Co-created Berkshire's long-term success", { "year": 1972, "asset": "See's Candies", "position": "Acquisition ~$25M", "result": "Cash cow, brand moat", "notes": "Quality vs price paradigm" }],
+      "es": ["Impulsó la compra de See's, paradigma de foso","Enfatizó red de modelos mentales y tenencias de calidad","Cocreó el éxito largo de Berkshire"],
+      "fr": ["Impulse l'acquisition de See's, paradigme de fossé","Souligne réseau de modèles mentaux et positions de qualité","Cocrée la réussite long terme de Berkshire"]
+    },
     "works": {
       "zh": ["穷查理宝典"],
       "en": ["Poor Charlie's Almanack"],
@@ -1949,6 +2084,8 @@
     "timeline": [
       { "year": 1972, "text": { "zh": "推动收购喜诗糖果，树立品质与护城河范式。", "en": "Drove See's Candies acquisition, quality moat paradigm.", "es": "Impulsó la compra de See's Candies, paradigma de calidad y foso.", "fr": "Impulse l'acquisition de See's Candies, paradigme de qualité et fossé." } },
       { "year": 1978, "text": { "zh": "出任伯克希尔副董事长。", "en": "Became Berkshire vice chairman.", "es": "Se convirtió en vicepresidente de Berkshire.", "fr": "Devient vice-président de Berkshire." } }
+      ,
+      { "year": 1994, "text": { "zh": "强调少而精与高质量持有。", "en": "Emphasized few high-quality holdings.", "es": "Enfatizó pocas tenencias de alta calidad.", "fr": "Souligne des positions peu nombreuses et de haute qualité." } }
     ]
     ,
     "tags": ["value", "quality"]
@@ -1980,6 +2117,12 @@
       "es": "La indexación democratizó la inversión; superación frente a activo caro a largo plazo.",
       "fr": "L'indexation a démocratisé l'investissement; surperformance vs actif coûteux à long terme."
     },
+    "cases": {
+      "zh": ["推出首只指数基金推动普惠投资","倡导低费率与长期被动持有","指数化长期跑赢高费率主动", { "year": 1976, "asset": "Vanguard 500 指数基金", "position": "宽基被动", "result": "长期跑赢高费率主动", "notes": "极简与纪律化" }],
+      "en": ["Launched first index fund, democratized investing","Advocated low fees and long passive holding","Indexing outperformed high-fee active long-term", { "year": 1976, "asset": "Vanguard 500 Index Fund", "position": "Broad passive", "result": "Long-term outperformance vs high-fee active", "notes": "Minimalist and disciplined" }],
+      "es": ["Lanzó primer fondo índice, democratizó inversión","Defendió bajas comisiones y tenencia pasiva","Indexación superó activo caro a largo plazo"],
+      "fr": ["Lance le premier fonds indiciel, démocratise l'investissement","Plaide pour faibles frais et détention passive","L'indexation surperforme l'actif coûteux long terme"]
+    },
     "works": {
       "zh": ["共同基金常识"],
       "en": ["The Little Book of Common Sense Investing"],
@@ -2001,6 +2144,8 @@
     "timeline": [
       { "year": 1974, "text": { "zh": "创立先锋集团。", "en": "Founded Vanguard.", "es": "Fundó Vanguard.", "fr": "Fonde Vanguard." } },
       { "year": 1976, "text": { "zh": "推出首只指数基金。", "en": "Launched first index fund.", "es": "Lanzó el primer fondo índice.", "fr": "Lance le premier fonds indiciel." } }
+      ,
+      { "year": 1999, "text": { "zh": "推广指数基金理念与低费率教育。", "en": "Promoted indexing philosophy and low-fee education.", "es": "Promovió la filosofía de indexación y educación de bajas comisiones.", "fr": "Promeut la philosophie indicielle et l'éducation aux faibles frais." } }
     ]
     ,
     "tags": ["index", "passive"]

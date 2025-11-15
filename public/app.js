@@ -97,7 +97,12 @@ async function fetchInvestors(lang) {
           strategy: pick(i.strategy),
           wins: pick(i.wins),
           timeline: (i.timeline || []).map(ev => ({ year: ev.year, text: pick(ev.text) })),
-          tags: i.tags || []
+          tags: i.tags || [],
+          works: pick(i.works) || [],
+          quotes: pick(i.quotes) || [],
+          lessons: pick(i.lessons) || [],
+          links: pick(i.links) || [],
+          cases: pick(i.cases) || []
         }));
       }
     }
@@ -107,10 +112,94 @@ async function fetchInvestors(lang) {
 
 function render() {
   const t = state.locale || {};
+  try { document.documentElement.lang = state.lang || "zh"; } catch {}
   const title = document.getElementById("title");
   const label = document.getElementById("lang-label");
   title.textContent = t.title || "World-Famous Investors Timeline";
   label.textContent = t.language || "Language";
+  if (t.title) { document.title = t.title; }
+  const metaDesc = document.getElementById("meta-description");
+  if (metaDesc) {
+    const descMap = {
+      zh: "世界知名投资人时间线，支持风格分组、多语言与年份范围筛选",
+      en: "Global investors timeline with style groups, multilingual and year range filters",
+      es: "Cronología de inversores con grupos de estilo, multilingüe y filtros de años",
+      fr: "Chronologie des investisseurs avec groupes de style, multilingue et filtres d'années"
+    };
+    metaDesc.setAttribute("content", (t.seo_description || descMap[state.lang] || metaDesc.getAttribute("content") || ""));
+  }
+  const metaKw = document.getElementById("meta-keywords");
+  if (metaKw) {
+    const baseKw = {
+      zh: [
+        "投资人","世界知名","时间线","风格","价值投资","宏观","量化","CTA","趋势","风险平价","事件驱动","并购套利","债券","指数","成长","主题",
+        "巴菲特","索罗斯","西蒙斯","林奇","格雷厄姆","芒格","博格尔","德鲁肯米勒","达利欧","格里芬","阿克曼","伯里","保尔森","马克思","格林布拉特","费雪","斯文森","罗杰斯","利弗莫尔","邓普顿","约翰·内夫","沃尔特·施洛斯","菲利普·卡雷特","李录","伊坎","泰珀","卡拉曼","比尔·格罗斯","埃德·塞科塔","理查德·丹尼斯","比尔·丹恩","大卫·哈丁","路易斯·培根","布鲁斯·科夫纳","杰弗里·冈拉克","AQR","Two Sigma","D. E. Shaw","Man AHL","文艺复兴科技","Winton","Dunn Capital"
+      ],
+      en: [
+        "investors","world-famous","timeline","styles","value investing","macro","quant","CTA","trend","risk parity","event-driven","merger arbitrage","bonds","index","growth","thematic",
+        "Warren Buffett","George Soros","Jim Simons","Peter Lynch","Benjamin Graham","Charlie Munger","John Bogle","Stanley Druckenmiller","Ray Dalio","Ken Griffin","Bill Ackman","Michael Burry","John Paulson","Howard Marks","Joel Greenblatt","Philip Fisher","David Swensen","Jim Rogers","Jesse Livermore","John Templeton","John Neff","Walter Schloss","Philip Carret","Li Lu","Carl Icahn","David Tepper","Seth Klarman","Bill Gross","Ed Seykota","Richard Dennis","Bill Dunn","David Harding","Louis Bacon","Bruce Kovner","Jeffrey Gundlach","AQR","Two Sigma","D. E. Shaw","Man AHL","Renaissance Technologies","Winton","Dunn Capital"
+      ],
+      es: ["inversores","cronología","estilos","inversión de valor","macro","cuantitativo","CTA","tendencia","paridad de riesgo","eventos","arbitraje de fusiones","bonos","índice","crecimiento","temático"],
+      fr: ["investisseurs","chronologie","styles","investissement de valeur","macro","quant","CTA","tendance","parité de risque","événementiel","arbitrage de fusion","obligations","indice","croissance","thématique"]
+    };
+    const names = (state.investors || []).map(i => i.name).filter(Boolean);
+    const tagSetAll = new Set();
+    (state.investors || []).forEach(i => (i.tags || []).forEach(s => tagSetAll.add(s)));
+    const tagLabels = Array.from(tagSetAll).map(k => (state.locale && state.locale.tags && state.locale.tags[k]) || k);
+    const groupLabels = state.locale && state.locale.groups ? Object.keys(state.locale.groups).map(k => state.locale.groups[k]).filter(Boolean) : [];
+    const kw = [].concat(baseKw[state.lang] || [], names, tagLabels, groupLabels).map(s => String(s)).filter(Boolean);
+    const seen = new Set();
+    const uniq = kw.filter(s => { const key = s.toLowerCase(); if (seen.has(key)) return false; seen.add(key); return true; }).slice(0, 50);
+    metaKw.setAttribute("content", uniq.join(", "));
+  }
+  const canonical = document.getElementById("canonical");
+  const ogTitle = document.getElementById("og-title");
+  const ogDesc = document.getElementById("og-description");
+  const ogUrl = document.getElementById("og-url");
+  const twTitle = document.getElementById("tw-title");
+  const twDesc = document.getElementById("tw-description");
+  const abs = (() => {
+    try {
+      const base = `${location.origin}${location.pathname}`;
+      const url = new URL(base);
+      url.search = state.lang ? `?lang=${state.lang}` : "";
+      return url.toString();
+    } catch { return "/"; }
+  })();
+  if (canonical) canonical.setAttribute("href", abs);
+  if (ogUrl) ogUrl.setAttribute("content", abs);
+  const ogLocaleEl = document.getElementById("og-locale");
+  if (ogLocaleEl) {
+    const locMap = { zh: "zh_CN", en: "en_US", es: "es_ES", fr: "fr_FR" };
+    ogLocaleEl.setAttribute("content", locMap[state.lang] || "zh_CN");
+  }
+  const tt = t.title || document.title || "World-Famous Investors Timeline";
+  const td = (t.seo_description || (metaDesc ? metaDesc.getAttribute("content") : "")) || "";
+  if (ogTitle) ogTitle.setAttribute("content", tt);
+  if (ogDesc) ogDesc.setAttribute("content", td);
+  if (twTitle) twTitle.setAttribute("content", tt);
+  if (twDesc) twDesc.setAttribute("content", td);
+  const sd = document.getElementById("structured-data");
+  if (sd) {
+    try {
+      const obj = JSON.parse(sd.textContent || "{}");
+      obj.name = t.title || obj.name || "World-Famous Investors Timeline";
+      obj.url = abs;
+      obj.potentialAction = obj.potentialAction || { "@type": "SearchAction", target: "/?q={search_term_string}", "query-input": "required name=search_term_string" };
+      sd.textContent = JSON.stringify(obj);
+    } catch {}
+  }
+  const sdPage = document.getElementById("structured-page");
+  if (sdPage) {
+    try {
+      const obj2 = JSON.parse(sdPage.textContent || "{}");
+      obj2.name = t.title || obj2.name || "World-Famous Investors Timeline";
+      obj2.url = abs;
+      const kwNow = metaKw ? metaKw.getAttribute("content") || "" : "";
+      obj2.keywords = kwNow;
+      sdPage.textContent = JSON.stringify(obj2);
+    } catch {}
+  }
   const themeLabel = document.getElementById("theme-label");
   if (themeLabel) {
     const themeMap = { zh: "主题", en: "Theme", es: "Tema", fr: "Thème" };
@@ -222,6 +311,10 @@ function render() {
     card.className = "card";
     const h = document.createElement("h2");
     h.textContent = inv.name;
+    const view = document.createElement("a");
+    view.href = `/investors/${inv.id}?lang=${state.lang}`;
+    view.className = "chip";
+    view.textContent = (t.view_page || (state.lang === 'zh' ? '查看详情页' : 'View Page'));
     const summary = document.createElement("p");
     summary.className = "summary";
     summary.textContent = inv.summary;
@@ -333,6 +426,20 @@ function render() {
       const w = makeList((t.works || "Works"), inv.works);
       const q = makeList((t.quotes || "Quotes"), inv.quotes);
       const l = makeList((t.lessons || "Lessons"), inv.lessons);
+      const formatCase = x => {
+        if (typeof x === "string") return x;
+        if (!x || typeof x !== "object") return "";
+        const year = x.year != null ? String(x.year) : "";
+        const asset = x.asset ? String(x.asset) : "";
+        const position = x.position ? String(x.position) : "";
+        const hedge = x.hedge ? `Hedge: ${x.hedge}` : "";
+        const result = x.result ? `Result: ${x.result}` : "";
+        const notes = x.notes ? String(x.notes) : "";
+        const parts = [year, asset, position, hedge, result].filter(Boolean);
+        const head = parts.join(" · ");
+        return notes ? `${head}${head ? " — " : ""}${notes}` : head || notes;
+      };
+      const c = makeList((t.cases || (state.lang === 'zh' ? '代表案例' : 'Cases')), (inv.cases || []).map(formatCase));
       const makeLinks = (title, arr) => {
         if (!arr || !arr.length) return null;
         const box = document.createElement("div");
@@ -368,10 +475,11 @@ function render() {
         return box;
       };
       const ln = makeLinks((t.links || "Links"), inv.links);
-      [w,q,l,ln].forEach(b => { if (b) extra.appendChild(b); });
+      [w,q,l,c,ln].forEach(b => { if (b) extra.appendChild(b); });
       card.appendChild(extra);
     }
     card.appendChild(h);
+    card.appendChild(view);
     card.appendChild(summary);
     card.appendChild(meta);
     card.appendChild(axis);

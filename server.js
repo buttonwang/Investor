@@ -14,7 +14,7 @@ const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
 const supabase = SUPABASE_URL && SUPABASE_ANON_KEY ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public"), { maxAge: "7d", etag: true }));
 
 app.get("/api/health", (req, res) => {
   res.json({ ok: true });
@@ -80,6 +80,140 @@ app.get("/api/investors", async (req, res) => {
     res.json(Array.isArray(list) ? mapped : []);
   } catch (e) {
     res.json([]);
+  }
+});
+
+app.get("/robots.txt", (req, res) => {
+  const host = `${req.protocol}://${req.get("host")}`;
+  const body = `User-agent: *\nAllow: /\nSitemap: ${host}/sitemap.xml\n`;
+  res.type("text/plain").send(body);
+});
+
+app.get("/sitemap.xml", (req, res) => {
+  const host = `${req.protocol}://${req.get("host")}`;
+  const urls = ["/", "/?lang=zh", "/?lang=en", "/?lang=es", "/?lang=fr"].map(u => `${host}${u}`);
+  try {
+    const p = path.join(__dirname, "data", "investors.json");
+    const raw = require('fs').readFileSync(p, 'utf-8');
+    let list = JSON.parse(raw);
+    if (Array.isArray(list)) {
+      list.forEach(i => {
+        if (i && i.id) urls.push(`${host}/investors/${i.id}`);
+      });
+    }
+  } catch {}
+  const now = new Date().toISOString();
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    urls.map(u => `<url><loc>${u}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`).join("\n") +
+    `\n</urlset>`;
+  res.type("application/xml").send(xml);
+});
+
+app.get('/investors/:slug', async (req, res) => {
+  const slug = req.params.slug;
+  try {
+    const p = path.join(__dirname, 'data', 'investors.json');
+    const raw = await readFile(p, 'utf-8');
+    let list = JSON.parse(raw);
+    const item = Array.isArray(list) ? list.find(i => i.id === slug) : null;
+    if (!item) { res.status(404).send('Not Found'); return; }
+    const host = `${req.protocol}://${req.get('host')}`;
+    const url = `${host}/investors/${slug}`;
+    const pick = (obj, lang = 'zh') => {
+      if (!obj || typeof obj !== 'object') return obj || '';
+      const order = [lang, 'zh', 'en', 'es', 'fr'];
+      for (const k of order) { if (obj[k]) return obj[k]; }
+      const keys = Object.keys(obj); return obj[keys[0]];
+    };
+    const lang = (req.query.lang || 'zh').toString();
+    const name = pick(item.name, lang);
+    const summary = pick(item.summary, lang) || '';
+    const theory = pick(item.theory, lang) || '';
+    const strategy = pick(item.strategy, lang) || '';
+    const wins = pick(item.wins, lang) || '';
+    const works = pick(item.works, lang) || [];
+    const quotes = pick(item.quotes, lang) || [];
+    const lessons = pick(item.lessons, lang) || [];
+    const links = pick(item.links, lang) || [];
+    const cases = pick(item.cases, lang) || [];
+    const tags = item.tags || [];
+    const timeline = (item.timeline || []).map(ev => ({ year: ev.year, text: pick(ev.text, lang) }));
+    const keywords = [name].concat(tags);
+    const sameAs = Array.isArray(links) ? links.filter(x => x && x.url).map(x => x.url) : [];
+    const ogLocale = lang === 'zh' ? 'zh_CN' : lang === 'en' ? 'en_US' : lang === 'es' ? 'es_ES' : lang === 'fr' ? 'fr_FR' : 'zh_CN';
+    const orgIds = new Set(['man_ahl','renaissance','two_sigma','de_shaw']);
+    const isOrg = orgIds.has(slug);
+    const altLinks = [`<link rel="alternate" hreflang="zh" href="${url}?lang=zh" />`,`<link rel="alternate" hreflang="en" href="${url}?lang=en" />`,`<link rel="alternate" hreflang="es" href="${url}?lang=es" />`,`<link rel="alternate" hreflang="fr" href="${url}?lang=fr" />`,`<link rel="alternate" hreflang="x-default" href="${url}" />`].join('\n');
+    const html = `<!DOCTYPE html>
+<html lang="${lang}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>${name} - 世界知名投资人时间线</title>
+<link rel="stylesheet" href="/styles.css" />
+<link rel="canonical" href="${url}${lang ? `?lang=${lang}` : ''}" />
+${altLinks}
+<meta name="description" content="${summary}" />
+<meta name="keywords" content="${keywords.join(', ')}" />
+<meta name="robots" content="index, follow" />
+<meta property="og:type" content="${isOrg ? 'organization' : 'profile'}" />
+<meta property="og:title" content="${name}" />
+<meta property="og:description" content="${summary}" />
+<meta property="og:url" content="${url}" />
+<meta property="og:locale" content="${ogLocale}" />
+<script type="application/ld+json">${JSON.stringify(isOrg ? {
+  '@context': 'https://schema.org', '@type': 'Organization', name, description: summary, url, sameAs
+} : {
+  '@context': 'https://schema.org', '@type': 'Person', name, description: summary, url, sameAs,
+  knowsAbout: tags
+})}</script>
+</head>
+<body>
+<header class="header"><h1>${name}</h1><a class="chip" href="/">返回首页</a></header>
+<main id="content" style="max-width:960px;margin:24px auto;padding:0 16px;">
+  <section class="card">
+    <h2>${name}</h2>
+    <p class="summary">${summary}</p>
+    <div class="meta">
+      <div class="tags">${tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      <div><strong>投资理念</strong>: ${theory}</div>
+      <div><strong>投资策略</strong>: ${strategy}</div>
+      <div><strong>代表性成绩</strong>: ${wins}</div>
+    </div>
+    <div class="axis">
+      <div class="axis-line"></div>
+      <div class="axis-ticks"></div>
+      <div class="axis-markers"></div>
+    </div>
+    <h3>时间线</h3>
+    <ul class="events">
+      ${timeline.map(ev => `<li><span class="year">${ev.year}</span><span class="text">${ev.text}</span></li>`).join('')}
+    </ul>
+    ${Array.isArray(cases) && cases.length ? `<div><h4>${lang==='zh'?'代表案例':'Cases'}</h4><ul>${cases.map(x => {
+      if (typeof x === 'string') return `<li>${x}</li>`;
+      if (!x || typeof x !== 'object') return '';
+      const year = x.year != null ? String(x.year) : '';
+      const asset = x.asset ? String(x.asset) : '';
+      const position = x.position ? String(x.position) : '';
+      const hedge = x.hedge ? `Hedge: ${x.hedge}` : '';
+      const result = x.result ? `Result: ${x.result}` : '';
+      const notes = x.notes ? String(x.notes) : '';
+      const parts = [year, asset, position, hedge, result].filter(Boolean);
+      const head = parts.join(' · ');
+      const txt = notes ? `${head}${head ? ' — ' : ''}${notes}` : head || notes;
+      return `<li>${txt}</li>`;
+    }).join('')}</ul></div>` : ''}
+    ${Array.isArray(works) && works.length ? `<div><h4>${lang==='zh'?'著作':'Works'}</h4><ul>${works.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+    ${Array.isArray(quotes) && quotes.length ? `<div><h4>${lang==='zh'?'语录':'Quotes'}</h4><ul>${quotes.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+    ${Array.isArray(lessons) && lessons.length ? `<div><h4>${lang==='zh'?'失败教训':'Lessons'}</h4><ul>${lessons.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+    ${Array.isArray(links) && links.length ? `<div><h4>${lang==='zh'?'链接':'Links'}</h4><ul>${links.map(x => `<li><a href="${x.url}" target="_blank" rel="noopener noreferrer">${x.label || x.url}</a></li>`).join('')}</ul></div>` : ''}
+  </section>
+</main>
+</body>
+</html>`;
+    res.type('text/html').send(html);
+  } catch (e) {
+    res.status(500).send('Server Error');
   }
 });
 

@@ -19,6 +19,7 @@
   "works": "著作",
   "quotes": "语录",
   "lessons": "失败教训",
+  "cases": "代表案例",
   "links": "链接",
   "link_types": {
     "website": "官网",
@@ -31,6 +32,7 @@
   "theme_dark": "暗色",
   "theme_light": "亮色",
   "reset": "重置筛选",
+  "view_page": "查看详情页",
   "tags": {
     "macro": "宏观",
     "value": "价值",

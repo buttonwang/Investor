@@ -19,6 +19,7 @@
   "works": "Works",
   "quotes": "Quotes",
   "lessons": "Lessons",
+  "cases": "Cases",
   "links": "Links",
   "link_types": {
     "website": "Website",
@@ -31,6 +32,7 @@
   "theme_dark": "Dark",
   "theme_light": "Light",
   "reset": "Reset Filters",
+  "view_page": "View Page",
   "tags": {
     "macro": "Macro",
     "value": "Value",
