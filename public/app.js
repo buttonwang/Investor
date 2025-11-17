@@ -1,4 +1,4 @@
-const state = { lang: "zh", locale: null, investors: [], yearRange: { min: null, max: null, globalMin: null, globalMax: null }, tags: [], filterTags: new Set(), search: "", sort: "default", detailsOpen: {}, theme: "dark", selectedGroups: new Set() };
+const state = { lang: "zh", locale: null, investors: [], yearRange: { min: null, max: null, globalMin: null, globalMax: null }, tags: [], filterTags: new Set(), search: "", sort: "default", detailsOpen: {}, theme: "light", selectedGroups: new Set() };
 
 function detectLang() {
   const map = { zh: "zh", "zh-CN": "zh", "zh-TW": "zh", en: "en", "en-US": "en", es: "es", "es-ES": "es", fr: "fr", "fr-FR": "fr" };
@@ -234,6 +234,7 @@ function render() {
     Array.from(themeSel.options).forEach(o => { if (map[o.value]) o.textContent = map[o.value]; });
     themeSel.value = state.theme || "dark";
     document.body.dataset.theme = state.theme || "dark";
+    try { document.cookie = `theme=${state.theme || "dark"}; path=/; max-age=${60*60*24*365}`; } catch {}
   }
   if (resetBtn) {
     resetBtn.textContent = (t.reset || "Reset Filters");
@@ -312,7 +313,7 @@ function render() {
     const h = document.createElement("h2");
     h.textContent = inv.name;
     const view = document.createElement("a");
-    view.href = `/investors/${inv.id}?lang=${state.lang}`;
+    view.href = `/investors/${inv.id}?lang=${state.lang}&theme=${state.theme}`;
     view.className = "chip";
     view.textContent = (t.view_page || (state.lang === 'zh' ? '查看详情页' : 'View Page'));
     const summary = document.createElement("p");
@@ -397,102 +398,20 @@ function render() {
     axis.appendChild(axisMarkers);
     const tlTitle = document.createElement("h3");
     tlTitle.textContent = t.timeline || "Timeline";
-    const toggle = document.createElement("button");
-    toggle.type = "button";
-    const opened = !!state.detailsOpen[inv.id];
-    toggle.textContent = opened ? (t.collapse || "Collapse") : (t.details || "Details");
-    toggle.className = "chip";
-    toggle.addEventListener("click", () => {
-      state.detailsOpen[inv.id] = !opened;
-      render();
-      updateQuery();
-    });
     const tl = document.createElement("ul");
     tl.className = "events";
-    const showEvents = opened ? (filtered.length ? filtered : all) : ((filtered.length ? filtered : all).slice(0, Math.min((filtered.length ? filtered : all).length, 3)));
+    const showEvents = (filtered.length ? filtered : all).slice(0, Math.min((filtered.length ? filtered : all).length, 3));
     showEvents.forEach(ev => {
       const li = document.createElement("li");
       li.innerHTML = `<span class="year">${ev.year}</span><span class="text">${ev.text}</span>`;
       tl.appendChild(li);
     });
-    if (opened) {
-      const extra = document.createElement("div");
-      const makeList = (title, arr) => {
-        if (!arr || !arr.length) return null;
-        const h = document.createElement("h4"); h.textContent = title;
-        const u = document.createElement("ul"); arr.forEach(x => { const li = document.createElement("li"); li.textContent = x; u.appendChild(li); });
-        const box = document.createElement("div"); box.appendChild(h); box.appendChild(u); return box;
-      };
-      const w = makeList((t.works || "Works"), inv.works);
-      const q = makeList((t.quotes || "Quotes"), inv.quotes);
-      const l = makeList((t.lessons || "Lessons"), inv.lessons);
-      const formatCase = x => {
-        if (typeof x === "string") return x;
-        if (!x || typeof x !== "object") return "";
-        const year = x.year != null ? String(x.year) : "";
-        const asset = x.asset ? String(x.asset) : "";
-        const position = x.position ? String(x.position) : "";
-        const hedge = x.hedge ? `Hedge: ${x.hedge}` : "";
-        const result = x.result ? `Result: ${x.result}` : "";
-        const size = x.size ? `Size: ${x.size}` : "";
-        const sizePct = x.size_pct ? `Size%: ${x.size_pct}` : "";
-        const volTarget = x.vol_target ? `Vol: ${x.vol_target}` : "";
-        const riskBudget = x.risk_budget ? `Risk: ${x.risk_budget}` : "";
-        const maxDD = x.max_dd ? `MaxDD: ${x.max_dd}` : "";
-        const pnl = x.pnl ? `PnL: ${x.pnl}` : "";
-        const duration = x.duration ? `Dur: ${x.duration}` : "";
-        const instruments = Array.isArray(x.instruments) && x.instruments.length ? `Inst: ${x.instruments.join("/")}` : "";
-        const notes = x.notes ? String(x.notes) : "";
-        const parts = [year, asset, position, hedge, result, size, sizePct, volTarget, riskBudget, maxDD, pnl, duration, instruments].filter(Boolean);
-        const head = parts.join(" · ");
-        return notes ? `${head}${head ? " — " : ""}${notes}` : head || notes;
-      };
-      const c = makeList((t.cases || (state.lang === 'zh' ? '代表案例' : 'Cases')), (inv.cases || []).map(formatCase));
-      const makeLinks = (title, arr) => {
-        if (!arr || !arr.length) return null;
-        const box = document.createElement("div");
-        const h = document.createElement("h4"); h.textContent = title; box.appendChild(h);
-        const typed = arr.filter(x => typeof x === "object" && x.url && x.type);
-        if (typed.length) {
-          const byType = {};
-          typed.forEach(x => { (byType[x.type] ||= []).push(x); });
-          Object.keys(byType).forEach(tp => {
-            const sub = document.createElement("h5");
-            const lbl = (state.locale && state.locale.link_types && state.locale.link_types[tp]) || tp;
-            sub.textContent = lbl;
-            const u = document.createElement("ul");
-            byType[tp].forEach(x => {
-              const li = document.createElement("li");
-              const a = document.createElement("a"); a.href = x.url; a.textContent = x.label || x.url; a.target = "_blank"; a.rel = "noopener noreferrer"; li.appendChild(a);
-              u.appendChild(li);
-            });
-            box.appendChild(sub);
-            box.appendChild(u);
-          });
-        } else {
-          const u = document.createElement("ul");
-          arr.forEach(x => {
-            const li = document.createElement("li");
-            if (typeof x === "object" && x.url) {
-              const a = document.createElement("a"); a.href = x.url; a.textContent = x.label || x.url; a.target = "_blank"; a.rel = "noopener noreferrer"; li.appendChild(a);
-            } else { li.textContent = String(x); }
-            u.appendChild(li);
-          });
-          box.appendChild(u);
-        }
-        return box;
-      };
-      const ln = makeLinks((t.links || "Links"), inv.links);
-      [w,q,l,c,ln].forEach(b => { if (b) extra.appendChild(b); });
-      card.appendChild(extra);
-    }
     card.appendChild(h);
     card.appendChild(view);
     card.appendChild(summary);
     card.appendChild(meta);
     card.appendChild(axis);
     card.appendChild(tlTitle);
-    card.appendChild(toggle);
     card.appendChild(tl);
     list.appendChild(card);
   });
@@ -728,6 +647,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     themeSel2.addEventListener("change", e => {
       state.theme = e.target.value;
       document.body.dataset.theme = state.theme || "dark";
+      try { document.cookie = `theme=${state.theme}; path=/; max-age=${60*60*24*365}`; } catch {}
       render();
       updateQuery();
     });
@@ -800,6 +720,12 @@ function parseQuery() {
   if (q) state.search = q;
   if (sort) state.sort = sort;
   if (theme) state.theme = theme;
+  if (!state.theme) {
+    try {
+      const m = document.cookie.match(/(?:^|; )theme=([^;]+)/);
+      if (m) state.theme = decodeURIComponent(m[1]);
+    } catch {}
+  }
 }
 
 function updateQuery() {

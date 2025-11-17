@@ -126,6 +126,14 @@ app.get('/investors/:slug', async (req, res) => {
       const keys = Object.keys(obj); return obj[keys[0]];
     };
     const lang = (req.query.lang || 'zh').toString();
+    let theme = (req.query.theme || '').toString();
+    if (!theme && req.headers.cookie) {
+      try {
+        const m = req.headers.cookie.match(/(?:^|; )theme=([^;]+)/);
+        if (m) theme = decodeURIComponent(m[1]);
+      } catch {}
+    }
+    if (!theme) theme = 'light';
     const name = pick(item.name, lang);
     const summary = pick(item.summary, lang) || '';
     const theory = pick(item.theory, lang) || '';
@@ -144,6 +152,7 @@ app.get('/investors/:slug', async (req, res) => {
     const orgIds = new Set(['man_ahl','renaissance','two_sigma','de_shaw']);
     const isOrg = orgIds.has(slug);
     const altLinks = [`<link rel="alternate" hreflang="zh" href="${url}?lang=zh" />`,`<link rel="alternate" hreflang="en" href="${url}?lang=en" />`,`<link rel="alternate" hreflang="es" href="${url}?lang=es" />`,`<link rel="alternate" hreflang="fr" href="${url}?lang=fr" />`,`<link rel="alternate" hreflang="x-default" href="${url}" />`].join('\n');
+    const backLabel = lang==='zh' ? '返回首页' : lang==='es' ? 'Volver' : lang==='fr' ? 'Retour' : 'Back';
     const html = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -167,9 +176,10 @@ ${altLinks}
   '@context': 'https://schema.org', '@type': 'Person', name, description: summary, url, sameAs,
   knowsAbout: tags
 })}</script>
+<script>try{document.cookie='theme=${theme}; path=/; max-age=${60*60*24*365}';document.addEventListener('DOMContentLoaded',function(){document.body.dataset.theme='${theme}'})}catch{}</script>
 </head>
-<body>
-<header class="header"><h1>${name}</h1><a class="chip" href="/">返回首页</a></header>
+<body data-theme="${theme}">
+<header class="header"><h1>${name}</h1><a class="chip" href="/?lang=${lang}&theme=${theme}">${backLabel}</a></header>
 <main id="content" style="max-width:960px;margin:24px auto;padding:0 16px;">
   <section class="card">
     <h2>${name}</h2>
