@@ -232,9 +232,9 @@ function render() {
   if (themeSel) {
     const map = { dark: (t.theme_dark || "Dark"), light: (t.theme_light || "Light") };
     Array.from(themeSel.options).forEach(o => { if (map[o.value]) o.textContent = map[o.value]; });
-    themeSel.value = state.theme || "dark";
-    document.body.dataset.theme = state.theme || "dark";
-    try { document.cookie = `theme=${state.theme || "dark"}; path=/; max-age=${60*60*24*365}`; } catch {}
+    themeSel.value = state.theme || "light";
+    document.body.dataset.theme = state.theme || "light";
+    try { document.cookie = `theme=${state.theme || "light"}; path=/; max-age=${60*60*24*365}`; } catch {}
   }
   if (resetBtn) {
     resetBtn.textContent = (t.reset || "Reset Filters");
@@ -646,12 +646,12 @@ window.addEventListener("DOMContentLoaded", async () => {
   if (themeSel2) {
     themeSel2.addEventListener("change", e => {
       state.theme = e.target.value;
-      document.body.dataset.theme = state.theme || "dark";
+      document.body.dataset.theme = state.theme || "light";
       try { document.cookie = `theme=${state.theme}; path=/; max-age=${60*60*24*365}`; } catch {}
       render();
       updateQuery();
     });
-    document.body.dataset.theme = state.theme || "dark";
+    document.body.dataset.theme = state.theme || "light";
   }
   if (resetBtn2) {
     resetBtn2.addEventListener("click", () => {
