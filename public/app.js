@@ -434,8 +434,16 @@ function render() {
         const position = x.position ? String(x.position) : "";
         const hedge = x.hedge ? `Hedge: ${x.hedge}` : "";
         const result = x.result ? `Result: ${x.result}` : "";
+        const size = x.size ? `Size: ${x.size}` : "";
+        const sizePct = x.size_pct ? `Size%: ${x.size_pct}` : "";
+        const volTarget = x.vol_target ? `Vol: ${x.vol_target}` : "";
+        const riskBudget = x.risk_budget ? `Risk: ${x.risk_budget}` : "";
+        const maxDD = x.max_dd ? `MaxDD: ${x.max_dd}` : "";
+        const pnl = x.pnl ? `PnL: ${x.pnl}` : "";
+        const duration = x.duration ? `Dur: ${x.duration}` : "";
+        const instruments = Array.isArray(x.instruments) && x.instruments.length ? `Inst: ${x.instruments.join("/")}` : "";
         const notes = x.notes ? String(x.notes) : "";
-        const parts = [year, asset, position, hedge, result].filter(Boolean);
+        const parts = [year, asset, position, hedge, result, size, sizePct, volTarget, riskBudget, maxDD, pnl, duration, instruments].filter(Boolean);
         const head = parts.join(" · ");
         return notes ? `${head}${head ? " — " : ""}${notes}` : head || notes;
       };

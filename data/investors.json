@@ -86,6 +86,13 @@
     "works": { "zh": ["趋势交易访谈与研究"], "en": ["Interviews and research on trend trading"], "es": ["Entrevistas e investigación sobre trading de tendencia"], "fr": ["Entretiens et recherches sur le trend"] },
     "quotes": { "zh": ["趋势是朋友。"], "en": ["The trend is your friend."], "es": ["La tendencia es tu amiga."], "fr": ["La tendance est votre amie."] },
     "lessons": { "zh": ["严格执行止损与仓位管理。"], "en": ["Strict stop-loss and position sizing."], "es": ["Stops estrictos y tamaño de posición."], "fr": ["Stops stricts et taille de position."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1970, "asset": "商品/期货", "position": "计算机化趋势", "hedge": "止损/波动目标", "result": "长周期稳健", "notes": "早期自动化系统" }],
+      "en": [{ "year": 1970, "asset": "Commodities/Futures", "position": "Computerized trend", "hedge": "Stops/vol targets", "result": "Long-horizon robustness", "notes": "Early automated systems" }],
+      "es": [{ "year": 1970, "asset": "Commodities/Futuros", "position": "Tendencia informatizada", "hedge": "Stops/objetivos de vol", "result": "Robustez a largo", "notes": "Sistemas automatizados tempranos" }],
+      "fr": [{ "year": 1970, "asset": "Matières/Futures", "position": "Trend informatisé", "hedge": "Stops/cibles de vol", "result": "Robustesse long horizon", "notes": "Systèmes automatisés précoces" }]
+    }
   },
   {
     "id": "dennis",
@@ -121,6 +128,13 @@
     "works": { "zh": ["乌龟交易法训练"], "en": ["Turtle Trading training"], "es": ["Entrenamiento Turtle Trading"], "fr": ["Formation Turtle Trading"] },
     "quotes": { "zh": ["遵守规则。"], "en": ["Stick to the rules."], "es": ["Sigue las reglas."], "fr": ["Suivre les règles."] },
     "lessons": { "zh": ["纪律是趋势策略的核心。"], "en": ["Discipline is core to trend strategies."], "es": ["La disciplina es el núcleo del trend."], "fr": ["La discipline est au cœur du trend."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1983, "asset": "多品种期货", "position": "乌龟交易规则化", "hedge": "止损/分散", "result": "验证规则有效性", "notes": "突破入场与金字塔" }],
+      "en": [{ "year": 1983, "asset": "Multi-asset futures", "position": "Turtle rule-based", "hedge": "Stops/diversification", "result": "Validated rule efficacy", "notes": "Breakouts and pyramiding" }],
+      "es": [{ "year": 1983, "asset": "Futuros multi-activo", "position": "Reglas Turtle", "hedge": "Stops/diversificación", "result": "Eficacia validada", "notes": "Rupturas y piramidación" }],
+      "fr": [{ "year": 1983, "asset": "Futures multi-actifs", "position": "Règles Turtle", "hedge": "Stops/diversification", "result": "Efficacité validée", "notes": "Cassures et pyramide" }]
+    }
   },
   {
     "id": "paulson",
@@ -150,8 +164,8 @@
       "fr": "Retours historiques via CDS pendant la crise subprime."
     },
     "cases": {
-      "zh": ["2007年通过次贷相关CDS空头获得数十亿美元收益（对冲与结构研究驱动）","黄金与并购套利在不同周期贡献回报"],
-      "en": ["2007 subprime-related CDS shorts delivered multi-billion gains (hedging and structure research)","Gold and merger arbitrage contributed across cycles"],
+      "zh": ["2007年通过次贷相关CDS空头获得数十亿美元收益（对冲与结构研究驱动）","黄金与并购套利在不同周期贡献回报", { "year": 2007, "asset": "ABX指数/次贷相关CDS", "position": "做空劣后分层", "hedge": "跨期限与对手风险管理", "result": "历史性回报", "duration": "数月", "notes": "结构条款与抵押池深入研究" }],
+      "en": ["2007 subprime-related CDS shorts delivered multi-billion gains (hedging and structure research)","Gold and merger arbitrage contributed across cycles", { "year": 2007, "asset": "ABX indices/subprime CDS", "position": "Short mezzanine tranches", "hedge": "Term and counterparty risk management", "result": "Historic gains", "duration": "Months", "notes": "Deep research on covenants and collateral pools" }],
       "es": ["2007 CDS ligados a subprime con ganancias multibillonarias (cobertura e investigación de estructura)","Oro y arbitraje de fusiones contribuyeron en ciclos"],
       "fr": ["2007 CDS liés au subprime aux gains multi-milliards (couverture et recherche de structure)","Or et arbitrage de fusion ont contribué sur cycles"]
     },
@@ -191,8 +205,8 @@
       "fr": "Gains solides via allocations aux bas de cycles."
     },
     "cases": {
-      "zh": ["在周期底部配置困境债并获得稳健复利","橡树在多期危机中通过严格价格与风险框架保护资本"],
-      "en": ["Allocated distressed debt at cycle bottoms achieving robust compounding","Oaktree protected capital through strict price and risk frameworks across crises"],
+      "zh": ["在周期底部配置困境债并获得稳健复利","橡树在多期危机中通过严格价格与风险框架保护资本", { "year": 2001, "asset": "困境债与特别机会", "position": "逆向布局周期底部", "hedge": "价格纪律与契约条款审查", "result": "复苏期稳健收益" }, { "year": 2009, "asset": "后危机不良资产", "position": "结构化处置与重组参与", "result": "风险调整后回报显著" }],
+      "en": ["Allocated distressed debt at cycle bottoms achieving robust compounding","Oaktree protected capital through strict price and risk frameworks across crises", { "year": 2001, "asset": "Distressed and special situations", "position": "Contrarian cycle-bottom allocation", "hedge": "Price discipline and covenant review", "result": "Steady recovery-phase gains" }, { "year": 2009, "asset": "Post-crisis impaired assets", "position": "Structured workouts and restructurings", "result": "Strong risk-adjusted returns" }],
       "es": ["Asignó deuda en dificultades en suelos de ciclo logrando compuesto sólido","Oaktree protegió capital con marcos estrictos de precio y riesgo en crisis"],
       "fr": ["Alloue dettes en difficulté aux bas de cycles pour un composé robuste","Oaktree a protégé le capital via des cadres stricts de prix et risque en crises"]
     },
@@ -232,8 +246,8 @@
       "fr": "Stratégies par règles surperformantes à long terme."
     },
     "cases": {
-      "zh": ["特殊机会（分拆/并购/重组）案例多次验证规则化框架","魔法公式在长期回测与实盘中表现出色"],
-      "en": ["Special situations (spin-offs/M&A/restructurings) repeatedly validated rule framework","Magic Formula showed strong performance in long backtests and live"],
+      "zh": ["特殊机会（分拆/并购/重组）案例多次验证规则化框架","魔法公式在长期回测与实盘中表现出色", { "year": 2005, "asset": "高收益率/高资本回报组合", "position": "规则化选股并分散持有", "result": "长期跑赢市场" }],
+      "en": ["Special situations (spin-offs/M&A/restructurings) repeatedly validated rule framework","Magic Formula showed strong performance in long backtests and live", { "year": 2005, "asset": "High earnings yield/high ROC basket", "position": "Rule-based selection and diversified holding", "result": "Long-term outperformance" }],
       "es": ["Situaciones especiales (spin-offs/M&A/restructuraciones) validaron el marco de reglas","La Magic Formula mostró desempeño fuerte en backtests y en vivo"],
       "fr": ["Situations spéciales (scissions/M&A/restructurations) valident le cadre par règles","La Magic Formula montre de fortes performances en backtests et réel"]
     },
@@ -279,6 +293,11 @@
     "works": { "zh": ["普通股与不普通的利润"], "en": ["Common Stocks and Uncommon Profits"], "es": ["Common Stocks and Uncommon Profits"], "fr": ["Common Stocks and Uncommon Profits"] },
     "quotes": { "zh": ["深入行业与管理层。"], "en": ["Go deep on industry and management."], "es": ["Profundizar en industria y gestión."], "fr": ["Approfondir secteur et management."] },
     "lessons": { "zh": ["少而精提高研究质量。"], "en": ["Few positions improve research depth."], "es": ["Pocas posiciones mejoran profundidad de análisis."], "fr": ["Peu de positions améliorent la profondeur d'analyse."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1955, "asset": "摩托罗拉等成长股", "position": "少而精长期持有", "result": "显著复利" }],
+      "en": [{ "year": 1955, "asset": "Motorola and growth names", "position": "Few high-quality long holds", "result": "Significant compounding" }]
+    }
   },
   {
     "id": "t_rowe_price",
@@ -385,6 +404,13 @@
     "works": { "zh": ["交易理念演讲"], "en": ["Talks on trading principles"], "es": ["Charlas sobre principios de trading"], "fr": ["Conférences sur principes de trading"] },
     "quotes": { "zh": ["让亏损变小，让盈利变大。"], "en": ["Keep losses small, let profits run."], "es": ["Mantén pérdidas pequeñas, deja correr ganancias."], "fr": ["Limiter les pertes, laisser courir les gains."] },
     "lessons": { "zh": ["规则与纪律优于主观。"], "en": ["Rules and discipline beat subjectivity."], "es": ["Las reglas y la disciplina superan la subjetividad."], "fr": ["Les règles et la discipline surpassent la subjectivité."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1981, "asset": "跨品种期货", "position": "趋势追随", "hedge": "严格止损", "result": "低回撤稳健收益", "notes": "Mint 系统化执行" }],
+      "en": [{ "year": 1981, "asset": "Cross-asset futures", "position": "Trend following", "hedge": "Strict stops", "result": "Robust returns with low drawdown", "notes": "Mint systematic execution" }],
+      "es": [{ "year": 1981, "asset": "Futuros multi-activo", "position": "Seguimiento de tendencia", "hedge": "Stops estrictos", "result": "Retornos robustos con baja caída", "notes": "Ejecución sistemática de Mint" }],
+      "fr": [{ "year": 1981, "asset": "Futures multi-actifs", "position": "Suivi de tendance", "hedge": "Stops stricts", "result": "Retours robustes avec faible drawdown", "notes": "Exécution systématique Mint" }]
+    }
   },
   {
     "id": "jerry_parker",
@@ -420,6 +446,13 @@
     "works": { "zh": ["趋势交易访谈"], "en": ["Interviews on trend trading"], "es": ["Entrevistas de trading de tendencia"], "fr": ["Entretiens sur le trend"] },
     "quotes": { "zh": ["简单的规则更能坚持。"], "en": ["Simple rules are easier to stick to."], "es": ["Las reglas simples son más fáciles de mantener."], "fr": ["Les règles simples sont plus faciles à suivre."] },
     "lessons": { "zh": ["遵守规则与分散。"], "en": ["Obey rules and diversify."], "es": ["Obedecer reglas y diversificar."], "fr": ["Obéir aux règles et diversifier."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1988, "asset": "多品种期货/商品", "position": "趋势追随与金字塔加仓", "hedge": "止损与分散", "result": "稳定 CTA 业绩", "notes": "Chesapeake 系统化" }],
+      "en": [{ "year": 1988, "asset": "Multi-commodity/futures", "position": "Trend follow with pyramiding", "hedge": "Stops and diversification", "result": "Stable CTA performance", "notes": "Chesapeake systematic" }],
+      "es": [{ "year": 1988, "asset": "Multi-commodities/futuros", "position": "Tendencia con piramidación", "hedge": "Stops y diversificación", "result": "Rendimiento CTA estable", "notes": "Chesapeake sistemático" }],
+      "fr": [{ "year": 1988, "asset": "Multi-matières/futures", "position": "Trend avec pyramide", "hedge": "Stops et diversification", "result": "Performance CTA stable", "notes": "Chesapeake systématique" }]
+    }
   },
   {
     "id": "bruce_kovner",
@@ -455,6 +488,13 @@
     "works": { "zh": ["宏观交易经验分享"], "en": ["Macro trading experiences"], "es": ["Experiencias de trading macro"], "fr": ["Expériences de trading macro"] },
     "quotes": { "zh": ["风险先行。"], "en": ["Risk first."], "es": ["El riesgo primero."], "fr": ["Le risque d'abord."] },
     "lessons": { "zh": ["控制回撤，灵活应变。"], "en": ["Control drawdowns; adapt quickly."], "es": ["Controlar caídas; adaptarse rápido."], "fr": ["Contrôler les drawdowns; s'adapter vite."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1985, "asset": "G7 货币对", "position": "宏观主题与趋势", "hedge": "止损与对冲", "result": "显著盈利", "notes": "趋势与基本面的结合" }],
+      "en": [{ "year": 1985, "asset": "G7 FX pairs", "position": "Macro themes with trend", "hedge": "Stops/hedges", "result": "Notable profit", "notes": "Blend trends and fundamentals" }],
+      "es": [{ "year": 1985, "asset": "Pares FX G7", "position": "Temas macro con tendencia", "hedge": "Stops/coberturas", "result": "Ganancia notable", "notes": "Mezcla tendencia y fundamentales" }],
+      "fr": [{ "year": 1985, "asset": "Paires FX G7", "position": "Thèmes macro avec tendance", "hedge": "Stops/couvertures", "result": "Profit notable", "notes": "Mélange tendance et fondamentaux" }]
+    }
   },
   {
     "id": "louis_bacon",
@@ -490,6 +530,13 @@
     "works": { "zh": ["宏观交易访谈"], "en": ["Macro trading interviews"], "es": ["Entrevistas de trading macro"], "fr": ["Entretiens de trading macro"] },
     "quotes": { "zh": ["风险敏感，灵活调整。"], "en": ["Be risk-sensitive; adjust flexibly."], "es": ["Ser sensible al riesgo; ajustar con flexibilidad."], "fr": ["Être sensible au risque; ajuster avec flexibilité."] },
     "lessons": { "zh": ["在不确定性中保护本金。"], "en": ["Protect capital amid uncertainty."], "es": ["Proteger capital en la incertidumbre."], "fr": ["Protéger le capital dans l'incertitude."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1990, "asset": "原油/外汇/利率", "position": "宏观主题", "hedge": "动态对冲", "result": "显著回报", "notes": "海湾战争与宏观事件" }],
+      "en": [{ "year": 1990, "asset": "Oil/FX/Rates", "position": "Macro themes", "hedge": "Dynamic hedges", "result": "Notable returns", "notes": "Gulf War and events" }],
+      "es": [{ "year": 1990, "asset": "Petróleo/FX/Tasas", "position": "Temas macro", "hedge": "Coberturas dinámicas", "result": "Retornos notables", "notes": "Guerra del Golfo y eventos" }],
+      "fr": [{ "year": 1990, "asset": "Pétrole/FX/Taux", "position": "Thèmes macro", "hedge": "Couvertures dynamiques", "result": "Retours notables", "notes": "Guerre du Golfe et événements" }]
+    }
   },
   {
     "id": "jeffrey_gundlach",
@@ -521,6 +568,12 @@
     "timeline": [
       { "year": 2009, "text": { "zh": "创立 DoubleLine。", "en": "Founded DoubleLine.", "es": "Fundó DoubleLine.", "fr": "Fonde DoubleLine." } }
     ],
+    "cases": {
+      "zh": [{ "year": 2009, "asset": "MBS/信用债", "position": "主动债券配置", "hedge": "期限/通胀对冲", "result": "稳健回报", "notes": "关注流动性与信用周期" }],
+      "en": [{ "year": 2009, "asset": "MBS/Credit", "position": "Active bond allocation", "hedge": "Duration/inflation hedges", "result": "Steady returns", "notes": "Liquidity and credit cycles" }],
+      "es": [{ "year": 2009, "asset": "MBS/Crédito", "position": "Asignación activa", "hedge": "Coberturas de duración/inflación", "result": "Retornos estables", "notes": "Liquidez y ciclos de crédito" }],
+      "fr": [{ "year": 2009, "asset": "MBS/Crédit", "position": "Allocation active", "hedge": "Couvertures durée/inflation", "result": "Retours stables", "notes": "Liquidité et cycles de crédit" }]
+    },
     "tags": ["bond", "fixed-income", "macro"],
     "works": { "zh": ["总回报与宏观观点分享"], "en": ["Total return and macro views"], "es": ["Visiones de total return y macro"], "fr": ["Points de vue total return et macro"] },
     "quotes": { "zh": ["利率与信用的平衡至关重要。"], "en": ["Balancing rates and credit is key."], "es": ["Equilibrar tasas y crédito es clave."], "fr": ["Équilibrer taux et crédit est clé."] },
@@ -670,6 +723,11 @@
     "works": { "zh": ["关于价值投资的经验与备忘录"], "en": ["Value investing experiences and memos"], "es": ["Experiencias y memorandos de inversión de valor"], "fr": ["Expériences et mémos sur l'investissement de valeur"] },
     "quotes": { "zh": ["简单而有效的纪律。"], "en": ["Simple and effective discipline."], "es": ["Disciplina simple y efectiva."], "fr": ["Discipline simple et efficace."] },
     "lessons": { "zh": ["坚持安全边际与低估值。"], "en": ["Insist on margin of safety and low valuations."], "es": ["Insistir en margen de seguridad y bajas valoraciones."], "fr": ["Insister sur marge de sécurité et faibles valorisations."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1955, "asset": "低估值小盘组合", "position": "广泛分散", "result": "数十年稳健超额" }],
+      "en": [{ "year": 1955, "asset": "Deep value small-cap baskets", "position": "Broad diversification", "result": "Decades of steady excess returns" }]
+    }
   },
   {
     "id": "john_neff",
@@ -705,6 +763,11 @@
     "works": { "zh": ["约翰·内夫投资之道"], "en": ["John Neff on Investing"], "es": ["John Neff on Investing"], "fr": ["John Neff on Investing"] },
     "quotes": { "zh": ["低估值与现金流。"], "en": ["Low valuations and cash flow."], "es": ["Bajas valoraciones y flujo."], "fr": ["Faibles valorisations et flux."] },
     "lessons": { "zh": ["坚持简洁的价值框架。"], "en": ["Stick to simple value frameworks."], "es": ["Apegarse a marcos de valor simples."], "fr": ["S'en tenir à des cadres value simples."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1964, "asset": "低P/E与高股息组合", "position": "价值筛选", "result": "长期稳健跑赢" }, { "year": 1995, "asset": "温莎基金", "position": "退休交接", "result": "长期记录优异" }],
+      "en": [{ "year": 1964, "asset": "Low P/E and dividend portfolios", "position": "Value selection", "result": "Long-term steady alpha" }, { "year": 1995, "asset": "Windsor Fund", "position": "Retirement/transition", "result": "Outstanding long-term record" }]
+    }
   },
   {
     "id": "philip_carret",
@@ -740,6 +803,11 @@
     "works": { "zh": ["投资原则与长期持有心得"], "en": ["Investment principles and long-term holding"], "es": ["Principios de inversión y tenencia larga"], "fr": ["Principes d'investissement et détention longue"] },
     "quotes": { "zh": ["长期与基本面。"], "en": ["Long term and fundamentals."], "es": ["Largo plazo y fundamentales."], "fr": ["Long terme et fondamentaux."] },
     "lessons": { "zh": ["坚持基本面与耐心。"], "en": ["Stick to fundamentals and patience."], "es": ["Apegarse a fundamentales y paciencia."], "fr": ["S'en tenir aux fondamentaux et à la patience."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1928, "asset": "Pioneer Fund", "position": "价值与质量持有", "result": "长期稳健表现" }],
+      "en": [{ "year": 1928, "asset": "Pioneer Fund", "position": "Value/quality holdings", "result": "Decades of steady performance" }]
+    }
   },
   {
     "id": "irving_kahn",
@@ -810,6 +878,11 @@
     "works": { "zh": ["关于长期与质量的演讲"], "en": ["Talks on long term and quality"], "es": ["Charlas sobre largo plazo y calidad"], "fr": ["Conférences sur long terme et qualité"] },
     "quotes": { "zh": ["长期与质量并重。"], "en": ["Long term and quality together."], "es": ["Largo plazo y calidad juntos."], "fr": ["Long terme et qualité ensemble."] },
     "lessons": { "zh": ["少而精、能力圈内投资。"], "en": ["Few and high-quality; invest within circle of competence."], "es": ["Pocas y de alta calidad; invertir en el círculo de competencia."], "fr": ["Peu et de haute qualité; investir dans son cercle de compétence."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1997, "asset": "高质量价值公司", "position": "集中持有", "result": "长期稳健回报" }],
+      "en": [{ "year": 1997, "asset": "High-quality value companies", "position": "Concentrated ownership", "result": "Steady long-term returns" }]
+    }
   }
   ,
   {
@@ -847,6 +920,11 @@
     "works": { "zh": ["关于CTA趋势策略的研究文集"], "en": ["Research notes on CTA trend strategies"], "es": ["Notas de investigación sobre CTA de tendencia"], "fr": ["Notes de recherche sur CTA de trend"] },
     "quotes": { "zh": ["趋势与纪律并重。"], "en": ["Trend and discipline together."], "es": ["Tendencia y disciplina juntas."], "fr": ["Tendance et discipline ensemble."] },
     "lessons": { "zh": ["跨市场分散提高稳健度。"], "en": ["Cross-market diversification improves robustness."], "es": ["La diversificación multi-mercado mejora la robustez."], "fr": ["La diversification multi-marchés améliore la robustesse."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1974, "asset": "管理期货（上百合约）", "position": "长期趋势模型组合", "hedge": "止损/波动目标", "result": "跨周期稳健", "vol_target": "目标波动区间", "risk_budget": "集中预算", "notes": "集中风险预算" }],
+      "en": [{ "year": 1974, "asset": "Managed futures (100+ contracts)", "position": "Long-horizon trend suites", "hedge": "Stops/vol targets", "result": "Robust across cycles", "vol_target": "Target volatility range", "risk_budget": "Centralized budget", "notes": "Centralized risk budgets" }]
+    }
   }
   ,
   {
@@ -884,6 +962,11 @@
     "works": { "zh": ["Winton研究报告"], "en": ["Winton research reports"], "es": ["Informes de investigación de Winton"], "fr": ["Rapports de recherche de Winton"] },
     "quotes": { "zh": ["数据与实证是核心。"], "en": ["Data and empirics are core."], "es": ["Los datos y lo empírico son núcleo."], "fr": ["Les données et l'empirique sont au cœur."] },
     "lessons": { "zh": ["避免过拟合与参数漂移。"], "en": ["Avoid overfitting and parameter drift."], "es": ["Evitar sobreajuste y deriva de parámetros."], "fr": ["Éviter le sur-ajustement et la dérive des paramètres."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 2005, "asset": "多模型CTA", "position": "趋势/季节性/跨资产信号", "hedge": "风险预算/止损", "result": "研究驱动稳健", "risk_budget": "多策略风险配额", "notes": "实证与工程强化" }],
+      "en": [{ "year": 2005, "asset": "Multi-model CTA", "position": "Trend/seasonality/cross-asset", "hedge": "Risk budgets/stops", "result": "Research-driven robustness", "risk_budget": "Multi-strategy risk quotas", "notes": "Empirics and engineering" }]
+    }
   }
   ,
   {
@@ -914,8 +997,8 @@
       "fr": "Retours robustes ajustés au risque dans cadre multi-stratégie."
     },
     "cases": {
-      "zh": ["2001年成立并构建量化工程平台","扩展机器学习在量化中的应用","搭建规模化数据与研究管线"],
-      "en": ["Founded in 2001 with quant engineering platform","Expanded ML applications in quant","Built scaled data and research pipelines"],
+      "zh": ["2001年成立并构建量化工程平台","扩展机器学习在量化中的应用","搭建规模化数据与研究管线", { "year": 2015, "asset": "股票/期货", "position": "ML 信号与因子库", "hedge": "风险预算与组合优化", "result": "跨策略稳健", "instruments": ["美股","全球股指期货"], "notes": "工程与数据平台强化" }],
+      "en": ["Founded in 2001 with quant engineering platform","Expanded ML applications in quant","Built scaled data and research pipelines", { "year": 2015, "asset": "Equities/Futures", "position": "ML signals and factor libraries", "hedge": "Risk budgeting and portfolio optimization", "result": "Cross-strategy robustness", "instruments": ["US equities","Global equity index futures"], "notes": "Strengthened engineering and data platforms" }],
       "es": ["Fundada en 2001 con plataforma cuant","Amplió aplicaciones de ML en cuant","Construyó datos y canal de investigación a escala"],
       "fr": ["Fondée en 2001 avec plateforme quant","Étend les applications ML en quant","Construit données et pipeline de recherche à l'échelle"]
     },
@@ -965,8 +1048,8 @@
       "fr": "Influence sectorielle durable et retours robustes."
     },
     "cases": {
-      "zh": ["1988年创立并推进算法交易","扩展研究文化与多策略平台","长期构建技术与风险预算能力"],
-      "en": ["Founded in 1988; advanced algorithmic trading","Expanded research culture and multi-strategy platform","Built long-term tech and risk budgeting capabilities"],
+      "zh": ["1988年创立并推进算法交易","扩展研究文化与多策略平台","长期构建技术与风险预算能力", { "year": 2000, "asset": "多策略平台", "position": "股票/期权/期货/事件", "hedge": "集中回测与执行", "result": "跨市场稳健", "instruments": ["股票","期权","期货"], "notes": "技术基础设施升级与全球拓展" }],
+      "en": ["Founded in 1988; advanced algorithmic trading","Expanded research culture and multi-strategy platform","Built long-term tech and risk budgeting capabilities", { "year": 2000, "asset": "Multi-strategy platform", "position": "Equities/Options/Futures/Event", "hedge": "Centralized backtesting and execution", "result": "Cross-market robustness", "instruments": ["Equities","Options","Futures"], "notes": "Tech infra upgrade and global expansion" }],
       "es": ["Fundada en 1988; trading algorítmico avanzado","Cultura de investigación y plataforma multi-estrategia","Capacidades de tecnología y presupuesto de riesgo a largo plazo"],
       "fr": ["Fondée en 1988; trading algorithmique avancé","Culture de recherche et plateforme multi-stratégie","Capacités tech et budget de risque à long terme"]
     },
@@ -1016,8 +1099,8 @@
       "fr": "Retours robustes ajustés au risque et accumulations de recherche sur cycles."
     },
     "cases": {
-      "zh": ["1987年AHL成立奠定系统化趋势框架","并入Man Group扩展研究与基础设施","强化多模型与另类数据应用"],
-      "en": ["1987 AHL formed; systematic trend framework","Integrated into Man Group; expanded research and infrastructure","Strengthened multi-model and alt-data applications"],
+      "zh": ["1987年AHL成立奠定系统化趋势框架","并入Man Group扩展研究与基础设施","强化多模型与另类数据应用", { "year": 2007, "asset": "管理期货", "position": "多模型趋势", "hedge": "风险预算与目标波动", "result": "跨资产稳健", "risk_budget": "集中配额", "instruments": ["股指期货","国债期货","外汇","商品"] }],
+      "en": ["1987 AHL formed; systematic trend framework","Integrated into Man Group; expanded research and infrastructure","Strengthened multi-model and alt-data applications", { "year": 2007, "asset": "Managed futures", "position": "Multi-model trend", "hedge": "Risk budgets and vol targets", "result": "Cross-asset robustness", "risk_budget": "Central quotas", "instruments": ["Equity index futures","Treasury futures","FX","Commodities"] }],
       "es": ["1987 se forma AHL; marco de tendencia","Integrado en Man; amplía investigación e infraestructura","Fortalece multi-modelo y datos alternativos"],
       "fr": ["1987 création d'AHL; cadre de trend","Intégré au Man; étend recherche et infrastructure","Renforce multi-modèles et données alternatives"]
     },
@@ -1066,8 +1149,8 @@
       "fr": "Retours nets stables à long terme et influence sectorielle."
     },
     "cases": {
-      "zh": ["1982年创立并推进量化研究","1994年梅多利昂基金成型并持续优化","扩展计算与数据基础设施并迭代执行"],
-      "en": ["Founded in 1982 advancing quant research","1994 Medallion established and continually optimized","Scaled compute/data infrastructure and iterated execution"],
+      "zh": ["1982年创立并推进量化研究","1994年梅多利昂基金成型并持续优化","扩展计算与数据基础设施并迭代执行", { "year": 2003, "asset": "高频/多因子信号", "position": "多模型集成", "hedge": "执行与滑点控制", "result": "高净回报的稳定性", "instruments": ["股票","期货","期权"], "notes": "严格数据清洗与保密文化" }],
+      "en": ["Founded in 1982 advancing quant research","1994 Medallion established and continually optimized","Scaled compute/data infrastructure and iterated execution", { "year": 2003, "asset": "HF/multi-factor signals", "position": "Multi-model integration", "hedge": "Execution and slippage control", "result": "Stability of high net returns", "instruments": ["Equities","Futures","Options"], "notes": "Rigorous data cleaning and secrecy culture" }],
       "es": ["Fundada en 1982 avanzando investigación cuant","1994 Medallion establecido y optimizado","Escaló cómputo/datos e iteró ejecución"],
       "fr": ["Fondée en 1982 pour la recherche quant","1994 Medallion créé et optimisé","Montée en échelle calcul/données et itération d'exécution"]
     },
@@ -1142,6 +1225,11 @@
     ]
     ,
     "tags": ["technical", "trend"]
+    ,
+    "cases": {
+      "zh": [{ "year": 1907, "asset": "美股指数/热门股", "position": "做空集中", "hedge": "现金与借券管理", "result": "巨额盈利", "notes": "恐慌崩盘" }, { "year": 1929, "asset": "美股指数", "position": "做空", "hedge": "分批建仓/止损", "result": "巨额盈利", "notes": "股灾" }],
+      "en": [{ "year": 1907, "asset": "US equities/index", "position": "Concentrated shorts", "hedge": "Cash/borrow mgmt", "result": "Large profit", "notes": "Panic crash" }, { "year": 1929, "asset": "US index", "position": "Short", "hedge": "Staged entries/stops", "result": "Large profit", "notes": "Crash" }]
+    }
   },
   {
     "id": "buffett",
@@ -1293,8 +1381,8 @@
       "fr": "Vente GBP 1992 ~1 Md$; plusieurs thèmes macro aux retours élevés." 
     },
     "cases": {
-      "zh": ["1992年做空英镑（黑色星期三）","1997年亚洲金融危机期间的宏观交易","2008年金融危机中的多资产配置"],
-      "en": ["1992 Black Wednesday GBP short","1997 Asian Financial Crisis macro trades","2008 multi-asset positioning in crisis"],
+      "zh": ["1992年做空英镑（黑色星期三）","1997年亚洲金融危机期间的宏观交易","2008年金融危机中的多资产配置", { "year": 1992, "asset": "GBP", "position": "高杠杆空头", "hedge": "跨货币与利率对冲", "result": "约10亿美元盈利", "duration": "数周", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
+      "en": ["1992 Black Wednesday GBP short","1997 Asian Financial Crisis macro trades","2008 multi-asset positioning in crisis", { "year": 1992, "asset": "GBP", "position": "High-leverage short", "hedge": "Cross-currency and rates hedges", "result": "~$1B profit", "duration": "Weeks", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
       "es": ["1992 Miércoles Negro corto GBP","1997 operaciones macro en la crisis asiática","2008 posicionamiento multi-activo en crisis"],
       "fr": ["1992 Mercredi noir vente GBP","1997 trades macro durant la crise asiatique","2008 positionnement multi-actifs en crise"]
     },
@@ -1436,6 +1524,11 @@
     ]
     ,
     "tags": ["macro", "commodities"]
+    ,
+    "cases": {
+      "zh": [{ "year": 2004, "asset": "商品指数/期货", "position": "长期商品多头主题", "result": "牛市阶段显著回报" }],
+      "en": [{ "year": 2004, "asset": "Commodity index/futures", "position": "Long commodity theme", "result": "Strong bull-phase returns" }]
+    }
   },
   {
     "id": "ackman",
@@ -1693,6 +1786,10 @@
       { "year": 2022, "text": { "zh": "多策略组合创出历史性回报。", "en": "Multi-strategy delivered record returns.", "es": "Multi-estrategia con retornos récord.", "fr": "Multi-stratégie aux retours record." } }
     ]
     ,
+    "cases": {
+      "zh": [{ "year": 2022, "asset": "多策略平台（股票/期货/固定收益）", "position": "集中风险预算", "hedge": "跨资产对冲", "result": "年度回报创新高", "notes": "自研系统与风险控制" }, { "year": 2002, "asset": "做市系统", "position": "流动性供给", "result": "全球领先份额" }],
+      "en": [{ "year": 2022, "asset": "Multi-strategy (equities/futures/fixed income)", "position": "Centralized risk budgets", "hedge": "Cross-asset hedges", "result": "Record annual return", "notes": "In-house systems and risk control" }, { "year": 2002, "asset": "Market-making systems", "position": "Liquidity provision", "result": "Leading global share" }]
+    },
     "tags": ["quant", "multi"]
   },
   {
@@ -2029,6 +2126,11 @@
     ]
     ,
     "tags": ["value", "contrarian", "global"]
+    ,
+    "cases": {
+      "zh": [{ "year": 1939, "asset": "战时低价股票（104只）", "position": "分散买入", "result": "战争后显著复利", "notes": "逆向价值典范" }],
+      "en": [{ "year": 1939, "asset": "War-time low-priced stocks (104)", "position": "Diversified buying", "result": "Post-war compounding", "notes": "Contrarian value" }]
+    }
   },
   {
     "id": "munger",
