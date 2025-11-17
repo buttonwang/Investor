@@ -126,6 +126,12 @@ app.get('/investors/:slug', async (req, res) => {
       const keys = Object.keys(obj); return obj[keys[0]];
     };
     const lang = (req.query.lang || 'zh').toString();
+    let t = {};
+    try {
+      const lp = path.join(__dirname, 'locales', `${lang}.json`);
+      const lraw = await readFile(lp, 'utf-8');
+      t = JSON.parse(lraw);
+    } catch {}
     let theme = (req.query.theme || '').toString();
     if (!theme && req.headers.cookie) {
       try {
@@ -153,12 +159,18 @@ app.get('/investors/:slug', async (req, res) => {
     const isOrg = orgIds.has(slug);
     const altLinks = [`<link rel="alternate" hreflang="zh" href="${url}?lang=zh" />`,`<link rel="alternate" hreflang="en" href="${url}?lang=en" />`,`<link rel="alternate" hreflang="es" href="${url}?lang=es" />`,`<link rel="alternate" hreflang="fr" href="${url}?lang=fr" />`,`<link rel="alternate" hreflang="x-default" href="${url}" />`].join('\n');
     const backLabel = lang==='zh' ? '返回首页' : lang==='es' ? 'Volver' : lang==='fr' ? 'Retour' : 'Back';
+    const pageTitle = t.title || 'World-Famous Investors Timeline';
+    const lblTheory = t.theory || (lang==='zh'?'投资理念':'Investment Theory');
+    const lblStrategy = t.strategy || (lang==='zh'?'投资策略':'Investment Strategy');
+    const lblWins = t.wins || (lang==='zh'?'代表性成绩':'Notable Wins');
+    const lblTimeline = t.timeline || (lang==='zh'?'时间线':'Timeline');
+    const tagsLabel = (tag) => (t.tags && t.tags[tag]) || tag;
     const html = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>${name} - 世界知名投资人时间线</title>
+<title>${name} - ${pageTitle}</title>
 <link rel="stylesheet" href="/styles.css" />
 <link rel="canonical" href="${url}${lang ? `?lang=${lang}` : ''}" />
 ${altLinks}
@@ -185,17 +197,17 @@ ${altLinks}
     <h2>${name}</h2>
     <p class="summary">${summary}</p>
     <div class="meta">
-      <div class="tags">${tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
-      <div><strong>投资理念</strong>: ${theory}</div>
-      <div><strong>投资策略</strong>: ${strategy}</div>
-      <div><strong>代表性成绩</strong>: ${wins}</div>
+      <div class="tags">${tags.map(x => `<span class="tag">${tagsLabel(x)}</span>`).join('')}</div>
+      <div><strong>${lblTheory}</strong>: ${theory}</div>
+      <div><strong>${lblStrategy}</strong>: ${strategy}</div>
+      <div><strong>${lblWins}</strong>: ${wins}</div>
     </div>
     <div class="axis">
       <div class="axis-line"></div>
       <div class="axis-ticks"></div>
       <div class="axis-markers"></div>
     </div>
-    <h3>时间线</h3>
+    <h3>${lblTimeline}</h3>
     <ul class="events">
       ${timeline.map(ev => `<li><span class="year">${ev.year}</span><span class="text">${ev.text}</span></li>`).join('')}
     </ul>
