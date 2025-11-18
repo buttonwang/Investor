@@ -297,6 +297,9 @@
     "cases": {
       "zh": [{ "year": 1955, "asset": "摩托罗拉等成长股", "position": "少而精长期持有", "result": "显著复利" }],
       "en": [{ "year": 1955, "asset": "Motorola and growth names", "position": "Few high-quality long holds", "result": "Significant compounding" }]
+      ,
+      "es": [{ "year": 1955, "asset": "Motorola y valores de crecimiento", "position": "Pocas tenencias de alta calidad a largo", "result": "Composición significativa" }],
+      "fr": [{ "year": 1955, "asset": "Motorola et valeurs de croissance", "position": "Quelques positions de haute qualité à long terme", "result": "Fort composé" }]
     }
   },
   {
@@ -333,6 +336,13 @@
     "works": { "zh": ["成长投资研究文集"], "en": ["Growth investing papers"], "es": ["Artículos de inversión en crecimiento"], "fr": ["Essais sur l'investissement de croissance"] },
     "quotes": { "zh": ["持有优质企业以时间换空间。"], "en": ["Hold quality firms; let time work."], "es": ["Mantener firmas de calidad; dejar que el tiempo actúe."], "fr": ["Détenir des entreprises de qualité; laisser le temps agir."] },
     "lessons": { "zh": ["过度交易削弱成长复利。"], "en": ["Overtrading hurts compounding."], "es": ["Sobreoperar perjudica el compuesto."], "fr": ["Sur-trader nuit au composé."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1940, "asset": "成长股组合", "position": "少而精长期持有", "result": "长期优秀表现" }, { "year": 1950, "asset": "成长股票基金", "position": "主动成长", "result": "十年期领跑（Weisenberger评）" }, { "year": 1966, "asset": "成长股票基金", "position": "持有并再投资", "duration": "1966–1972", "pnl": "≈80%增值", "notes": "含红利与资本利得再投资" }],
+      "en": [{ "year": 1940, "asset": "Growth stock basket", "position": "Few high-quality long holds", "result": "Strong long-term performance" }, { "year": 1950, "asset": "Growth Stock Fund", "position": "Active growth", "result": "Ten-year leader (Weisenberger rating)" }, { "year": 1966, "asset": "Growth Stock Fund", "position": "Hold and reinvest", "duration": "1966–1972", "pnl": "≈80% appreciation", "notes": "Assumes reinvested dividends & gains" }],
+      "es": [{ "year": 1940, "asset": "Cesta de acciones de crecimiento", "position": "Pocas tenencias de alta calidad a largo", "result": "Fuerte desempeño a largo" }, { "year": 1950, "asset": "Growth Stock Fund", "position": "Crecimiento activo", "result": "Líder a 10 años (Weisenberger)" }, { "year": 1966, "asset": "Growth Stock Fund", "position": "Mantener y reinvertir", "duration": "1966–1972", "pnl": "≈80% apreciación", "notes": "Con reinversión de dividendos y ganancias" }],
+      "fr": [{ "year": 1940, "asset": "Panier d'actions de croissance", "position": "Quelques positions de haute qualité à long terme", "result": "Bonne performance long terme" }, { "year": 1950, "asset": "Growth Stock Fund", "position": "Croissance active", "result": "Leader sur 10 ans (Weisenberger)" }, { "year": 1966, "asset": "Growth Stock Fund", "position": "Détenir et réinvestir", "duration": "1966–1972", "pnl": "≈80% appréciation", "notes": "Dividendes et gains réinvestis" }]
+    }
   },
   {
     "id": "swensen",
@@ -726,7 +736,9 @@
     ,
     "cases": {
       "zh": [{ "year": 1955, "asset": "低估值小盘组合", "position": "广泛分散", "result": "数十年稳健超额" }],
-      "en": [{ "year": 1955, "asset": "Deep value small-cap baskets", "position": "Broad diversification", "result": "Decades of steady excess returns" }]
+      "en": [{ "year": 1955, "asset": "Deep value small-cap baskets", "position": "Broad diversification", "result": "Decades of steady excess returns" }],
+      "es": [{ "year": 1955, "asset": "Cestas de small-cap de valor profundo", "position": "Amplia diversificación", "result": "Décadas de exceso estable" }],
+      "fr": [{ "year": 1955, "asset": "Paniers small-cap value profond", "position": "Large diversification", "result": "Décennies de surperformance stable" }]
     }
   },
   {
@@ -766,7 +778,17 @@
     ,
     "cases": {
       "zh": [{ "year": 1964, "asset": "低P/E与高股息组合", "position": "价值筛选", "result": "长期稳健跑赢" }, { "year": 1995, "asset": "温莎基金", "position": "退休交接", "result": "长期记录优异" }],
+      "en": [{ "year": 1964, "asset": "Low P/E and dividend portfolios", "position": "Value selection", "result": "Long-term steady alpha" }, { "year": 1995, "asset": "Windsor Fund", "position": "Retirement/transition", "result": "Outstanding long-term record" }],
+      "es": [{ "year": 1964, "asset": "Carteras de bajo P/E y dividendo", "position": "Selección value", "result": "Alpha estable a largo" }, { "year": 1995, "asset": "Fondo Windsor", "position": "Retiro/transición", "result": "Registro sobresaliente a largo" }],
+      "fr": [{ "year": 1964, "asset": "Portefeuilles faible P/E et dividendes", "position": "Sélection value", "result": "Alpha stable long terme" }, { "year": 1995, "asset": "Fonds Windsor", "position": "Retraite/transition", "result": "Excellent historique long terme" }]
+    }
+  ,
+    "cases": {
+      "zh": [{ "year": 1964, "asset": "低P/E与高股息组合", "position": "价值筛选", "result": "长期稳健跑赢" }, { "year": 1995, "asset": "温莎基金", "position": "退休交接", "result": "长期记录优异" }],
       "en": [{ "year": 1964, "asset": "Low P/E and dividend portfolios", "position": "Value selection", "result": "Long-term steady alpha" }, { "year": 1995, "asset": "Windsor Fund", "position": "Retirement/transition", "result": "Outstanding long-term record" }]
+      ,
+      "es": [{ "year": 1964, "asset": "Carteras de bajo P/E y dividendo", "position": "Selección value", "result": "Alpha estable a largo" }, { "year": 1995, "asset": "Fondo Windsor", "position": "Retiro/transición", "result": "Registro sobresaliente a largo" }],
+      "fr": [{ "year": 1964, "asset": "Portefeuilles faible P/E et dividendes", "position": "Sélection value", "result": "Alpha stable long terme" }, { "year": 1995, "asset": "Fonds Windsor", "position": "Retraite/transition", "result": "Excellent historique long terme" }]
     }
   },
   {
@@ -807,6 +829,9 @@
     "cases": {
       "zh": [{ "year": 1928, "asset": "Pioneer Fund", "position": "价值与质量持有", "result": "长期稳健表现" }],
       "en": [{ "year": 1928, "asset": "Pioneer Fund", "position": "Value/quality holdings", "result": "Decades of steady performance" }]
+      ,
+      "es": [{ "year": 1928, "asset": "Pioneer Fund", "position": "Tenencia value/calidad", "result": "Décadas de desempeño estable" }],
+      "fr": [{ "year": 1928, "asset": "Pioneer Fund", "position": "Détention value/qualité", "result": "Décennies de performance stable" }]
     }
   },
   {
@@ -843,6 +868,13 @@
     "works": { "zh": ["价值投资备忘录"], "en": ["Value investing memos"], "es": ["Memorandos de inversión de valor"], "fr": ["Mémos d'investissement de valeur"] },
     "quotes": { "zh": ["安全边际与纪律。"], "en": ["Margin of safety and discipline."], "es": ["Margen de seguridad y disciplina."], "fr": ["Marge de sécurité et discipline."] },
     "lessons": { "zh": ["减少高风险曝险。"], "en": ["Reduce high-risk exposures."], "es": ["Reducir exposiciones de alto riesgo."], "fr": ["Réduire les expositions à haut risque."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 1950, "asset": "低估值组合", "position": "谨慎分散", "result": "长期稳健回报", "notes": "安全边际与深入研究" }, { "year": 1929, "asset": "Magma Copper", "position": "做空50股", "size": "$300", "instruments": ["Magma Copper"], "duration": "4个月", "result": "约翻倍", "notes": "于1929年6月建立空头，10月崩盘获利" }],
+      "en": [{ "year": 1950, "asset": "Deep value basket", "position": "Cautious diversification", "result": "Steady long-term returns", "notes": "Margin of safety and deep research" }, { "year": 1929, "asset": "Magma Copper", "position": "Short 50 shares", "size": "$300", "instruments": ["Magma Copper"], "duration": "4 months", "result": "~2x return", "notes": "Shorted in June 1929; profited after Oct crash" }],
+      "es": [{ "year": 1950, "asset": "Cesta de valor profundo", "position": "Diversificación cautelosa", "result": "Retornos estables a largo", "notes": "Margen de seguridad e investigación profunda" }, { "year": 1929, "asset": "Magma Copper", "position": "Corto 50 acciones", "size": "$300", "instruments": ["Magma Copper"], "duration": "4 meses", "result": "~2x", "notes": "Corto en junio de 1929; ganó tras el desplome de octubre" }],
+      "fr": [{ "year": 1950, "asset": "Panier value profond", "position": "Diversification prudente", "result": "Retours stables long terme", "notes": "Marge de sécurité et recherche approfondie" }, { "year": 1929, "asset": "Magma Copper", "position": "Short de 50 actions", "size": "$300", "instruments": ["Magma Copper"], "duration": "4 mois", "result": "~2x", "notes": "Short en juin 1929; profit après le krach d'octobre" }]
+    }
   },
   {
     "id": "li_lu",
@@ -882,6 +914,9 @@
     "cases": {
       "zh": [{ "year": 1997, "asset": "高质量价值公司", "position": "集中持有", "result": "长期稳健回报" }],
       "en": [{ "year": 1997, "asset": "High-quality value companies", "position": "Concentrated ownership", "result": "Steady long-term returns" }]
+      ,
+      "es": [{ "year": 1997, "asset": "Empresas de valor de alta calidad", "position": "Propiedad concentrada", "result": "Retornos estables a largo" }],
+      "fr": [{ "year": 1997, "asset": "Entreprises value de haute qualité", "position": "Détention concentrée", "result": "Retours stables long terme" }]
     }
   }
   ,
@@ -923,7 +958,9 @@
     ,
     "cases": {
       "zh": [{ "year": 1974, "asset": "管理期货（上百合约）", "position": "长期趋势模型组合", "hedge": "止损/波动目标", "result": "跨周期稳健", "vol_target": "目标波动区间", "risk_budget": "集中预算", "notes": "集中风险预算" }],
-      "en": [{ "year": 1974, "asset": "Managed futures (100+ contracts)", "position": "Long-horizon trend suites", "hedge": "Stops/vol targets", "result": "Robust across cycles", "vol_target": "Target volatility range", "risk_budget": "Centralized budget", "notes": "Centralized risk budgets" }]
+      "en": [{ "year": 1974, "asset": "Managed futures (100+ contracts)", "position": "Long-horizon trend suites", "hedge": "Stops/vol targets", "result": "Robust across cycles", "vol_target": "Target volatility range", "risk_budget": "Centralized budget", "notes": "Centralized risk budgets" }],
+      "es": [{ "year": 1974, "asset": "Futuros gestionados (100+ contratos)", "position": "Conjuntos de tendencia largo", "hedge": "Stops/objetivos de vol", "result": "Robusto en ciclos", "vol_target": "Rango de volatilidad objetivo", "risk_budget": "Presupuesto centralizado", "notes": "Presupuestos de riesgo centralizados" }],
+      "fr": [{ "year": 1974, "asset": "Futures gérés (100+ contrats)", "position": "Suites de trend long terme", "hedge": "Stops/cibles de vol", "result": "Robuste sur cycles", "vol_target": "Plage de vol cible", "risk_budget": "Budget centralisé", "notes": "Budgets de risque centralisés" }]
     }
   }
   ,
@@ -965,7 +1002,9 @@
     ,
     "cases": {
       "zh": [{ "year": 2005, "asset": "多模型CTA", "position": "趋势/季节性/跨资产信号", "hedge": "风险预算/止损", "result": "研究驱动稳健", "risk_budget": "多策略风险配额", "notes": "实证与工程强化" }],
-      "en": [{ "year": 2005, "asset": "Multi-model CTA", "position": "Trend/seasonality/cross-asset", "hedge": "Risk budgets/stops", "result": "Research-driven robustness", "risk_budget": "Multi-strategy risk quotas", "notes": "Empirics and engineering" }]
+      "en": [{ "year": 2005, "asset": "Multi-model CTA", "position": "Trend/seasonality/cross-asset", "hedge": "Risk budgets/stops", "result": "Research-driven robustness", "risk_budget": "Multi-strategy risk quotas", "notes": "Empirics and engineering" }],
+      "es": [{ "year": 2005, "asset": "CTA multi-modelo", "position": "Tendencia/estacionalidad/multi-activo", "hedge": "Presupuestos de riesgo/stops", "result": "Robustez por investigación", "risk_budget": "Cuotas de riesgo multi-estrategia", "notes": "Empíricos e ingeniería" }],
+      "fr": [{ "year": 2005, "asset": "CTA multi-modèles", "position": "Trend/saisonnalité/multi-actifs", "hedge": "Budgets de risque/stops", "result": "Robustesse par recherche", "risk_budget": "Quotas de risque multi-stratégies", "notes": "Empirique et ingénierie" }]
     }
   }
   ,
@@ -999,8 +1038,8 @@
     "cases": {
       "zh": ["2001年成立并构建量化工程平台","扩展机器学习在量化中的应用","搭建规模化数据与研究管线", { "year": 2015, "asset": "股票/期货", "position": "ML 信号与因子库", "hedge": "风险预算与组合优化", "result": "跨策略稳健", "instruments": ["美股","全球股指期货"], "notes": "工程与数据平台强化" }],
       "en": ["Founded in 2001 with quant engineering platform","Expanded ML applications in quant","Built scaled data and research pipelines", { "year": 2015, "asset": "Equities/Futures", "position": "ML signals and factor libraries", "hedge": "Risk budgeting and portfolio optimization", "result": "Cross-strategy robustness", "instruments": ["US equities","Global equity index futures"], "notes": "Strengthened engineering and data platforms" }],
-      "es": ["Fundada en 2001 con plataforma cuant","Amplió aplicaciones de ML en cuant","Construyó datos y canal de investigación a escala"],
-      "fr": ["Fondée en 2001 avec plateforme quant","Étend les applications ML en quant","Construit données et pipeline de recherche à l'échelle"]
+      "es": ["Fundada en 2001 con plataforma cuant","Amplió aplicaciones de ML en cuant","Construyó datos y canal de investigación a escala", { "year": 2015, "asset": "Acciones/Futuros", "position": "Señales ML y bibliotecas de factores", "hedge": "Presupuesto de riesgo y optimización de cartera", "result": "Robustez multi-estrategia", "instruments": ["Acciones US","Futuros índices globales"], "notes": "Plataformas de ingeniería y datos reforzadas" }],
+      "fr": ["Fondée en 2001 avec plateforme quant","Étend les applications ML en quant","Construit données et pipeline de recherche à l'échelle", { "year": 2015, "asset": "Actions/Futures", "position": "Signaux ML et bibliothèques de facteurs", "hedge": "Budgets de risque et optimisation de portefeuille", "result": "Robustesse multi-stratégies", "instruments": ["Actions US","Futures indices globaux"], "notes": "Plateformes d'ingénierie et de données renforcées" }]
     },
     "timeline": [
       { "year": 2001, "text": { "zh": "创立Two Sigma。", "en": "Founded Two Sigma.", "es": "Fundó Two Sigma.", "fr": "Fonde Two Sigma." } },
@@ -1050,8 +1089,8 @@
     "cases": {
       "zh": ["1988年创立并推进算法交易","扩展研究文化与多策略平台","长期构建技术与风险预算能力", { "year": 2000, "asset": "多策略平台", "position": "股票/期权/期货/事件", "hedge": "集中回测与执行", "result": "跨市场稳健", "instruments": ["股票","期权","期货"], "notes": "技术基础设施升级与全球拓展" }],
       "en": ["Founded in 1988; advanced algorithmic trading","Expanded research culture and multi-strategy platform","Built long-term tech and risk budgeting capabilities", { "year": 2000, "asset": "Multi-strategy platform", "position": "Equities/Options/Futures/Event", "hedge": "Centralized backtesting and execution", "result": "Cross-market robustness", "instruments": ["Equities","Options","Futures"], "notes": "Tech infra upgrade and global expansion" }],
-      "es": ["Fundada en 1988; trading algorítmico avanzado","Cultura de investigación y plataforma multi-estrategia","Capacidades de tecnología y presupuesto de riesgo a largo plazo"],
-      "fr": ["Fondée en 1988; trading algorithmique avancé","Culture de recherche et plateforme multi-stratégie","Capacités tech et budget de risque à long terme"]
+      "es": ["Fundada en 1988; trading algorítmico avanzado","Cultura de investigación y plataforma multi-estrategia","Capacidades de tecnología y presupuesto de riesgo a largo plazo", { "year": 2000, "asset": "Plataforma multi-estrategia", "position": "Acciones/Opciones/Futuros/Eventos", "hedge": "Backtesting y ejecución centralizados", "result": "Robustez multi-mercado", "instruments": ["Acciones","Opciones","Futuros"], "notes": "Actualización tecnológica y expansión global" }],
+      "fr": ["Fondée en 1988; trading algorithmique avancé","Culture de recherche et plateforme multi-stratégie","Capacités tech et budget de risque à long terme", { "year": 2000, "asset": "Plateforme multi-stratégie", "position": "Actions/Options/Futures/Événement", "hedge": "Backtests et exécution centralisés", "result": "Robustesse multi-marchés", "instruments": ["Actions","Options","Futures"], "notes": "Mise à niveau technologique et expansion mondiale" }]
     },
     "timeline": [
       { "year": 1988, "text": { "zh": "创立D. E. Shaw。", "en": "Founded D. E. Shaw.", "es": "Fundó D. E. Shaw.", "fr": "Fonde D. E. Shaw." } },
@@ -1101,8 +1140,8 @@
     "cases": {
       "zh": ["1987年AHL成立奠定系统化趋势框架","并入Man Group扩展研究与基础设施","强化多模型与另类数据应用", { "year": 2007, "asset": "管理期货", "position": "多模型趋势", "hedge": "风险预算与目标波动", "result": "跨资产稳健", "risk_budget": "集中配额", "instruments": ["股指期货","国债期货","外汇","商品"] }],
       "en": ["1987 AHL formed; systematic trend framework","Integrated into Man Group; expanded research and infrastructure","Strengthened multi-model and alt-data applications", { "year": 2007, "asset": "Managed futures", "position": "Multi-model trend", "hedge": "Risk budgets and vol targets", "result": "Cross-asset robustness", "risk_budget": "Central quotas", "instruments": ["Equity index futures","Treasury futures","FX","Commodities"] }],
-      "es": ["1987 se forma AHL; marco de tendencia","Integrado en Man; amplía investigación e infraestructura","Fortalece multi-modelo y datos alternativos"],
-      "fr": ["1987 création d'AHL; cadre de trend","Intégré au Man; étend recherche et infrastructure","Renforce multi-modèles et données alternatives"]
+      "es": ["1987 se forma AHL; marco de tendencia","Integrado en Man; amplía investigación e infraestructura","Fortalece multi-modelo y datos alternativos", { "year": 2007, "asset": "Futuros gestionados", "position": "Tendencia multi-modelo", "hedge": "Presupuestos de riesgo y objetivos de vol", "result": "Robustez multi-activo", "risk_budget": "Cuotas centrales", "instruments": ["Futuros índices","Futuros de tesoro","FX","Commodities"] }],
+      "fr": ["1987 création d'AHL; cadre de trend","Intégré au Man; étend recherche et infrastructure","Renforce multi-modèles et données alternatives", { "year": 2007, "asset": "Futures gérés", "position": "Trend multi-modèles", "hedge": "Budgets de risque et cibles de vol", "result": "Robustesse multi-actifs", "risk_budget": "Quotas centraux", "instruments": ["Futures indices","Futures Treasury","FX","Commodities"] }]
     },
     "timeline": [
       { "year": 1987, "text": { "zh": "成立 AHL，奠定系统化趋势框架。", "en": "AHL formed; established systematic trend framework.", "es": "Se forma AHL; establece marco de tendencia sistemática.", "fr": "Création d'AHL; établit le cadre de trend systématique." } },
@@ -1151,8 +1190,8 @@
     "cases": {
       "zh": ["1982年创立并推进量化研究","1994年梅多利昂基金成型并持续优化","扩展计算与数据基础设施并迭代执行", { "year": 2003, "asset": "高频/多因子信号", "position": "多模型集成", "hedge": "执行与滑点控制", "result": "高净回报的稳定性", "instruments": ["股票","期货","期权"], "notes": "严格数据清洗与保密文化" }],
       "en": ["Founded in 1982 advancing quant research","1994 Medallion established and continually optimized","Scaled compute/data infrastructure and iterated execution", { "year": 2003, "asset": "HF/multi-factor signals", "position": "Multi-model integration", "hedge": "Execution and slippage control", "result": "Stability of high net returns", "instruments": ["Equities","Futures","Options"], "notes": "Rigorous data cleaning and secrecy culture" }],
-      "es": ["Fundada en 1982 avanzando investigación cuant","1994 Medallion establecido y optimizado","Escaló cómputo/datos e iteró ejecución"],
-      "fr": ["Fondée en 1982 pour la recherche quant","1994 Medallion créé et optimisé","Montée en échelle calcul/données et itération d'exécution"]
+      "es": ["Fundada en 1982 avanzando investigación cuant","1994 Medallion establecido y optimizado","Escaló cómputo/datos e iteró ejecución", { "year": 2003, "asset": "Señales HF/multifactor", "position": "Integración multi-modelo", "hedge": "Ejecución y control de slippage", "result": "Estabilidad de altos retornos netos", "instruments": ["Acciones","Futuros","Opciones"], "notes": "Limpieza de datos rigurosa y cultura de confidencialidad" }],
+      "fr": ["Fondée en 1982 pour la recherche quant","1994 Medallion créé et optimisé","Montée en échelle calcul/données et itération d'exécution", { "year": 2003, "asset": "Signaux HF/multi-facteurs", "position": "Intégration multi-modèles", "hedge": "Exécution et contrôle du slippage", "result": "Stabilité des retours nets élevés", "instruments": ["Actions","Futures","Options"], "notes": "Nettoyage de données rigoureux et culture de confidentialité" }]
     },
     "timeline": [
       { "year": 1982, "text": { "zh": "创立文艺复兴科技。", "en": "Founded Renaissance Technologies.", "es": "Fundó Renaissance Technologies.", "fr": "Fonde Renaissance Technologies." } },
@@ -1228,7 +1267,9 @@
     ,
     "cases": {
       "zh": [{ "year": 1907, "asset": "美股指数/热门股", "position": "做空集中", "hedge": "现金与借券管理", "result": "巨额盈利", "notes": "恐慌崩盘" }, { "year": 1929, "asset": "美股指数", "position": "做空", "hedge": "分批建仓/止损", "result": "巨额盈利", "notes": "股灾" }],
-      "en": [{ "year": 1907, "asset": "US equities/index", "position": "Concentrated shorts", "hedge": "Cash/borrow mgmt", "result": "Large profit", "notes": "Panic crash" }, { "year": 1929, "asset": "US index", "position": "Short", "hedge": "Staged entries/stops", "result": "Large profit", "notes": "Crash" }]
+      "en": [{ "year": 1907, "asset": "US equities/index", "position": "Concentrated shorts", "hedge": "Cash/borrow mgmt", "result": "Large profit", "notes": "Panic crash" }, { "year": 1929, "asset": "US index", "position": "Short", "hedge": "Staged entries/stops", "result": "Large profit", "notes": "Crash" }],
+      "es": [{ "year": 1907, "asset": "Índice/acciones US", "position": "Cortos concentrados", "hedge": "Efectivo/gestión de préstamo", "result": "Gran ganancia", "notes": "Pánico" }, { "year": 1929, "asset": "Índice US", "position": "Corto", "hedge": "Entradas escalonadas/stops", "result": "Gran ganancia", "notes": "Desplome" }],
+      "fr": [{ "year": 1907, "asset": "Indice/actions US", "position": "Shorts concentrés", "hedge": "Cash/gestion d'emprunt", "result": "Gros gain", "notes": "Panique" }, { "year": 1929, "asset": "Indice US", "position": "Short", "hedge": "Entrées étagées/stops", "result": "Gros gain", "notes": "Krach" }]
     }
   },
   {
@@ -1383,8 +1424,8 @@
     "cases": {
       "zh": ["1992年做空英镑（黑色星期三）","1997年亚洲金融危机期间的宏观交易","2008年金融危机中的多资产配置", { "year": 1992, "asset": "GBP", "position": "高杠杆空头", "hedge": "跨货币与利率对冲", "result": "约10亿美元盈利", "duration": "数周", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
       "en": ["1992 Black Wednesday GBP short","1997 Asian Financial Crisis macro trades","2008 multi-asset positioning in crisis", { "year": 1992, "asset": "GBP", "position": "High-leverage short", "hedge": "Cross-currency and rates hedges", "result": "~$1B profit", "duration": "Weeks", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
-      "es": ["1992 Miércoles Negro corto GBP","1997 operaciones macro en la crisis asiática","2008 posicionamiento multi-activo en crisis"],
-      "fr": ["1992 Mercredi noir vente GBP","1997 trades macro durant la crise asiatique","2008 positionnement multi-actifs en crise"]
+      "es": ["1992 Miércoles Negro corto GBP","1997 operaciones macro en la crisis asiática","2008 posicionamiento multi-activo en crisis", { "year": 1992, "asset": "GBP", "position": "Cortos de alto apalancamiento", "hedge": "Coberturas cruzadas de divisas y tasas", "result": "~$1B de ganancia", "duration": "Semanas", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
+      "fr": ["1992 Mercredi noir vente GBP","1997 trades macro durant la crise asiatique","2008 positionnement multi-actifs en crise", { "year": 1992, "asset": "GBP", "position": "Short à fort levier", "hedge": "Couvertures croisées devises et taux", "result": "~1 Md$ de profit", "duration": "Semaines", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }]
     },
     "works": {
       "zh": ["金融炼金术"],
@@ -1788,7 +1829,9 @@
     ,
     "cases": {
       "zh": [{ "year": 2022, "asset": "多策略平台（股票/期货/固定收益）", "position": "集中风险预算", "hedge": "跨资产对冲", "result": "年度回报创新高", "notes": "自研系统与风险控制" }, { "year": 2002, "asset": "做市系统", "position": "流动性供给", "result": "全球领先份额" }],
-      "en": [{ "year": 2022, "asset": "Multi-strategy (equities/futures/fixed income)", "position": "Centralized risk budgets", "hedge": "Cross-asset hedges", "result": "Record annual return", "notes": "In-house systems and risk control" }, { "year": 2002, "asset": "Market-making systems", "position": "Liquidity provision", "result": "Leading global share" }]
+      "en": [{ "year": 2022, "asset": "Multi-strategy (equities/futures/fixed income)", "position": "Centralized risk budgets", "hedge": "Cross-asset hedges", "result": "Record annual return", "notes": "In-house systems and risk control" }, { "year": 2002, "asset": "Market-making systems", "position": "Liquidity provision", "result": "Leading global share" }],
+      "es": [{ "year": 2022, "asset": "Multi-estrategia (acciones/futuros/renta fija)", "position": "Presupuestos de riesgo centralizados", "hedge": "Coberturas multi-activo", "result": "Retorno anual récord", "notes": "Sistemas internos y control de riesgo" }, { "year": 2002, "asset": "Sistemas de market making", "position": "Provisión de liquidez", "result": "Cuota líder global" }],
+      "fr": [{ "year": 2022, "asset": "Multi-stratégie (actions/futures/taux)", "position": "Budgets de risque centralisés", "hedge": "Couvertures multi-actifs", "result": "Retour annuel record", "notes": "Systèmes internes et contrôle du risque" }, { "year": 2002, "asset": "Systèmes de market making", "position": "Fourniture de liquidité", "result": "Part leader mondiale" }]
     },
     "tags": ["quant", "multi"]
   },
@@ -1822,8 +1865,8 @@
     "cases": {
       "zh": ["提出全天候组合理念","风险平价框架应用于多资产配置","危机期保持较强的抗压表现", { "year": 1996, "asset": "多资产全天候组合", "position": "风险平价权重", "hedge": "多元对冲", "result": "跨危机的稳健表现", "notes": "参考权重：股~30%、长债~40%、中债~15%、商品~7.5%、金~7.5%" }],
       "en": ["Articulated All Weather portfolio","Applied risk parity to multi-asset allocation","Resilient crisis-period performance", { "year": 1996, "asset": "Multi-asset All Weather", "position": "Risk parity weights", "hedge": "Diversified hedges", "result": "Resilient across crises", "notes": "Reference weights: Eq~30%, Long Treasuries~40%, Intermediate Bonds~15%, Commodities~7.5%, Gold~7.5%" }],
-      "es": ["Articuló cartera All Weather","Aplicó paridad de riesgo a multi-activos","Desempeño resiliente en crisis"],
-      "fr": ["Formalise le portefeuille All Weather","Applique la parité de risque au multi-actifs","Performance résiliente en crise"]
+      "es": ["Articuló cartera All Weather","Aplicó paridad de riesgo a multi-activos","Desempeño resiliente en crisis", { "year": 1996, "asset": "All Weather multi-activo", "position": "Pesos por paridad de riesgo", "hedge": "Coberturas diversificadas", "result": "Resiliente en crisis", "vol_target": "Objetivo de baja volatilidad" }],
+      "fr": ["Formalise le portefeuille All Weather","Applique la parité de risque au multi-actifs","Performance résiliente en crise", { "year": 1996, "asset": "All Weather multi-actifs", "position": "Poids parité de risque", "hedge": "Couvertures diversifiées", "result": "Résilient en crise", "vol_target": "Cible faible volatilité" }]
     },
     "works": {
       "zh": ["原则"],

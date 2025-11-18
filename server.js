@@ -171,6 +171,7 @@ app.get('/investors/:slug', async (req, res) => {
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>${name} - ${pageTitle}</title>
+<script>try{document.documentElement.setAttribute('data-theme','${theme}')}catch{}</script>
 <link rel="stylesheet" href="/styles.css" />
 <link rel="canonical" href="${url}${lang ? `?lang=${lang}` : ''}" />
 ${altLinks}
@@ -191,7 +192,7 @@ ${altLinks}
 <script>try{document.cookie='theme=${theme}; path=/; max-age=${60*60*24*365}';document.addEventListener('DOMContentLoaded',function(){document.body.dataset.theme='${theme}'})}catch{}</script>
 </head>
 <body data-theme="${theme}">
-<header class="header"><h1>${name}</h1><a class="chip" href="/?lang=${lang}&theme=${theme}">${backLabel}</a></header>
+<header class="header"><h1>${name}</h1><a class="chip" href="#" onclick="try{if(history.length>1){history.back()}else{location.href='/?lang=${lang}'}}catch(e){location.href='/?lang=${lang}'}">${backLabel}</a></header>
 <main id="content" style="max-width:960px;margin:24px auto;padding:0 16px;">
   <section class="card">
     <h2>${name}</h2>

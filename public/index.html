@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>世界知名投资人时间线</title>
+    <script>
+      (function(){
+        try {
+          var p = new URLSearchParams(location.search);
+          var theme = p.get('theme');
+          if (!theme) {
+            var m = document.cookie.match(/(?:^|; )theme=([^;]+)/);
+            theme = m ? decodeURIComponent(m[1]) : 'light';
+          }
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch {}
+      })();
+    </script>
     <link rel="preload" href="/styles.css" as="style" />
     <link rel="stylesheet" href="/styles.css" />
     <script defer src="/_vercel/insights/script.js"></script>
@@ -48,7 +61,7 @@
     </script>
     <link rel="preload" href="/app.js" as="script" />
   </head>
-<body data-theme="light">
+<body>
   <header class="header">
     <h1 id="title">世界知名投资人时间线</h1>
     <div class="lang-switch">
