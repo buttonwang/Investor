@@ -79,4 +79,17 @@
     "cta": "CTA",
     "risk_parity": "Paridad de riesgo"
   }
+  ,
+  "case_labels": {
+    "hedge": "Cobertura",
+    "result": "Resultado",
+    "size": "Tamaño",
+    "size_pct": "Tamaño%",
+    "vol": "Volatilidad",
+    "risk": "Riesgo",
+    "max_dd": "Drawdown máximo",
+    "pnl": "Ganancia/Pérdida",
+    "duration": "Duración",
+    "instruments": "Instrumentos"
+  }
 }

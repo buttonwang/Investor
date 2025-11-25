@@ -1,5 +1,136 @@
 [
   {
+    "id": "carret",
+    "name": { "zh": "菲利普·卡雷特", "en": "Philip Carret", "es": "Philip Carret", "fr": "Philip Carret" },
+    "summary": {
+      "zh": "先锋基金创始人之一，长期复利与稳健持有倡导者。",
+      "en": "Pioneer Fund founder; advocate of long-term compounding and steady holding.",
+      "es": "Fundador del Pioneer; defensor de compuesto a largo plazo y tenencia estable.",
+      "fr": "Fondateur du Pioneer; défenseur du composé long terme et détention stable."
+    },
+    "theory": {
+      "zh": "选择优质企业并长期持有，避免频繁交易。",
+      "en": "Select quality businesses and hold long; avoid frequent trading.",
+      "es": "Seleccionar empresas de calidad y mantener largo; evitar sobreoperar.",
+      "fr": "Sélectionner entreprises de qualité et détenir long; éviter le sur-trading."
+    },
+    "strategy": {
+      "zh": "分散的高质量组合，耐心度过周期与波动。",
+      "en": "Diversified quality basket; patience through cycles and volatility.",
+      "es": "Cesta diversificada de calidad; paciencia en ciclos y volatilidad.",
+      "fr": "Panier diversifié de qualité; patience à travers cycles et volatilité."
+    },
+    "wins": {
+      "zh": "跨数十年的稳健复利记录。",
+      "en": "Decades-long steady compounding record.",
+      "es": "Registro de compuesto estable por décadas.",
+      "fr": "Record de composé stable sur des décennies."
+    },
+    "works": { "zh": ["长期投资的艺术"], "en": ["The Art of Long-Term Investing"], "es": ["El arte de invertir a largo plazo"], "fr": ["L'art d'investir à long terme"] },
+    "quotes": { "zh": ["让时间与质量共同作用。"], "en": ["Let time and quality work together."], "es": ["Dejar que el tiempo y la calidad trabajen juntos."], "fr": ["Laisser le temps et la qualité agir ensemble."] },
+    "lessons": { "zh": ["在流动性紧张时保持耐心与现金缓冲。"], "en": ["Maintain patience and cash buffers in liquidity stress."], "es": ["Mantener paciencia y colchones de efectivo en estrés de liquidez."], "fr": ["Maintenir patience et coussins de trésorerie en stress de liquidité."] },
+    "timeline": [
+      { "year": 1928, "text": { "zh": "创立先锋基金。", "en": "Founded Pioneer Fund.", "es": "Fundó el Pioneer Fund.", "fr": "Fonde le Pioneer Fund." } },
+      { "year": 1930, "text": { "zh": "穿越早期大萧条并坚持长期。", "en": "Navigated early Depression with long-term discipline.", "es": "Cruzó la Depresión temprana con disciplina a largo plazo.", "fr": "Traverse la Dépression avec discipline de long terme." } }
+    ],
+    "tags": ["value", "quality"],
+    "cases": {
+      "zh": [{ "year": 1930, "asset": "高质量组合", "position": "长期持有", "result": "战后复利" }, { "year": 1931, "asset": "组合", "position": "流动性压力", "result": "阶段性回撤", "notes": "保持现金缓冲与耐心" }],
+      "en": [{ "year": 1930, "asset": "Quality basket", "position": "Long holding", "result": "Post-war compounding" }, { "year": 1931, "asset": "Portfolio", "position": "Liquidity stress", "result": "Phase drawdown", "notes": "Keep cash buffers and patience" }],
+      "es": [{ "year": 1930, "asset": "Cesta de calidad", "position": "Tenencia larga", "result": "Composición postguerra" }, { "year": 1931, "asset": "Cartera", "position": "Estrés de liquidez", "result": "Caída por fase", "notes": "Mantener colchón de efectivo y paciencia" }],
+      "fr": [{ "year": 1930, "asset": "Panier de qualité", "position": "Détention longue", "result": "Composition d'après-guerre" }, { "year": 1931, "asset": "Portefeuille", "position": "Stress de liquidité", "result": "Drawdown de phase", "notes": "Garder des coussins de trésorerie et patience" }]
+    }
+  },
+  {
+    "id": "schloss",
+    "name": { "zh": "沃尔特·施洛斯", "en": "Walter Schloss", "es": "Walter Schloss", "fr": "Walter Schloss" },
+    "summary": {
+      "zh": "深度价值投资者，持仓分散、规则简洁，长期跑赢。",
+      "en": "Deep value investor with broad diversification and simple rules; long outperformance.",
+      "es": "Inversor de valor profundo con amplia diversificación y reglas simples; superación a largo.",
+      "fr": "Investisseur value profond, large diversification et règles simples; surperformance longue."
+    },
+    "theory": {
+      "zh": "购买明显折价的股票，分散化降低个股风险。",
+      "en": "Buy clearly discounted stocks; diversify to reduce idiosyncratic risk.",
+      "es": "Comprar acciones claramente descontadas; diversificar para reducir riesgo idiosincrático.",
+      "fr": "Acheter des actions nettement décotées; diversifier pour réduire le risque idiosyncratique."
+    },
+    "strategy": {
+      "zh": "简单筛选指标与广泛持仓，耐心等待价值修复。",
+      "en": "Simple screens and broad holdings; wait patiently for value to recover.",
+      "es": "Filtros simples y tenencias amplias; esperar pacientemente la recuperación del valor.",
+      "fr": "Filtres simples et positions larges; attendre patiemment la reprise de la valeur."
+    },
+    "wins": {
+      "zh": "数十年跑赢市场的记录。",
+      "en": "Decades-long market outperformance.",
+      "es": "Superación del mercado durante décadas.",
+      "fr": "Surperformance du marché sur des décennies."
+    },
+    "works": { "zh": ["关于简单规则的备忘"], "en": ["Memos on simple rules"], "es": ["Memorandos sobre reglas simples"], "fr": ["Mémos sur règles simples"] },
+    "quotes": { "zh": ["买便宜，分散持有，耐心等待。"], "en": ["Buy cheap, hold broadly, be patient."], "es": ["Comprar barato, mantener ampliamente, ser paciente."], "fr": ["Acheter bon marché, détenir large, être patient."] },
+    "lessons": { "zh": ["熊市回撤仍需遵守规则。"], "en": ["Bear-market drawdowns still require rule discipline."], "es": ["Los drawdowns en bear markets requieren disciplina de reglas."], "fr": ["Les drawdowns en marché baissier exigent discipline des règles."] },
+    "timeline": [
+      { "year": 1955, "text": { "zh": "独立管理组合。", "en": "Managed independently.", "es": "Gestionó de forma independiente.", "fr": "Gère indépendamment." } },
+      { "year": 1974, "text": { "zh": "在熊市中经历较大回撤并坚持策略。", "en": "Experienced large drawdown in bear market; stuck to strategy.", "es": "Sufrió gran drawdown en bear market; mantuvo la estrategia.", "fr": "Subit un drawdown important en marché baissier; maintient la stratégie." } }
+    ],
+    "tags": ["value"],
+    "cases": {
+      "zh": [{ "year": 1960, "asset": "深度价值篮子", "position": "多标的小权重持有", "result": "长期跑赢" }, { "year": 1973, "asset": "组合广度", "position": "多小权重仓位", "risk_budget": "广泛分散", "max_dd": "1973–1974熊市大幅回撤", "notes": "每个持仓小权重降低个股风险" }],
+      "zh": [{ "year": 1982, "asset": "价值小盘股", "position": "多标分散", "result": "复苏期超额收益" }, { "year": 1990, "asset": "广泛价值组合", "position": "持续分散与耐心", "result": "长期稳健" }],
+      "en": [{ "year": 1960, "asset": "Deep value basket", "position": "Many small-weight holdings", "result": "Long-run outperformance" }, { "year": 1973, "asset": "Portfolio breadth", "position": "Many small weights", "risk_budget": "Broad diversification", "max_dd": "Large drawdown in 1973–1974 bear", "notes": "Small per-position weights reduce idiosyncratic risk" }],
+      "en": [{ "year": 1982, "asset": "Value small caps", "position": "Broad diversification", "result": "Recovery-phase excess returns" }, { "year": 1990, "asset": "Broad value portfolio", "position": "Persistently diversified and patient", "result": "Long-run steadiness" }],
+      "es": [{ "year": 1960, "asset": "Cesta de valor profundo", "position": "Muchas tenencias de pequeño peso", "result": "Superación a largo" }, { "year": 1973, "asset": "Amplitud de cartera", "position": "Muchos pesos pequeños", "risk_budget": "Diversificación amplia", "max_dd": "Gran drawdown en bear 1973–1974", "notes": "Pesos pequeños por posición reducen riesgo idiosincrático" }],
+      "es": [{ "year": 1982, "asset": "Small caps de valor", "position": "Diversificación amplia", "result": "Exceso de retorno en recuperación" }, { "year": 1990, "asset": "Cartera value amplia", "position": "Diversificada y paciente", "result": "Estabilidad a largo" }],
+      "fr": [{ "year": 1960, "asset": "Panier value profond", "position": "Nombreuses positions de faible poids", "result": "Surperformance long terme" }, { "year": 1973, "asset": "Largeur du portefeuille", "position": "Nombreux faibles poids", "risk_budget": "Diversification large", "max_dd": "Grand drawdown en 1973–1974", "notes": "Faible poids par position réduit le risque idiosyncratique" }]
+      ,
+      "fr": [{ "year": 1982, "asset": "Small caps value", "position": "Diversification large", "result": "Surperformance en phase de reprise" }, { "year": 1990, "asset": "Portefeuille value large", "position": "Diversifié et patient", "result": "Stabilité long terme" }]
+    }
+  },
+  {
+    "id": "neff",
+    "name": { "zh": "约翰·内夫", "en": "John Neff", "es": "John Neff", "fr": "John Neff" },
+    "summary": {
+      "zh": "温莎基金长期经理，低市盈率与逆向价值代表。",
+      "en": "Windsor Fund long-time manager; low P/E contrarian value icon.",
+      "es": "Gestor de largo plazo del Windsor; icono de valor contracorriente y bajo P/E.",
+      "fr": "Gestionnaire de longue durée du Windsor; icône value contrarien à faible P/E."
+    },
+    "theory": {
+      "zh": "低P/E与稳健增长，股息与现金流为核。",
+      "en": "Low P/E with steady growth; dividends and cash flow central.",
+      "es": "Bajo P/E con crecimiento estable; dividendos y flujo centrales.",
+      "fr": "Faible P/E avec croissance stable; dividendes et flux au cœur."
+    },
+    "strategy": {
+      "zh": "广撒网筛选低估值，分散持有并耐心等待估值修复。",
+      "en": "Wide net for low valuations; diversified holds; patient re-rating.",
+      "es": "Red amplia para bajos valores; tenencias diversificadas; revaloración paciente.",
+      "fr": "Filet large pour faibles valorisations; détention diversifiée; re-rating patient."
+    },
+    "wins": {
+      "zh": "温莎基金长期跑赢市场。",
+      "en": "Windsor Fund outperformed over decades.",
+      "es": "El Windsor superó al mercado por décadas.",
+      "fr": "Le Windsor a surperformé des décennies."
+    },
+    "works": { "zh": ["John Neff on Investing"], "en": ["John Neff on Investing"], "es": ["John Neff on Investing"], "fr": ["John Neff on Investing"] },
+    "quotes": { "zh": ["以合理价格买进好公司。"], "en": ["Buy good companies at reasonable prices."], "es": ["Comprar buenas empresas a precios razonables."], "fr": ["Acheter de bonnes entreprises à prix raisonnables."] },
+    "lessons": { "zh": ["周期股低P/E陷阱需谨慎。"], "en": ["Beware cyclical low P/E traps."], "es": ["Cuidado con trampas de bajo P/E en cíclicas."], "fr": ["Se méfier des pièges de faible P/E chez les cycliques."] },
+    "timeline": [
+      { "year": 1964, "text": { "zh": "担任温莎基金经理。", "en": "Became Windsor Fund manager.", "es": "Se convirtió en gestor del Windsor.", "fr": "Devient gestionnaire du Windsor." } },
+      { "year": 1995, "text": { "zh": "出版投资心得。", "en": "Published investing insights.", "es": "Publicó ideas de inversión.", "fr": "Publie ses idées d'investissement." } }
+    ],
+    "tags": ["value", "contrarian"],
+    "cases": {
+      "zh": [{ "year": 1970, "asset": "低P/E股票篮子", "position": "分散持有", "result": "长期跑赢" }, { "year": 1980, "asset": "周期股", "position": "低P/E误判", "result": "阶段性回撤", "notes": "盈利峰值低P/E并非便宜" }],
+      "en": [{ "year": 1970, "asset": "Low P/E basket", "position": "Diversified holds", "result": "Long-run outperformance" }, { "year": 1980, "asset": "Cyclicals", "position": "Low P/E misread", "result": "Phase drawdown", "notes": "Peak-earnings low P/E not necessarily cheap" }],
+      "es": [{ "year": 1970, "asset": "Cesta de bajo P/E", "position": "Tenencias diversificadas", "result": "Superación a largo" }, { "year": 1980, "asset": "Cíclicas", "position": "Lectura errónea de bajo P/E", "result": "Caída por fase", "notes": "Bajo P/E en pico de ganancias no es barato" }],
+      "fr": [{ "year": 1970, "asset": "Panier à faible P/E", "position": "Détention diversifiée", "result": "Surperformance long terme" }, { "year": 1980, "asset": "Cycliques", "position": "Mauvaise lecture faible P/E", "result": "Drawdown de phase", "notes": "Faible P/E au pic des bénéfices n'est pas forcément bon marché" }]
+    }
+  },
+  {
     "id": "wyckoff",
     "name": { "zh": "威科夫", "en": "Richard D. Wyckoff", "es": "Richard D. Wyckoff", "fr": "Richard D. Wyckoff" },
     "summary": {
@@ -130,10 +261,10 @@
     "lessons": { "zh": ["纪律是趋势策略的核心。"], "en": ["Discipline is core to trend strategies."], "es": ["La disciplina es el núcleo del trend."], "fr": ["La discipline est au cœur du trend."] }
     ,
     "cases": {
-      "zh": [{ "year": 1983, "asset": "多品种期货", "position": "乌龟交易规则化", "hedge": "止损/分散", "result": "验证规则有效性", "notes": "突破入场与金字塔" }],
-      "en": [{ "year": 1983, "asset": "Multi-asset futures", "position": "Turtle rule-based", "hedge": "Stops/diversification", "result": "Validated rule efficacy", "notes": "Breakouts and pyramiding" }],
-      "es": [{ "year": 1983, "asset": "Futuros multi-activo", "position": "Reglas Turtle", "hedge": "Stops/diversificación", "result": "Eficacia validada", "notes": "Rupturas y piramidación" }],
-      "fr": [{ "year": 1983, "asset": "Futures multi-actifs", "position": "Règles Turtle", "hedge": "Stops/diversification", "result": "Efficacité validée", "notes": "Cassures et pyramide" }]
+      "zh": [{ "year": 1983, "asset": "多品种期货", "position": "乌龟交易规则化", "hedge": "止损/分散", "result": "验证规则有效性", "notes": "突破入场与金字塔" }, { "year": 1987, "asset": "期货组合", "position": "波动飙升与频繁反转", "result": "阶段性回撤", "notes": "极端行情下规则面临压力，强调风险控制" }],
+      "en": [{ "year": 1983, "asset": "Multi-asset futures", "position": "Turtle rule-based", "hedge": "Stops/diversification", "result": "Validated rule efficacy", "notes": "Breakouts and pyramiding" }, { "year": 1987, "asset": "Futures portfolio", "position": "Volatility spike and frequent reversals", "result": "Phase drawdown", "notes": "Rules under stress in extremes; emphasize risk control" }],
+      "es": [{ "year": 1983, "asset": "Futuros multi-activo", "position": "Reglas Turtle", "hedge": "Stops/diversificación", "result": "Eficacia validada", "notes": "Rupturas y piramidación" }, { "year": 1987, "asset": "Cartera de futuros", "position": "Picos de volatilidad y reversiones frecuentes", "result": "Caída por fase", "notes": "Reglas bajo estrés en extremos; enfatizar control de riesgo" }],
+      "fr": [{ "year": 1983, "asset": "Futures multi-actifs", "position": "Règles Turtle", "hedge": "Stops/diversification", "result": "Efficacité validée", "notes": "Cassures et pyramide" }, { "year": 1987, "asset": "Portefeuille de futures", "position": "Pic de volatilité et renversements fréquents", "result": "Drawdown de phase", "notes": "Règles sous stress en extrêmes; accent sur contrôle du risque" }]
     }
   },
   {
@@ -164,10 +295,10 @@
       "fr": "Retours historiques via CDS pendant la crise subprime."
     },
     "cases": {
-      "zh": ["2007年通过次贷相关CDS空头获得数十亿美元收益（对冲与结构研究驱动）","黄金与并购套利在不同周期贡献回报", { "year": 2007, "asset": "ABX指数/次贷相关CDS", "position": "做空劣后分层", "hedge": "跨期限与对手风险管理", "result": "历史性回报", "duration": "数月", "notes": "结构条款与抵押池深入研究" }],
-      "en": ["2007 subprime-related CDS shorts delivered multi-billion gains (hedging and structure research)","Gold and merger arbitrage contributed across cycles", { "year": 2007, "asset": "ABX indices/subprime CDS", "position": "Short mezzanine tranches", "hedge": "Term and counterparty risk management", "result": "Historic gains", "duration": "Months", "notes": "Deep research on covenants and collateral pools" }],
-      "es": ["2007 CDS ligados a subprime con ganancias multibillonarias (cobertura e investigación de estructura)","Oro y arbitraje de fusiones contribuyeron en ciclos"],
-      "fr": ["2007 CDS liés au subprime aux gains multi-milliards (couverture et recherche de structure)","Or et arbitrage de fusion ont contribué sur cycles"]
+      "zh": ["2007年通过次贷相关CDS空头获得数十亿美元收益（对冲与结构研究驱动）","黄金与并购套利在不同周期贡献回报", { "year": 2007, "asset": "ABX指数/次贷相关CDS", "position": "做空劣后分层", "hedge": "跨期限与对手风险管理", "result": "历史性回报", "duration": "数月", "notes": "结构条款与抵押池深入研究" }, { "year": 2011, "asset": "黄金基金/黄金头寸", "position": "高置信长期多头", "result": "2011–2013阶段性回撤", "notes": "集中度与宏观周期切换的教训" }, { "year": 2008, "asset": "并购套利价差", "position": "融资受压/监管不确定", "result": "价差暴涨与回撤", "notes": "并购失败或融资压力导致价差走阔" }],
+      "en": ["2007 subprime-related CDS shorts delivered multi-billion gains (hedging and structure research)","Gold and merger arbitrage contributed across cycles", { "year": 2007, "asset": "ABX indices/subprime CDS", "position": "Short mezzanine tranches", "hedge": "Term and counterparty risk management", "result": "Historic gains", "duration": "Months", "notes": "Deep research on covenants and collateral pools" }, { "year": 2011, "asset": "Gold fund/positions", "position": "High-conviction long", "result": "2011–2013 drawdown", "notes": "Concentration and regime shift lessons" }, { "year": 2008, "asset": "Merger arbitrage spreads", "position": "Financing stress/regulatory uncertainty", "result": "Spread blowout and drawdown", "notes": "Deal breaks or financing pressure widened spreads" }],
+      "es": ["2007 CDS ligados a subprime con ganancias multibillonarias (cobertura e investigación de estructura)","Oro y arbitraje de fusiones contribuyeron en ciclos", { "year": 2007, "asset": "Índices ABX/CDS subprime", "position": "Corto tramos mezzanine", "hedge": "Gestión de riesgo de plazo y contraparte", "result": "Ganancias históricas", "duration": "Meses", "notes": "Investigación profunda de convenios y pools de colateral" }, { "year": 2011, "asset": "Fondo/posiciones de oro", "position": "Largo de alta convicción", "result": "2011–2013 caída", "notes": "Lecciones de concentración y cambio de régimen" }, { "year": 2008, "asset": "Spreads de arbitraje de fusiones", "position": "Estrés de financiación/incertidumbre regulatoria", "result": "Spreads se amplían y caída", "notes": "Ruptura de acuerdos o presión de financiación" }],
+      "fr": ["2007 CDS liés au subprime aux gains multi-milliards (couverture et recherche de structure)","Or et arbitrage de fusion ont contribué sur cycles", { "year": 2007, "asset": "Indices ABX/CDS subprime", "position": "Short des tranches mezzanine", "hedge": "Gestion du risque de terme et contrepartie", "result": "Gains historiques", "duration": "Mois", "notes": "Recherche approfondie des clauses et pools de collatéral" }, { "year": 2011, "asset": "Fonds/positions or", "position": "Long de forte conviction", "result": "2011–2013 drawdown", "notes": "Leçons de concentration et changement de régime" }, { "year": 2008, "asset": "Spreads d'arbitrage de fusion", "position": "Stress de financement/incertitude réglementaire", "result": "Élargissement des spreads et drawdown", "notes": "Échec de deals ou pression de financement" }]
     },
     "timeline": [
       { "year": 2007, "text": { "zh": "构建次贷相关CDS空头。", "en": "Built subprime-related CDS shorts.", "es": "Construyó cortos CDS ligados a subprime.", "fr": "Monte des CDS short liés au subprime." } }
@@ -205,10 +336,10 @@
       "fr": "Gains solides via allocations aux bas de cycles."
     },
     "cases": {
-      "zh": ["在周期底部配置困境债并获得稳健复利","橡树在多期危机中通过严格价格与风险框架保护资本", { "year": 2001, "asset": "困境债与特别机会", "position": "逆向布局周期底部", "hedge": "价格纪律与契约条款审查", "result": "复苏期稳健收益" }, { "year": 2009, "asset": "后危机不良资产", "position": "结构化处置与重组参与", "result": "风险调整后回报显著" }],
-      "en": ["Allocated distressed debt at cycle bottoms achieving robust compounding","Oaktree protected capital through strict price and risk frameworks across crises", { "year": 2001, "asset": "Distressed and special situations", "position": "Contrarian cycle-bottom allocation", "hedge": "Price discipline and covenant review", "result": "Steady recovery-phase gains" }, { "year": 2009, "asset": "Post-crisis impaired assets", "position": "Structured workouts and restructurings", "result": "Strong risk-adjusted returns" }],
-      "es": ["Asignó deuda en dificultades en suelos de ciclo logrando compuesto sólido","Oaktree protegió capital con marcos estrictos de precio y riesgo en crisis"],
-      "fr": ["Alloue dettes en difficulté aux bas de cycles pour un composé robuste","Oaktree a protégé le capital via des cadres stricts de prix et risque en crises"]
+      "zh": ["在周期底部配置困境债并获得稳健复利","橡树在多期危机中通过严格价格与风险框架保护资本", { "year": 2001, "asset": "困境债与特别机会", "position": "逆向布局周期底部", "hedge": "价格纪律与契约条款审查", "result": "复苏期稳健收益" }, { "year": 2009, "asset": "后危机不良资产", "position": "结构化处置与重组参与", "result": "风险调整后回报显著" }, { "year": 2011, "asset": "欧洲信用", "position": "主权压力暴露", "result": "阶段性回撤", "notes": "流动性与集中度管理教训" }, { "year": 2012, "asset": "欧洲信用", "position": "去风险与再平衡", "result": "风险稳定", "notes": "逐步减少受压敞口；强调契约与流动性" }, { "year": 2013, "asset": "信用/股票再配置", "position": "转向高质量信用与选择性股票", "result": "风险调整后回报改善", "notes": "参与复苏同时控制下行" }, { "year": 2014, "asset": "组合风险态势", "position": "保持价格纪律；选择性新增困境", "result": "受控参与", "notes": "流动性规划与契约关注" }, { "year": 2015, "asset": "能源相关信用/困境资产", "position": "周期暴露较高", "result": "阶段性回撤", "notes": "在能源周期中控制流动性与集中度的教训" }],
+      "en": ["Allocated distressed debt at cycle bottoms achieving robust compounding","Oaktree protected capital through strict price and risk frameworks across crises", { "year": 2001, "asset": "Distressed and special situations", "position": "Contrarian cycle-bottom allocation", "hedge": "Price discipline and covenant review", "result": "Steady recovery-phase gains" }, { "year": 2009, "asset": "Post-crisis impaired assets", "position": "Structured workouts and restructurings", "result": "Strong risk-adjusted returns" }, { "year": 2011, "asset": "European credit", "position": "Sovereign stress exposure", "result": "Phase drawdown", "notes": "Liquidity and concentration management lessons" }, { "year": 2012, "asset": "European credit", "position": "De-risking and rebalancing", "result": "Stabilization", "notes": "Gradual reduction of stressed exposures; focus on covenants and liquidity" }, { "year": 2013, "asset": "Credit/equities reallocations", "position": "Shift to higher-quality credits and selective equities", "result": "Improved risk-adjusted returns", "notes": "Balance recovery participation with downside controls" }, { "year": 2014, "asset": "Portfolio risk posture", "position": "Maintain disciplined pricing; selective new distressed", "result": "Controlled participation", "notes": "Liquidity planning and covenant emphasis" }, { "year": 2015, "asset": "Energy-related credit/distressed", "position": "High cycle exposure", "result": "Phase drawdown", "notes": "Lessons on liquidity and concentration in energy cycle" }],
+      "es": ["Asignó deuda en dificultades en suelos de ciclo logrando compuesto sólido","Oaktree protegió capital con marcos estrictos de precio y riesgo en crisis", { "year": 2001, "asset": "Deuda en dificultades y situaciones especiales", "position": "Asignación contraria en suelos de ciclo", "hedge": "Disciplina de precio y revisión de convenios", "result": "Ganancias sostenidas en recuperación" }, { "year": 2009, "asset": "Activos deteriorados post-crisis", "position": "Reestructuraciones y soluciones estructuradas", "result": "Retornos ajustados al riesgo fuertes" }, { "year": 2011, "asset": "Crédito europeo", "position": "Exposición en estrés soberano", "result": "Caída por fase", "notes": "Gestión de liquidez y concentración en ciclos" }, { "year": 2012, "asset": "Crédito europeo", "position": "Desapalancamiento y reequilibrio", "result": "Estabilización", "notes": "Reducción gradual de exposiciones en estrés; foco en convenios y liquidez" }, { "year": 2013, "asset": "Reasignaciones crédito/acciones", "position": "Cambio a crédito de mayor calidad y acciones selectivas", "result": "Mejora de retornos ajustados al riesgo", "notes": "Participar en recuperación con control de bajada" }, { "year": 2014, "asset": "Postura de riesgo de cartera", "position": "Mantener disciplina de precio; nuevo distressed selectivo", "result": "Participación controlada", "notes": "Planificación de liquidez y énfasis en convenios" }, { "year": 2015, "asset": "Crédito/activos en energía", "position": "Exposición alta al ciclo", "result": "Caída por fase", "notes": "Lecciones sobre liquidez y concentración en ciclo energético" }],
+      "fr": ["Alloue dettes en difficulté aux bas de cycles pour un composé robuste","Oaktree a protégé le capital via des cadres stricts de prix et risque en crises", { "year": 2001, "asset": "Dettes en difficulté et situations spéciales", "position": "Allocation contrarienne au bas de cycle", "hedge": "Discipline de prix et revue des covenants", "result": "Gains réguliers en phase de reprise" }, { "year": 2009, "asset": "Actifs dégradés post-crise", "position": "Restructurations et solutions structurées", "result": "Forts retours ajustés au risque" }, { "year": 2011, "asset": "Crédit européen", "position": "Exposition sous stress souverain", "result": "Drawdown de phase", "notes": "Gestion de liquidité et concentration en cycles" }, { "year": 2012, "asset": "Crédit européen", "position": "Dé-risque et rééquilibrage", "result": "Stabilisation", "notes": "Réduction graduelle des expositions stressées; accent sur covenants et liquidité" }, { "year": 2013, "asset": "Réallocations crédit/actions", "position": "Bascule vers crédit de qualité et actions sélectives", "result": "Retours ajustés au risque améliorés", "notes": "Participer à la reprise avec contrôles du downside" }, { "year": 2014, "asset": "Posture de risque du portefeuille", "position": "Maintenir discipline de prix; distressed sélectif", "result": "Participation contrôlée", "notes": "Plan de liquidité et accent sur covenants" }, { "year": 2015, "asset": "Crédit/actifs liés à l'énergie", "position": "Exposition élevée au cycle", "result": "Drawdown de phase", "notes": "Leçons sur liquidité et concentration dans le cycle énergétique" }, { "year": 2016, "asset": "Énergie/réparation de cycle", "position": "Participation sélective avec défense", "result": "Amélioration graduelle", "notes": "Discipline de prix et protection du downside" }, { "year": 2017, "asset": "Nouveau distressed & crédit de qualité", "position": "Distressed sélectif; hausse du crédit de qualité", "result": "Meilleur couple risque/retour", "notes": "Restructurations et accent sur covenants" }, { "year": 2018, "asset": "Dé-risque fin de cycle", "position": "Réduire expositions et augmenter liquidité", "result": "Résilience en volatilité", "notes": "Désendettement préventif et coussin de trésorerie" }, { "year": 2019, "asset": "Dé-risque et montée en qualité", "position": "Augmenter crédit de qualité et trésorerie", "result": "Transition stable", "notes": "Réduire crédit faible; renforcer liquidité" }, { "year": 2020, "asset": "Réponse à la pandémie", "position": "Couvertures flexibles et rééquilibrage", "result": "Volatilité contrôlée avec participation à la reprise", "notes": "Couvertures et plan de liquidité en parallèle" }, { "year": 2021, "asset": "Réallocation post‑pandémie", "position": "Hausse graduelle des actifs risqués avec protection du downside", "result": "Meilleur équilibre risque/retour", "notes": "Qualité d'abord et achats disciplinés" }, { "year": 2022, "asset": "Contexte inflation/resserrement", "position": "Raccourcir la duration; augmenter trésorerie/liquidité", "result": "Résilience au stress", "notes": "Accent sur valorisations et coûts de financement" }]
     },
     "timeline": [
       { "year": 1995, "text": { "zh": "共同创立橡树资本。", "en": "Co-founded Oaktree Capital.", "es": "Cofundó Oaktree Capital.", "fr": "Cofonde Oaktree Capital." } }
@@ -246,10 +377,10 @@
       "fr": "Stratégies par règles surperformantes à long terme."
     },
     "cases": {
-      "zh": ["特殊机会（分拆/并购/重组）案例多次验证规则化框架","魔法公式在长期回测与实盘中表现出色", { "year": 2005, "asset": "高收益率/高资本回报组合", "position": "规则化选股并分散持有", "result": "长期跑赢市场" }],
-      "en": ["Special situations (spin-offs/M&A/restructurings) repeatedly validated rule framework","Magic Formula showed strong performance in long backtests and live", { "year": 2005, "asset": "High earnings yield/high ROC basket", "position": "Rule-based selection and diversified holding", "result": "Long-term outperformance" }],
-      "es": ["Situaciones especiales (spin-offs/M&A/restructuraciones) validaron el marco de reglas","La Magic Formula mostró desempeño fuerte en backtests y en vivo"],
-      "fr": ["Situations spéciales (scissions/M&A/restructurations) valident le cadre par règles","La Magic Formula montre de fortes performances en backtests et réel"]
+      "zh": ["特殊机会（分拆/并购/重组）案例多次验证规则化框架","魔法公式在长期回测与实盘中表现出色", { "year": 2005, "asset": "高收益率/高资本回报组合", "position": "规则化选股并分散持有", "result": "长期跑赢市场" }, { "year": 2011, "asset": "规则在因子拥挤期的适配", "position": "在拥挤阶段的刚性应用", "result": "阶段性回撤", "notes": "根据因子饱和与估值调整规则参数" }],
+      "en": ["Special situations (spin-offs/M&A/restructurings) repeatedly validated rule framework","Magic Formula showed strong performance in long backtests and live", { "year": 2005, "asset": "High earnings yield/high ROC basket", "position": "Rule-based selection and diversified holding", "result": "Long-term outperformance" }, { "year": 2011, "asset": "Rule set under factor crowding", "position": "Rigid application during crowded phase", "result": "Phase drawdown", "notes": "Adjust for factor saturation and valuations" }],
+      "es": ["Situaciones especiales (spin-offs/M&A/reestructuraciones) validaron el marco de reglas","La Magic Formula mostró desempeño fuerte en backtests y en vivo", { "year": 2005, "asset": "Alto rendimiento/alto ROC cesta", "position": "Selección por reglas y tenencia diversificada", "result": "Superación a largo" }, { "year": 2011, "asset": "Reglas bajo crowding de factores", "position": "Aplicación rígida en fase saturada", "result": "Caída por fase", "notes": "Ajustar reglas a saturación de factores y valoraciones" }],
+      "fr": ["Situations spéciales (scissions/M&A/restructurations) valident le cadre par règles","La Magic Formula montre de fortes performances en backtests et réel", { "year": 2005, "asset": "Panier rendement élevé/ROC élevé", "position": "Sélection par règles et détention diversifiée", "result": "Surperformance long terme" }, { "year": 2011, "asset": "Règles sous crowding de facteurs", "position": "Application rigide en phase saturée", "result": "Drawdown de phase", "notes": "Adapter les règles aux facteurs saturés et aux valorisations" }]
     },
     "timeline": [
       { "year": 2005, "text": { "zh": "提出魔法公式框架。", "en": "Published Magic Formula framework.", "es": "Publicó el marco Magic Formula.", "fr": "Publie le cadre Magic Formula." } }
@@ -295,11 +426,11 @@
     "lessons": { "zh": ["少而精提高研究质量。"], "en": ["Few positions improve research depth."], "es": ["Pocas posiciones mejoran profundidad de análisis."], "fr": ["Peu de positions améliorent la profondeur d'analyse."] }
     ,
     "cases": {
-      "zh": [{ "year": 1955, "asset": "摩托罗拉等成长股", "position": "少而精长期持有", "result": "显著复利" }],
-      "en": [{ "year": 1955, "asset": "Motorola and growth names", "position": "Few high-quality long holds", "result": "Significant compounding" }]
+      "zh": [{ "year": 1955, "asset": "摩托罗拉等成长股", "position": "少而精长期持有", "result": "显著复利" }, { "year": 1962, "asset": "成长股组合", "position": "过度集中/估值偏高", "result": "阶段性回撤", "notes": "警惕成长泡沫与估值纪律" }],
+      "en": [{ "year": 1955, "asset": "Motorola and growth names", "position": "Few high-quality long holds", "result": "Significant compounding" }, { "year": 1962, "asset": "Growth stock basket", "position": "Over-concentration/high valuations", "result": "Phase drawdown", "notes": "Beware growth manias; valuation discipline" }]
       ,
-      "es": [{ "year": 1955, "asset": "Motorola y valores de crecimiento", "position": "Pocas tenencias de alta calidad a largo", "result": "Composición significativa" }],
-      "fr": [{ "year": 1955, "asset": "Motorola et valeurs de croissance", "position": "Quelques positions de haute qualité à long terme", "result": "Fort composé" }]
+      "es": [{ "year": 1955, "asset": "Motorola y valores de crecimiento", "position": "Pocas tenencias de alta calidad a largo", "result": "Composición significativa" }, { "year": 1962, "asset": "Cesta de growth", "position": "Sobre-concentración/valoraciones altas", "result": "Caída por fase", "notes": "Cuidado con manías de crecimiento; disciplina de valoración" }],
+      "fr": [{ "year": 1955, "asset": "Motorola et valeurs de croissance", "position": "Quelques positions de haute qualité à long terme", "result": "Fort composé" }, { "year": 1962, "asset": "Panier de valeurs de croissance", "position": "Sur-concentration/valorisations élevées", "result": "Drawdown de phase", "notes": "Se méfier des manies de croissance; discipline de valorisation" }]
     }
   },
   {
@@ -378,6 +509,64 @@
     "works": { "zh": ["非同寻常的成功：捐赠基金管理"], "en": ["Pioneering Portfolio Management"], "es": ["Pioneering Portfolio Management"], "fr": ["Pioneering Portfolio Management"] },
     "quotes": { "zh": ["费用与治理决定净回报。"], "en": ["Fees and governance determine net returns."], "es": ["Los costos y la gobernanza determinan retornos netos."], "fr": ["Les frais et la gouvernance déterminent les retours nets."] },
     "lessons": { "zh": ["分散与长期视角。"], "en": ["Diversification and long horizon."], "es": ["Diversificación y horizonte largo."], "fr": ["Diversification et horizon long."] }
+    ,
+    "cases": {
+      "zh": [{ "year": 2005, "asset": "耶鲁模型（多资产与另类）", "position": "长期分散配置", "hedge": "治理与费用控制", "result": "长期稳健提升", "notes": "私募股权/房地产/绝对收益占比较高" }, { "year": 2008, "asset": "捐赠组合", "position": "高另类占比", "hedge": "流动性管理不足", "result": "流动性压力教训", "notes": "危机中二级市场与资本调用冲突" }],
+      "zh": [{ "year": 1990, "asset": "捐赠分配", "position": "早期多资产分散", "result": "建立长期框架", "notes": "公募股/债为核，另类占比逐步提升" }, { "year": 2010, "asset": "捐赠分配", "position": "提高 PE/不动产占比", "result": "提升长期回报但增加流动性需求", "notes": "承诺节奏与流动性管理" }, { "year": 2020, "asset": "权重区间与承诺节奏（疫情）", "position": "暂缓承诺，提高现金/绝对收益权重", "result": "渡过流动性压力", "notes": "公募股≈20–30%、固收≈10–20%、不动产≈15–25%、PE≈20–30%、绝对收益≈15–25（上沿）；承诺节奏降速" }, { "year": 2021, "asset": "子类带宽（过渡期）", "position": "按地区/风格细化带宽（含美股大/小盘与价值/成长）", "result": "平滑过渡", "notes": "公募股子类：美股≈10–15（其中大盘≈6–10、小盘≈4–6）、除美发达≈7–10、新兴≈5–8；风格子带宽：价值≈8–12、成长≈8–12；绝对收益子类：股票多空≈5–10、相对价值≈3–6、宏观≈3–6" }, { "year": 2022, "asset": "权重区间与承诺节奏（后疫情）", "position": "恢复承诺节奏，权重回归常态区间中枢", "result": "回报/流动性再平衡", "notes": "公募股≈25、固收≈15、不动产≈20、PE≈25、绝对收益≈15（示例中枢）；按估值与储备调整" }],
+      "en": [{ "year": 2005, "asset": "Yale model (multi-asset & alternatives)", "position": "Long-horizon diversified allocation", "hedge": "Governance & fee control", "result": "Long-term enhancement", "notes": "Higher shares in PE/Real Estate/Absolute Return" }, { "year": 2008, "asset": "Endowment portfolio", "position": "High alternatives weight", "hedge": "Insufficient liquidity planning", "result": "Liquidity stress lesson", "notes": "Public market drawdown vs capital calls conflict" }],
+      "en": [{ "year": 1990, "asset": "Endowment allocation", "position": "Early multi-asset diversification", "result": "Established long-horizon framework", "notes": "Public equities/bonds core; alternatives rising" }, { "year": 2010, "asset": "Endowment allocation", "position": "Higher PE/Real Estate shares", "result": "Enhanced long-term returns but higher liquidity demands", "notes": "Commitment pacing and liquidity planning" }, { "year": 2020, "asset": "Weight ranges & pacing (pandemic)", "position": "Pause commitments; raise cash/absolute return weights", "result": "Navigated liquidity stress", "notes": "Public Eq≈20–30%, Fixed Income≈10–20%, Real Estate≈15–25%, PE≈20–30%, Absolute Return≈15–25 (upper); pacing slowed" }, { "year": 2022, "asset": "Weight ranges & pacing (post-pandemic)", "position": "Resume pacing; revert bands to mid-ranges", "result": "Rebalanced returns/liquidity", "notes": "Public Eq≈25, FI≈15, RE≈20, PE≈25, AR≈15 (illustrative mids); adjust per valuations/reserves" }],
+      "en": [{ "year": 2021, "asset": "Sub-bands (transition)", "position": "Fine-tune within bands by region/style incl. US Large/Small & Value/Growth", "result": "Smooth transition", "notes": "Public Eq sub-bands: US≈10–15 (Large≈6–10, Small≈4–6), DM ex‑US≈7–10, EM≈5–8; style sub-bands: Value≈8–12, Growth≈8–12; AR sub‑bands: L/S equity≈5–10, RV≈3–6, macro≈3–6" }],
+      "es": [{ "year": 2005, "asset": "Modelo Yale (multi-activo y alternativos)", "position": "Asignación diversificada de largo horizonte", "hedge": "Gobernanza y control de costos", "result": "Mejora a largo plazo", "notes": "Mayor peso en PE/Inmobiliario/Retorno absoluto" }, { "year": 2008, "asset": "Cartera de endowment", "position": "Alto peso en alternativos", "hedge": "Plan de liquidez insuficiente", "result": "Lección de estrés de liquidez", "notes": "Caídas en mercados vs llamados de capital" }],
+      "es": [{ "year": 1990, "asset": "Asignación del endowment", "position": "Diversificación multi-activo temprana", "result": "Marco de largo horizonte", "notes": "Acciones/bonos como núcleo; alternativos en aumento" }, { "year": 2010, "asset": "Asignación del endowment", "position": "Mayor peso en PE/Inmobiliario", "result": "Retornos largos mejorados pero más demanda de liquidez", "notes": "Ritmo de compromisos y planificación de liquidez" }, { "year": 2015, "asset": "Rangos de peso y ritmo (normal)", "position": "Aclarar rangos y optimizar ritmo", "result": "Equilibrio retorno/liquidez", "notes": "PE≈20–30%, Inmobiliario≈15–25%, Retorno absoluto≈10–20%; ritmo acorde a llamados de capital" }, { "year": 2018, "asset": "Ajustes de rangos", "position": "Ajuste fino por valoración y liquidez", "result": "Menor estrés de liquidez", "notes": "Ritmo de PE más lento; mayor colchón de efectivo" }, { "year": 2020, "asset": "Rangos y ritmo (pandemia)", "position": "Pausar compromisos; subir efectivo/retorno absoluto", "result": "Superar estrés de liquidez", "notes": "Ritmo PE más lento; efectivo al alza; RA cerca del límite superior" }, { "year": 2022, "asset": "Rangos y ritmo (post-pandemia)", "position": "Reanudar ritmo; rangos a la normalidad", "result": "Reequilibrio retorno/liquidez", "notes": "Centrar pesos en bandas medias según valoración y reservas" }],
+      "es": [{ "year": 2021, "asset": "Sub-bandas (transición)", "position": "Ajuste fino por región/estilo incluyendo US Large/Small y Value/Growth", "result": "Transición suave", "notes": "Sub-bandas de acciones: EE. UU.≈10–15 (Large≈6–10, Small≈4–6), DM ex‑EE. UU.≈7–10, EM≈5–8; estilos: Valor≈8–12, Crecimiento≈8–12; RA sub-bandas: L/S equity≈5–10, RV≈3–6, macro≈3–6" }],
+      "fr": [{ "year": 2005, "asset": "Modèle Yale (multi-actifs & alternatifs)", "position": "Allocation diversifiée à long horizon", "hedge": "Gouvernance & maîtrise des frais", "result": "Amélioration long terme", "notes": "Parts élevées en PE/Immobilier/Retour absolu" }, { "year": 2008, "asset": "Portefeuille de dotation", "position": "Poids élevé d'alternatifs", "hedge": "Plan de liquidité insuffisant", "result": "Leçon de stress de liquidité", "notes": "Krach des marchés vs appels de capital" }]
+      ,
+      "fr": [{ "year": 1990, "asset": "Allocation de dotation", "position": "Diversification multi-actifs précoce", "result": "Cadre long horizon établi", "notes": "Actions/obligations en cœur; alternatifs en hausse" }, { "year": 2010, "asset": "Allocation de dotation", "position": "Part accrue en PE/Immobilier", "result": "Retours long terme renforcés mais besoins de liquidité accrus", "notes": "Cadencement des engagements et plan de liquidité" }, { "year": 2020, "asset": "Plages & cadence (pandémie)", "position": "Pause engagements; hausser trésorerie/retour absolu", "result": "Stress de liquidité surmonté", "notes": "Actions≈20–30%, Taux≈10–20%, Immobilier≈15–25%, PE≈20–30%, Retour absolu≈15–25 (haute); cadence ralentie" }, { "year": 2022, "asset": "Plages & cadence (post-pandémie)", "position": "Reprendre cadence; revenir aux médianes", "result": "Rééquilibrer retours/liquidité", "notes": "Actions≈25, Taux≈15, Immobilier≈20, PE≈25, RA≈15 (médianes illustratives); ajuster selon valorisations/réserves" }]
+      ,
+      "fr": [{ "year": 2021, "asset": "Sous-plages (transition)", "position": "Ajustements fins par région/style incluant US Large/Small et Valeur/Croissance", "result": "Transition fluide", "notes": "Actions sous-plages: US≈10–15 (Large≈6–10, Small≈4–6), DM hors US≈7–10, EM≈5–8; styles: Valeur≈8–12, Croissance≈8–12; RA sous-plages: L/S equity≈5–10, RV≈3–6, macro≈3–6" }]
+    }
+  },
+  {
+    "id": "harvard_hmc",
+    "name": { "zh": "哈佛管理公司（HMC）", "en": "Harvard Management Company (HMC)", "es": "Harvard Management Company (HMC)", "fr": "Harvard Management Company (HMC)" },
+    "summary": { "zh": "哈佛捐赠基金的资产配置与节奏管理。", "en": "Harvard endowment allocation and pacing management.", "es": "Asignación y ritmo del endowment de Harvard.", "fr": "Allocation et cadence du endowment de Harvard." },
+    "theory": { "zh": "多资产与流动性规划，承诺节奏与权重带宽管理。", "en": "Multi-asset with liquidity planning; commitment pacing and weight bands.", "es": "Multi‑activo con planificación de liquidez; ritmo de compromisos y bandas de peso.", "fr": "Multi‑actifs avec plan de liquidité; cadence des engagements et plages de poids." },
+    "strategy": { "zh": "相对较高的另类资产占比，按估值与流动性动态微调。", "en": "Relatively higher alternatives share; dynamic fine‑tuning by valuations/liquidity.", "es": "Mayor peso en alternativos; ajuste fino dinámico por valoraciones/liquidez.", "fr": "Part relativement élevée d'alternatifs; ajustements fins selon valorisations/liquidité." },
+    "wins": { "zh": "长期稳定提升与治理优化。", "en": "Long‑term steady improvements with governance optimization.", "es": "Mejoras sostenidas a largo con gobernanza optimizada.", "fr": "Améliorations durables avec gouvernance optimisée." },
+    "works": { "zh": ["年度报告与配置摘要"], "en": ["Annual reports and allocation summaries"], "es": ["Informes anuales y resúmenes de asignación"], "fr": ["Rapports annuels et résumés d'allocation"] },
+    "quotes": { "zh": ["治理与节奏同样重要。"], "en": ["Governance and pacing matter equally."], "es": ["La gobernanza y el ritmo importan por igual."], "fr": ["La gouvernance et la cadence comptent autant."] },
+    "lessons": { "zh": ["警惕流动性与承诺节奏的错配风险。"], "en": ["Beware liquidity–commitment pacing mismatches."], "es": ["Cuidado con desajustes de liquidez–ritmo de compromisos."], "fr": ["Se méfier des décalages liquidité–cadence d'engagement."] },
+    "timeline": [
+      { "year": 2020, "text": { "zh": "疫情期调整权重与承诺节奏。", "en": "Pandemic adjustments to weights and pacing.", "es": "Ajustes de pesos y ritmo en pandemia.", "fr": "Ajustements de poids et cadence en pandémie." } }
+    ],
+    "tags": ["endowment", "institution"],
+    "cases": {
+      "zh": [{ "year": 2020, "asset": "节奏与区间（疫情）", "position": "暂缓承诺、提高现金/绝对收益权重", "result": "渡过流动性压力", "notes": "示例区间：公募股≈20–30、固收≈10–20、PE≈20–30、不动产/实物资产≈15–25、绝对收益≈15–25（上沿）；强调 Real Assets 特点" }, { "year": 2021, "asset": "子类带宽（过渡期）", "position": "按地区/风格细化（含美股大/小盘与价值/成长）", "result": "平滑过渡", "notes": "美股≈10–15（大盘≈6–10、小盘≈4–6）；除美发达≈7–10；新兴≈5–8；风格：价值≈8–12、成长≈8–12；绝对收益：股票多空≈5–10、相对价值≈3–6、宏观≈3–6" }, { "year": 2022, "asset": "节奏与区间（后疫情/紧缩）", "position": "恢复承诺节奏、缩短久期、提高现金", "result": "回报/流动性再平衡", "notes": "示例中枢：公募股≈25、固收≈15、PE≈25、不动产≈20、绝对收益≈15；按估值与资金成本调整" }],
+      "en": [{ "year": 2020, "asset": "Pacing & bands (pandemic)", "position": "Pause commitments; raise cash/absolute return", "result": "Navigated liquidity stress", "notes": "Illustrative bands: Public Eq≈20–30, FI≈10–20, PE≈20–30, Real Assets≈15–25, AR≈15–25 (upper); Real Assets emphasis" }, { "year": 2021, "asset": "Sub‑bands (transition)", "position": "Fine‑tune by region/style incl. US Large/Small & Value/Growth", "result": "Smooth transition", "notes": "US≈10–15 (Large≈6–10, Small≈4–6); DM ex‑US≈7–10; EM≈5–8; styles: Value≈8–12, Growth≈8–12; AR sub‑bands: L/S≈5–10, RV≈3–6, Macro≈3–6" }, { "year": 2022, "asset": "Pacing & bands (post‑pandemic/tightening)", "position": "Resume pacing; shorten duration; raise cash", "result": "Rebalanced returns/liquidity", "notes": "Illustrative mids: Public Eq≈25, FI≈15, PE≈25, Real Estate≈20, AR≈15; adjust vs valuations/funding costs" }],
+      "es": [{ "year": 2020, "asset": "Ritmo y bandas (pandemia)", "position": "Pausar compromisos; subir efectivo/retorno absoluto", "result": "Superar estrés de liquidez", "notes": "Bandas ilustrativas: Acciones≈20–30, RF≈10–20, PE≈20–30, Activos reales≈15–25, RA≈15–25 (alta); énfasis en Real Assets" }, { "year": 2021, "asset": "Sub‑bandas (transición)", "position": "Ajuste fino por región/estilo incluyendo US Large/Small y Valor/Crecimiento", "result": "Transición suave", "notes": "EE. UU.≈10–15 (Large≈6–10, Small≈4–6); DM ex‑EE. UU.≈7–10; EM≈5–8; estilos: Valor≈8–12, Crecimiento≈8–12; RA: L/S≈5–10, RV≈3–6, Macro≈3–6" }, { "year": 2022, "asset": "Ritmo y bandas (post‑pandemia/ajuste)", "position": "Reanudar ritmo; acortar duración; subir efectivo", "result": "Reequilibrio retorno/liquidez", "notes": "Centros ilustrativos: Acciones≈25, RF≈15, PE≈25, Inmobiliario≈20, RA≈15; ajustar por valoraciones/costos" }],
+      "fr": [{ "year": 2020, "asset": "Cadence & plages (pandémie)", "position": "Pause des engagements; augmenter trésorerie/retour absolu", "result": "Stress de liquidité surmonté", "notes": "Plages indicatives: Actions≈20–30, Taux≈10–20, PE≈20–30, Actifs réels≈15–25, RA≈15–25 (haute); accent sur Real Assets" }, { "year": 2021, "asset": "Sous‑plages (transition)", "position": "Ajustements fins par région/style incluant US Large/Small et Valeur/Croissance", "result": "Transition fluide", "notes": "US≈10–15 (Large≈6–10, Small≈4–6); DM hors US≈7–10; EM≈5–8; styles: Valeur≈8–12, Croissance≈8–12; RA: L/S≈5–10, RV≈3–6, Macro≈3–6" }, { "year": 2022, "asset": "Cadence & plages (post‑pandémie/resserrement)", "position": "Reprendre cadence; raccourcir duration; renforcer trésorerie", "result": "Rééquilibrer retours/liquidité", "notes": "Médianes indicatives: Actions≈25, Taux≈15, PE≈25, Immobilier≈20, RA≈15; ajuster selon valorisations/coûts" }]
+    }
+  },
+  {
+    "id": "princeton_princo",
+    "name": { "zh": "普林斯顿投资公司（PRINCO）", "en": "Princeton University Investment Company (PRINCO)", "es": "Princeton University Investment Company (PRINCO)", "fr": "Princeton University Investment Company (PRINCO)" },
+    "summary": { "zh": "普林斯顿捐赠基金的权重带宽与承诺节奏管理。", "en": "Princeton endowment weight bands and commitment pacing.", "es": "Bandas de peso y ritmo de compromisos del endowment de Princeton.", "fr": "Plages de poids et cadence d'engagement du endowment de Princeton." },
+    "theory": { "zh": "多资产分散与长期承诺，流动性缓冲与节奏协同。", "en": "Multi‑asset diversification with long commitments; liquidity buffers align with pacing.", "es": "Diversificación multi‑activos con compromisos largos; colchones de liquidez alineados al ritmo.", "fr": "Diversification multi‑actifs avec engagements longs; coussins de trésorerie alignés à la cadence." },
+    "strategy": { "zh": "平衡公募股/固收与较高另类占比，动态再平衡。", "en": "Balance public equity/fixed income with higher alternatives; dynamic rebalancing.", "es": "Balance entre acciones/renta fija y alternativos altos; reequilibrio dinámico.", "fr": "Équilibre actions/taux et alternatifs élevés; rééquilibrage dynamique." },
+    "wins": { "zh": "长期稳健与波动期的韧性。", "en": "Long‑run steadiness and resilience in volatility.", "es": "Estabilidad a largo y resiliencia en volatilidad.", "fr": "Stabilité long terme et résilience en volatilité." },
+    "works": { "zh": ["年度报告与配置说明"], "en": ["Annual reports and allocation notes"], "es": ["Informes anuales y notas de asignación"], "fr": ["Rapports annuels et notes d'allocation"] },
+    "quotes": { "zh": ["承诺与流动性的节奏匹配。"], "en": ["Match commitment pacing with liquidity."], "es": ["Alinear ritmo de compromisos con liquidez."], "fr": ["Aligner la cadence des engagements avec la liquidité."] },
+    "lessons": { "zh": ["在不确定期保持现金缓冲与节奏纪律。"], "en": ["Maintain cash buffers and pacing discipline in uncertainty."], "es": ["Mantener colchón de efectivo y disciplina de ritmo en incertidumbre."], "fr": ["Maintenir coussins de trésorerie et discipline de cadence en incertitude."] },
+    "timeline": [
+      { "year": 2020, "text": { "zh": "疫情期调整权重带宽与承诺节奏。", "en": "Pandemic adjustments to bands and pacing.", "es": "Ajustes de bandas y ritmo en pandemia.", "fr": "Ajustements des plages et cadence en pandémie." } }
+    ],
+    "tags": ["endowment", "institution"],
+    "cases": {
+      "zh": [{ "year": 2020, "asset": "节奏与区间（疫情）", "position": "暂缓承诺、提高现金/绝对收益", "result": "控制波动并保持弹性", "notes": "示例区间：公募股≈20–30、固收≈10–20、PE≈20–30、不动产≈15–25、绝对收益≈15–25；承诺节奏减缓" }, { "year": 2021, "asset": "子类带宽（过渡期）", "position": "按地区/风格细化并动态再平衡", "result": "平滑过渡", "notes": "美股≈10–15（大盘≈6–10、小盘≈4–6）；除美发达≈7–10；新兴≈5–8；价值/成长≈各8–12；绝对收益子类同 Yale 模式" }, { "year": 2022, "asset": "节奏与区间（后疫情/紧缩）", "position": "恢复承诺节奏、提升流动性与久期管理", "result": "韧性提升", "notes": "示例中枢：公募股≈25、固收≈15、PE≈25、不动产≈20、绝对收益≈15；按估值/资金成本调整" }],
+      "en": [{ "year": 2020, "asset": "Pacing & bands (pandemic)", "position": "Pause commitments; raise cash/absolute return", "result": "Controlled volatility with flexibility", "notes": "Illustrative bands: Public Eq≈20–30, FI≈10–20, PE≈20–30, Real Estate≈15–25, AR≈15–25; slower pacing" }, { "year": 2021, "asset": "Sub‑bands (transition)", "position": "Fine‑tune by region/style with dynamic rebalancing", "result": "Smooth transition", "notes": "US≈10–15 (Large≈6–10, Small≈4–6); DM ex‑US≈7–10; EM≈5–8; Value/Growth≈8–12 each; AR sub‑bands similar to Yale model" }, { "year": 2022, "asset": "Pacing & bands (post‑pandemic/tightening)", "position": "Resume pacing; raise liquidity; manage duration", "result": "Improved resilience", "notes": "Illustrative mids: Public Eq≈25, FI≈15, PE≈25, Real Estate≈20, AR≈15; adjust by valuations/funding costs" }],
+      "es": [{ "year": 2020, "asset": "Ritmo y bandas (pandemia)", "position": "Pausar compromisos; subir efectivo/retorno absoluto", "result": "Volatilidad controlada y flexibilidad", "notes": "Bandas ilustrativas: Acciones≈20–30, RF≈10–20, PE≈20–30, Inmobiliario≈15–25, RA≈15–25; ritmo más lento" }, { "year": 2021, "asset": "Sub‑bandas (transición)", "position": "Ajuste fino por región/estilo con reequilibrio dinámico", "result": "Transición suave", "notes": "EE. UU.≈10–15 (Large≈6–10, Small≈4–6); DM ex‑EE. UU.≈7–10; EM≈5–8; Valor/Crecimiento≈8–12; RA similar al modelo Yale" }, { "year": 2022, "asset": "Ritmo y bandas (post‑pandemia/ajuste)", "position": "Reanudar ritmo; subir liquidez; gestionar duración", "result": "Mayor resiliencia", "notes": "Centros ilustrativos: Acciones≈25, RF≈15, PE≈25, Inmobiliario≈20, RA≈15; ajustar por valoraciones/costos" }],
+      "fr": [{ "year": 2020, "asset": "Cadence & plages (pandémie)", "position": "Pause des engagements; augmenter trésorerie/retour absolu", "result": "Volatilité contrôlée et flexibilité", "notes": "Plages indicatives: Actions≈20–30, Taux≈10–20, PE≈20–30, Immobilier≈15–25, RA≈15–25; cadence ralentie" }, { "year": 2021, "asset": "Sous‑plages (transition)", "position": "Ajustements fins par région/style avec rééquilibrage dynamique", "result": "Transition fluide", "notes": "US≈10–15 (Large≈6–10, Small≈4–6); DM hors US≈7–10; EM≈5–8; Valeur/Croissance≈8–12; RA proche du modèle Yale" }, { "year": 2022, "asset": "Cadence & plages (post‑pandémie/resserrement)", "position": "Reprendre cadence; renforcer liquidité; gérer la duration", "result": "Résilience accrue", "notes": "Médianes indicatives: Actions≈25, Taux≈15, PE≈25, Immobilier≈20, RA≈15; ajuster selon valorisations/coûts" }]
+    }
   },
   {
     "id": "larry_hite",
@@ -628,6 +817,13 @@
       "zh": [ { "label": "AQR 官方网站", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR 研究与洞见", "url": "https://www.aqr.com/Insights", "type": "research" } ],
       "en": [ { "label": "AQR Official Site", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR Insights", "url": "https://www.aqr.com/Insights", "type": "research" } ]
     }
+    ,
+    "cases": {
+      "zh": [{ "year": 2018, "asset": "多因子股票/时点", "position": "因子拥挤与相关性上升", "result": "阶段性回撤", "notes": "在因子拥挤期与估值扩张下调整权重与风险配额" }, { "year": 2019, "asset": "模型与分散", "position": "拓展非拥挤信号与稳健集成", "result": "风险稳定", "notes": "多源数据与集成方法增强" }, { "year": 2020, "asset": "宏观与股票量化", "position": "疫情期相关性变化", "result": "阶段性承压", "notes": "强调稳健分散与流动性管理" }, { "year": 2021, "asset": "后疫情再配置", "position": "质量优先与纪律化加仓", "result": "风险/回报改善", "notes": "稳健因子与流动性缓冲" }, { "year": 2022, "asset": "紧缩背景", "position": "提高流动性与稳健信号权重", "result": "抗压表现", "notes": "估值与资金成本约束下调整" }],
+      "en": [{ "year": 2018, "asset": "Multi-factor equities/timing", "position": "Factor crowding and rising correlations", "result": "Phase drawdown", "notes": "Adjust weights and risk budgets amid factor crowding and valuation expansion" }, { "year": 2019, "asset": "Models & diversification", "position": "Broaden non-crowded signals; robust ensemble", "result": "Risk stabilization", "notes": "Enhance multi-source data and integration" }, { "year": 2020, "asset": "Macro and quant equities", "position": "Pandemic correlation shifts", "result": "Phase pressure", "notes": "Emphasize robust diversification and liquidity planning" }, { "year": 2021, "asset": "Post-pandemic reallocation", "position": "Quality-first, disciplined adds", "result": "Improved risk/return", "notes": "Robust factors and liquidity buffers" }, { "year": 2022, "asset": "Tightening regime", "position": "Raise liquidity; emphasize robust signals", "result": "Stress resilience", "notes": "Adjust under valuations and funding costs" }],
+      "es": [{ "year": 2018, "asset": "Acciones multifactor/timing", "position": "Crowding de factores y correlaciones al alza", "result": "Caída por fase", "notes": "Ajustar pesos y presupuestos de riesgo ante crowding y expansión de valoraciones" }, { "year": 2019, "asset": "Modelos y diversificación", "position": "Ampliar señales no saturadas; robustez de ensemble", "result": "Estabilización de riesgo", "notes": "Mejorar datos multi‑fuente e integración" }, { "year": 2020, "asset": "Macro y acciones cuant", "position": "Cambios de correlación en pandemia", "result": "Presión por fase", "notes": "Énfasis en diversificación robusta y planificación de liquidez" }, { "year": 2021, "asset": "Reasignación post‑pandemia", "position": "Calidad primero y compras disciplinadas", "result": "Mejor riesgo/retorno", "notes": "Factores robustos y colchones de liquidez" }, { "year": 2022, "asset": "Régimen de ajuste", "position": "Subir liquidez; enfatizar señales robustas", "result": "Resiliencia bajo estrés", "notes": "Ajustar por valoraciones y costos" }],
+      "fr": [{ "year": 2018, "asset": "Actions multi‑facteurs/timing", "position": "Crowding de facteurs et corrélations en hausse", "result": "Drawdown de phase", "notes": "Ajuster poids et budgets de risque face au crowding et à l'expansion des valorisations" }, { "year": 2019, "asset": "Modèles et diversification", "position": "Élargir signaux non saturés; robustesse d'ensemble", "result": "Stabilisation du risque", "notes": "Renforcer données multi‑sources et intégration" }, { "year": 2020, "asset": "Macro et actions quant", "position": "Changements de corrélations en pandémie", "result": "Pression de phase", "notes": "Accent sur diversification robuste et plan de liquidité" }, { "year": 2021, "asset": "Réallocation post‑pandémie", "position": "Qualité d'abord; achats disciplinés", "result": "Meilleur couple risque/retour", "notes": "Facteurs robustes et coussins de trésorerie" }, { "year": 2022, "asset": "Régime de resserrement", "position": "Hausser liquidité; accent sur signaux robustes", "result": "Résilience au stress", "notes": "Ajuster selon valorisations et coûts" }]
+    }
   },
   {
     "id": "dan_loeb",
@@ -663,6 +859,33 @@
     "works": { "zh": ["致投资者信与演讲"], "en": ["Investor letters and talks"], "es": ["Cartas e intervenciones"], "fr": ["Lettres et interventions"] },
     "quotes": { "zh": ["寻找清晰催化剂。"], "en": ["Look for clear catalysts."], "es": ["Buscar catalizadores claros."], "fr": ["Chercher des catalyseurs clairs."] },
     "lessons": { "zh": ["尽调与沟通并重。"], "en": ["Due diligence and communication both matter."], "es": ["La due diligence y la comunicación importan."], "fr": ["Due diligence et communication comptent."] }
+    ,
+    "cases": {
+      "zh": [
+        { "year": 2012, "asset": "Yahoo", "position": "激进持股并推动董事会/治理改革", "result": "释放价值并推动管理层调整", "notes": "治理、资本配置与战略聚焦" },
+        { "year": 2015, "asset": "陶氏化学（后与杜邦合并）", "position": "推动治理与资本效率，促进并购与后续分拆", "result": "并购与拆分实现价值释放", "notes": "并购后整合与拆分路径" },
+        { "year": 2020, "asset": "迪士尼", "position": "围绕内容与流媒体指标的治理与资本建议", "result": "阶段性改进与公开沟通", "notes": "关注投资回报、成本与运营指标" },
+        { "year": 2005, "asset": "索尼", "position": "提出治理与资本结构优化建议", "result": "成效有限（复杂治理与战略周期）", "notes": "大型跨国公司治理复杂度的教训" }
+      ],
+      "en": [
+        { "year": 2012, "asset": "Yahoo", "position": "Activist stake; board and governance changes", "result": "Value unlock and management shift", "notes": "Governance, capital allocation and strategic focus" },
+        { "year": 2015, "asset": "Dow Chemical (later merged with DuPont)", "position": "Push governance and capital efficiency; support merger and spin-offs", "result": "Merger and subsequent spins unlocked value", "notes": "Post-merger integration and separation path" },
+        { "year": 2020, "asset": "Disney", "position": "Governance and capital suggestions around content/streaming KPIs", "result": "Incremental improvements and public engagement", "notes": "ROI focus, cost discipline and operating metrics" },
+        { "year": 2005, "asset": "Sony", "position": "Advocated governance and capital structure optimization", "result": "Limited impact (complex governance and cycle)", "notes": "Lessons on large multinational governance complexity" }
+      ],
+      "es": [
+        { "year": 2012, "asset": "Yahoo", "position": "Participación activista; cambios de consejo y gobernanza", "result": "Liberación de valor y cambio de gestión", "notes": "Gobernanza, asignación de capital y enfoque estratégico" },
+        { "year": 2015, "asset": "Dow Chemical (luego fusionada con DuPont)", "position": "Impulsar gobernanza y eficiencia de capital; apoyar fusión y scissions", "result": "Fusión y scissions liberaron valor", "notes": "Integración post‑fusión y ruta de separaciones" },
+        { "year": 2020, "asset": "Disney", "position": "Sugerencias de gobernanza y capital sobre contenido/streaming KPIs", "result": "Mejoras incrementales y compromiso público", "notes": "Enfoque en ROI, disciplina de costos y métricas operativas" },
+        { "year": 2005, "asset": "Sony", "position": "Abogó por optimizar gobernanza y estructura de capital", "result": "Impacto limitado (gobernanza compleja y ciclo)", "notes": "Lecciones sobre complejidad de gobernanza multinacional" }
+      ],
+      "fr": [
+        { "year": 2012, "asset": "Yahoo", "position": "Participation activiste; changements de conseil et gouvernance", "result": "Déblocage de valeur et changement de management", "notes": "Gouvernance, allocation de capital et focus stratégique" },
+        { "year": 2015, "asset": "Dow Chemical (puis fusion avec DuPont)", "position": "Pousser gouvernance et efficacité du capital; soutenir fusion et scissions", "result": "Fusion et scissions ont libéré de la valeur", "notes": "Intégration post‑fusion et trajectoire de séparations" },
+        { "year": 2020, "asset": "Disney", "position": "Suggestions de gouvernance et de capital autour du contenu/indicateurs streaming", "result": "Améliorations progressives et engagement public", "notes": "Focus ROI, discipline des coûts et métriques opérationnelles" },
+        { "year": 2005, "asset": "Sony", "position": "Plaidoyer pour optimiser gouvernance et structure de capital", "result": "Impact limité (gouvernance complexe et cycle)", "notes": "Leçons sur la complexité de gouvernance des multinationales" }
+      ]
+    }
   },
   {
     "id": "nelson_peltz",
@@ -698,6 +921,29 @@
     "works": { "zh": ["关于治理改进的公开交流"], "en": ["Public communications on governance improvements"], "es": ["Comunicaciones públicas sobre mejoras de gobernanza"], "fr": ["Communications publiques sur améliorations de gouvernance"] },
     "quotes": { "zh": ["运营改进与资本效率。"], "en": ["Operational improvement and capital efficiency."], "es": ["Mejora operativa y eficiencia de capital."], "fr": ["Amélioration opérationnelle et efficacité du capital."] },
     "lessons": { "zh": ["董事会层面推动改变。"], "en": ["Drive change at the board level."], "es": ["Impulsar cambios a nivel del consejo."], "fr": ["Porter le changement au niveau du conseil."] }
+    ,
+    "cases": {
+      "zh": [
+        { "year": 2012, "asset": "英格索兰", "position": "推动拆分与运营改进", "result": "拆分与效率提升", "notes": "明确业务线与资本回收" },
+        { "year": 2017, "asset": "宝洁（P&G）", "position": "董事会席位与品牌聚焦建议", "result": "获董事会席位并推进改革", "notes": "品牌架构与成本效率" },
+        { "year": 2023, "asset": "迪士尼", "position": "围绕治理、成本与内容策略的建议", "result": "公开争取与阶段性调整", "notes": "资本效率与股东沟通" }
+      ],
+      "en": [
+        { "year": 2012, "asset": "Ingersoll‑Rand", "position": "Advocated spin‑offs and operating improvements", "result": "Separations and efficiency gains", "notes": "Clarify business lines and capital returns" },
+        { "year": 2017, "asset": "Procter & Gamble (P&G)", "position": "Board seat; brand focus and cost actions", "result": "Won board seat and advanced reforms", "notes": "Brand architecture and cost efficiency" },
+        { "year": 2023, "asset": "Disney", "position": "Governance, cost and content strategy proposals", "result": "Public campaign with incremental adjustments", "notes": "Capital efficiency and shareholder communications" }
+      ],
+      "es": [
+        { "year": 2012, "asset": "Ingersoll‑Rand", "position": "Impulsó scissions y mejoras operativas", "result": "Separaciones y eficiencia", "notes": "Clarificar líneas de negocio y retornos de capital" },
+        { "year": 2017, "asset": "Procter & Gamble (P&G)", "position": "Asiento en consejo; foco de marcas y costos", "result": "Obtuvo asiento y avanzó reformas", "notes": "Arquitectura de marcas y eficiencia de costos" },
+        { "year": 2023, "asset": "Disney", "position": "Propuestas de gobernanza, costos y estrategia de contenido", "result": "Campaña pública con ajustes incrementales", "notes": "Eficiencia de capital y comunicación con accionistas" }
+      ],
+      "fr": [
+        { "year": 2012, "asset": "Ingersoll‑Rand", "position": "A plaidé pour des scissions et des améliorations opérationnelles", "result": "Séparations et gains d'efficacité", "notes": "Clarifier lignes d'activité et retours de capital" },
+        { "year": 2017, "asset": "Procter & Gamble (P&G)", "position": "Siège au conseil; focus marques et actions sur coûts", "result": "Siège obtenu et réformes avancées", "notes": "Architecture de marques et efficacité des coûts" },
+        { "year": 2023, "asset": "Disney", "position": "Propositions sur gouvernance, coûts et stratégie de contenu", "result": "Campagne publique avec ajustements progressifs", "notes": "Efficacité du capital et communication actionnariale" }
+      ]
+    }
   },
   {
     "id": "walter_schloss",
@@ -735,10 +981,10 @@
     "lessons": { "zh": ["坚持安全边际与低估值。"], "en": ["Insist on margin of safety and low valuations."], "es": ["Insistir en margen de seguridad y bajas valoraciones."], "fr": ["Insister sur marge de sécurité et faibles valorisations."] }
     ,
     "cases": {
-      "zh": [{ "year": 1955, "asset": "低估值小盘组合", "position": "广泛分散", "result": "数十年稳健超额" }],
-      "en": [{ "year": 1955, "asset": "Deep value small-cap baskets", "position": "Broad diversification", "result": "Decades of steady excess returns" }],
-      "es": [{ "year": 1955, "asset": "Cestas de small-cap de valor profundo", "position": "Amplia diversificación", "result": "Décadas de exceso estable" }],
-      "fr": [{ "year": 1955, "asset": "Paniers small-cap value profond", "position": "Large diversification", "result": "Décennies de surperformance stable" }]
+      "zh": [{ "year": 1955, "asset": "低估值小盘组合", "position": "广泛分散", "result": "数十年稳健超额" }, { "year": 1973, "asset": "组合持仓", "position": "小权重多持仓", "risk_budget": "广泛分散", "max_dd": "1973–1974熊市期间较大回撤", "notes": "每个持仓权重较小、以分散降低单一风险" }],
+      "en": [{ "year": 1955, "asset": "Deep value small-cap baskets", "position": "Broad diversification", "result": "Decades of steady excess returns" }, { "year": 1973, "asset": "Portfolio breadth", "position": "Many small-weight positions", "risk_budget": "Broad diversification", "max_dd": "Large drawdown during 1973–1974 bear market", "notes": "Small per-position weights to reduce idiosyncratic risk" }],
+      "es": [{ "year": 1955, "asset": "Cestas de small-cap de valor profundo", "position": "Amplia diversificación", "result": "Décadas de exceso estable" }, { "year": 1973, "asset": "Amplitud de cartera", "position": "Muchas posiciones de bajo peso", "risk_budget": "Amplia diversificación", "max_dd": "Caída grande en el mercado bajista 1973–1974", "notes": "Peso reducido por posición para disminuir riesgo idiosincrático" }],
+      "fr": [{ "year": 1955, "asset": "Paniers small-cap value profond", "position": "Large diversification", "result": "Décennies de surperformance stable" }, { "year": 1973, "asset": "Largeur de portefeuille", "position": "De nombreuses petites pondérations", "risk_budget": "Large diversification", "max_dd": "Drawdown important pendant 1973–1974", "notes": "Petites pondérations par ligne pour réduire le risque idiosyncratique" }]
     }
   },
   {
@@ -912,11 +1158,11 @@
     "lessons": { "zh": ["少而精、能力圈内投资。"], "en": ["Few and high-quality; invest within circle of competence."], "es": ["Pocas y de alta calidad; invertir en el círculo de competencia."], "fr": ["Peu et de haute qualité; investir dans son cercle de compétence."] }
     ,
     "cases": {
-      "zh": [{ "year": 1997, "asset": "高质量价值公司", "position": "集中持有", "result": "长期稳健回报" }],
-      "en": [{ "year": 1997, "asset": "High-quality value companies", "position": "Concentrated ownership", "result": "Steady long-term returns" }]
+      "zh": [{ "year": 1997, "asset": "高质量价值公司", "position": "集中持有", "result": "长期稳健回报" }, { "year": 2015, "asset": "质量持仓", "position": "高度集中/周期波动", "result": "阶段性回撤", "notes": "强调耐心与能力圈" }],
+      "en": [{ "year": 1997, "asset": "High-quality value companies", "position": "Concentrated ownership", "result": "Steady long-term returns" }, { "year": 2015, "asset": "Quality holdings", "position": "High concentration/cycle volatility", "result": "Phase drawdown", "notes": "Stress patience and circle of competence" }]
       ,
-      "es": [{ "year": 1997, "asset": "Empresas de valor de alta calidad", "position": "Propiedad concentrada", "result": "Retornos estables a largo" }],
-      "fr": [{ "year": 1997, "asset": "Entreprises value de haute qualité", "position": "Détention concentrée", "result": "Retours stables long terme" }]
+      "es": [{ "year": 1997, "asset": "Empresas de valor de alta calidad", "position": "Propiedad concentrada", "result": "Retornos estables a largo" }, { "year": 2015, "asset": "Tenencias de calidad", "position": "Alta concentración/volatilidad de ciclo", "result": "Caída por fase", "notes": "Paciencia y círculo de competencia" }],
+      "fr": [{ "year": 1997, "asset": "Entreprises value de haute qualité", "position": "Détention concentrée", "result": "Retours stables long terme" }, { "year": 2015, "asset": "Positions de qualité", "position": "Forte concentration/volatilité de cycle", "result": "Drawdown de phase", "notes": "Patience et cercle de compétence" }]
     }
   }
   ,
@@ -957,10 +1203,10 @@
     "lessons": { "zh": ["跨市场分散提高稳健度。"], "en": ["Cross-market diversification improves robustness."], "es": ["La diversificación multi-mercado mejora la robustez."], "fr": ["La diversification multi-marchés améliore la robustesse."] }
     ,
     "cases": {
-      "zh": [{ "year": 1974, "asset": "管理期货（上百合约）", "position": "长期趋势模型组合", "hedge": "止损/波动目标", "result": "跨周期稳健", "vol_target": "目标波动区间", "risk_budget": "集中预算", "notes": "集中风险预算" }],
-      "en": [{ "year": 1974, "asset": "Managed futures (100+ contracts)", "position": "Long-horizon trend suites", "hedge": "Stops/vol targets", "result": "Robust across cycles", "vol_target": "Target volatility range", "risk_budget": "Centralized budget", "notes": "Centralized risk budgets" }],
-      "es": [{ "year": 1974, "asset": "Futuros gestionados (100+ contratos)", "position": "Conjuntos de tendencia largo", "hedge": "Stops/objetivos de vol", "result": "Robusto en ciclos", "vol_target": "Rango de volatilidad objetivo", "risk_budget": "Presupuesto centralizado", "notes": "Presupuestos de riesgo centralizados" }],
-      "fr": [{ "year": 1974, "asset": "Futures gérés (100+ contrats)", "position": "Suites de trend long terme", "hedge": "Stops/cibles de vol", "result": "Robuste sur cycles", "vol_target": "Plage de vol cible", "risk_budget": "Budget centralisé", "notes": "Budgets de risque centralisés" }]
+      "zh": [{ "year": 1974, "asset": "管理期货（上百合约）", "position": "长期趋势模型组合", "hedge": "止损/波动目标", "result": "跨周期稳健", "vol_target": "目标波动区间", "risk_budget": "集中预算", "notes": "集中风险预算" }, { "year": 2011, "asset": "CTA 趋势", "position": "横盘与反复震荡期", "result": "阶段性回撤", "notes": "低趋势强度时期强调耐心与风控" }],
+      "en": [{ "year": 1974, "asset": "Managed futures (100+ contracts)", "position": "Long-horizon trend suites", "hedge": "Stops/vol targets", "result": "Robust across cycles", "vol_target": "Target volatility range", "risk_budget": "Centralized budget", "notes": "Centralized risk budgets" }, { "year": 2011, "asset": "CTA trend", "position": "Sideways/choppy regime", "result": "Phase drawdown", "notes": "Emphasize patience and risk controls in low-trend strength" }],
+      "es": [{ "year": 1974, "asset": "Futuros gestionados (100+ contratos)", "position": "Conjuntos de tendencia largo", "hedge": "Stops/objetivos de vol", "result": "Robusto en ciclos", "vol_target": "Rango de volatilidad objetivo", "risk_budget": "Presupuesto centralizado", "notes": "Presupuestos de riesgo centralizados" }, { "year": 2011, "asset": "CTA de tendencia", "position": "Régimen lateral/volátil", "result": "Caída por fase", "notes": "Énfasis en paciencia y control de riesgo en baja tendencia" }],
+      "fr": [{ "year": 1974, "asset": "Futures gérés (100+ contrats)", "position": "Suites de trend long terme", "hedge": "Stops/cibles de vol", "result": "Robuste sur cycles", "vol_target": "Plage de vol cible", "risk_budget": "Budget centralisé", "notes": "Budgets de risque centralisés" }, { "year": 2011, "asset": "Trend CTA", "position": "Régime latéral/haché", "result": "Drawdown de phase", "notes": "Accent sur patience et contrôle du risque en faible tendance" }]
     }
   }
   ,
@@ -1001,10 +1247,10 @@
     "lessons": { "zh": ["避免过拟合与参数漂移。"], "en": ["Avoid overfitting and parameter drift."], "es": ["Evitar sobreajuste y deriva de parámetros."], "fr": ["Éviter le sur-ajustement et la dérive des paramètres."] }
     ,
     "cases": {
-      "zh": [{ "year": 2005, "asset": "多模型CTA", "position": "趋势/季节性/跨资产信号", "hedge": "风险预算/止损", "result": "研究驱动稳健", "risk_budget": "多策略风险配额", "notes": "实证与工程强化" }],
-      "en": [{ "year": 2005, "asset": "Multi-model CTA", "position": "Trend/seasonality/cross-asset", "hedge": "Risk budgets/stops", "result": "Research-driven robustness", "risk_budget": "Multi-strategy risk quotas", "notes": "Empirics and engineering" }],
-      "es": [{ "year": 2005, "asset": "CTA multi-modelo", "position": "Tendencia/estacionalidad/multi-activo", "hedge": "Presupuestos de riesgo/stops", "result": "Robustez por investigación", "risk_budget": "Cuotas de riesgo multi-estrategia", "notes": "Empíricos e ingeniería" }],
-      "fr": [{ "year": 2005, "asset": "CTA multi-modèles", "position": "Trend/saisonnalité/multi-actifs", "hedge": "Budgets de risque/stops", "result": "Robustesse par recherche", "risk_budget": "Quotas de risque multi-stratégies", "notes": "Empirique et ingénierie" }]
+      "zh": [{ "year": 2005, "asset": "多模型CTA", "position": "趋势/季节性/跨资产信号", "hedge": "风险预算/止损", "result": "研究驱动稳健", "risk_budget": "多策略风险配额", "notes": "实证与工程强化" }, { "year": 2013, "asset": "CTA 趋势", "position": "低趋势强度与反复震荡", "result": "阶段性回撤", "notes": "强调多模型与稳健性" }],
+      "en": [{ "year": 2005, "asset": "Multi-model CTA", "position": "Trend/seasonality/cross-asset", "hedge": "Risk budgets/stops", "result": "Research-driven robustness", "risk_budget": "Multi-strategy risk quotas", "notes": "Empirics and engineering" }, { "year": 2013, "asset": "CTA trend", "position": "Low-trend strength and whipsaws", "result": "Phase drawdown", "notes": "Emphasize ensemble robustness" }],
+      "es": [{ "year": 2005, "asset": "CTA multi-modelo", "position": "Tendencia/estacionalidad/multi-activo", "hedge": "Presupuestos de riesgo/stops", "result": "Robustez por investigación", "risk_budget": "Cuotas de riesgo multi-estrategia", "notes": "Empíricos e ingeniería" }, { "year": 2013, "asset": "CTA de tendencia", "position": "Baja tendencia y whipsaws", "result": "Caída por fase", "notes": "Énfasis en robustez de ensembles" }],
+      "fr": [{ "year": 2005, "asset": "CTA multi-modèles", "position": "Trend/saisonnalité/multi-actifs", "hedge": "Budgets de risque/stops", "result": "Robustesse par recherche", "risk_budget": "Quotas de risque multi-stratégies", "notes": "Empirique et ingénierie" }, { "year": 2013, "asset": "Trend CTA", "position": "Faible force de tendance et whipsaws", "result": "Drawdown de phase", "notes": "Accent sur robustesse des ensembles" }]
     }
   }
   ,
@@ -1036,10 +1282,10 @@
       "fr": "Retours robustes ajustés au risque dans cadre multi-stratégie."
     },
     "cases": {
-      "zh": ["2001年成立并构建量化工程平台","扩展机器学习在量化中的应用","搭建规模化数据与研究管线", { "year": 2015, "asset": "股票/期货", "position": "ML 信号与因子库", "hedge": "风险预算与组合优化", "result": "跨策略稳健", "instruments": ["美股","全球股指期货"], "notes": "工程与数据平台强化" }],
-      "en": ["Founded in 2001 with quant engineering platform","Expanded ML applications in quant","Built scaled data and research pipelines", { "year": 2015, "asset": "Equities/Futures", "position": "ML signals and factor libraries", "hedge": "Risk budgeting and portfolio optimization", "result": "Cross-strategy robustness", "instruments": ["US equities","Global equity index futures"], "notes": "Strengthened engineering and data platforms" }],
-      "es": ["Fundada en 2001 con plataforma cuant","Amplió aplicaciones de ML en cuant","Construyó datos y canal de investigación a escala", { "year": 2015, "asset": "Acciones/Futuros", "position": "Señales ML y bibliotecas de factores", "hedge": "Presupuesto de riesgo y optimización de cartera", "result": "Robustez multi-estrategia", "instruments": ["Acciones US","Futuros índices globales"], "notes": "Plataformas de ingeniería y datos reforzadas" }],
-      "fr": ["Fondée en 2001 avec plateforme quant","Étend les applications ML en quant","Construit données et pipeline de recherche à l'échelle", { "year": 2015, "asset": "Actions/Futures", "position": "Signaux ML et bibliothèques de facteurs", "hedge": "Budgets de risque et optimisation de portefeuille", "result": "Robustesse multi-stratégies", "instruments": ["Actions US","Futures indices globaux"], "notes": "Plateformes d'ingénierie et de données renforcées" }]
+      "zh": ["2001年成立并构建量化工程平台","扩展机器学习在量化中的应用","搭建规模化数据与研究管线", { "year": 2015, "asset": "股票/期货", "position": "ML 信号与因子库", "hedge": "风险预算与组合优化", "result": "跨策略稳健", "instruments": ["美股","全球股指期货"], "notes": "工程与数据平台强化" }, { "year": 2018, "asset": "量化股票/多因子", "position": "因子拥挤与相关性上升", "result": "阶段性回撤", "notes": "拥挤检测（持仓重叠/载荷聚类）、正则化与风险配额调整、相关性监控（动态协方差/体制切换）" }, { "year": 2019, "asset": "模型升级与分散", "position": "拓展非拥挤信号与稳健集成", "result": "风险稳定", "notes": "更强正则化、拥挤监测门限、相关性阈值；多源数据集成" }, { "year": 2020, "asset": "疫情期应对", "position": "对冲与再平衡", "result": "控制波动参与复苏", "notes": "相关性变化下的动态管理与流动性缓冲" }, { "year": 2021, "asset": "后疫情再配置", "position": "质量优先与纪律化加仓", "result": "风险/回报改善", "notes": "稳健因子与流动性管理" }, { "year": 2022, "asset": "紧缩背景", "position": "提高流动性与稳健信号权重", "result": "抗压表现", "notes": "估值与资金成本约束下调整" }],
+      "en": ["Founded in 2001 with quant engineering platform","Expanded ML applications in quant","Built scaled data and research pipelines", { "year": 2015, "asset": "Equities/Futures", "position": "ML signals and factor libraries", "hedge": "Risk budgeting and portfolio optimization", "result": "Cross-strategy robustness", "instruments": ["US equities","Global equity index futures"], "notes": "Strengthened engineering and data platforms" }, { "year": 2018, "asset": "Quant equities/multi-factor", "position": "Factor crowding and rising correlations", "result": "Phase drawdown", "notes": "Crowding detection (holdings overlap/load clustering), regularization and risk budget tuning, correlation monitoring (dynamic covariance/regime shifts)" }, { "year": 2019, "asset": "Model upgrades & diversification", "position": "Broaden non-crowded signals; robust ensemble", "result": "Risk stabilization", "notes": "Stronger regularization, crowding thresholds, correlation limits; multi-source data integration" }, { "year": 2020, "asset": "Pandemic response", "position": "Hedges and rebalancing", "result": "Controlled volatility with recovery", "notes": "Dynamic management under correlation shifts; liquidity buffers" }, { "year": 2021, "asset": "Post‑pandemic reallocation", "position": "Quality‑first and disciplined adds", "result": "Improved risk/return", "notes": "Robust factors and liquidity management" }, { "year": 2022, "asset": "Tightening regime", "position": "Raise liquidity; emphasize robust signals", "result": "Stress resilience", "notes": "Adjust under valuations/funding costs" }],
+      "es": ["Fundada en 2001 con plataforma cuant","Amplió aplicaciones de ML en cuant","Construyó datos y canal de investigación a escala", { "year": 2015, "asset": "Acciones/Futuros", "position": "Señales ML y bibliotecas de factores", "hedge": "Presupuesto de riesgo y optimización de cartera", "result": "Robustez multi-estrategia", "instruments": ["Acciones US","Futuros índices globales"], "notes": "Plataformas de ingeniería y datos reforzadas" }, { "year": 2018, "asset": "Acciones cuant/multifactor", "position": "Crowding de factores y correlaciones al alza", "result": "Caída por fase", "notes": "Detección de crowding (solapamiento/carga de factores), ajuste de regularización y presupuestos; monitoreo de correlación (covarianza dinámica/cambios de régimen)" }, { "year": 2019, "asset": "Mejoras de modelo y diversificación", "position": "Señales no saturadas y ensemble robusto", "result": "Estabilización de riesgo", "notes": "Regularización más fuerte, umbrales de crowding y correlación; integración de datos multi‑fuente" }, { "year": 2020, "asset": "Respuesta a pandemia", "position": "Coberturas y reequilibrio", "result": "Volatilidad controlada con recuperación", "notes": "Gestión dinámica bajo cambios de correlación; colchones de liquidez" }, { "year": 2021, "asset": "Reasignación post‑pandemia", "position": "Calidad primero y compras disciplinadas", "result": "Mejor riesgo/retorno", "notes": "Factores robustos y gestión de liquidez" }, { "year": 2022, "asset": "Régimen de ajuste", "position": "Subir liquidez; enfatizar señales robustas", "result": "Resiliencia bajo estrés", "notes": "Ajuste por valoraciones/costos" }],
+      "fr": ["Fondée en 2001 avec plateforme quant","Étend les applications ML en quant","Construit données et pipeline de recherche à l'échelle", { "year": 2015, "asset": "Actions/Futures", "position": "Signaux ML et bibliothèques de facteurs", "hedge": "Budgets de risque et optimisation de portefeuille", "result": "Robustesse multi-stratégies", "instruments": ["Actions US","Futures indices globaux"], "notes": "Plateformes d'ingénierie et de données renforcées" }, { "year": 2018, "asset": "Actions quant/multi‑facteurs", "position": "Crowding des facteurs et corrélations en hausse", "result": "Drawdown de phase", "notes": "Détection du crowding (chevauchement/charges de facteurs), réglage de la régularisation et des budgets; surveillance de corrélation (covariance dynamique/changements de régime)" }, { "year": 2019, "asset": "Montées de modèles et diversification", "position": "Signaux non saturés et ensemble robuste", "result": "Stabilisation du risque", "notes": "Régularisation renforcée, seuils de crowding et de corrélation; intégration multi‑sources" }, { "year": 2020, "asset": "Réponse pandémie", "position": "Couvertures et rééquilibrage", "result": "Volatilité contrôlée avec reprise", "notes": "Gestion dynamique sous changements de corrélations; coussins de trésorerie" }, { "year": 2021, "asset": "Réallocation post‑pandémie", "position": "Qualité d'abord et achats disciplinés", "result": "Meilleur couple risque/retour", "notes": "Facteurs robustes et gestion de trésorerie" }, { "year": 2022, "asset": "Régime de resserrement", "position": "Hausser liquidité; accent sur signaux robustes", "result": "Résilience au stress", "notes": "Ajuster selon valorisations/coûts" }]
     },
     "timeline": [
       { "year": 2001, "text": { "zh": "创立Two Sigma。", "en": "Founded Two Sigma.", "es": "Fundó Two Sigma.", "fr": "Fonde Two Sigma." } },
@@ -1087,10 +1333,10 @@
       "fr": "Influence sectorielle durable et retours robustes."
     },
     "cases": {
-      "zh": ["1988年创立并推进算法交易","扩展研究文化与多策略平台","长期构建技术与风险预算能力", { "year": 2000, "asset": "多策略平台", "position": "股票/期权/期货/事件", "hedge": "集中回测与执行", "result": "跨市场稳健", "instruments": ["股票","期权","期货"], "notes": "技术基础设施升级与全球拓展" }],
-      "en": ["Founded in 1988; advanced algorithmic trading","Expanded research culture and multi-strategy platform","Built long-term tech and risk budgeting capabilities", { "year": 2000, "asset": "Multi-strategy platform", "position": "Equities/Options/Futures/Event", "hedge": "Centralized backtesting and execution", "result": "Cross-market robustness", "instruments": ["Equities","Options","Futures"], "notes": "Tech infra upgrade and global expansion" }],
-      "es": ["Fundada en 1988; trading algorítmico avanzado","Cultura de investigación y plataforma multi-estrategia","Capacidades de tecnología y presupuesto de riesgo a largo plazo", { "year": 2000, "asset": "Plataforma multi-estrategia", "position": "Acciones/Opciones/Futuros/Eventos", "hedge": "Backtesting y ejecución centralizados", "result": "Robustez multi-mercado", "instruments": ["Acciones","Opciones","Futuros"], "notes": "Actualización tecnológica y expansión global" }],
-      "fr": ["Fondée en 1988; trading algorithmique avancé","Culture de recherche et plateforme multi-stratégie","Capacités tech et budget de risque à long terme", { "year": 2000, "asset": "Plateforme multi-stratégie", "position": "Actions/Options/Futures/Événement", "hedge": "Backtests et exécution centralisés", "result": "Robustesse multi-marchés", "instruments": ["Actions","Options","Futures"], "notes": "Mise à niveau technologique et expansion mondiale" }]
+      "zh": ["1988年创立并推进算法交易","扩展研究文化与多策略平台","长期构建技术与风险预算能力", { "year": 2000, "asset": "多策略平台", "position": "股票/期权/期货/事件", "hedge": "集中回测与执行", "result": "跨市场稳健", "instruments": ["股票","期权","期货"], "notes": "技术基础设施升级与全球拓展" }, { "year": 2007, "asset": "外部量化股票", "position": "因子拥挤与相关性变化", "result": "阶段性回撤", "notes": "外部产品与内部策略风险回报不同，需精细预期管理" }, { "year": 2018, "asset": "量化股票", "position": "因子拥挤与相关性上升", "result": "阶段性回撤", "notes": "降低拥挤暴露与增强稳健性" }, { "year": 2019, "asset": "模型与分散", "position": "提升质量与流动性缓冲", "result": "风险稳定", "notes": "再平衡与稳健集成" }, { "year": 2020, "asset": "外部量化股票", "position": "疫情期相关性变化", "result": "阶段性承压", "notes": "流动性与相关性的管理" }, { "year": 2021, "asset": "后疫情再配置", "position": "质量优先与下行保护", "result": "风险/回报改善" }, { "year": 2022, "asset": "紧缩背景", "position": "提高现金与稳健信号权重", "result": "抗压表现" }],
+      "en": ["Founded in 1988; advanced algorithmic trading","Expanded research culture and multi-strategy platform","Built long-term tech and risk budgeting capabilities", { "year": 2000, "asset": "Multi-strategy platform", "position": "Equities/Options/Futures/Event", "hedge": "Centralized backtesting and execution", "result": "Cross-market robustness", "instruments": ["Equities","Options","Futures"], "notes": "Tech infra upgrade and global expansion" }, { "year": 2007, "asset": "External quant equities", "position": "Factor crowding and correlation shifts", "result": "Phase drawdown", "notes": "Manage expectations; distinguish from internal strategies" }, { "year": 2018, "asset": "Quant equities", "position": "Factor crowding and rising correlations", "result": "Phase drawdown", "notes": "Reduce crowded exposures; enhance robustness" }, { "year": 2019, "asset": "Models & diversification", "position": "Quality shift and liquidity buffers", "result": "Risk stabilization", "notes": "Rebalancing and robust integration" }, { "year": 2020, "asset": "External quant equities", "position": "Pandemic correlation changes", "result": "Phase pressure", "notes": "Liquidity and correlation management" }, { "year": 2021, "asset": "Post‑pandemic reallocation", "position": "Quality‑first with downside protection", "result": "Improved risk/return" }, { "year": 2022, "asset": "Tightening regime", "position": "Raise cash and robust signals", "result": "Stress resilience" }],
+      "es": ["Fundada en 1988; trading algorítmico avanzado","Cultura de investigación y plataforma multi-estrategia","Capacidades de tecnología y presupuesto de riesgo a largo plazo", { "year": 2000, "asset": "Plataforma multi-estrategia", "position": "Acciones/Opciones/Futuros/Eventos", "hedge": "Backtesting y ejecución centralizados", "result": "Robustez multi-mercado", "instruments": ["Acciones","Opciones","Futuros"], "notes": "Actualización tecnológica y expansión global" }, { "year": 2007, "asset": "Acciones cuant externas", "position": "Crowding de factores y cambios de correlación", "result": "Caída por fase", "notes": "Gestionar expectativas; diferenciar de estrategias internas" }, { "year": 2018, "asset": "Acciones cuant", "position": "Crowding de factores y correlaciones al alza", "result": "Caída por fase", "notes": "Bajar exposición a crowding y robustecer" }, { "year": 2019, "asset": "Modelos y diversificación", "position": "Cambio a calidad y colchones de liquidez", "result": "Estabilización de riesgo", "notes": "Reequilibrio e integración robusta" }, { "year": 2020, "asset": "Acciones cuant externas", "position": "Cambios de correlación en pandemia", "result": "Presión por fase", "notes": "Gestión de liquidez y correlaciones" }, { "year": 2021, "asset": "Reasignación post‑pandemia", "position": "Calidad primero con protección de bajada", "result": "Mejor riesgo/retorno" }, { "year": 2022, "asset": "Régimen de ajuste", "position": "Subir efectivo y señales robustas", "result": "Resiliencia bajo estrés" }],
+      "fr": ["Fondée en 1988; trading algorithmique avancé","Culture de recherche et plateforme multi-stratégie","Capacités tech et budget de risque à long terme", { "year": 2000, "asset": "Plateforme multi-stratégie", "position": "Actions/Options/Futures/Événement", "hedge": "Backtests et exécution centralisés", "result": "Robustesse multi-marchés", "instruments": ["Actions","Options","Futures"], "notes": "Mise à niveau technologique et expansion mondiale" }, { "year": 2007, "asset": "Actions quant externes", "position": "Crowding de facteurs et changements de corrélations", "result": "Drawdown de phase", "notes": "Gérer les attentes; distinguer des stratégies internes" }, { "year": 2018, "asset": "Actions quant", "position": "Crowding des facteurs et corrélations en hausse", "result": "Drawdown de phase", "notes": "Réduire expositions saturées; renforcer robustesse" }, { "year": 2019, "asset": "Modèles et diversification", "position": "Montée en qualité et coussins de trésorerie", "result": "Stabilisation du risque", "notes": "Rééquilibrage et intégration robuste" }, { "year": 2020, "asset": "Actions quant externes", "position": "Changements de corrélations en pandémie", "result": "Pression de phase", "notes": "Gestion de la liquidité et des corrélations" }, { "year": 2021, "asset": "Réallocation post‑pandémie", "position": "Qualité d'abord avec protection du downside", "result": "Meilleur couple risque/retour" }, { "year": 2022, "asset": "Régime de resserrement", "position": "Renforcer trésorerie et signaux robustes", "result": "Résilience au stress" }]
     },
     "timeline": [
       { "year": 1988, "text": { "zh": "创立D. E. Shaw。", "en": "Founded D. E. Shaw.", "es": "Fundó D. E. Shaw.", "fr": "Fonde D. E. Shaw." } },
@@ -1300,10 +1546,10 @@
       "fr": "Surperformance longue; préférentielles/convertibles en crise ont scellé des accords de qualité." 
     },
     "cases": {
-      "zh": ["1988年重仓可口可乐并长期持有","2008年危机向高盛提供优先股融资","2016-2020年持续增持苹果至核心持仓","2022年加仓西方石油并长期看好"],
-      "en": ["1988 Coca-Cola stake held long term","2008 crisis preferred financing to Goldman Sachs","2016–2020 increased Apple to core holding","2022 added Occidental with long-term view"],
-      "es": ["1988 participación en Coca-Cola a largo plazo","2008 financiación preferente a Goldman en la crisis","2016–2020 aumentó Apple como núcleo","2022 añadió Occidental con visión a largo plazo"],
-      "fr": ["1988 prise de participation Coca-Cola à long terme","2008 financement préférentiel à Goldman pendant la crise","2016–2020 augmentation d'Apple au cœur","2022 ajout d'Occidental avec vision long terme"]
+      "zh": ["1988年重仓可口可乐并长期持有","2008年危机向高盛提供优先股融资","2016-2020年持续增持苹果至核心持仓","2022年加仓西方石油并长期看好", { "year": 2015, "asset": "Kraft Heinz", "position": "品牌与现金流预期过高", "result": "减值与回撤", "notes": "品牌与现金流≠永久低风险" }, { "year": 2020, "asset": "航空股", "position": "危机中退出", "result": "阶段性亏损与反思", "notes": "审慎评估周期与确定性" }],
+      "en": ["1988 Coca-Cola stake held long term","2008 crisis preferred financing to Goldman Sachs","2016–2020 increased Apple to core holding","2022 added Occidental with long-term view", { "year": 2015, "asset": "Kraft Heinz", "position": "Over-optimistic brand/cash-flow expectations", "result": "Write-down and drawdown", "notes": "Brand and cash flow ≠ perpetual low risk" }, { "year": 2020, "asset": "Airlines", "position": "Exiting amid crisis", "result": "Phase loss and reflection", "notes": "Prudent assessment of cycles and certainty" }],
+      "es": ["1988 participación en Coca-Cola a largo plazo","2008 financiación preferente a Goldman en la crisis","2016–2020 aumentó Apple como núcleo","2022 añadió Occidental con visión a largo plazo", { "year": 2015, "asset": "Kraft Heinz", "position": "Expectativas excesivas de marca/flujo", "result": "Depreciación y caída", "notes": "Marca y flujo ≠ riesgo perpetuamente bajo" }, { "year": 2020, "asset": "Aerolíneas", "position": "Salida en crisis", "result": "Pérdida por fase y reflexión", "notes": "Evaluación prudente de ciclos y certeza" }],
+      "fr": ["1988 prise de participation Coca-Cola à long terme","2008 financement préférentiel à Goldman pendant la crise","2016–2020 augmentation d'Apple au cœur","2022 ajout d'Occidental avec vision long terme", { "year": 2015, "asset": "Kraft Heinz", "position": "Attentes trop optimistes marque/flux", "result": "Dépréciation et baisse", "notes": "Marque et flux ≠ risque perpétuellement faible" }, { "year": 2020, "asset": "Compagnies aériennes", "position": "Sortie en crise", "result": "Perte de phase et réflexion", "notes": "Évaluation prudente des cycles et de la certitude" }]
     },
     "works": {
       "zh": ["伯克希尔致股东信"],
@@ -1318,10 +1564,10 @@
       "fr": ["Soyez craintif quand les autres sont avides et avide quand les autres ont peur."]
     },
     "lessons": {
-      "zh": ["避免过度分散，集中于能力圈。"],
-      "en": ["Avoid over-diversification; stay within your circle of competence."],
-      "es": ["Evitar la sobre-diversificación; permanecer en el círculo de competencia."],
-      "fr": ["Éviter la sur-diversification; rester dans son cercle de compétence."]
+      "zh": ["避免过度分散，集中于能力圈。","审慎评估科技与周期（如IBM与航空股）","品牌与现金流不等于永远低风险（如Kraft Heinz减值）"],
+      "en": ["Avoid over-diversification; stay within your circle of competence.","Assess tech and cycles prudently (e.g., IBM, airlines)","Brand and cash flow ≠ perpetually low risk (e.g., Kraft Heinz write-down)"] ,
+      "es": ["Evitar la sobre-diversificación; permanecer en el círculo de competencia.","Evaluar con prudencia tecnología y ciclos (p.ej., IBM y aerolíneas)","Marca y flujo ≠ riesgo perpetuamente bajo (p.ej., depreciación de Kraft Heinz)"] ,
+      "fr": ["Éviter la sur-diversification; rester dans son cercle de compétence.","Évaluer prudemment la tech et les cycles (ex.: IBM, compagnies aériennes)","Marque et flux ≠ risque perpétuellement faible (ex.: dépréciation de Kraft Heinz)"]
     },
     "timeline": [
       { "year": 1965, "text": { "zh": "接管伯克希尔哈撒韦。", "en": "Took control of Berkshire Hathaway.", "es": "Tomó el control de Berkshire Hathaway.", "fr": "Prend le contrôle de Berkshire Hathaway." } },
@@ -1366,7 +1612,11 @@
       "zh": ["1977年接管麦哲伦基金并实现年均约29%","1980年代发掘多只十倍股","1990年出版《战胜华尔街》"],
       "en": ["1977 took over Magellan ~29% annual","1980s found multiple tenbaggers","1990 published One Up on Wall Street"],
       "es": ["1977 asumió Magellan ~29% anual","años 80 múltiples tenbaggers","1990 publicó One Up on Wall Street"],
-      "fr": ["1977 prend Magellan ~29% annuel","années 80 plusieurs tenbaggers","1990 publie One Up on Wall Street"]
+      "fr": ["1977 prend Magellan ~29% annuel","années 80 plusieurs tenbaggers","1990 publie One Up on Wall Street"],
+      "zh": [{ "year": 1987, "asset": "故事股", "position": "过度乐观与快速加仓", "result": "阶段性回撤", "notes": "坚持基本面，警惕叙事驱动的亢奋" }],
+      "en": [{ "year": 1987, "asset": "Story stocks", "position": "Over-optimism and rapid scaling", "result": "Phase drawdown", "notes": "Stick to fundamentals; beware narrative-driven exuberance" }],
+      "es": [{ "year": 1987, "asset": "Acciones de historia", "position": "Sobre-optimismo y escalado rápido", "result": "Caída por fase", "notes": "Apegarse a fundamentales; cuidado con el entusiasmo narrativo" }],
+      "fr": [{ "year": 1987, "asset": "Actions à histoires", "position": "Sur-optimisme et montée rapide", "result": "Drawdown de phase", "notes": "Rester sur les fondamentaux; se méfier de l'enthousiasme narratif" }]
     },
     "works": {
       "zh": ["彼得林奇的成功投资", "战胜华尔街"],
@@ -1381,10 +1631,10 @@
       "fr": ["Investissez dans ce que vous connaissez."]
     },
     "lessons": {
-      "zh": ["警惕故事股，坚持基本面。"],
-      "en": ["Beware of story stocks; stick to fundamentals."],
-      "es": ["Cuidado con acciones de historia; apegarse a fundamentales."],
-      "fr": ["Se méfier des actions à histoires; rester sur les fondamentaux."]
+      "zh": ["警惕故事股，坚持基本面。","周期股的估值陷阱：盈利峰值时的低P/E未必便宜。"],
+      "en": ["Beware of story stocks; stick to fundamentals.","Cyclical valuation trap: low P/E at peak earnings isn't necessarily cheap."],
+      "es": ["Cuidado con acciones de historia; apegarse a fundamentales.","Trampa de valoración cíclica: bajo P/E en pico de ganancias no necesariamente es barato."],
+      "fr": ["Se méfier des actions à histoires; rester sur les fondamentaux.","Piège de valorisation cyclique : un faible P/E au pic des bénéfices n'est pas forcément bon marché."]
     },
     "timeline": [
       { "year": 1977, "text": { "zh": "接管麦哲伦基金。", "en": "Took over Magellan Fund.", "es": "Asumió el Fondo Magellan.", "fr": "Prend la tête du Magellan Fund." } },
@@ -1422,10 +1672,10 @@
       "fr": "Vente GBP 1992 ~1 Md$; plusieurs thèmes macro aux retours élevés." 
     },
     "cases": {
-      "zh": ["1992年做空英镑（黑色星期三）","1997年亚洲金融危机期间的宏观交易","2008年金融危机中的多资产配置", { "year": 1992, "asset": "GBP", "position": "高杠杆空头", "hedge": "跨货币与利率对冲", "result": "约10亿美元盈利", "duration": "数周", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
-      "en": ["1992 Black Wednesday GBP short","1997 Asian Financial Crisis macro trades","2008 multi-asset positioning in crisis", { "year": 1992, "asset": "GBP", "position": "High-leverage short", "hedge": "Cross-currency and rates hedges", "result": "~$1B profit", "duration": "Weeks", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
-      "es": ["1992 Miércoles Negro corto GBP","1997 operaciones macro en la crisis asiática","2008 posicionamiento multi-activo en crisis", { "year": 1992, "asset": "GBP", "position": "Cortos de alto apalancamiento", "hedge": "Coberturas cruzadas de divisas y tasas", "result": "~$1B de ganancia", "duration": "Semanas", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }],
-      "fr": ["1992 Mercredi noir vente GBP","1997 trades macro durant la crise asiatique","2008 positionnement multi-actifs en crise", { "year": 1992, "asset": "GBP", "position": "Short à fort levier", "hedge": "Couvertures croisées devises et taux", "result": "~1 Md$ de profit", "duration": "Semaines", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }]
+      "zh": ["1992年做空英镑（黑色星期三）","1997年亚洲金融危机期间的宏观交易","2008年金融危机中的多资产配置", { "year": 1992, "asset": "GBP", "position": "高杠杆空头", "hedge": "跨货币与利率对冲", "result": "约10亿美元盈利", "duration": "数周", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }, { "year": 1998, "asset": "俄罗斯/新兴市场", "position": "宏观仓位承压", "hedge": "对冲不足", "result": "阶段性回撤", "notes": "在连锁波动中反思风险集中与纠错速度" }, { "year": 1999, "asset": "组合再平衡", "position": "降低风险集中、加强对冲", "result": "风险稳定", "notes": "危机后强化流动性与对冲管理" }, { "year": 2000, "asset": "科技与新经济", "position": "反思叙事过度与风险纪律", "result": "阶段性教训", "notes": "避免叙事驱动的仓位放大，维护纪律" }],
+      "en": ["1992 Black Wednesday GBP short","1997 Asian Financial Crisis macro trades","2008 multi-asset positioning in crisis", { "year": 1992, "asset": "GBP", "position": "High-leverage short", "hedge": "Cross-currency and rates hedges", "result": "~$1B profit", "duration": "Weeks", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }, { "year": 1998, "asset": "Russia/EM", "position": "Macro positioning stress", "hedge": "Insufficient hedges", "result": "Phase drawdown", "notes": "Reflection on risk concentration and correction speed in cascading turmoil" }, { "year": 1999, "asset": "Portfolio rebalancing", "position": "Reduce risk concentration; strengthen hedges", "result": "Risk stabilization", "notes": "Post-crisis emphasis on liquidity and hedging" }, { "year": 2000, "asset": "Tech/new economy", "position": "Reflection on narrative excess and risk discipline", "result": "Phase lesson", "notes": "Avoid narrative-driven position expansions; maintain discipline" }],
+      "es": ["1992 Miércoles Negro corto GBP","1997 operaciones macro en la crisis asiática","2008 posicionamiento multi-activo en crisis", { "year": 1992, "asset": "GBP", "position": "Cortos de alto apalancamiento", "hedge": "Coberturas cruzadas de divisas y tasas", "result": "~$1B de ganancia", "duration": "Semanas", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }, { "year": 1998, "asset": "Rusia/Mercados emergentes", "position": "Posicionamiento macro bajo presión", "hedge": "Coberturas insuficientes", "result": "Caída por fase", "notes": "Reflexión sobre concentración de riesgo y velocidad de corrección" }, { "year": 1999, "asset": "Reequilibrio de cartera", "position": "Reducir concentración de riesgo; reforzar coberturas", "result": "Estabilización de riesgo", "notes": "Énfasis post-crisis en liquidez y coberturas" }, { "year": 2000, "asset": "Tech/nueva economía", "position": "Reflexión sobre exceso narrativo y disciplina de riesgo", "result": "Lección de fase", "notes": "Evitar ampliaciones de posición impulsadas por narrativas" }],
+      "fr": ["1992 Mercredi noir vente GBP","1997 trades macro durant la crise asiatique","2008 positionnement multi-actifs en crise", { "year": 1992, "asset": "GBP", "position": "Short à fort levier", "hedge": "Couvertures croisées devises et taux", "result": "~1 Md$ de profit", "duration": "Semaines", "instruments": ["GBP/USD","GBP/DEM","Gilts"] }, { "year": 1998, "asset": "Russie/Marchés émergents", "position": "Positionnement macro sous stress", "hedge": "Couvertures insuffisantes", "result": "Drawdown de phase", "notes": "Réflexion sur la concentration du risque et la vitesse de correction" }, { "year": 1999, "asset": "Rééquilibrage du portefeuille", "position": "Réduire concentration du risque; renforcer couvertures", "result": "Stabilisation du risque", "notes": "Accent post‑crise sur liquidité et couvertures" }, { "year": 2000, "asset": "Tech/nouvelle économie", "position": "Réflexion sur excès narratif et discipline du risque", "result": "Leçon de phase", "notes": "Éviter expansions de positions conduites par narratif" }]
     },
     "works": {
       "zh": ["金融炼金术"],
@@ -1483,10 +1733,10 @@
       "fr": "Le Medallion a offert des retours nets extraordinaires et stables; une légende quantitative." 
     },
     "cases": {
-      "zh": ["1994年梅多利昂基金成型并持续优化","2003年扩展计算与数据基础设施规模","多模型集成提升风险调整回报"],
-      "en": ["1994 Medallion established and continually optimized","2003 scaled compute and data infrastructure","Multi-model integration improved risk-adjusted returns"],
-      "es": ["1994 Medallion establecido y optimizado","2003 escaló cómputo e infraestructura de datos","Integración multi-modelo mejoró retornos ajustados"],
-      "fr": ["1994 création et optimisation de Medallion","2003 montée en échelle du calcul et des données","Intégration multi-modèles améliore les retours ajustés"]
+      "zh": ["1994年梅多利昂基金成型并持续优化","2003年扩展计算与数据基础设施规模","多模型集成提升风险调整回报", { "year": 2007, "asset": "外部股票量化产品", "position": "因子拥挤与相关性上升", "result": "阶段性回撤", "notes": "外部产品与内部策略风险回报不同，需精细预期管理" }, { "year": 2020, "asset": "外部量化股票", "position": "疫情期相关性变化", "result": "阶段性回撤", "notes": "强调预期管理与产品定位差异" }],
+      "en": ["1994 Medallion established and continually optimized","2003 scaled compute and data infrastructure","Multi-model integration improved risk-adjusted returns", { "year": 2007, "asset": "External quant equity products", "position": "Factor crowding and rising correlations", "result": "Phase drawdown", "notes": "External products differ from internal strategies; manage expectations finely" }, { "year": 2020, "asset": "External quant equity", "position": "Pandemic correlation shifts", "result": "Phase drawdown", "notes": "Emphasize expectation management and product differences" }],
+      "es": ["1994 Medallion establecido y optimizado","2003 escaló cómputo e infraestructura de datos","Integración multi-modelo mejoró retornos ajustados", { "year": 2007, "asset": "Productos cuantitativos externos en acciones", "position": "Crowding de factores y correlaciones al alza", "result": "Caída por fase", "notes": "Productos externos difieren de estrategias internas; gestionar expectativas" }, { "year": 2020, "asset": "Acciones cuantitativas externas", "position": "Cambios de correlación en pandemia", "result": "Caída por fase", "notes": "Énfasis en gestión de expectativas y diferencias de producto" }],
+      "fr": ["1994 création et optimisation de Medallion","2003 montée en échelle du calcul et des données","Intégration multi-modèles améliore les retours ajustés", { "year": 2007, "asset": "Produits actions quant externes", "position": "Crowding de facteurs et corrélations en hausse", "result": "Drawdown de phase", "notes": "Les produits externes diffèrent des stratégies internes; gérer finement les attentes" }, { "year": 2020, "asset": "Actions quant externes", "position": "Changements de corrélations en pandémie", "result": "Drawdown de phase", "notes": "Accent sur gestion des attentes et différences de produit" }]
     },
     "works": {
       "zh": ["关于量化的访谈与演讲"],
@@ -1501,10 +1751,10 @@
       "fr": ["Laissez parler les données."]
     },
     "lessons": {
-      "zh": ["保持模型更新与风险约束。"],
-      "en": ["Keep models updated with strong risk constraints."],
-      "es": ["Mantener modelos actualizados con fuertes restricciones de riesgo."],
-      "fr": ["Maintenir des modèles à jour avec de fortes contraintes de risque."]
+      "zh": ["保持模型更新与风险约束。","外部资金产品与内部策略风险回报不同，需精细预期管理。","数据治理与防过拟合是生命线。"],
+      "en": ["Keep models updated with strong risk constraints.","External products differ from internal strategies in risk/return; manage expectations finely.","Data governance and anti-overfitting are lifelines."],
+      "es": ["Mantener modelos actualizados con fuertes restricciones de riesgo.","Los productos externos difieren de las estrategias internas en riesgo/retorno; gestionar expectativas finamente.","La gobernanza de datos y evitar sobreajuste son vitales."],
+      "fr": ["Maintenir des modèles à jour avec de fortes contraintes de risque.","Les produits externes diffèrent des stratégies internes en risque/retour; gérer finement les attentes.","La gouvernance des données et l'anti-surajustement sont vitales."]
     },
     "timeline": [
       { "year": 1982, "text": { "zh": "创立文艺复兴科技。", "en": "Founded Renaissance Technologies.", "es": "Fundó Renaissance Technologies.", "fr": "Fonde Renaissance Technologies." } },
@@ -1566,9 +1816,12 @@
     ,
     "tags": ["macro", "commodities"]
     ,
-    "cases": {
+  "cases": {
       "zh": [{ "year": 2004, "asset": "商品指数/期货", "position": "长期商品多头主题", "result": "牛市阶段显著回报" }],
       "en": [{ "year": 2004, "asset": "Commodity index/futures", "position": "Long commodity theme", "result": "Strong bull-phase returns" }]
+      ,
+      "es": [{ "year": 2004, "asset": "Índice de commodities/futuros", "position": "Tema largo de commodities", "result": "Retornos fuertes en fase alcista" }],
+      "fr": [{ "year": 2004, "asset": "Indice matières premières/futures", "position": "Thème long matières premières", "result": "Forts retours en phase haussière" }]
     }
   },
   {
@@ -1685,10 +1938,10 @@
     "tags": ["value", "short"]
     ,
     "cases": {
-      "zh": ["2005-2007年购买次贷CDS保护并做空相关结构性产品，控制期限与对手风险，获得显著收益"],
-      "en": ["2005–2007 bought subprime CDS protection and shorted related structured products; controlled term and counterparty risks; achieved significant gains"],
-      "es": ["2005–2007 compró protección CDS subprime y cortó productos estructurados relacionados; controló plazo y riesgos de contraparte; logró ganancias significativas"],
-      "fr": ["2005–2007 achète des CDS subprime et short des produits structurés liés; contrôle maturité et risque de contrepartie; obtient des gains significatifs"]
+      "zh": ["2005-2007年购买次贷CDS保护并做空相关结构性产品，控制期限与对手风险，获得显著收益", { "year": 2010, "asset": "后危机价值/信用机会", "position": "选择性深度价值与对冲", "result": "阶段性收益与反思", "notes": "强调现金与估值纪律" }, { "year": 2020, "asset": "宏观对冲（指数/信用）", "position": "疫情期对冲并阶段性退出", "result": "阶段性收益后转仓", "notes": "在不确定性中保持现金与风险缓冲" }],
+      "en": ["2005–2007 bought subprime CDS protection and shorted related structured products; controlled term and counterparty risks; achieved significant gains", { "year": 2010, "asset": "Post-crisis value/credit opportunities", "position": "Selective deep value with hedges", "result": "Phase gains and reflections", "notes": "Emphasis on cash and valuation discipline" }, { "year": 2020, "asset": "Macro hedges (index/credit)", "position": "Pandemic hedges then phased exit", "result": "Phase gains then rotation", "notes": "Maintain cash and risk buffers amid uncertainty" }],
+      "es": ["2005–2007 compró protección CDS subprime y cortó productos estructurados relacionados; controló plazo y riesgos de contraparte; logró ganancias significativas", { "year": 2010, "asset": "Oportunidades de valor/crédito post-crisis", "position": "Valor profundo selectivo con coberturas", "result": "Ganancias por fase y reflexiones", "notes": "Énfasis en efectivo y disciplina de valoración" }, { "year": 2020, "asset": "Coberturas macro (índice/crédito)", "position": "Coberturas en pandemia y salida por fases", "result": "Ganancias por fase y rotación", "notes": "Mantener efectivo y colchones de riesgo en incertidumbre" }],
+      "fr": ["2005–2007 achète des CDS subprime et short des produits structurés liés; contrôle maturité et risque de contrepartie; obtient des gains significatifs", { "year": 2010, "asset": "Opportunités valeur/crédit post-crise", "position": "Value profond sélectif avec couvertures", "result": "Gains de phase et réflexions", "notes": "Accent sur trésorerie et discipline de valorisation" }, { "year": 2020, "asset": "Couvertures macro (indice/crédit)", "position": "Couvertures pandémie puis sortie par phases", "result": "Gains de phase puis rotation", "notes": "Maintenir trésorerie et coussins de risque en incertitude" }]
     }
   },
   {
@@ -1816,10 +2069,10 @@
       "fr": ["La technologie et le contrôle du risque sont un avantage clé."]
     },
     "lessons": {
-      "zh": ["系统规模化与人才密度同等重要。"],
-      "en": ["Scaling systems matters as much as talent density."],
-      "es": ["Escalar sistemas importa tanto como la densidad de talento."],
-      "fr": ["La mise à l'échelle des systèmes compte autant que la densité de talents."]
+      "zh": ["系统规模化与人才密度同等重要。","2008年流动性冲击与尾部风险暴露提醒加强资金与对冲管理。"],
+      "en": ["Scaling systems matters as much as talent density.","2008 liquidity shock and tail risk exposure highlighted strengthening funding and hedging management."],
+      "es": ["Escalar sistemas importa tanto como la densidad de talento.","El shock de liquidez de 2008 y la exposición a riesgos de cola destacaron reforzar la financiación y cobertura."],
+      "fr": ["La mise à l'échelle des systèmes compte autant que la densité de talents.","Le choc de liquidité de 2008 et l'exposition aux risques extrêmes ont souligné le renforcement du financement et des couvertures."]
     },
     "timeline": [
       { "year": 1990, "text": { "zh": "创立城堡基金。", "en": "Founded Citadel.", "es": "Fundó Citadel.", "fr": "Fonde Citadel." } },
@@ -1828,10 +2081,10 @@
     ]
     ,
     "cases": {
-      "zh": [{ "year": 2022, "asset": "多策略平台（股票/期货/固定收益）", "position": "集中风险预算", "hedge": "跨资产对冲", "result": "年度回报创新高", "notes": "自研系统与风险控制" }, { "year": 2002, "asset": "做市系统", "position": "流动性供给", "result": "全球领先份额" }],
-      "en": [{ "year": 2022, "asset": "Multi-strategy (equities/futures/fixed income)", "position": "Centralized risk budgets", "hedge": "Cross-asset hedges", "result": "Record annual return", "notes": "In-house systems and risk control" }, { "year": 2002, "asset": "Market-making systems", "position": "Liquidity provision", "result": "Leading global share" }],
-      "es": [{ "year": 2022, "asset": "Multi-estrategia (acciones/futuros/renta fija)", "position": "Presupuestos de riesgo centralizados", "hedge": "Coberturas multi-activo", "result": "Retorno anual récord", "notes": "Sistemas internos y control de riesgo" }, { "year": 2002, "asset": "Sistemas de market making", "position": "Provisión de liquidez", "result": "Cuota líder global" }],
-      "fr": [{ "year": 2022, "asset": "Multi-stratégie (actions/futures/taux)", "position": "Budgets de risque centralisés", "hedge": "Couvertures multi-actifs", "result": "Retour annuel record", "notes": "Systèmes internes et contrôle du risque" }, { "year": 2002, "asset": "Systèmes de market making", "position": "Fourniture de liquidité", "result": "Part leader mondiale" }]
+      "zh": [{ "year": 2022, "asset": "多策略平台（股票/期货/固定收益/期权/宏观事件）", "position": "集中风险预算", "risk_budget": "策略间平衡", "hedge": "跨资产对冲与期权覆盖", "vol_target": "受控波动", "max_dd": "月度回撤受限", "instruments": ["股票","期权","期货","利率","外汇","商品"], "result": "年度回报创新高", "notes": "资金与流动性管理、集中回测与执行系统" }, { "year": 2002, "asset": "做市系统", "position": "流动性供给", "result": "全球领先份额" }, { "year": 2008, "asset": "多策略平台", "position": "高杠杆敞口/流动性压力", "hedge": "加强资金与对冲管理", "result": "危机期承压与反思", "notes": "尾部风险与资金调用冲突的管理教训" }],
+      "en": [{ "year": 2022, "asset": "Multi-strategy (equities/futures/fixed income/options/event)", "position": "Centralized risk budgets", "risk_budget": "Balanced across strategies", "hedge": "Cross-asset hedges and options overlays", "vol_target": "Controlled volatility", "max_dd": "Bounded monthly drawdowns", "instruments": ["Equities","Options","Futures","Rates","FX","Commodities"], "result": "Record annual return", "notes": "Funding/liquidity management; centralized backtesting and execution" }, { "year": 2002, "asset": "Market-making systems", "position": "Liquidity provision", "result": "Leading global share" }, { "year": 2008, "asset": "Multi-strategy platform", "position": "High leverage exposure/liquidity stress", "hedge": "Strengthened funding and hedging", "result": "Crisis pressure and reflection", "notes": "Tail risk and capital calls conflict management" }],
+      "es": [{ "year": 2022, "asset": "Multi-estrategia (acciones/futuros/renta fija/opciones/eventos)", "position": "Presupuestos de riesgo centralizados", "risk_budget": "Equilibrio entre estrategias", "hedge": "Coberturas multi-activo y opciones", "vol_target": "Volatilidad controlada", "max_dd": "Caídas mensuales acotadas", "instruments": ["Acciones","Opciones","Futuros","Tasas","FX","Commodities"], "result": "Retorno anual récord", "notes": "Gestión de financiación y liquidez; backtesting y ejecución centralizados" }, { "year": 2002, "asset": "Sistemas de market making", "position": "Provisión de liquidez", "result": "Cuota líder global" }, { "year": 2008, "asset": "Plataforma multi-estrategia", "position": "Alta palanca/estrés de liquidez", "hedge": "Fortalecer financiación y coberturas", "result": "Presión en crisis y reflexión", "notes": "Riesgo de cola y conflicto de llamados de capital" }],
+      "fr": [{ "year": 2022, "asset": "Multi-stratégie (actions/futures/taux/options/événement)", "position": "Budgets de risque centralisés", "risk_budget": "Équilibre entre stratégies", "hedge": "Couvertures multi-actifs et options", "vol_target": "Volatilité contrôlée", "max_dd": "Drawdowns mensuels bornés", "instruments": ["Actions","Options","Futures","Taux","FX","Matières"], "result": "Retour annuel record", "notes": "Gestion du funding et liquidité; backtests et exécution centralisés" }, { "year": 2002, "asset": "Systèmes de market making", "position": "Fourniture de liquidité", "result": "Part leader mondiale" }, { "year": 2008, "asset": "Plateforme multi-stratégies", "position": "Exposition à fort levier/stress de liquidité", "hedge": "Renforcement du funding et des couvertures", "result": "Pression en crise et réflexion", "notes": "Gestion du risque extrême et conflit des appels de capital" }]
     },
     "tags": ["quant", "multi"]
   },
@@ -1863,10 +2116,10 @@
       "fr": "Retours stables long terme; performance résiliente en crise."
     },
     "cases": {
-      "zh": ["提出全天候组合理念","风险平价框架应用于多资产配置","危机期保持较强的抗压表现", { "year": 1996, "asset": "多资产全天候组合", "position": "风险平价权重", "hedge": "多元对冲", "result": "跨危机的稳健表现", "notes": "参考权重：股~30%、长债~40%、中债~15%、商品~7.5%、金~7.5%" }],
-      "en": ["Articulated All Weather portfolio","Applied risk parity to multi-asset allocation","Resilient crisis-period performance", { "year": 1996, "asset": "Multi-asset All Weather", "position": "Risk parity weights", "hedge": "Diversified hedges", "result": "Resilient across crises", "notes": "Reference weights: Eq~30%, Long Treasuries~40%, Intermediate Bonds~15%, Commodities~7.5%, Gold~7.5%" }],
-      "es": ["Articuló cartera All Weather","Aplicó paridad de riesgo a multi-activos","Desempeño resiliente en crisis", { "year": 1996, "asset": "All Weather multi-activo", "position": "Pesos por paridad de riesgo", "hedge": "Coberturas diversificadas", "result": "Resiliente en crisis", "vol_target": "Objetivo de baja volatilidad" }],
-      "fr": ["Formalise le portefeuille All Weather","Applique la parité de risque au multi-actifs","Performance résiliente en crise", { "year": 1996, "asset": "All Weather multi-actifs", "position": "Poids parité de risque", "hedge": "Couvertures diversifiées", "result": "Résilient en crise", "vol_target": "Cible faible volatilité" }]
+      "zh": ["提出全天候组合理念","风险平价框架应用于多资产配置","危机期保持较强的抗压表现", { "year": 1996, "asset": "多资产全天候组合", "position": "风险平价权重", "hedge": "多元对冲", "result": "跨危机的稳健表现", "notes": "参考权重：股~30%、长债~40%、中债~15%、商品~7.5%、金~7.5%" }, { "year": 1982, "asset": "宏观判断", "position": "错误预测经济大萧条", "result": "重大教训", "notes": "危机后反思并构建更强系统与风控" }, { "year": 2020, "asset": "风险平价组合", "position": "相关性变化与流动性压力", "result": "阶段性回撤", "notes": "在相关性飙升期动态调整权重与对冲" }],
+      "en": ["Articulated All Weather portfolio","Applied risk parity to multi-asset allocation","Resilient crisis-period performance", { "year": 1996, "asset": "Multi-asset All Weather", "position": "Risk parity weights", "hedge": "Diversified hedges", "result": "Resilient across crises", "notes": "Reference weights: Eq~30%, Long Treasuries~40%, Intermediate Bonds~15%, Commodities~7.5%, Gold~7.5%" }, { "year": 1982, "asset": "Macro call", "position": "Incorrect depression prediction", "result": "Major lesson", "notes": "Reflected and built stronger systems and risk controls" }, { "year": 2020, "asset": "Risk parity portfolio", "position": "Correlation shifts and liquidity stress", "result": "Phase drawdown", "notes": "Adjust weights and hedges dynamically when correlations spike" }],
+      "es": ["Articuló cartera All Weather","Aplicó paridad de riesgo a multi-activos","Desempeño resiliente en crisis", { "year": 1996, "asset": "All Weather multi-activo", "position": "Pesos por paridad de riesgo", "hedge": "Coberturas diversificadas", "result": "Resiliente en crisis", "vol_target": "Objetivo de baja volatilidad" }, { "year": 1982, "asset": "Llamada macro", "position": "Predicción incorrecta de depresión", "result": "Lección mayor", "notes": "Reflexión y construcción de sistemas y controles de riesgo más fuertes" }, { "year": 2020, "asset": "Cartera de paridad de riesgo", "position": "Cambios de correlación y estrés de liquidez", "result": "Caída por fase", "notes": "Ajustar pesos y coberturas dinámicamente cuando las correlaciones se disparan" }],
+      "fr": ["Formalise le portefeuille All Weather","Applique la parité de risque au multi-actifs","Performance résiliente en crise", { "year": 1996, "asset": "All Weather multi-actifs", "position": "Poids parité de risque", "hedge": "Couvertures diversifiées", "result": "Résilient en crise", "vol_target": "Cible faible volatilité" }, { "year": 1982, "asset": "Appel macro", "position": "Prédiction incorrecte d'une dépression", "result": "Grande leçon", "notes": "Réflexion et construction de systèmes et contrôles de risque renforcés" }, { "year": 2020, "asset": "Portefeuille de parité de risque", "position": "Changements de corrélations et stress de liquidité", "result": "Drawdown de phase", "notes": "Ajuster dynamiquement poids et couvertures quand les corrélations montent" }]
     },
     "works": {
       "zh": ["原则"],
@@ -1881,10 +2134,10 @@
       "fr": ["Douleur plus réflexion égale progrès."]
     },
     "lessons": {
-      "zh": ["极端环境下测试系统，保持多元化。"],
-      "en": ["Stress-test systems; maintain diversification."],
-      "es": ["Pruebas de estrés; mantener diversificación."],
-      "fr": ["Tester sous stress; maintenir la diversification."]
+      "zh": ["极端环境下测试系统，保持多元化。","风险平价在相关性飙升时需动态调整。"],
+      "en": ["Stress-test systems; maintain diversification.","Risk parity requires dynamic adjustment when correlations spike."],
+      "es": ["Pruebas de estrés; mantener diversificación.","La paridad de riesgo requiere ajuste dinámico cuando las correlaciones se disparan."],
+      "fr": ["Tester sous stress; maintenir la diversification.","La parité de risque exige des ajustements dynamiques quand les corrélations montent en flèche."]
     },
     "timeline": [
       { "year": 1975, "text": { "zh": "创立桥水基金。", "en": "Founded Bridgewater Associates.", "es": "Fundó Bridgewater Associates.", "fr": "Fonde Bridgewater Associates." } },
@@ -2026,10 +2279,10 @@
       "fr": "Résultats remarquables avec Soros; parcours personnel exceptionnel."
     },
     "cases": {
-      "zh": ["与索罗斯合作参与黑色星期三交易","在强认知与验证下集中押注","快速纠错并调整仓位", { "year": 1992, "asset": "英镑", "position": "高杠杆空头", "hedge": "跨货币对冲", "result": "显著盈利", "notes": "黑色星期三事件" }],
-      "en": ["Partnered with Soros on Black Wednesday","Pressed when conviction and validation align","Cut errors quickly and resized", { "year": 1992, "asset": "GBP", "position": "High-leverage short", "hedge": "Cross-currency hedges", "result": "Significant profit", "notes": "Black Wednesday" }],
-      "es": ["Con Soros en Miércoles Negro","Presionó con convicción y validación","Corrigió errores rápido y ajustó tamaños"],
-      "fr": ["Avec Soros lors du Mercredi noir","Appuie quand conviction et validation s'alignent","Corrige vite et ajuste les tailles"]
+      "zh": ["与索罗斯合作参与黑色星期三交易","在强认知与验证下集中押注","快速纠错并调整仓位", { "year": 1992, "asset": "英镑", "position": "高杠杆空头", "hedge": "跨货币对冲", "result": "显著盈利", "notes": "黑色星期三事件" }, { "year": 2000, "asset": "科技股", "position": "追涨集中", "hedge": "对冲不足", "result": "亏损与反思", "notes": "违背原则追涨带来损失" }],
+      "en": ["Partnered with Soros on Black Wednesday","Pressed when conviction and validation align","Cut errors quickly and resized", { "year": 1992, "asset": "GBP", "position": "High-leverage short", "hedge": "Cross-currency hedges", "result": "Significant profit", "notes": "Black Wednesday" }, { "year": 2000, "asset": "Tech equities", "position": "Momentum chasing, concentrated", "hedge": "Insufficient hedges", "result": "Loss and reflection", "notes": "Breaking principles to chase led to losses" }],
+      "es": ["Con Soros en Miércoles Negro","Presionó con convicción y validación","Corrigió errores rápido y ajustó tamaños", { "year": 1992, "asset": "GBP", "position": "Corto de alta palanca", "hedge": "Coberturas cruzadas de divisas", "result": "Ganancia significativa", "notes": "Miércoles Negro" }, { "year": 2000, "asset": "Acciones tecnológicas", "position": "Perseguir momentum, concentrado", "hedge": "Coberturas insuficientes", "result": "Pérdida y reflexión", "notes": "Romper principios para perseguir llevó a pérdidas" }],
+      "fr": ["Avec Soros lors du Mercredi noir","Appuie quand conviction et validation s'alignent","Corrige vite et ajuste les tailles", { "year": 1992, "asset": "GBP", "position": "Short à fort levier", "hedge": "Couvertures cross-devises", "result": "Profit significatif", "notes": "Mercredi noir" }, { "year": 2000, "asset": "Actions technologiques", "position": "Poursuite de momentum, concentré", "hedge": "Couvertures insuffisantes", "result": "Perte et réflexion", "notes": "Briser les principes pour suivre l'élan a mené à des pertes" }]
     },
     "works": {
       "zh": ["关于集中与灵活的演讲"],
@@ -2044,10 +2297,10 @@
       "fr": ["Quand conviction et validation sont fortes, il faut appuyer."]
     },
     "lessons": {
-      "zh": ["快速纠错。"],
-      "en": ["Cut errors quickly."],
-      "es": ["Corregir errores rápido."],
-      "fr": ["Corriger vite les erreurs."]
+      "zh": ["快速纠错。","2000年追逐科技股导致亏损与反思：不要违背原则去追涨。"],
+      "en": ["Cut errors quickly.","2000 tech-chasing loss and reflection: don't break principles to chase momentum."],
+      "es": ["Corregir errores rápido.","Pérdida por perseguir tech en 2000 y reflexión: no romper principios para perseguir momentum."],
+      "fr": ["Corriger vite les erreurs.","Perte en 2000 en poursuivant la tech et réflexion : ne pas briser les principes pour suivre l'élan."]
     },
     "timeline": [
       { "year": 1988, "text": { "zh": "加入量子基金担任首席投资。", "en": "Joined Quantum Fund as chief investor.", "es": "Se unió al Quantum como inversor jefe.", "fr": "Rejoint le Quantum comme investisseur en chef." } },
@@ -2086,10 +2339,10 @@
       "fr": "A formé des légendes; méthodes durables."
     },
     "cases": {
-      "zh": ["提出安全边际与内在价值框架","培养多位传奇投资者","出版《证券分析》《聪明的投资者》"],
-      "en": ["Articulated margin of safety and intrinsic value","Mentored legendary investors","Published Security Analysis and The Intelligent Investor"],
-      "es": ["Articuló margen de seguridad y valor intrínseco","Formó inversores legendarios","Publicó Security Analysis y The Intelligent Investor"],
-      "fr": ["Formalise marge de sécurité et valeur intrinsèque","Forme des investisseurs légendaires","Publie Security Analysis et The Intelligent Investor"]
+      "zh": ["提出安全边际与内在价值框架","培养多位传奇投资者","出版《证券分析》《聪明的投资者》", { "year": 1927, "asset": "Northern Pipeline", "position": "价值解锁/资产重估", "result": "显著回报", "notes": "通过资产价值与治理推动重估" }, { "year": 1929, "asset": "组合", "position": "危机期承压", "result": "阶段性亏损", "notes": "强调安全边际与防守" }],
+      "en": ["Articulated margin of safety and intrinsic value","Mentored legendary investors","Published Security Analysis and The Intelligent Investor", { "year": 1927, "asset": "Northern Pipeline", "position": "Value unlock/asset revaluation", "result": "Significant gain", "notes": "Drove revaluation via asset value and governance" }, { "year": 1929, "asset": "Portfolio", "position": "Crisis pressure", "result": "Phase loss", "notes": "Reinforced margin of safety and defense" }],
+      "es": ["Articuló margen de seguridad y valor intrínseco","Formó inversores legendarios","Publicó Security Analysis y The Intelligent Investor", { "year": 1927, "asset": "Northern Pipeline", "position": "Desbloqueo de valor/revalorización de activos", "result": "Ganancia significativa", "notes": "Revalorización por valor de activos y gobernanza" }, { "year": 1929, "asset": "Cartera", "position": "Presión de crisis", "result": "Pérdida por fase", "notes": "Reforzó margen de seguridad y defensa" }],
+      "fr": ["Formalise marge de sécurité et valeur intrinsèque","Forme des investisseurs légendaires","Publie Security Analysis et The Intelligent Investor", { "year": 1927, "asset": "Northern Pipeline", "position": "Déblocage de valeur/réévaluation d'actifs", "result": "Gain significatif", "notes": "Réévaluation via valeur d'actifs et gouvernance" }, { "year": 1929, "asset": "Portefeuille", "position": "Pression de crise", "result": "Perte de phase", "notes": "Renforce marge de sécurité et défense" }]
     },
     "works": {
       "zh": ["证券分析", "聪明的投资者"],
@@ -2170,10 +2423,12 @@
     ,
     "tags": ["value", "contrarian", "global"]
     ,
-    "cases": {
-      "zh": [{ "year": 1939, "asset": "战时低价股票（104只）", "position": "分散买入", "result": "战争后显著复利", "notes": "逆向价值典范" }],
-      "en": [{ "year": 1939, "asset": "War-time low-priced stocks (104)", "position": "Diversified buying", "result": "Post-war compounding", "notes": "Contrarian value" }]
-    }
+      "cases": {
+      "zh": [{ "year": 1939, "asset": "战时低价股票（104只）", "position": "分散买入", "result": "战争后显著复利", "notes": "逆向价值典范" }, { "year": 2000, "asset": "全球价值组合", "position": "低估区域/行业的逆向布局", "result": "泡沫后复苏前的阶段性回撤", "notes": "在晚期泡沫阶段的逆向仓位短期承压" }],
+      "en": [{ "year": 1939, "asset": "War-time low-priced stocks (104)", "position": "Diversified buying", "result": "Post-war compounding", "notes": "Contrarian value" }, { "year": 2000, "asset": "Global value basket", "position": "Contrarian allocations to undervalued regions/sectors", "result": "Phase drawdown prior to post-bubble recovery", "notes": "Late-bubble contrarian positions underperform short term" }],
+      "es": [{ "year": 1939, "asset": "Acciones de bajo precio en guerra (104)", "position": "Compra diversificada", "result": "Composición postguerra", "notes": "Valor contrario" }, { "year": 2000, "asset": "Cesta de valor global", "position": "Asignaciones contrarias a regiones/sectores infravalorados", "result": "Caída por fase previa a la recuperación post-burbuja", "notes": "Posiciones contrarias en burbuja tardía bajo rendimiento a corto" }],
+      "fr": [{ "year": 1939, "asset": "Actions à bas prix en temps de guerre (104)", "position": "Achat diversifié", "result": "Composition d'après-guerre", "notes": "Valeur contrarienne" }, { "year": 2000, "asset": "Panier value global", "position": "Allocations contrariènes vers régions/secteurs sous‑valorisés", "result": "Drawdown de phase avant reprise post‑bulle", "notes": "Positions contrariènes en fin de bulle sous‑performent à court terme" }]
+      }
   },
   {
     "id": "munger",
@@ -2205,8 +2460,8 @@
     "cases": {
       "zh": ["推动收购喜诗糖果树立品质与护城河范式","强调多元思维模型与高质量持有","与巴菲特共创伯克希尔长期成功", { "year": 1972, "asset": "喜诗糖果", "position": "并购约$2500万", "result": "现金牛与品牌护城河", "notes": "质量与价格的权衡典范" }],
       "en": ["Drove See's Candies acquisition, quality moat paradigm","Emphasized latticework of mental models and quality holdings","Co-created Berkshire's long-term success", { "year": 1972, "asset": "See's Candies", "position": "Acquisition ~$25M", "result": "Cash cow, brand moat", "notes": "Quality vs price paradigm" }],
-      "es": ["Impulsó la compra de See's, paradigma de foso","Enfatizó red de modelos mentales y tenencias de calidad","Cocreó el éxito largo de Berkshire"],
-      "fr": ["Impulse l'acquisition de See's, paradigme de fossé","Souligne réseau de modèles mentaux et positions de qualité","Cocrée la réussite long terme de Berkshire"]
+      "es": ["Impulsó la compra de See's, paradigma de foso","Enfatizó red de modelos mentales y tenencias de calidad","Cocreó el éxito largo de Berkshire", { "year": 1972, "asset": "See's Candies", "position": "Adquisición ~$25M", "result": "Vaca de efectivo, foso de marca", "notes": "Paradigma calidad vs precio" }],
+      "fr": ["Impulse l'acquisition de See's, paradigme de fossé","Souligne réseau de modèles mentaux et positions de qualité","Cocrée la réussite long terme de Berkshire", { "year": 1972, "asset": "See's Candies", "position": "Acquisition ~$25M", "result": "Vache à cash, fossé de marque", "notes": "Paradigme qualité vs prix" }]
     },
     "works": {
       "zh": ["穷查理宝典"],
@@ -2221,10 +2476,10 @@
       "fr": ["Réseau de modèles mentaux."]
     },
     "lessons": {
-      "zh": ["少而精，避免过度交易。"],
-      "en": ["Few and high-quality; avoid overtrading."],
-      "es": ["Pocas y de alta calidad; evitar sobreoperar."],
-      "fr": ["Peu et haute qualité; éviter le sur-trading."]
+      "zh": ["少而精，避免过度交易。","质量优先于低价，避免买到便宜的平庸企业。"],
+      "en": ["Few and high-quality; avoid overtrading.","Quality over cheapness; avoid buying mediocre businesses just because they're cheap."],
+      "es": ["Pocas y de alta calidad; evitar sobreoperar.","La calidad por encima de lo barato; evitar empresas mediocres solo por ser baratas."],
+      "fr": ["Peu et haute qualité; éviter le sur-trading.","La qualité avant le bas prix; éviter d'acheter des entreprises médiocres parce qu'elles sont bon marché."]
     },
     "timeline": [
       { "year": 1972, "text": { "zh": "推动收购喜诗糖果，树立品质与护城河范式。", "en": "Drove See's Candies acquisition, quality moat paradigm.", "es": "Impulsó la compra de See's Candies, paradigma de calidad y foso.", "fr": "Impulse l'acquisition de See's Candies, paradigme de qualité et fossé." } },
@@ -2262,12 +2517,12 @@
       "es": "La indexación democratizó la inversión; superación frente a activo caro a largo plazo.",
       "fr": "L'indexation a démocratisé l'investissement; surperformance vs actif coûteux à long terme."
     },
-    "cases": {
-      "zh": ["推出首只指数基金推动普惠投资","倡导低费率与长期被动持有","指数化长期跑赢高费率主动", { "year": 1976, "asset": "Vanguard 500 指数基金", "position": "宽基被动", "result": "长期跑赢高费率主动", "notes": "极简与纪律化" }],
-      "en": ["Launched first index fund, democratized investing","Advocated low fees and long passive holding","Indexing outperformed high-fee active long-term", { "year": 1976, "asset": "Vanguard 500 Index Fund", "position": "Broad passive", "result": "Long-term outperformance vs high-fee active", "notes": "Minimalist and disciplined" }],
-      "es": ["Lanzó primer fondo índice, democratizó inversión","Defendió bajas comisiones y tenencia pasiva","Indexación superó activo caro a largo plazo"],
-      "fr": ["Lance le premier fonds indiciel, démocratise l'investissement","Plaide pour faibles frais et détention passive","L'indexation surperforme l'actif coûteux long terme"]
-    },
+      "cases": {
+      "zh": ["推出首只指数基金推动普惠投资","倡导低费率与长期被动持有","指数化长期跑赢高费率主动", { "year": 1976, "asset": "Vanguard 500 指数基金", "position": "宽基被动", "result": "长期跑赢高费率主动", "notes": "极简与纪律化" }, { "year": 2000, "asset": "宽基指数组合", "position": "保持被动与纪律不进行时点择时", "result": "科技泡沫期阶段性回撤", "notes": "坚持长期与低成本；警惕情绪化时点择时" }],
+      "en": ["Launched first index fund, democratized investing","Advocated low fees and long passive holding","Indexing outperformed high-fee active long-term", { "year": 1976, "asset": "Vanguard 500 Index Fund", "position": "Broad passive", "result": "Long-term outperformance vs high-fee active", "notes": "Minimalist and disciplined" }, { "year": 2000, "asset": "Broad index portfolio", "position": "Stay passive/discipline, avoid timing", "result": "Tech-bubble phase drawdown", "notes": "Stick to long-term and low cost; avoid emotional timing" }],
+      "es": ["Lanzó primer fondo índice, democratizó inversión","Defendió bajas comisiones y tenencia pasiva","Indexación superó activo caro a largo plazo", { "year": 1976, "asset": "Vanguard 500 Fondo Índice", "position": "Pasivo amplio", "result": "Superación a largo vs activo de altas comisiones", "notes": "Minimalista y disciplinado" }, { "year": 2000, "asset": "Cartera índice amplia", "position": "Mantener pasivo/disciplina, evitar timing", "result": "Caída por fase en burbuja tech", "notes": "Mantener largo plazo y bajo costo; evitar timing emocional" }],
+      "fr": ["Lance le premier fonds indiciel, démocratise l'investissement","Plaide pour faibles frais et détention passive","L'indexation surperforme l'actif coûteux long terme", { "year": 1976, "asset": "Vanguard 500 Fonds indiciel", "position": "Passif large", "result": "Surperformance long terme vs actif à hauts frais", "notes": "Minimaliste et discipliné" }, { "year": 2000, "asset": "Portefeuille indiciel large", "position": "Rester passif/discipline, éviter le market timing", "result": "Drawdown de phase pendant la bulle tech", "notes": "Tenir long terme et bas coûts; éviter le timing émotionnel" }]
+      },
     "works": {
       "zh": ["共同基金常识"],
       "en": ["The Little Book of Common Sense Investing"],
@@ -2450,6 +2705,13 @@
     ]
     ,
     "tags": ["activist"]
+    ,
+    "cases": {
+      "zh": [{ "year": 1985, "asset": "TWA", "position": "并购与重组倡议", "result": "结构优化但负债压力高", "notes": "复杂并购的资本结构教训" }, { "year": 2013, "asset": "Apple", "position": "资本回购倡议", "result": "股东价值提升" }, { "year": 2020, "asset": "Hertz", "position": "危机期敞口承压", "result": "阶段性亏损", "notes": "流动性与资本结构风险" }],
+      "en": [{ "year": 1985, "asset": "TWA", "position": "M&A and restructuring advocacy", "result": "Structural optimization but high leverage", "notes": "Capital structure lessons in complex M&A" }, { "year": 2013, "asset": "Apple", "position": "Buyback and capital return advocacy", "result": "Shareholder value uplift" }, { "year": 2020, "asset": "Hertz", "position": "Exposure under crisis stress", "result": "Phase loss", "notes": "Liquidity and capital structure risks" }],
+      "es": [{ "year": 1985, "asset": "TWA", "position": "Defensa de M&A y reestructuración", "result": "Optimización estructural pero alto apalancamiento", "notes": "Lecciones de estructura de capital" }, { "year": 2013, "asset": "Apple", "position": "Aboga por recompras y retornos de capital", "result": "Valor para accionistas" }, { "year": 2020, "asset": "Hertz", "position": "Exposición bajo estrés de crisis", "result": "Pérdida por fase", "notes": "Riesgos de liquidez y estructura de capital" }],
+      "fr": [{ "year": 1985, "asset": "TWA", "position": "Plaidoyer M&A et restructuration", "result": "Optimisation structurelle mais levier élevé", "notes": "Leçons de structure de capital en M&A complexe" }, { "year": 2013, "asset": "Apple", "position": "Plaidoyer pour rachats et retours de capital", "result": "Valeur actionnariale accrue" }, { "year": 2020, "asset": "Hertz", "position": "Exposition sous stress de crise", "result": "Perte de phase", "notes": "Risques de liquidité et de structure de capital" }]
+    }
   },
   {
     "id": "gross",
@@ -2502,5 +2764,12 @@
     ]
     ,
     "tags": ["bond", "fixed-income"]
+    ,
+    "cases": {
+      "zh": [{ "year": 2009, "asset": "总回报债券组合", "position": "增配利率与优质信用", "result": "危机后稳健收益" }, { "year": 2013, "asset": "利率久期配置", "position": "Taper Tantrum 错配", "result": "阶段性回撤", "notes": "久期与预期管理的反思" }],
+      "en": [{ "year": 2009, "asset": "Total return bond portfolio", "position": "Add rates and high-quality credit", "result": "Post-crisis steady gains" }, { "year": 2013, "asset": "Rate duration positioning", "position": "Taper Tantrum misalignment", "result": "Phase drawdown", "notes": "Reflection on duration and expectations" }],
+      "es": [{ "year": 2009, "asset": "Cartera de bonos total return", "position": "Aumentar tasas y crédito de calidad", "result": "Ganancias estables post-crisis" }, { "year": 2013, "asset": "Posicionamiento de duración", "position": "Desajuste en Taper Tantrum", "result": "Caída por fase", "notes": "Reflexión sobre duración y expectativas" }],
+      "fr": [{ "year": 2009, "asset": "Portefeuille obligataire total return", "position": "Ajouter taux et crédit de qualité", "result": "Gains stables post-crise" }, { "year": 2013, "asset": "Positionnement de duration", "position": "Mauvais alignement pendant le Taper Tantrum", "result": "Drawdown de phase", "notes": "Réflexion sur la duration et les attentes" }]
+    }
   }
 ]

@@ -79,4 +79,17 @@
     "cta": "量化CTA",
     "risk_parity": "风险平价"
   }
+  ,
+  "case_labels": {
+    "hedge": "对冲",
+    "result": "结果",
+    "size": "仓位",
+    "size_pct": "仓位%",
+    "vol": "波动",
+    "risk": "风险",
+    "max_dd": "最大回撤",
+    "pnl": "收益",
+    "duration": "持有期",
+    "instruments": "工具/品种"
+  }
 }

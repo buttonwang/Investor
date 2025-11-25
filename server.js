@@ -164,6 +164,22 @@ app.get('/investors/:slug', async (req, res) => {
     const lblStrategy = t.strategy || (lang==='zh'?'投资策略':'Investment Strategy');
     const lblWins = t.wins || (lang==='zh'?'代表性成绩':'Notable Wins');
     const lblTimeline = t.timeline || (lang==='zh'?'时间线':'Timeline');
+    const lblCases = t.cases || (lang==='zh'?'代表案例': lang==='es'?'Casos' : lang==='fr'?'Cas' : 'Cases');
+    const lblWorks = t.works || (lang==='zh'?'著作': lang==='es'?'Obras' : lang==='fr'?'Oeuvres' : 'Works');
+    const lblQuotes = t.quotes || (lang==='zh'?'语录': lang==='es'?'Citas' : lang==='fr'?'Citations' : 'Quotes');
+    const lblLessons = t.lessons || (lang==='zh'?'失败教训': lang==='es'?'Lecciones' : lang==='fr'?'Leçons' : 'Lessons');
+    const lblLinks = t.links || (lang==='zh'?'链接': lang==='es'?'Enlaces' : lang==='fr'?'Liens' : 'Links');
+    const cl = t.case_labels || {};
+    const lblHedge = cl.hedge || (lang==='zh'?'对冲': lang==='es'?'Cobertura' : lang==='fr'?'Couverture' : 'Hedge');
+    const lblResult = cl.result || (lang==='zh'?'结果': lang==='es'?'Resultado' : lang==='fr'?'Résultat' : 'Result');
+    const lblSize = cl.size || (lang==='zh'?'仓位': lang==='es'?'Tamaño' : lang==='fr'?'Taille' : 'Size');
+    const lblSizePct = cl.size_pct || (lang==='zh'?'仓位%': lang==='es'?'Tamaño%' : lang==='fr'?'Taille %' : 'Size%');
+    const lblVol = cl.vol || (lang==='zh'?'波动': lang==='es'?'Volatilidad' : lang==='fr'?'Volatilité' : 'Vol');
+    const lblRisk = cl.risk || (lang==='zh'?'风险': lang==='es'?'Riesgo' : lang==='fr'?'Risque' : 'Risk');
+    const lblMaxDD = cl.max_dd || (lang==='zh'?'最大回撤': lang==='es'?'Drawdown máximo' : lang==='fr'?'Drawdown max' : 'MaxDD');
+    const lblPnL = cl.pnl || (lang==='zh'?'收益': lang==='es'?'Ganancia/Pérdida' : lang==='fr'?'Profit/Perte' : 'PnL');
+    const lblDuration = cl.duration || (lang==='zh'?'持有期': lang==='es'?'Duración' : lang==='fr'?'Durée' : 'Duration');
+    const lblInst = cl.instruments || (lang==='zh'?'工具/品种': lang==='es'?'Instrumentos' : lang==='fr'?'Instruments' : 'Inst');
     const tagsLabel = (tag) => (t.tags && t.tags[tag]) || tag;
     const html = `<!DOCTYPE html>
 <html lang="${lang}">
@@ -212,32 +228,32 @@ ${altLinks}
     <ul class="events">
       ${timeline.map(ev => `<li><span class="year">${ev.year}</span><span class="text">${ev.text}</span></li>`).join('')}
     </ul>
-    ${Array.isArray(cases) && cases.length ? `<div><h4>${lang==='zh'?'代表案例':'Cases'}</h4><ul>${cases.map(x => {
+    ${Array.isArray(cases) && cases.length ? `<div><h4>${lblCases}</h4><ul>${cases.map(x => {
       if (typeof x === 'string') return `<li>${x}</li>`;
       if (!x || typeof x !== 'object') return '';
       const year = x.year != null ? String(x.year) : '';
       const asset = x.asset ? String(x.asset) : '';
       const position = x.position ? String(x.position) : '';
-      const hedge = x.hedge ? `Hedge: ${x.hedge}` : '';
-      const result = x.result ? `Result: ${x.result}` : '';
-      const size = x.size ? `Size: ${x.size}` : '';
-      const sizePct = x.size_pct ? `Size%: ${x.size_pct}` : '';
-      const volTarget = x.vol_target ? `Vol: ${x.vol_target}` : '';
-      const riskBudget = x.risk_budget ? `Risk: ${x.risk_budget}` : '';
-      const maxDD = x.max_dd ? `MaxDD: ${x.max_dd}` : '';
-      const pnl = x.pnl ? `PnL: ${x.pnl}` : '';
-      const duration = x.duration ? `Dur: ${x.duration}` : '';
-      const instruments = Array.isArray(x.instruments) && x.instruments.length ? `Inst: ${x.instruments.join('/')}` : '';
+      const hedge = x.hedge ? `${lblHedge}: ${x.hedge}` : '';
+      const result = x.result ? `${lblResult}: ${x.result}` : '';
+      const size = x.size ? `${lblSize}: ${x.size}` : '';
+      const sizePct = x.size_pct ? `${lblSizePct}: ${x.size_pct}` : '';
+      const volTarget = x.vol_target ? `${lblVol}: ${x.vol_target}` : '';
+      const riskBudget = x.risk_budget ? `${lblRisk}: ${x.risk_budget}` : '';
+      const maxDD = x.max_dd ? `${lblMaxDD}: ${x.max_dd}` : '';
+      const pnl = x.pnl ? `${lblPnL}: ${x.pnl}` : '';
+      const duration = x.duration ? `${lblDuration}: ${x.duration}` : '';
+      const instruments = Array.isArray(x.instruments) && x.instruments.length ? `${lblInst}: ${x.instruments.join('/')}` : '';
       const notes = x.notes ? String(x.notes) : '';
       const parts = [year, asset, position, hedge, result, size, sizePct, volTarget, riskBudget, maxDD, pnl, duration, instruments].filter(Boolean);
       const head = parts.join(' · ');
       const txt = notes ? `${head}${head ? ' — ' : ''}${notes}` : head || notes;
       return `<li>${txt}</li>`;
     }).join('')}</ul></div>` : ''}
-    ${Array.isArray(works) && works.length ? `<div><h4>${lang==='zh'?'著作':'Works'}</h4><ul>${works.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
-    ${Array.isArray(quotes) && quotes.length ? `<div><h4>${lang==='zh'?'语录':'Quotes'}</h4><ul>${quotes.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
-    ${Array.isArray(lessons) && lessons.length ? `<div><h4>${lang==='zh'?'失败教训':'Lessons'}</h4><ul>${lessons.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
-    ${Array.isArray(links) && links.length ? `<div><h4>${lang==='zh'?'链接':'Links'}</h4><ul>${links.map(x => `<li><a href="${x.url}" target="_blank" rel="noopener noreferrer">${x.label || x.url}</a></li>`).join('')}</ul></div>` : ''}
+    ${Array.isArray(works) && works.length ? `<div><h4>${lblWorks}</h4><ul>${works.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+    ${Array.isArray(quotes) && quotes.length ? `<div><h4>${lblQuotes}</h4><ul>${quotes.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+    ${Array.isArray(lessons) && lessons.length ? `<div><h4>${lblLessons}</h4><ul>${lessons.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+    ${Array.isArray(links) && links.length ? `<div><h4>${lblLinks}</h4><ul>${links.map(x => `<li><a href="${x.url}" target="_blank" rel="noopener noreferrer">${x.label || x.url}</a></li>`).join('')}</ul></div>` : ''}
   </section>
 </main>
 </body>

@@ -79,4 +79,17 @@
     "cta": "CTA",
     "risk_parity": "Risk Parity"
   }
+  ,
+  "case_labels": {
+    "hedge": "Hedge",
+    "result": "Result",
+    "size": "Size",
+    "size_pct": "Size%",
+    "vol": "Vol",
+    "risk": "Risk",
+    "max_dd": "MaxDD",
+    "pnl": "PnL",
+    "duration": "Duration",
+    "instruments": "Inst"
+  }
 }
