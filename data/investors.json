@@ -305,6 +305,12 @@
     ],
     "tags": ["event", "arbitrage", "macro"],
     "works": { "zh": ["关于事件驱动与风险的交流"], "en": ["Notes on event-driven and risk"], "es": ["Notas sobre evento y riesgo"], "fr": ["Notes sur l'événementiel et le risque"] },
+    "links": {
+      "zh": [ { "label": "Paulson & Co 官网", "url": "https://www.paulsonco.com/", "type": "website" } ],
+      "en": [ { "label": "Paulson & Co Official Site", "url": "https://www.paulsonco.com/", "type": "website" } ],
+      "es": [ { "label": "Sitio oficial Paulson & Co", "url": "https://www.paulsonco.com/", "type": "website" } ],
+      "fr": [ { "label": "Site officiel Paulson & Co", "url": "https://www.paulsonco.com/", "type": "website" } ]
+    },
     "quotes": { "zh": ["事件研究揭示机会。"], "en": ["Event research reveals opportunities."], "es": ["La investigación de eventos revela oportunidades."], "fr": ["La recherche d'événements révèle des opportunités."] },
     "lessons": { "zh": ["风险对冲与结构分析至关重要。"], "en": ["Hedging and structure analysis are critical."], "es": ["Cobertura y análisis de estructura son críticos."], "fr": ["La couverture et l'analyse de structure sont critiques."] }
   },
@@ -814,8 +820,8 @@
     "quotes": { "zh": ["数据与证据优先。"], "en": ["Data and evidence first."], "es": ["Datos y evidencia primero."], "fr": ["Données et preuves d'abord."] },
     "lessons": { "zh": ["多因子与分散提高稳健性。"], "en": ["Multi-factor and diversification improve robustness."], "es": ["Multifactor y diversificación mejoran la robustez."], "fr": ["Multi-facteurs et diversification améliorent la robustesse."] },
     "links": {
-      "zh": [ { "label": "AQR 官方网站", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR 研究与洞见", "url": "https://www.aqr.com/Insights", "type": "research" } ],
-      "en": [ { "label": "AQR Official Site", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR Insights", "url": "https://www.aqr.com/Insights", "type": "research" } ]
+      "zh": [ { "label": "AQR 官方网站", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR 研究与洞见", "url": "https://www.aqr.com/Insights", "type": "research" }, { "label": "AQR 白皮书与研究库", "url": "https://www.aqr.com/Insights/Research", "type": "papers" } ],
+      "en": [ { "label": "AQR Official Site", "url": "https://www.aqr.com/", "type": "website" }, { "label": "AQR Insights", "url": "https://www.aqr.com/Insights", "type": "research" }, { "label": "AQR Research Library", "url": "https://www.aqr.com/Insights/Research", "type": "papers" } ]
     }
     ,
     "cases": {
@@ -1349,10 +1355,10 @@
     "quotes": { "zh": ["研究与执行并重。"], "en": ["Research and execution both matter."], "es": ["Investigación y ejecución importan."], "fr": ["Recherche et exécution comptent."] },
     "lessons": { "zh": ["风险预算与团队协作是基石。"], "en": ["Risk budgeting and team collaboration are foundational."], "es": ["El presupuesto de riesgo y la colaboración son fundamentales."], "fr": ["Le budget de risque et la collaboration d'équipe sont fondamentaux."] },
     "links": {
-      "zh": [ { "label": "D. E. Shaw 官方网站", "url": "https://www.deshaw.com/" } ],
-      "en": [ { "label": "D. E. Shaw Official Site", "url": "https://www.deshaw.com/" } ],
-      "es": [ { "label": "Sitio oficial de D. E. Shaw", "url": "https://www.deshaw.com/" } ],
-      "fr": [ { "label": "Site officiel D. E. Shaw", "url": "https://www.deshaw.com/" } ]
+      "zh": [ { "label": "D. E. Shaw 官方网站", "url": "https://www.deshaw.com/" }, { "label": "D. E. Shaw Research（学术）", "url": "https://www.deshawresearch.com/", "type": "academic" } ],
+      "en": [ { "label": "D. E. Shaw Official Site", "url": "https://www.deshaw.com/" }, { "label": "D. E. Shaw Research (Academic)", "url": "https://www.deshawresearch.com/", "type": "academic" } ],
+      "es": [ { "label": "Sitio oficial de D. E. Shaw", "url": "https://www.deshaw.com/" }, { "label": "D. E. Shaw Research (Académico)", "url": "https://www.deshawresearch.com/", "type": "academic" } ],
+      "fr": [ { "label": "Site officiel D. E. Shaw", "url": "https://www.deshaw.com/" }, { "label": "D. E. Shaw Research (Académique)", "url": "https://www.deshawresearch.com/", "type": "academic" } ]
     }
   }
   ,
@@ -1683,6 +1689,32 @@
       "es": ["The Alchemy of Finance"],
       "fr": ["The Alchemy of Finance"]
     },
+    "links": {
+      "zh": [
+        { "label": "George Soros 个人网站", "url": "https://www.georgesoros.com/", "type": "website" },
+        { "label": "Project Syndicate 专栏（索罗斯）", "url": "https://www.project-syndicate.org/columnist/george-soros", "type": "research" },
+        { "label": "全球资本主义的危机（1998，PublicAffairs）", "url": "https://www.hachettebookgroup.com/titles/george-soros/the-crisis-of-global-capitalism/9781891620270/?lens=publicaffairs", "type": "papers" },
+        { "label": "开放社会：全球资本主义的再思考（2000，PublicAffairs）", "url": "https://www.hachettebookgroup.com/titles/george-soros/open-society-reforming-global-capitalism-reconsidered/9781586480196/", "type": "papers" }
+      ],
+      "en": [
+        { "label": "George Soros Official Site", "url": "https://www.georgesoros.com/", "type": "website" },
+        { "label": "Project Syndicate Column (George Soros)", "url": "https://www.project-syndicate.org/columnist/george-soros", "type": "research" },
+        { "label": "The Crisis of Global Capitalism (1998, PublicAffairs)", "url": "https://www.hachettebookgroup.com/titles/george-soros/the-crisis-of-global-capitalism/9781891620270/?lens=publicaffairs", "type": "papers" },
+        { "label": "Open Society: Reforming Global Capitalism (2000, PublicAffairs)", "url": "https://www.hachettebookgroup.com/titles/george-soros/open-society-reforming-global-capitalism-reconsidered/9781586480196/", "type": "papers" }
+      ],
+      "es": [
+        { "label": "Sitio oficial George Soros", "url": "https://www.georgesoros.com/", "type": "website" },
+        { "label": "Columna en Project Syndicate (George Soros)", "url": "https://www.project-syndicate.org/columnist/george-soros", "type": "research" },
+        { "label": "La crisis del capitalismo global (1998, PublicAffairs)", "url": "https://www.hachettebookgroup.com/titles/george-soros/the-crisis-of-global-capitalism/9781891620270/?lens=publicaffairs", "type": "papers" },
+        { "label": "Sociedad abierta: reformando el capitalismo global (2000, PublicAffairs)", "url": "https://www.hachettebookgroup.com/titles/george-soros/open-society-reforming-global-capitalism-reconsidered/9781586480196/", "type": "papers" }
+      ],
+      "fr": [
+        { "label": "Site officiel George Soros", "url": "https://www.georgesoros.com/", "type": "website" },
+        { "label": "Chronique Project Syndicate (George Soros)", "url": "https://www.project-syndicate.org/columnist/george-soros", "type": "research" },
+        { "label": "La crise du capitalisme mondial (1998, PublicAffairs)", "url": "https://www.hachettebookgroup.com/titles/george-soros/the-crisis-of-global-capitalism/9781891620270/?lens=publicaffairs", "type": "papers" },
+        { "label": "Société ouverte : repenser le capitalisme global (2000, PublicAffairs)", "url": "https://www.hachettebookgroup.com/titles/george-soros/open-society-reforming-global-capitalism-reconsidered/9781586480196/", "type": "papers" }
+      ]
+    },
     "quotes": {
       "zh": ["重要的不是你是否正确，而是当你正确时你赚了多少。"],
       "en": ["It’s not whether you’re right or wrong, but how much money you make when you’re right."],
@@ -1699,6 +1731,8 @@
       { "year": 1973, "text": { "zh": "创立量子基金。", "en": "Founded Quantum Fund.", "es": "Fundó Quantum Fund.", "fr": "Fonde le Quantum Fund." } },
       { "year": 1992, "text": { "zh": "黑色星期三做空英镑。", "en": "Shorted GBP on Black Wednesday.", "es": "Corto GBP en Miércoles Negro.", "fr": "Vente à découvert de la GBP lors du Mercredi noir." } },
       { "year": 1997, "text": { "zh": "围绕亚洲金融危机实施宏观交易。", "en": "Macro trades around Asian Financial Crisis.", "es": "Operaciones macro alrededor de la Crisis Asiática.", "fr": "Trades macro autour de la crise financière asiatique." } },
+      { "year": 1998, "text": { "zh": "俄罗斯危机期承压并反思风险集中。", "en": "Russia crisis stress and reflection on risk concentration.", "es": "Estrés en la crisis rusa y reflexión sobre concentración de riesgo.", "fr": "Stress durant la crise russe et réflexion sur concentration du risque." } },
+      { "year": 2000, "text": { "zh": "科技/新经济叙事过度的反思。", "en": "Reflection on excess of tech/new economy narratives.", "es": "Reflexión sobre excesos de narrativas tech/nueva economía.", "fr": "Réflexion sur excès des narratifs tech/nouvelle économie." } },
       { "year": 1989, "text": { "zh": "布局欧洲与新兴市场主题。", "en": "Positioned in Europe and EM themes.", "es": "Posiciones en Europa y mercados emergentes.", "fr": "Positions en Europe et émergents." } },
       { "year": 2008, "text": { "zh": "金融危机期间进行多资产宏观配置。", "en": "Multi-asset macro positioning during the financial crisis.", "es": "Posicionamiento macro multi-activo durante la crisis financiera.", "fr": "Positionnement macro multi-actifs pendant la crise financière." } }
     ]
@@ -2074,6 +2108,28 @@
       "es": ["Escalar sistemas importa tanto como la densidad de talento.","El shock de liquidez de 2008 y la exposición a riesgos de cola destacaron reforzar la financiación y cobertura."],
       "fr": ["La mise à l'échelle des systèmes compte autant que la densité de talents.","Le choc de liquidité de 2008 et l'exposition aux risques extrêmes ont souligné le renforcement du financement et des couvertures."]
     },
+    "links": {
+      "zh": [
+        { "label": "Citadel 官方网站", "url": "https://www.citadel.com/", "type": "website" },
+        { "label": "Citadel Securities 官方网站", "url": "https://www.citadelsecurities.com/", "type": "website" },
+        { "label": "2022 年度客户利润纪录（LCH 排名报道）", "url": "https://www.forbes.com/sites/hanktucker/2023/01/22/citadels-16-billion-gain-in-2022-makes-ken-griffins-firm-the-top-earning-hedge-fund-ever/", "type": "research" }
+      ],
+      "en": [
+        { "label": "Citadel Official Site", "url": "https://www.citadel.com/", "type": "website" },
+        { "label": "Citadel Securities Official Site", "url": "https://www.citadelsecurities.com/", "type": "website" },
+        { "label": "Record $16B client profit in 2022 (LCH ranking article)", "url": "https://www.forbes.com/sites/hanktucker/2023/01/22/citadels-16-billion-gain-in-2022-makes-ken-griffins-firm-the-top-earning-hedge-fund-ever/", "type": "research" }
+      ],
+      "es": [
+        { "label": "Sitio oficial Citadel", "url": "https://www.citadel.com/", "type": "website" },
+        { "label": "Sitio oficial Citadel Securities", "url": "https://www.citadelsecurities.com/", "type": "website" },
+        { "label": "Récord de $16B en 2022 (artículo ranking LCH)", "url": "https://www.forbes.com/sites/hanktucker/2023/01/22/citadels-16-billion-gain-in-2022-makes-ken-griffins-firm-the-top-earning-hedge-fund-ever/", "type": "research" }
+      ],
+      "fr": [
+        { "label": "Site officiel Citadel", "url": "https://www.citadel.com/", "type": "website" },
+        { "label": "Site officiel Citadel Securities", "url": "https://www.citadelsecurities.com/", "type": "website" },
+        { "label": "Record 16 Md$ en 2022 (article classement LCH)", "url": "https://www.forbes.com/sites/hanktucker/2023/01/22/citadels-16-billion-gain-in-2022-makes-ken-griffins-firm-the-top-earning-hedge-fund-ever/", "type": "research" }
+      ]
+    },
     "timeline": [
       { "year": 1990, "text": { "zh": "创立城堡基金。", "en": "Founded Citadel.", "es": "Fundó Citadel.", "fr": "Fonde Citadel." } },
       { "year": 2002, "text": { "zh": "成立城堡证券开展做市业务。", "en": "Launched Citadel Securities market-making.", "es": "Lanzó Citadel Securities de market making.", "fr": "Lance Citadel Securities pour le market making." } },
@@ -2081,10 +2137,10 @@
     ]
     ,
     "cases": {
-      "zh": [{ "year": 2022, "asset": "多策略平台（股票/期货/固定收益/期权/宏观事件）", "position": "集中风险预算", "risk_budget": "策略间平衡", "hedge": "跨资产对冲与期权覆盖", "vol_target": "受控波动", "max_dd": "月度回撤受限", "instruments": ["股票","期权","期货","利率","外汇","商品"], "result": "年度回报创新高", "notes": "资金与流动性管理、集中回测与执行系统" }, { "year": 2002, "asset": "做市系统", "position": "流动性供给", "result": "全球领先份额" }, { "year": 2008, "asset": "多策略平台", "position": "高杠杆敞口/流动性压力", "hedge": "加强资金与对冲管理", "result": "危机期承压与反思", "notes": "尾部风险与资金调用冲突的管理教训" }],
-      "en": [{ "year": 2022, "asset": "Multi-strategy (equities/futures/fixed income/options/event)", "position": "Centralized risk budgets", "risk_budget": "Balanced across strategies", "hedge": "Cross-asset hedges and options overlays", "vol_target": "Controlled volatility", "max_dd": "Bounded monthly drawdowns", "instruments": ["Equities","Options","Futures","Rates","FX","Commodities"], "result": "Record annual return", "notes": "Funding/liquidity management; centralized backtesting and execution" }, { "year": 2002, "asset": "Market-making systems", "position": "Liquidity provision", "result": "Leading global share" }, { "year": 2008, "asset": "Multi-strategy platform", "position": "High leverage exposure/liquidity stress", "hedge": "Strengthened funding and hedging", "result": "Crisis pressure and reflection", "notes": "Tail risk and capital calls conflict management" }],
-      "es": [{ "year": 2022, "asset": "Multi-estrategia (acciones/futuros/renta fija/opciones/eventos)", "position": "Presupuestos de riesgo centralizados", "risk_budget": "Equilibrio entre estrategias", "hedge": "Coberturas multi-activo y opciones", "vol_target": "Volatilidad controlada", "max_dd": "Caídas mensuales acotadas", "instruments": ["Acciones","Opciones","Futuros","Tasas","FX","Commodities"], "result": "Retorno anual récord", "notes": "Gestión de financiación y liquidez; backtesting y ejecución centralizados" }, { "year": 2002, "asset": "Sistemas de market making", "position": "Provisión de liquidez", "result": "Cuota líder global" }, { "year": 2008, "asset": "Plataforma multi-estrategia", "position": "Alta palanca/estrés de liquidez", "hedge": "Fortalecer financiación y coberturas", "result": "Presión en crisis y reflexión", "notes": "Riesgo de cola y conflicto de llamados de capital" }],
-      "fr": [{ "year": 2022, "asset": "Multi-stratégie (actions/futures/taux/options/événement)", "position": "Budgets de risque centralisés", "risk_budget": "Équilibre entre stratégies", "hedge": "Couvertures multi-actifs et options", "vol_target": "Volatilité contrôlée", "max_dd": "Drawdowns mensuels bornés", "instruments": ["Actions","Options","Futures","Taux","FX","Matières"], "result": "Retour annuel record", "notes": "Gestion du funding et liquidité; backtests et exécution centralisés" }, { "year": 2002, "asset": "Systèmes de market making", "position": "Fourniture de liquidité", "result": "Part leader mondiale" }, { "year": 2008, "asset": "Plateforme multi-stratégies", "position": "Exposition à fort levier/stress de liquidité", "hedge": "Renforcement du funding et des couvertures", "result": "Pression en crise et réflexion", "notes": "Gestion du risque extrême et conflit des appels de capital" }]
+      "zh": ["2022 年 LCH 排名报道：客户利润纪录", { "year": 2022, "asset": "多策略平台（股票/期货/固定收益/期权/宏观事件）", "position": "集中风险预算", "risk_budget": "策略间平衡", "hedge": "跨资产对冲与期权覆盖", "vol_target": "受控波动", "max_dd": "月度回撤受限", "instruments": ["股票","期权","期货","利率","外汇","商品"], "result": "年度回报创新高", "notes": "资金与流动性管理、集中回测与执行系统" }, { "year": 2002, "asset": "做市系统", "position": "流动性供给", "result": "全球领先份额" }, { "year": 2008, "asset": "多策略平台", "position": "高杠杆敞口/流动性压力", "hedge": "加强资金与对冲管理", "result": "危机期承压与反思", "notes": "尾部风险与资金调用冲突的管理教训" }],
+      "en": ["Record $16B client profit in 2022 (LCH ranking)", { "year": 2022, "asset": "Multi-strategy (equities/futures/fixed income/options/event)", "position": "Centralized risk budgets", "risk_budget": "Balanced across strategies", "hedge": "Cross-asset hedges and options overlays", "vol_target": "Controlled volatility", "max_dd": "Bounded monthly drawdowns", "instruments": ["Equities","Options","Futures","Rates","FX","Commodities"], "result": "Record annual return", "notes": "Funding/liquidity management; centralized backtesting and execution" }, { "year": 2002, "asset": "Market-making systems", "position": "Liquidity provision", "result": "Leading global share" }, { "year": 2008, "asset": "Multi-strategy platform", "position": "High leverage exposure/liquidity stress", "hedge": "Strengthened funding and hedging", "result": "Crisis pressure and reflection", "notes": "Tail risk and capital calls conflict management" }],
+      "es": ["Récord de $16B en 2022 (ranking LCH)", { "year": 2022, "asset": "Multi-estrategia (acciones/futuros/renta fija/opciones/eventos)", "position": "Presupuestos de riesgo centralizados", "risk_budget": "Equilibrio entre estrategias", "hedge": "Coberturas multi-activo y opciones", "vol_target": "Volatilidad controlada", "max_dd": "Caídas mensuales acotadas", "instruments": ["Acciones","Opciones","Futuros","Tasas","FX","Commodities"], "result": "Retorno anual récord", "notes": "Gestión de financiación y liquidez; backtesting y ejecución centralizados" }, { "year": 2002, "asset": "Sistemas de market making", "position": "Provisión de liquidez", "result": "Cuota líder global" }, { "year": 2008, "asset": "Plataforma multi-estrategia", "position": "Alta palanca/estrés de liquidez", "hedge": "Fortalecer financiación y coberturas", "result": "Presión en crisis y reflexión", "notes": "Riesgo de cola y conflicto de llamados de capital" }],
+      "fr": ["Record de 16 Md$ en 2022 (classement LCH)", { "year": 2022, "asset": "Multi-stratégie (actions/futures/taux/options/événement)", "position": "Budgets de risque centralisés", "risk_budget": "Équilibre entre stratégies", "hedge": "Couvertures multi-actifs et options", "vol_target": "Volatilité contrôlée", "max_dd": "Drawdowns mensuels bornés", "instruments": ["Actions","Options","Futures","Taux","FX","Matières"], "result": "Retour annuel record", "notes": "Gestion du funding et liquidité; backtests et exécution centralisés" }, { "year": 2002, "asset": "Systèmes de market making", "position": "Fourniture de liquidité", "result": "Part leader mondiale" }, { "year": 2008, "asset": "Plateforme multi-stratégies", "position": "Exposition à fort levier/stress de liquidité", "hedge": "Renforcement du funding et des couvertures", "result": "Pression en crise et réflexion", "notes": "Gestion du risque extrême et conflit des appels de capital" }]
     },
     "tags": ["quant", "multi"]
   },
@@ -2126,6 +2182,12 @@
       "en": ["Principles"],
       "es": ["Principles"],
       "fr": ["Principles"]
+    },
+    "links": {
+      "zh": [ { "label": "Bridgewater 官网", "url": "https://www.bridgewater.com/", "type": "website" }, { "label": "经济机器如何运转（视频）", "url": "https://economicprinciples.org/", "type": "research" } ],
+      "en": [ { "label": "Bridgewater Official Site", "url": "https://www.bridgewater.com/", "type": "website" }, { "label": "How the Economic Machine Works (Video)", "url": "https://economicprinciples.org/", "type": "research" } ],
+      "es": [ { "label": "Sitio oficial Bridgewater", "url": "https://www.bridgewater.com/", "type": "website" }, { "label": "Cómo funciona la máquina económica (Video)", "url": "https://economicprinciples.org/", "type": "research" } ],
+      "fr": [ { "label": "Site officiel Bridgewater", "url": "https://www.bridgewater.com/", "type": "website" }, { "label": "Comment fonctionne la machine économique (Vidéo)", "url": "https://economicprinciples.org/", "type": "research" } ]
     },
     "quotes": {
       "zh": ["痛苦加反思等于进步。"],
