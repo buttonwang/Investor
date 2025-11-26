@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "auto:links": "node scripts/auto_links.js"
+    "auto:links": "node scripts/auto_links.js",
+    "auto:crawl": "node scripts/auto_crawl.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.81.1",

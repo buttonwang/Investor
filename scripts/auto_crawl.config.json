@@ -1,0 +1,330 @@
+{
+  "whitelist": [
+    "economicprinciples.org",
+    "bloomberg.com",
+    "wiley.com",
+    "mheducation.com",
+    "press.stripe.com",
+    "simonandschuster.com",
+    "investor.vanguard.com",
+    "vanguard.com",
+    "berkshirehathaway.com",
+    "oaktreecapital.com",
+    "franklintempleton.com",
+    "carlicahn.com",
+    "pimco.com",
+    "troweprice.com",
+    "investments.yale.edu",
+    "aqr.com",
+    "twosigma.com",
+    "deshaw.com",
+    "man.com",
+    "winton.com",
+    "rentec.com",
+    "ark-invest.com",
+    "citadel.com",
+    "fidelity.com",
+    "soros.com",
+    "paulsonco.com",
+    "doubleline.com",
+    "moorecap.com",
+    "caxton.com",
+    "chescap.com",
+    "scionasset.com",
+    "harvard.edu",
+    "princeton.edu",
+    "thirdpoint.com",
+    "trianpartners.com"
+  ],
+  "investors": [
+    {
+      "id": "dalio",
+      "sources": [
+        { "url": "https://economicprinciples.org/", "type": "research", "kind": "talk", "keywords": ["2011", "Economic Machine", "经济机器"] }
+      ]
+    },
+    {
+      "id": "druckenmiller",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/stanley-f-druckenmiller/", "type": "research", "kind": "column", "keywords": ["2000", "tech", "bubble"] },
+        { "url": "https://www.bloomberg.com/news/videos/2018-12-18/druckenmiller-on-economy-stocks-bonds-trump-fed-full-interview-video", "type": "research", "kind": "talk", "keywords": ["2000", "tech"] }
+      ]
+    },
+    {
+      "id": "t_rowe_price",
+      "sources": [
+        { "url": "https://www.troweprice.com/institutional/us/en/about/global-story.html", "type": "website", "kind": "site", "keywords": ["1937", "history"] },
+        { "url": "https://www.troweprice.com/corporate/lt/en/what-sets-us-apart/history.html", "type": "website", "kind": "site", "keywords": ["1937", "history"] }
+      ]
+    },
+    {
+      "id": "aqr",
+      "sources": [
+        { "url": "https://www.aqr.com/Insights/Research", "type": "research", "kind": "column", "keywords": ["2018", "factor", "crowding"] },
+        { "url": "https://www.aqr.com/Insights/Perspectives/Factor-Timing-is-Hard", "type": "research", "kind": "column", "keywords": ["2018", "value", "timing"] }
+      ]
+    },
+    {
+      "id": "graham",
+      "sources": [
+        { "url": "https://www.mheducation.com/highered/custom/product/security-analysis-sixth-edition-foreword-warren-buffett/9780071642934.html", "type": "research", "kind": "book", "keywords": ["1934", "Security Analysis"] },
+        { "url": "https://www.mheducation.com/highered/product/security-analysis-classic-1940-edition-graham-dodd/9780071707572.html", "type": "research", "kind": "book", "keywords": ["1940", "Security Analysis"] }
+      ]
+    },
+    {
+      "id": "templeton",
+      "sources": [
+        { "url": "https://www.franklintempleton.com/forms-literature/download/TL-R16", "type": "research", "kind": "column", "keywords": ["16 rules", "Templeton"] }
+      ]
+    },
+    {
+      "id": "munger",
+      "sources": [
+        { "url": "https://press.stripe.com/poor-charlies-almanack", "type": "research", "kind": "book", "keywords": ["Poor Charlie", "Almanack"] },
+        { "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf", "type": "research", "kind": "column", "keywords": ["2007", "See's", "Candies"] }
+      ]
+    },
+    {
+      "id": "bogle",
+      "sources": [
+        { "url": "https://www.wiley.com/en-us/The+Little+Book+of+Common+Sense+Investing:+The+Only+Way+to+Guarantee+Your+Fair+Share+of+Stock+Market+Returns,+Updated+and+Revised-p-9781119404514", "type": "research", "kind": "book", "keywords": ["Little Book", "Common Sense"] },
+        { "url": "https://investor.vanguard.com/", "type": "website", "kind": "site", "keywords": ["Vanguard", "Index"] }
+      ]
+    },
+    {
+      "id": "icahn",
+      "sources": [
+        { "url": "https://carlicahn.com/letters/", "type": "website", "kind": "column", "keywords": ["letters", "Apple", "2014"] }
+      ]
+    },
+    {
+      "id": "gross",
+      "sources": [
+        { "url": "https://www.pimco.com/us/en", "type": "website", "kind": "site", "keywords": ["PIMCO", "fixed income"] },
+        { "url": "https://www.pimco.com/us/en/investments/mutual-fund/pimco-total-return-fund/inst-usd", "type": "research", "kind": "column", "keywords": ["Total Return", "PTTRX"] }
+      ]
+    },
+    {
+      "id": "buffett",
+      "sources": [
+        { "url": "https://www.berkshirehathaway.com/letters/letters.html", "type": "research", "kind": "column", "keywords": ["Shareholder", "Letter"] }
+      ]
+    },
+    {
+      "id": "lynch",
+      "sources": [
+        { "url": "https://www.fidelity.com/learning-center/investment-products/stocks/peter-lynch-investing", "type": "research", "kind": "column", "keywords": ["Peter Lynch", "investing"] }
+      ]
+    },
+    {
+      "id": "soros",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/george-soros/", "type": "research", "kind": "column", "keywords": ["Black Wednesday", "1992"] }
+      ]
+    },
+    {
+      "id": "simons",
+      "sources": [
+        { "url": "https://www.rentec.com/", "type": "website", "kind": "site", "keywords": ["Renaissance", "Technologies"] }
+      ]
+    },
+    {
+      "id": "wood",
+      "sources": [
+        { "url": "https://ark-invest.com/", "type": "website", "kind": "site", "keywords": ["ARK", "Research"] }
+      ]
+    },
+    {
+      "id": "griffin",
+      "sources": [
+        { "url": "https://www.citadel.com/", "type": "website", "kind": "site", "keywords": ["Citadel", "Insights"] }
+      ]
+    },
+    {
+      "id": "jeffrey_gundlach",
+      "sources": [
+        { "url": "https://doubleline.com/", "type": "website", "kind": "site", "keywords": ["DoubleLine", "fixed income"] }
+      ]
+    },
+    {
+      "id": "dan_loeb",
+      "sources": [
+        { "url": "https://www.thirdpoint.com/letters", "type": "research", "kind": "column", "keywords": ["Third Point", "letters"] }
+      ]
+    },
+    {
+      "id": "nelson_peltz",
+      "sources": [
+        { "url": "https://www.trianpartners.com/", "type": "website", "kind": "site", "keywords": ["Trian", "governance"] }
+      ]
+    },
+    {
+      "id": "marks",
+      "sources": [
+        { "url": "https://www.oaktreecapital.com/insights", "type": "research", "kind": "column", "keywords": ["memo", "Oaktree"] }
+      ]
+    },
+    {
+      "id": "two_sigma",
+      "sources": [
+        { "url": "https://www.twosigma.com/insights/", "type": "research", "kind": "column", "keywords": ["research", "quant"] }
+      ]
+    },
+    {
+      "id": "de_shaw",
+      "sources": [
+        { "url": "https://www.deshaw.com/", "type": "website", "kind": "site", "keywords": ["D. E. Shaw", "research"] }
+      ]
+    },
+    {
+      "id": "man_ahl",
+      "sources": [
+        { "url": "https://www.man.com/", "type": "website", "kind": "site", "keywords": ["Man", "AHL"] }
+      ]
+    },
+    {
+      "id": "winton",
+      "sources": [
+        { "url": "https://www.winton.com/insights", "type": "research", "kind": "column", "keywords": ["insights", "research"] }
+      ]
+    },
+    {
+      "id": "harvard_hmc",
+      "sources": [
+        { "url": "https://www.harvard.edu/investments/", "type": "website", "kind": "site", "keywords": ["HMC", "endowment"] }
+      ]
+    },
+    {
+      "id": "princeton_princo",
+      "sources": [
+        { "url": "https://www.princeton.edu/meet-princeton/leadership/princeton-university-investment-company-princo", "type": "website", "kind": "site", "keywords": ["PRINCO", "endowment"] }
+      ]
+    },
+    {
+      "id": "paulson",
+      "sources": [
+        { "url": "https://www.paulsonco.com/", "type": "website", "kind": "site", "keywords": ["Paulson", "Merger", "event"] }
+      ]
+    },
+    {
+      "id": "ackman",
+      "sources": [
+        { "url": "https://www.pershingsquareholdings.com/", "type": "website", "kind": "site", "keywords": ["Pershing", "letters"] }
+      ]
+    },
+    {
+      "id": "tepper",
+      "sources": [
+        { "url": "https://www.appaloosamanagement.com/", "type": "website", "kind": "site", "keywords": ["Appaloosa", "distressed"] }
+      ]
+    },
+    {
+      "id": "klarman",
+      "sources": [
+        { "url": "https://www.baupost.com/", "type": "website", "kind": "site", "keywords": ["Baupost", "value"] }
+      ]
+    },
+    {
+      "id": "irving_kahn",
+      "sources": [
+        { "url": "https://www.kahnbros.com/", "type": "website", "kind": "site", "keywords": ["Kahn", "value"] }
+      ]
+    },
+    {
+      "id": "li_lu",
+      "sources": [
+        { "url": "https://www.himalayacapital.com/", "type": "website", "kind": "site", "keywords": ["Himalaya", "capital"] }
+      ]
+    },
+    {
+      "id": "dunn",
+      "sources": [
+        { "url": "https://www.dunncapital.com/", "type": "website", "kind": "site", "keywords": ["Dunn", "CTA"] }
+      ]
+    },
+    {
+      "id": "larry_hite",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/larry-hite/", "type": "research", "kind": "column", "keywords": ["CTA", "trend"] }
+      ]
+    },
+    {
+      "id": "jerry_parker",
+      "sources": [
+        { "url": "https://www.chesapeakecapital.com/", "type": "website", "kind": "site", "keywords": ["Chesapeake", "Turtle"] }
+      ]
+    },
+    {
+      "id": "bruce_kovner",
+      "sources": [
+        { "url": "https://www.caxton.com/", "type": "website", "kind": "site", "keywords": ["Caxton", "macro"] }
+      ]
+    },
+    {
+      "id": "louis_bacon",
+      "sources": [
+        { "url": "https://www.moorecap.com/", "type": "website", "kind": "site", "keywords": ["Moore", "macro"] }
+      ]
+    },
+    {
+      "id": "rogers",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/james-b-r-ogers/", "type": "research", "kind": "column", "keywords": ["commodities", "Soros"] }
+      ]
+    },
+    {
+      "id": "burry",
+      "sources": [
+        { "url": "https://www.scionasset.com/", "type": "website", "kind": "site", "keywords": ["Scion", "credit"] }
+      ]
+    },
+    {
+      "id": "seykota",
+      "sources": [
+        { "url": "https://seykota.com/", "type": "website", "kind": "site", "keywords": ["Seykota", "trend"] }
+      ]
+    },
+    {
+      "id": "dennis",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/richard-dennis/", "type": "research", "kind": "column", "keywords": ["Turtle", "futures"] }
+      ]
+    },
+    {
+      "id": "livermore",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/jesse-livermore/", "type": "research", "kind": "column", "keywords": ["Reminiscences", "speculator"] }
+      ]
+    },
+    {
+      "id": "walter_schloss",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/walter-schloss/", "type": "research", "kind": "column", "keywords": ["value", "Graham"] }
+      ]
+    },
+    {
+      "id": "philip_carret",
+      "sources": [
+        { "url": "https://www.amundi.com/", "type": "website", "kind": "site", "keywords": ["Pioneer", "Amundi"] }
+      ]
+    },
+    {
+      "id": "carret",
+      "sources": [
+        { "url": "https://www.bloomberg.com/billionaires/profiles/philip-carret/", "type": "research", "kind": "column", "keywords": ["Pioneer", "fund"] }
+      ]
+    },
+    {
+      "id": "neff",
+      "sources": [
+        { "url": "https://www.wiley.com/en-us/John+Neff+on+Investing-p-9780471292890", "type": "research", "kind": "book", "keywords": ["John Neff", "Investing"] }
+      ]
+    },
+    {
+      "id": "john_neff",
+      "sources": [
+        { "url": "https://www.wiley.com/en-us/John+Neff+on+Investing-p-9780471292890", "type": "research", "kind": "book", "keywords": ["John Neff", "Investing"] }
+      ]
+    }
+  ]
+}
