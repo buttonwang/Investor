@@ -1,0 +1,40 @@
+{
+  "whitelist": [
+    "aqr.com",
+    "bridgewater.com",
+    "bloomberg.com",
+    "mheducation.com",
+    "wiley.com",
+    "harpercollins.com",
+    "press.stripe.com",
+    "investor.vanguard.com",
+    "carlicahn.com",
+    "pimco.com",
+    "troweprice.com",
+    "investments.yale.edu",
+    "magicformulainvesting.com",
+    "simonandschuster.com"
+  ],
+  "entries": [
+    {
+      "id": "greenblatt",
+      "items": [
+        { "year": 2006, "topic": "The Little Book That Beats the Market", "url": "https://www.wiley.com/en-us/The+Little+Book+That+Beats+the+Market-p-9780470893661", "type": "research", "kind": "book" },
+        { "year": 2010, "topic": "The Little Book That Still Beats the Market", "url": "https://www.wiley.com/en-us/The+Little+Book+That+Still+Beats+the+Market-p-9780470624159", "type": "research", "kind": "book" }
+      ]
+    },
+    {
+      "id": "fisher",
+      "items": [
+        { "year": 1960, "topic": "Paths to Wealth through Common Stocks", "url": "https://www.wiley.com/en-us/Paths+to+Wealth+Through+Common+Stocks-p-x000341325", "type": "research", "kind": "book" }
+      ]
+    },
+    {
+      "id": "t_rowe_price",
+      "items": [
+        { "year": 1937, "topic": "Global Story", "url": "https://www.troweprice.com/institutional/us/en/about/global-story.html", "type": "website", "kind": "site" },
+        { "year": 1937, "topic": "History", "url": "https://www.troweprice.com/corporate/lt/en/what-sets-us-apart/history.html", "type": "website", "kind": "site" }
+      ]
+    }
+  ]
+}

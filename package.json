@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "auto:links": "node scripts/auto_links.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.81.1",
