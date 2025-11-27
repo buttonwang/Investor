@@ -103,8 +103,14 @@ app.get("/sitemap.xml", (req, res) => {
     }
   } catch {}
   const now = new Date().toISOString();
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    urls.map(u => `<url><loc>${u}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`).join("\n") +
+  const langs = ['zh','en','es','fr'];
+  const buildEntry = (u) => {
+    const isInvestor = u.includes('/investors/');
+    const alt = langs.map(l => `<xhtml:link rel="alternate" hreflang="${l}" href="${isInvestor ? `${u}?lang=${l}` : `${host}/?lang=${l}`}" />`).join('');
+    return `<url><loc>${u}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>${alt}<xhtml:link rel="alternate" hreflang="x-default" href="${u}" /></url>`;
+  };
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +
+    urls.map(buildEntry).join("\n") +
     `\n</urlset>`;
   res.type("application/xml").send(xml);
 });
@@ -199,11 +205,17 @@ ${altLinks}
 <meta property="og:description" content="${summary}" />
 <meta property="og:url" content="${url}" />
 <meta property="og:locale" content="${ogLocale}" />
+<meta property="og:site_name" content="World-Famous Investors" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="${name}" />
+<meta name="twitter:description" content="${summary}" />
 <script type="application/ld+json">${JSON.stringify(isOrg ? {
   '@context': 'https://schema.org', '@type': 'Organization', name, description: summary, url, sameAs
 } : {
   '@context': 'https://schema.org', '@type': 'Person', name, description: summary, url, sameAs,
-  knowsAbout: tags
+  jobTitle: (Array.isArray(tags) && tags.length ? String(tags[0]) : undefined),
+  knowsAbout: tags,
+  hasPart: (Array.isArray(works) ? works.map(w => ({ '@type': 'CreativeWork', name: String(w) })) : [])
 })}</script>
 <script>try{document.cookie='theme=${theme}; path=/; max-age=${60*60*24*365}';document.addEventListener('DOMContentLoaded',function(){document.body.dataset.theme='${theme}'})}catch{}</script>
 </head>

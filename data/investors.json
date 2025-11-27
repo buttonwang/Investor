@@ -13850,7 +13850,117 @@
       "macro",
       "trend",
       "discretionary"
-    ]
+    ],
+    "links": {
+      "zh": [
+        {
+          "label": "1980 Tudor / macro / 1987（官网页）",
+          "url": "https://www.tudor.com/",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Capital Europe LLP（官网页）",
+          "url": "EURegulatory",
+          "type": "website"
+        },
+        {
+          "label": "1987 IR Operations Team（官网页）",
+          "url": "mailto:ir-operations-team@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Investor Relations（官网页）",
+          "url": "mailto:investor@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 careers@tudor.com（官网页）",
+          "url": "mailto:careers@tudor.com",
+          "type": "website"
+        }
+      ],
+      "en": [
+        {
+          "label": "1980 Tudor / macro / 1987 (official site)",
+          "url": "https://www.tudor.com/",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Capital Europe LLP (official site)",
+          "url": "EURegulatory",
+          "type": "website"
+        },
+        {
+          "label": "1987 IR Operations Team (official site)",
+          "url": "mailto:ir-operations-team@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Investor Relations (official site)",
+          "url": "mailto:investor@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 careers@tudor.com (official site)",
+          "url": "mailto:careers@tudor.com",
+          "type": "website"
+        }
+      ],
+      "es": [
+        {
+          "label": "1980 Tudor / macro / 1987 (sitio oficial)",
+          "url": "https://www.tudor.com/",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Capital Europe LLP (sitio oficial)",
+          "url": "EURegulatory",
+          "type": "website"
+        },
+        {
+          "label": "1987 IR Operations Team (sitio oficial)",
+          "url": "mailto:ir-operations-team@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Investor Relations (sitio oficial)",
+          "url": "mailto:investor@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 careers@tudor.com (sitio oficial)",
+          "url": "mailto:careers@tudor.com",
+          "type": "website"
+        }
+      ],
+      "fr": [
+        {
+          "label": "1980 Tudor / macro / 1987 (site officiel)",
+          "url": "https://www.tudor.com/",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Capital Europe LLP (site officiel)",
+          "url": "EURegulatory",
+          "type": "website"
+        },
+        {
+          "label": "1987 IR Operations Team (site officiel)",
+          "url": "mailto:ir-operations-team@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 Tudor Investor Relations (site officiel)",
+          "url": "mailto:investor@tudor.com",
+          "type": "website"
+        },
+        {
+          "label": "1987 careers@tudor.com (site officiel)",
+          "url": "mailto:careers@tudor.com",
+          "type": "website"
+        }
+      ]
+    }
   },
   {
     "id": "druckenmiller",

@@ -21,6 +21,7 @@
     "man.com",
     "winton.com",
     "rentec.com",
+    "tudor.com",
     "ark-invest.com",
     "citadel.com",
     "fidelity.com",
@@ -324,6 +325,18 @@
       "id": "john_neff",
       "sources": [
         { "url": "https://www.wiley.com/en-us/John+Neff+on+Investing-p-9780471292890", "type": "research", "kind": "book", "keywords": ["John Neff", "Investing"] }
+      ]
+    },
+    {
+      "id": "renaissance",
+      "sources": [
+        { "url": "https://www.rentec.com/", "type": "website", "kind": "site", "keywords": ["Renaissance", "Technologies"] }
+      ]
+    },
+    {
+      "id": "ptj",
+      "sources": [
+        { "url": "https://www.tudor.com/", "type": "website", "kind": "site", "keywords": ["Tudor", "macro", "1987"] }
       ]
     }
   ]
