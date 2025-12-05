@@ -35,7 +35,17 @@
     "harvard.edu",
     "princeton.edu",
     "thirdpoint.com",
-    "trianpartners.com"
+    "trianpartners.com",
+    "seykota.com",
+    "himalayacapital.com",
+    "kahnbros.com",
+    "appaloosamanagement.com",
+    "baupost.com",
+    "pershingsquareholdings.com",
+    "chesapeakecapital.com",
+    "caxton.com",
+    "moorecap.com",
+    "wyckoffanalytics.com"
   ],
   "investors": [
     {
@@ -337,6 +347,12 @@
       "id": "ptj",
       "sources": [
         { "url": "https://www.tudor.com/", "type": "website", "kind": "site", "keywords": ["Tudor", "macro", "1987"] }
+      ]
+    },
+    {
+      "id": "wyckoff",
+      "sources": [
+        { "url": "https://www.wyckoffanalytics.com/wyckoff-method/", "type": "research", "kind": "column", "keywords": ["Wyckoff", "Method", "Accumulation", "Distribution"] }
       ]
     }
   ]
